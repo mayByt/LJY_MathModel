@@ -1,0 +1,14 @@
+{
+  "id": "Q1-25",
+  "status": "pass",
+  "png_sha256": "edb3704461652020c5893687bba5eb27824ef3d3e02426cbb37742c87b997f57",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-49_三元切片等高线.png"
+  ],
+  "visual_assessment": "固定其余14域的三元局部切片有平滑零中心色阶与清楚零等值线；白参考点、网格最低星标和未展示灰纹区区分明确，三边百分数可读，图注保留网格最低而非唯一连续最优的边界。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T14:01:41.491856+00:00"
+}

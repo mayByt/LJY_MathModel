@@ -1,0 +1,131 @@
+{
+  "id": "Q1-11",
+  "name": "Q1-11_冲突消解评分修正",
+  "question": "q1",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-11_冲突消解评分修正.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-11_冲突消解评分修正.pdf",
+  "png_sha256": "2e08ab598e243ab0dd7008e056f11c05eddee0ed8add9606972b67f56edd7e7f",
+  "size_mm": [
+    160.0,
+    119.0
+  ],
+  "caption": "每域按有符号评分修正量10%与90%位置选择真实冲突记录，左侧连接块均值与Huber评分，右侧给出对应ΔQ；橙色为正修正，靛色为负修正。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/cache/q1_quality/quality_sample.csv.gz"
+  ],
+  "stats": {
+    "selection": "domain-specific 10th/90th percentile of signed correction",
+    "n_all_conflict": 8270,
+    "delta_quantiles": {
+      "0.0": -0.17808057651767384,
+      "0.1": -0.02510455150736098,
+      "0.5": 0.037559975293441544,
+      "0.9": 0.28576370793491973,
+      "1.0": 0.44600789988589845
+    },
+    "selected": [
+      {
+        "domain": "commoncrawl",
+        "id": "BkiUbCg5qoYDgZObNFT-",
+        "Q": 0.4143223306957184,
+        "Q_variant_weighted_no_huber": 0.485732135475671,
+        "delta": -0.07140980477995262
+      },
+      {
+        "domain": "c4",
+        "id": "BkiUazPxK3xgpZzQmHOV",
+        "Q": 0.5347728310256376,
+        "Q_variant_weighted_no_huber": 0.5855673966262528,
+        "delta": -0.05079456560061524
+      },
+      {
+        "domain": "stackexchange",
+        "id": "BkiUdxk4dbghZzegCVut",
+        "Q": 0.530742088880147,
+        "Q_variant_weighted_no_huber": 0.5599352602024557,
+        "delta": -0.029193171322308697
+      },
+      {
+        "domain": "github",
+        "id": "BkiUdoU5qsBB3MeCwEyL",
+        "Q": 0.3623869645331444,
+        "Q_variant_weighted_no_huber": 0.3899535636060126,
+        "delta": -0.02756659907286818
+      },
+      {
+        "domain": "wikipedia",
+        "id": "BkiUdf45qg5A56rhK4sg",
+        "Q": 0.3905698114936495,
+        "Q_variant_weighted_no_huber": 0.3879726254264414,
+        "delta": 0.0025971860672081015
+      },
+      {
+        "domain": "book",
+        "id": "BkiUdd04dbjiVENjov4B",
+        "Q": 0.584877511946685,
+        "Q_variant_weighted_no_huber": 0.5243696759033103,
+        "delta": 0.06050783604337473
+      },
+      {
+        "domain": "github",
+        "id": "BkiUbxXxK7kjXMEc7vUl",
+        "Q": 0.5119300164817325,
+        "Q_variant_weighted_no_huber": 0.4479043671579908,
+        "delta": 0.06402564932374172
+      },
+      {
+        "domain": "c4",
+        "id": "BkiUc_bxK7IDBOV4sVmx",
+        "Q": 0.6575794596370795,
+        "Q_variant_weighted_no_huber": 0.5770439254760844,
+        "delta": 0.08053553416099513
+      },
+      {
+        "domain": "stackexchange",
+        "id": "BkiUdYjxaL3SujRqKO5T",
+        "Q": 0.663011638767985,
+        "Q_variant_weighted_no_huber": 0.5737624011136144,
+        "delta": 0.08924923765437054
+      },
+      {
+        "domain": "commoncrawl",
+        "id": "BkiUf3DxK6-gDw5Ax3Bw",
+        "Q": 0.6031011448551341,
+        "Q_variant_weighted_no_huber": 0.5103630442204781,
+        "delta": 0.09273810063465604
+      },
+      {
+        "domain": "wikipedia",
+        "id": "BkiUcrs4ubnjop7FE31B",
+        "Q": 0.6610246480365588,
+        "Q_variant_weighted_no_huber": 0.5578002065149222,
+        "delta": 0.10322444152163657
+      },
+      {
+        "domain": "book",
+        "id": "BkiUbes4uzki0sdMtCCD",
+        "Q": 0.5389632009143693,
+        "Q_variant_weighted_no_huber": 0.4274635896655721,
+        "delta": 0.11149961124879726
+      },
+      {
+        "domain": "arxiv",
+        "id": "BkiUaXPxK7FjYAb_4W3j",
+        "Q": 0.7783700684107129,
+        "Q_variant_weighted_no_huber": 0.5434468408392749,
+        "delta": 0.23492322757143802
+      },
+      {
+        "domain": "arxiv",
+        "id": "BkiUdMg4eIXhx5LdSlN-",
+        "Q": 0.8256359391372787,
+        "Q_variant_weighted_no_huber": 0.5001185255494183,
+        "delta": 0.32551741358786046
+      }
+    ]
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:05.113098+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

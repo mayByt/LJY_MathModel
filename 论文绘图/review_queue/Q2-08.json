@@ -1,0 +1,89 @@
+{
+  "id": "Q2-08",
+  "name": "Q2-08_外部误差结构诊断",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-08_外部误差结构诊断.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-08_外部误差结构诊断.pdf",
+  "png_sha256": "56ea88fda1282e022ca2e69466d280a30788dedf7d193e065530f78f8d801957",
+  "size_mm": [
+    160.0,
+    137.0
+  ],
+  "caption": "冻结经典项的四来源预测诊断。B2为半合成、B4为跨族、B5为文献、B10为空心估算对照，各面单独保留来源的Loss范围与误差指标。B4按family、B5按source中心化；B2/B10不报告中心化改善。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/cerebras_training_log.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/scaling_baseline.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/published_scaling_data.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/supplementary_large_baseline.csv",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/classic_scaling_parameters.json",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/classic_external_validation.csv"
+  ],
+  "stats": {
+    "recalculated_errors": [
+      {
+        "source": "B2",
+        "n": 1029,
+        "recalculated_MAE": 1.1784418124939187
+      },
+      {
+        "source": "B4",
+        "n": 57,
+        "recalculated_MAE": 0.22726329326905795
+      },
+      {
+        "source": "B5",
+        "n": 44,
+        "recalculated_MAE": 0.17072153146120536
+      },
+      {
+        "source": "B10",
+        "n": 128,
+        "recalculated_MAE": 0.0006140488207855305
+      }
+    ],
+    "reported": [
+      {
+        "source": "B2",
+        "n": 1029,
+        "evidence_type": "semi_synthetic",
+        "RMSE": 1.2430848665801713,
+        "MAE": 1.1784418124939189,
+        "centered_MAE": 1.1784418124939189,
+        "Spearman": 0.7881022686524627
+      },
+      {
+        "source": "B4",
+        "n": 57,
+        "evidence_type": "external_family",
+        "RMSE": 0.2926666775457816,
+        "MAE": 0.2272632932690579,
+        "centered_MAE": 0.1122770016822421,
+        "Spearman": 0.9829816454561005
+      },
+      {
+        "source": "B5",
+        "n": 44,
+        "evidence_type": "published",
+        "RMSE": 0.1975950740341931,
+        "MAE": 0.1707215314612053,
+        "centered_MAE": 0.1025673463363357,
+        "Spearman": 0.9588075695723212
+      },
+      {
+        "source": "B10",
+        "n": 128,
+        "evidence_type": "estimated",
+        "RMSE": 0.0010938278086942,
+        "MAE": 0.0006140488207855,
+        "centered_MAE": 0.0006140488207855,
+        "Spearman": 0.9999942772609826
+      }
+    ],
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-11_外部检验对角线图.png",
+    "design_change": "四个汇总小点 → 各来源真实逐点预测分面，汇总MAE作为辅助统计，解决空白过多且口径不明。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:15.393429+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

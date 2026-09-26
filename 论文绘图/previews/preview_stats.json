@@ -1,0 +1,230 @@
+{
+  "purpose": "真实冻结结果的配色讨论样张，不是正式入稿图",
+  "sources": {
+    "q1": {
+      "file": "问题一/results_p12_final_v2/quality_domain.csv",
+      "sha256": "484c3a13edfc05bdb3b0eb77c4e91e9e6727e09d766180823dabb99f6226f4be"
+    },
+    "q2": {
+      "file": "问题二/results_p12_final_v2/quality_model_comparison.csv",
+      "sha256": "5cef736db57eaada1552ab903a3e664a44db09179307e286da3d4fb8dba69481"
+    },
+    "q3": {
+      "file": "问题三/results_v1/optimal_allocations.csv",
+      "sha256": "b5ac0510a80b14d14c7f5cbe0576f1efa820755c66c5b6ee28d3fde54b99588a"
+    },
+    "q4": {
+      "file": "问题四/results_v2/frontier_forecast.csv",
+      "sha256": "c1849b6c31c08ce357be5a2a9694bb50446be9152bf84334a22a3f11fe6b6d22"
+    }
+  },
+  "q1": {
+    "selection": "quality_anchor",
+    "rows": [
+      {
+        "domain": "github",
+        "q": 0.4304022462815312,
+        "ci_low": 0.4301337529610624,
+        "ci_high": 0.4306485396685012,
+        "mapping_type": "quality_anchor",
+        "quality_anchor": "github"
+      },
+      {
+        "domain": "wikipedia",
+        "q": 0.5066614962481865,
+        "ci_low": 0.5047290449810262,
+        "ci_high": 0.5084347491697504,
+        "mapping_type": "quality_anchor",
+        "quality_anchor": "wikipedia"
+      },
+      {
+        "domain": "book",
+        "q": 0.5100215216134684,
+        "ci_low": 0.4994568805278794,
+        "ci_high": 0.5215097309879243,
+        "mapping_type": "quality_anchor",
+        "quality_anchor": "book"
+      },
+      {
+        "domain": "stackexchange",
+        "q": 0.5608130198868628,
+        "ci_low": 0.5591456550615653,
+        "ci_high": 0.5623746060350292,
+        "mapping_type": "quality_anchor",
+        "quality_anchor": "stackexchange"
+      },
+      {
+        "domain": "arxiv",
+        "q": 0.5688268340572794,
+        "ci_low": 0.5679290434891148,
+        "ci_high": 0.5697190251332173,
+        "mapping_type": "quality_anchor",
+        "quality_anchor": "arxiv"
+      },
+      {
+        "domain": "commoncrawl",
+        "q": 0.6083099190620287,
+        "ci_low": 0.6067093581155915,
+        "ci_high": 0.6097047440641895,
+        "mapping_type": "quality_anchor",
+        "quality_anchor": "commoncrawl"
+      },
+      {
+        "domain": "c4",
+        "q": 0.6192139471319362,
+        "ci_low": 0.617328063559691,
+        "ci_high": 0.6209638416121338,
+        "mapping_type": "quality_anchor",
+        "quality_anchor": "c4"
+      }
+    ]
+  },
+  "q2": {
+    "aggregation": "先按model/split_type取折均值，再按四类split等权；点为各split均值",
+    "records": [
+      {
+        "model": "GQ2",
+        "leave_D": 0.07333816176583711,
+        "leave_N": 0.07464296174391144,
+        "leave_Q": 0.07108649103330968,
+        "leave_cell": 0.06876987734459335,
+        "score": 0.07195937297191289
+      },
+      {
+        "model": "GQ3",
+        "leave_D": 0.07661888802879058,
+        "leave_N": 0.07597413398591232,
+        "leave_Q": 0.07310489306079568,
+        "leave_cell": 0.07182950494557996,
+        "score": 0.07438185500526964
+      },
+      {
+        "model": "GQ4",
+        "leave_D": 0.08407536774515392,
+        "leave_N": 0.08105094417146086,
+        "leave_Q": 0.09170146050481498,
+        "leave_cell": 0.07849713932594068,
+        "score": 0.08383122793684261
+      },
+      {
+        "model": "GQ1",
+        "leave_D": 0.1274519196093225,
+        "leave_N": 0.11373729988857129,
+        "leave_Q": 0.11954107629696901,
+        "leave_cell": 0.10850564137893731,
+        "score": 0.11730898429345003
+      }
+    ]
+  },
+  "q3": {
+    "conditions": {
+      "context_length": 4096,
+      "quality_cost_type": "exponential",
+      "support_mode": "operational_extended"
+    },
+    "records": [
+      {
+        "budget_FLOPs": 1e+19,
+        "share_train": 0.7497243913666795,
+        "share_quality": 0.147913238398723,
+        "share_attention": 0.1023623702345973,
+        "Q_A": 0.6710563013871433,
+        "support_status": "one_component_extrapolated"
+      },
+      {
+        "budget_FLOPs": 1e+22,
+        "share_train": 0.7986137894392744,
+        "share_quality": 0.0923488078426168,
+        "share_attention": 0.1090374027181089,
+        "Q_A": 0.9999989999999996,
+        "support_status": "joint_observed"
+      },
+      {
+        "budget_FLOPs": 1e+24,
+        "share_train": 0.8677147261344518,
+        "share_quality": 0.0138132899239912,
+        "share_attention": 0.1184719839415571,
+        "Q_A": 0.999999,
+        "support_status": "bridge_gap_extrapolated"
+      }
+    ]
+  },
+  "q4": {
+    "forecast_origin": "2025-03-13",
+    "horizon_months": 24,
+    "target_month": "2027-03",
+    "tau": 0.9,
+    "interval": "经验预测区间",
+    "rows": [
+      {
+        "tau": 0.9,
+        "scenario_factor": 1.0,
+        "horizon_months": 24,
+        "forecast_month": "2027-03",
+        "forecast_score_raw": 83.4742219310911,
+        "forecast_link_raw": 1.5957813174302653,
+        "forecast_score": 77.14638848389657,
+        "forecast_link": 1.2014133973862002,
+        "quantile_rearranged": true,
+        "compute_endpoint_log10": 25.09208084085079,
+        "compute_growth_annual_log10": 0.7590021480499527,
+        "forecast_log10_compute": 26.6100851369507,
+        "extrapolation_flag": "long_horizon_extrapolation",
+        "p10": 57.30332528936279,
+        "p90": 90.46868701316734,
+        "p025": 47.48910827816831,
+        "p975": 95.28863910552845,
+        "bootstrap_draw_count": 999,
+        "interval_tau": 0.9,
+        "forecast_support": "empirical_small_sample",
+        "uncertainty_scope": "frontier_state_compute_endpoint_growth_measurement"
+      },
+      {
+        "tau": 0.9,
+        "scenario_factor": 0.5,
+        "horizon_months": 24,
+        "forecast_month": "2027-03",
+        "forecast_score_raw": 71.78905492743624,
+        "forecast_link_raw": 0.9233943220963072,
+        "forecast_score": 65.74358779082192,
+        "forecast_link": 0.644974593125534,
+        "quantile_rearranged": true,
+        "compute_endpoint_log10": 25.09208084085079,
+        "compute_growth_annual_log10": 0.7590021480499527,
+        "forecast_log10_compute": 25.851082988900743,
+        "extrapolation_flag": "long_horizon_extrapolation",
+        "p10": 47.14679790887635,
+        "p90": 78.36446337502464,
+        "p025": 40.25242766225492,
+        "p975": 86.0834753812853,
+        "bootstrap_draw_count": 999,
+        "interval_tau": 0.9,
+        "forecast_support": "empirical_small_sample",
+        "uncertainty_scope": "frontier_state_compute_endpoint_growth_measurement"
+      },
+      {
+        "tau": 0.9,
+        "scenario_factor": 0.25,
+        "horizon_months": 24,
+        "forecast_month": "2027-03",
+        "forecast_score_raw": 64.41498536871403,
+        "forecast_link_raw": 0.5872008244293302,
+        "forecast_score": 59.15814329779146,
+        "forecast_link": 0.3667551909952018,
+        "quantile_rearranged": true,
+        "compute_endpoint_log10": 25.09208084085079,
+        "compute_growth_annual_log10": 0.7590021480499527,
+        "forecast_log10_compute": 25.47158191487577,
+        "extrapolation_flag": "long_horizon_extrapolation",
+        "p10": 41.90761022621552,
+        "p90": 69.44248929068932,
+        "p025": 36.46843169224597,
+        "p975": 77.85293708476198,
+        "bootstrap_draw_count": 999,
+        "interval_tau": 0.9,
+        "forecast_support": "empirical_small_sample",
+        "uncertainty_scope": "frontier_state_compute_endpoint_growth_measurement"
+      }
+    ]
+  }
+}

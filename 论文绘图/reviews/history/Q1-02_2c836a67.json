@@ -1,0 +1,14 @@
+{
+  "id": "Q1-02",
+  "status": "pass",
+  "png_sha256": "2c836a67fd76f0fa9793569c5fb18d6e6003573b5022276d9fe622f8d903eb6f",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-13_域级Q森林图.png"
+  ],
+  "visual_assessment": "多层中央分位盒与外侧分位虚线在对数轴上层次清楚，固定域色、深描边和右侧全量文档数对齐；book小样本数明确，词数长尾完整且没有误称均值CI。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:59:47.079900+00:00"
+}

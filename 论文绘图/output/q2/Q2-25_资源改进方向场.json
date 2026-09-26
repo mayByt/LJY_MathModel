@@ -1,0 +1,47 @@
+{
+  "id": "Q2-25",
+  "name": "Q2-25_资源改进方向场",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-25_资源改进方向场.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-25_资源改进方向场.pdf",
+  "png_sha256": "27c1e0f7ac8bf917868d350ecdfb10f6fd1fd8d51feab2622988e9b9efd0a35a",
+  "size_mm": [
+    160.0,
+    87.0
+  ],
+  "caption": "固定D=150B、参考配比时，质量与参数总Loss弹性之差在三种映射情景中的相图。暖色为质量弹性更大，冷色为参数弹性更大，实线为二者相等；斜线是映射截断区。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/generalized_scaling_parameters.json"
+  ],
+  "stats": {
+    "s_Q": [
+      0.5,
+      1,
+      1.5
+    ],
+    "difference_range_by_scenario": [
+      [
+        -0.08941149463600749,
+        0.049593560908959056
+      ],
+      [
+        -0.08159830867082711,
+        0.12737636516245546
+      ],
+      [
+        -0.10340057435818643,
+        0.21202663998576957
+      ]
+    ],
+    "fixed_D_B": 150,
+    "p": "p_ref",
+    "profile": 0,
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-30_弹性场.png",
+    "design_change": "单一绿色箭头场 → 三sQ有符号弹性主导相图，主结论由等弹性边界表达，取消依赖坐标缩放的方向箭头。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:18.745840+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2",
+  "interpretation": "未计成本，不代表等预算最优方向。截断区按实际映射规则令质量导数为0，而非把边界奇异导数延伸进去。"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "Q2-15",
+  "name": "Q2-15_质量响应方向冲突",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-15_质量响应方向冲突.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-15_质量响应方向冲突.pdf",
+  "png_sha256": "5c615c78781f00b49ed24efe749d3b800bc5067fbb3bf3083d476a264a807c33",
+  "size_mm": [
+    160.0,
+    113.0
+  ],
+  "caption": "三个代表N–D单元的原始质量响应经组内中心化后比较，右下以全部单元相关系数验证方向。B7全部45个单元负相关，B8全部150个单元正相关。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/supplementary_NQ_experiment_expanded.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/supplementary_NQ_experiment_large.csv"
+  ],
+  "stats": {
+    "summary": [
+      {
+        "source": "B7",
+        "n": 45,
+        "median_rho": -0.9515151515151514,
+        "positive": 0,
+        "negative": 45
+      },
+      {
+        "source": "B8",
+        "n": 150,
+        "median_rho": 0.9929823694376383,
+        "positive": 150,
+        "negative": 0
+      }
+    ],
+    "representative_cells": {
+      "N_B": [
+        0.07,
+        1,
+        6.9
+      ],
+      "D_B": 150
+    },
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-15_组内中心化质量响应束.png",
+    "design_change": "仅两团相关点 → 三个原始条件响应+全量相关汇总，让方向冲突可以追溯到真实表格值。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:16.741997+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

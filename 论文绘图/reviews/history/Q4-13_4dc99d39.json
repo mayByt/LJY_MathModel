@@ -1,0 +1,15 @@
+{
+  "id": "Q4-13",
+  "status": "pass",
+  "png_sha256": "4dc99d39a12e0c03f3a6edfd179f34a4b5c229f81ce7e39b3dd6818932b8406e",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-41_24月前沿分位点阵.png",
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-43_分位覆盖率校准图.png"
+  ],
+  "visual_assessment": "实心实际覆盖与空心名义覆盖采用配对线明确表达缺口，80%和95%有色彩及形状双编码；七目标布局紧凑，未误加独立二项区间，近重合GPQA点合理反映接近名义值。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:47:08.204084+00:00"
+}

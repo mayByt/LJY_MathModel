@@ -1,0 +1,25 @@
+{
+  "id": "Q3-20",
+  "name": "Q3-20_质量启动与饱和配对",
+  "question": "q3",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-20_质量启动与饱和配对.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-20_质量启动与饱和配对.pdf",
+  "png_sha256": "b206794787c3a0cf55ed3d4cffe199010f0a87b6b2b242d631daf6a0a53a4057",
+  "size_mm": [
+    123.0,
+    94.0
+  ],
+  "caption": "幂函数成本、上下文4096。同draw的启动与饱和事件按离散预算格点聚合；点面积固定，仅色深表示频数，避免低预算处点面积相互遮挡。未抖动真实预算，也未把离散格点平滑成密度。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题三/results_v1/transition_bootstrap.csv.gz"
+  ],
+  "stats": {
+    "paired_draws": 200,
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-20.csv",
+    "rows": 29
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T14:08:22.866457+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

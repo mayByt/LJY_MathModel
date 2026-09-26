@@ -1,0 +1,45 @@
+{
+  "id": "Q1-10",
+  "name": "Q1-10_质量冲突相平面",
+  "question": "q1",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-10_质量冲突相平面.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-10_质量冲突相平面.pdf",
+  "png_sha256": "58f004689a10de28e5fd4dca1fc3ff0b3a2c4881fec65e81029e231df4f2c3f3",
+  "size_mm": [
+    160.0,
+    85.0
+  ],
+  "caption": "A1抽样与扩展新增记录的质量冲突相平面对照，共享坐标和计数色标。橙点为实际触发冲突的记录子样本；判定同时使用高低门槛和域内极差90%门槛。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/cache/q1_quality/quality_sample.csv.gz"
+  ],
+  "stats": {
+    "n": 261086,
+    "n_conflict": 8270,
+    "conflict_rate": 0.03167538665420589,
+    "displayed_conflict": 480,
+    "panels": [
+      {
+        "group": "A1抽样",
+        "n": 51230,
+        "n_conflict": 1895,
+        "displayed_conflict": 240
+      },
+      {
+        "group": "扩展新增",
+        "n": 209856,
+        "n_conflict": 6375,
+        "displayed_conflict": 240
+      }
+    ],
+    "thresholds": {
+      "low": 0.25,
+      "high": 0.75,
+      "K": "strictly above domain-specific 90th percentile"
+    }
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:04.709812+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

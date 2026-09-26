@@ -1,0 +1,16 @@
+{
+  "id": "Q4-23",
+  "status": "changes_requested",
+  "png_sha256": "1fc3b6ad5d2f3ee5002886de308dc052a25c3e1d52f4d63c2bf1fc6b4a736c76",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-41_24月前沿分位点阵.png"
+  ],
+  "visual_assessment": "期限分面ECDF和中位差标记清楚、配对计算正确，但横轴没有明确差值正方向。",
+  "issues": [
+    "横轴“相对维持增速的能力差”容易被读为放缓减维持，而源码实际为维持减放缓。请改为“减速导致的能力损失 / 分”或明确写出“维持增速−放缓情景 / 分”，图注亦给出同一差值方向。"
+  ],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:47:45.626614+00:00"
+}

@@ -1,0 +1,1709 @@
+{
+  "figures": 80,
+  "by_question": {
+    "Q1": 20,
+    "Q2": 20,
+    "Q3": 20,
+    "Q4": 20
+  },
+  "technical_pass": true,
+  "failures": [],
+  "font_warnings": [],
+  "records": [
+    {
+      "id": "Q1-02",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        141.016,
+        98.016
+      ],
+      "fonts": [
+        "EGOLWT+TimesNewRomanPSMT",
+        "DJBPLE+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-05",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        151.52,
+        147.105
+      ],
+      "fonts": [
+        "QMMQPK+TimesNewRomanPSMT",
+        "BOOGZD+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-06",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        156.616,
+        149.405
+      ],
+      "fonts": [
+        "HIICXQ+TimesNewRomanPSMT",
+        "GWMSJU+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-07",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        143.016,
+        121.016
+      ],
+      "fonts": [
+        "SYGWJH+TimesNewRomanPSMT",
+        "GBCUQR+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-08",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.603,
+        81.405
+      ],
+      "fonts": [
+        "DBHHFX+TimesNewRomanPSMT",
+        "FJFRNQ+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-09",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        143.016,
+        104.016
+      ],
+      "fonts": [
+        "CNUWBJ+TimesNewRomanPSMT",
+        "DVAXZB+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-10",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.532,
+        83.405
+      ],
+      "fonts": [
+        "GTUHHR+TimesNewRomanPSMT",
+        "FVILTS+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-11",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        117.405
+      ],
+      "fonts": [
+        "BHYJLF+TimesNewRomanPSMT",
+        "BNRLUR+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-13",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.619,
+        131.405
+      ],
+      "fonts": [
+        "DGTZPJ+TimesNewRomanPSMT",
+        "GBYYMK+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-15",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.452,
+        124.405
+      ],
+      "fonts": [
+        "FLCGVX+TimesNewRomanPSMT",
+        "BIHVMV+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-16",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        141.616,
+        111.405
+      ],
+      "fonts": [
+        "FSAHIQ+TimesNewRomanPSMT",
+        "GXPVGS+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-17",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        109.016,
+        76.016
+      ],
+      "fonts": [
+        "CAGGKM+TimesNewRomanPSMT",
+        "GGNNOL+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-18",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        152.616,
+        78.405
+      ],
+      "fonts": [
+        "CQLGAL+TimesNewRomanPSMT",
+        "DPQJVJ+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-19",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        71.417
+      ],
+      "fonts": [
+        "FOHMBV+TimesNewRomanPSMT",
+        "EWNCJI+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-20",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        156.616,
+        82.405
+      ],
+      "fonts": [
+        "FXFQPB+TimesNewRomanPSMT",
+        "GMPJHD+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-22",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        157.36,
+        149.105
+      ],
+      "fonts": [
+        "FZJDXF+TimesNewRomanPSMT",
+        "FGUYEX+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-23",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        156.616,
+        130.405
+      ],
+      "fonts": [
+        "FSAMNK+TimesNewRomanPSMT",
+        "DBNANH+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-25",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        132.455,
+        115.105
+      ],
+      "fonts": [
+        "CYFGZE+STIXTwoText",
+        "BOEBMX+TimesNewRomanPSMT",
+        "DSNZOE+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-27",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        138.405
+      ],
+      "fonts": [
+        "HHRPMY+TimesNewRomanPSMT",
+        "CWPKKT+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q1-28",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.565,
+        98.616
+      ],
+      "fonts": [
+        "IINQTF+TimesNewRomanPSMT",
+        "EHVVER+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-01",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        149.128,
+        101.904
+      ],
+      "fonts": [
+        "CBIRPG+TimesNewRomanPSMT",
+        "FORDVF+STIXGeneral-Regular",
+        "GHCBJI+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-03",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        153.816,
+        112.885
+      ],
+      "fonts": [
+        "BONDTI+STIXTwoText",
+        "CFRONF+TimesNewRomanPSMT",
+        "FCRPFB+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-04",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        145.935,
+        103.558
+      ],
+      "fonts": [
+        "EGFBMG+TimesNewRomanPSMT",
+        "GWRIJU+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-06",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        113.579,
+        103.813
+      ],
+      "fonts": [
+        "DZXEIX+STIXTwoText",
+        "FKWMYJ+TimesNewRomanPSMT",
+        "CYDCLR+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-08",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        154.616,
+        131.81
+      ],
+      "fonts": [
+        "BONDTI+STIXTwoText",
+        "FYSXSA+TimesNewRomanPSMT",
+        "EFZDVN+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-09",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        157.322,
+        128.053
+      ],
+      "fonts": [
+        "TOXZTP+TimesNewRomanPSMT",
+        "FAZDMU+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-10",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        149.423,
+        87.465
+      ],
+      "fonts": [
+        "GKUQUS+TimesNewRomanPSMT",
+        "DUGQTE+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-12",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        151.045,
+        79.825
+      ],
+      "fonts": [
+        "GUYOUT+TimesNewRomanPSMT",
+        "FZVAHV+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-13",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        143.788,
+        92.604
+      ],
+      "fonts": [
+        "DLKGGH+TimesNewRomanPSMT",
+        "GIMHSP+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-14",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        148.422,
+        79.022
+      ],
+      "fonts": [
+        "GNTPCE+TimesNewRomanPSMT",
+        "CFXJFB+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-15",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        151.804,
+        103.569
+      ],
+      "fonts": [
+        "EPAABV+TimesNewRomanPSMT",
+        "LGLKYS+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-16",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        141.577,
+        102.067
+      ],
+      "fonts": [
+        "CQBALZ+TimesNewRomanPSMT",
+        "CCOROE+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-18",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        124.622,
+        120.449
+      ],
+      "fonts": [
+        "EFWZFP+TimesNewRomanPSMT",
+        "CGGTDH+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-19",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        117.103,
+        104.387
+      ],
+      "fonts": [
+        "BQHNIU+TimesNewRomanPSMT",
+        "EEAEVF+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-21",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        152.095,
+        76.236
+      ],
+      "fonts": [
+        "GOITOC+TimesNewRomanPSMT",
+        "DOUQGX+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-23",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        152.411,
+        86.455
+      ],
+      "fonts": [
+        "DDRXXK+TimesNewRomanPSMT",
+        "GLXVRA+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-24",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        154.616,
+        58.539
+      ],
+      "fonts": [
+        "DPSMXZ+TimesNewRomanPSMT"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-25",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        155.286,
+        83.56
+      ],
+      "fonts": [
+        "FBIRWC+TimesNewRomanPSMT",
+        "BTIMMO+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-26",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        149.506,
+        108.65
+      ],
+      "fonts": [
+        "GBEISX+TimesNewRomanPSMT",
+        "DSUBWO+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q2-27",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        154.707,
+        126.765
+      ],
+      "fonts": [
+        "FRRZUQ+TimesNewRomanPSMT",
+        "FPAMOZ+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-01",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        116.016,
+        77.016
+      ],
+      "fonts": [
+        "FHWYFZ+TimesNewRomanPSMT",
+        "NGXOHS+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-02",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        150.616,
+        74.405
+      ],
+      "fonts": [
+        "KCTKXR+TimesNewRomanPSMT",
+        "ESQAKI+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-03",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        134.016,
+        84.016
+      ],
+      "fonts": [
+        "DBAZDJ+TimesNewRomanPSMT",
+        "BZWQBO+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-04",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        131.016,
+        82.016
+      ],
+      "fonts": [
+        "ETBGOZ+STIXTwoText",
+        "GSKRLC+TimesNewRomanPSMT",
+        "DXXSIS+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-05",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.586,
+        76.405
+      ],
+      "fonts": [
+        "FYLSFN+TimesNewRomanPSMT",
+        "DAOIOA+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-06",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        127.016,
+        79.016
+      ],
+      "fonts": [
+        "XYXHMR+TimesNewRomanPSMT",
+        "DDSSTQ+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-07",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        137.016,
+        103.016
+      ],
+      "fonts": [
+        "CAVHJX+STIXTwoText",
+        "FPRJHB+TimesNewRomanPSMT",
+        "BDKLTT+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-08",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        77.405
+      ],
+      "fonts": [
+        "FXDAWF+TimesNewRomanPSMT",
+        "BCNBUE+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-10",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        102.405
+      ],
+      "fonts": [
+        "CAVHJX+STIXTwoText",
+        "CIFVWN+TimesNewRomanPSMT",
+        "GHTSGQ+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-11",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.574,
+        64.616
+      ],
+      "fonts": [
+        "CAVHJX+STIXTwoText",
+        "DLJDHE+TimesNewRomanPSMT",
+        "BJGJTT+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-12",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        148.616,
+        98.405
+      ],
+      "fonts": [
+        "CAVHJX+STIXTwoText",
+        "BQSBMY+TimesNewRomanPSMT",
+        "DEUMPM+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-14",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        124.016,
+        83.016
+      ],
+      "fonts": [
+        "EIFEOC+TimesNewRomanPSMT",
+        "MGAWOM+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-15",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        123.953,
+        94.016
+      ],
+      "fonts": [
+        "GPGVST+TimesNewRomanPSMT",
+        "DLOSAL+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-17",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.016,
+        108.016
+      ],
+      "fonts": [
+        "BTFOFU+TimesNewRomanPSMT",
+        "GNMSEU+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-18",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        70.405
+      ],
+      "fonts": [
+        "CAVHJX+STIXTwoText",
+        "GMXSIH+TimesNewRomanPSMT",
+        "CJCTGO+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-20",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        120.954,
+        92.016
+      ],
+      "fonts": [
+        "FXPQUH+STIXTwoText",
+        "GVMXLZ+TimesNewRomanPSMT",
+        "BLWOYL+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-21",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        139.016,
+        95.016
+      ],
+      "fonts": [
+        "BZBBWB+TimesNewRomanPSMT",
+        "VCXNAD+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-23",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        148.016,
+        116.016
+      ],
+      "fonts": [
+        "DSOWWB+TimesNewRomanPSMT",
+        "FEVRIX+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-25",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        153.616,
+        72.405
+      ],
+      "fonts": [
+        "CAVHJX+STIXTwoText",
+        "BAWOLW+TimesNewRomanPSMT",
+        "DRDUGM+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q3-26",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        74.405
+      ],
+      "fonts": [
+        "GWOFOB+TimesNewRomanPSMT",
+        "GJKPWQ+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-01",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        135.85,
+        90.858
+      ],
+      "fonts": [
+        "DECKDA+TimesNewRomanPSMT",
+        "PABOUF+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-02",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        149.579,
+        92.616
+      ],
+      "fonts": [
+        "HDIWOK+TimesNewRomanPSMT",
+        "BSDOLP+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-03",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        147.405
+      ],
+      "fonts": [
+        "FBCQHM+TimesNewRomanPSMT",
+        "SPBTQH+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-04",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        143.016,
+        90.016
+      ],
+      "fonts": [
+        "EUXIHJ+TimesNewRomanPSMT",
+        "BLTCZM+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-06",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        149.616,
+        80.405
+      ],
+      "fonts": [
+        "DGJWIL+STIXTwoText",
+        "FAGEWB+TimesNewRomanPSMT",
+        "FYXIWM+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-07",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        151.616,
+        81.405
+      ],
+      "fonts": [
+        "GQCSNX+TimesNewRomanPSMT",
+        "BXTSXE+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-08",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.618,
+        151.405
+      ],
+      "fonts": [
+        "HEKQMA+TimesNewRomanPSMT",
+        "GQCTKU+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-09",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        156.958,
+        152.016
+      ],
+      "fonts": [
+        "SLFDBR+TimesNewRomanPSMT",
+        "BGSWPW+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-10",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        156.616,
+        82.405
+      ],
+      "fonts": [
+        "GEAUTN+TimesNewRomanPSMT",
+        "CMJGDV+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-11",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        147.016,
+        107.105
+      ],
+      "fonts": [
+        "BSMGSW+TimesNewRomanPSMT",
+        "BRVTYL+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-12",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        140.016,
+        109.105
+      ],
+      "fonts": [
+        "GYALHY+TimesNewRomanPSMT",
+        "CLQSMO+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-13",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        132.016,
+        98.105
+      ],
+      "fonts": [
+        "EWFNQH+TimesNewRomanPSMT",
+        "PUHUYX+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-14",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        158.616,
+        86.405
+      ],
+      "fonts": [
+        "BTFEUL+TimesNewRomanPSMT",
+        "DVYYWX+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-15",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        154.017,
+        130.105
+      ],
+      "fonts": [
+        "CAVHJX+STIXTwoText",
+        "ESBWEE+TimesNewRomanPSMT",
+        "HBFPMP+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-16",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        153.616,
+        100.405
+      ],
+      "fonts": [
+        "CAVHJX+STIXTwoText",
+        "EBUXRX+TimesNewRomanPSMT",
+        "FQSHUM+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-18",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        150.616,
+        85.405
+      ],
+      "fonts": [
+        "DTIWVE+TimesNewRomanPSMT",
+        "BONRJM+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-20",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        153.616,
+        109.405
+      ],
+      "fonts": [
+        "CMVFQF+TimesNewRomanPSMT",
+        "DIKEQT+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-21",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        143.616,
+        104.616
+      ],
+      "fonts": [
+        "DLGLIE+TimesNewRomanPSMT",
+        "HAICWG+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-22",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        156.616,
+        86.405
+      ],
+      "fonts": [
+        "EXMYSJ+TimesNewRomanPSMT",
+        "CQFYON+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    },
+    {
+      "id": "Q4-23",
+      "files_exist": true,
+      "png_sha256_match": true,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "size_mm": [
+        150.616,
+        82.405
+      ],
+      "fonts": [
+        "GWBFBT+TimesNewRomanPSMT",
+        "GDOEZM+SimSun"
+      ],
+      "font_stderr": "",
+      "automatic_issues": [],
+      "visual_revision": "reference_v2",
+      "technical_pass": true
+    }
+  ]
+}

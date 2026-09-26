@@ -1,0 +1,14 @@
+{
+  "id": "Q4-18",
+  "status": "pass",
+  "png_sha256": "6d7375a0cdddfbc6a2920a42c063953801dece9ac81dacdc652976e80feb248d",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-06_六任务零膨胀云雨图.png"
+  ],
+  "visual_assessment": "双面板分别保留分轴尺度，密度、真实抽样点、双层区间和中心估计组织清楚；非规模零线和跨零区间明显，色彩柔和，图注正确限制因果解释。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:45:10.878030+00:00"
+}

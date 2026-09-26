@@ -1,0 +1,14 @@
+{
+  "id": "Q3-20",
+  "status": "pass",
+  "png_sha256": "b206794787c3a0cf55ed3d4cffe199010f0a87b6b2b242d631daf6a0a53a4057",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-19_质量系数联合分布.png"
+  ],
+  "visual_assessment": "复审当前原PNG：固定小点后中列下方相邻离散预算状态全部可分开，色深单独编码频次且色条明确；没有抖动真实预算位置，图注已说明面积固定。上一轮遮挡问题已解决。",
+  "issues": [],
+  "reviewer": "/root/research_q2",
+  "reviewed_at": "2026-09-26T14:11:23.468831+00:00"
+}

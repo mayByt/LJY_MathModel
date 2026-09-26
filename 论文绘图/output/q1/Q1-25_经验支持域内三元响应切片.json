@@ -1,0 +1,81 @@
+{
+  "id": "Q1-25",
+  "name": "Q1-25_经验支持域内三元响应切片",
+  "question": "q1",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-25_经验支持域内三元响应切片.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-25_经验支持域内三元响应切片.pdf",
+  "png_sha256": "edb3704461652020c5893687bba5eb27824ef3d3e02426cbb37742c87b997f57",
+  "size_mm": [
+    145.0,
+    117.0
+  ],
+  "caption": "固定训练平均配方其余14域，将数学推理、技术对话和商务邮件的总份额重新分配。颜色为相对参照J变化，粗零等值线与白参照点帮助定位改善区；星标只表示可行网格最低值。灰纹包括越界和跨边界三角中未展示的区域。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/problem2_bridge_input.npz"
+  ],
+  "stats": {
+    "varying_domains": [
+      "dm_mathematics",
+      "ubuntu_irc",
+      "enron_emails"
+    ],
+    "their_fixed_total": 0.047273885424462515,
+    "fixed_other_components": {
+      "arxiv": 0.11302252583269279,
+      "freelaw": 0.0968248321520278,
+      "nih_exporter": 0.00588968021709595,
+      "pubmed_central": 0.11375419105058357,
+      "wikipedia_en": 0.07507775607983627,
+      "dm_mathematics": 0.0254628540970504,
+      "github": 0.11070066007050916,
+      "philpapers": 0.005487697351193036,
+      "stackexchange": 0.09943242344413017,
+      "enron_emails": 0.002211033043406226,
+      "gutenberg_pg_19": 0.04691494424753537,
+      "pile_cc": 0.11948759779188561,
+      "ubuntu_irc": 0.019599998284005892,
+      "europarl": 0.012737064754031531,
+      "hackernews": 0.011650822378108678,
+      "pubmed_abstracts": 0.06618116611257162,
+      "uspto_backgrounds": 0.07556475309333588
+    },
+    "grid_count": 11477,
+    "feasible_count": 8702,
+    "feasible_objective_range": [
+      5.441534533119457,
+      5.573772224774597
+    ],
+    "reference_objective": 5.504298930745598,
+    "grid_step": 0.006666666666666667,
+    "reference_feasible": true,
+    "reference_support_distance": 2.132569526466969,
+    "reference_support_margin": 2.197117557912402,
+    "reference_min_upper_margin": 0.021764990932617752,
+    "minimum_grid_objective": 5.441534533119457,
+    "minimum_grid_composition": [
+      0.11302252583269279,
+      0.0968248321520278,
+      0.00588968021709595,
+      0.11375419105058357,
+      0.07507775607983627,
+      0.0,
+      0.11070066007050916,
+      0.005487697351193036,
+      0.09943242344413017,
+      0.018279235697458842,
+      0.04691494424753537,
+      0.11948759779188561,
+      0.028994649727003673,
+      0.012737064754031531,
+      0.011650822378108678,
+      0.06618116611257162,
+      0.07556475309333588
+    ],
+    "mask_rule": "triangle omitted if any vertex fails support/upper check",
+    "design_change": "p_ref slice of three locally beneficial domains, instead of p_star top-share slice"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:07.316122+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

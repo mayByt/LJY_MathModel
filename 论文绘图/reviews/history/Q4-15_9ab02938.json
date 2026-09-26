@@ -1,0 +1,15 @@
+{
+  "id": "Q4-15",
+  "status": "pass",
+  "png_sha256": "9ab0293862df431a04989cb484c5bd0dde92de58169ee6893dac14029a29d2a3",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-12_纪录变化分解与子任务月度热图.png",
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-39_情景矩阵热图.png"
+  ],
+  "visual_assessment": "45情景按成本和上下文分组，三预算括号与各自0至100分刻度明确；浅底主要编码证据等级，内嵌区间保留真实能力量级，字体和行列对齐良好。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:47:45.625283+00:00"
+}

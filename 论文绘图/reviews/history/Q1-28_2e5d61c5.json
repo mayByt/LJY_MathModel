@@ -1,0 +1,16 @@
+{
+  "id": "Q1-28",
+  "status": "changes_requested",
+  "png_sha256": "2e5d61c5d694d0d475df1d5ff429ee7d1b398c25b4e62783ffb6c4464a394596",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-32_训练配方条码图.png"
+  ],
+  "visual_assessment": "目标点阵与簇内组成矩阵布局清楚，但未区分两次未满足可行判据的优化终态。",
+  "issues": [
+    "源文件30次起点中28次feasible=True，start_id 11和14为success=False、feasible=False，均混在第2簇15个普通点。请用不同形状或空心叉标示未通过可行判据，并在图注列明28可行/2未通过；若右侧仍平均全部终态，明确其仅为描述性终态组成，不是30个均已验证可行的解。"
+  ],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T14:02:27.269804+00:00"
+}

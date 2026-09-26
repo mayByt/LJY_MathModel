@@ -1,0 +1,185 @@
+{
+  "id": "Q1-27",
+  "name": "Q1-27_零膨胀近优配比族",
+  "question": "q1",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-27_零膨胀近优配比族.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-27_零膨胀近优配比族.pdf",
+  "png_sha256": "d3d48d4d799628815fbc8da480151e03e55d2100c092d450ae2c01c11a268ffb",
+  "size_mm": [
+    160.0,
+    140.0
+  ],
+  "caption": "训练平均配方、正式近优参考候选与200次成功bootstrap配比族对照。条件非零密度和包含零的95%区间在同轴展示，右侧为零份额概率；横轴覆盖所有bootstrap份额。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/optimal_mixture.csv",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/optimal_mixture_bootstrap.npz",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/problem2_bridge_input.npz"
+  ],
+  "stats": {
+    "n_success": 200,
+    "rows": [
+      {
+        "domain": "uspto_backgrounds",
+        "p_star": 0.2419049488707816,
+        "ci_low": 0.0,
+        "ci_high": 0.5561199999973101,
+        "zero_probability": 0.38,
+        "upper_bound": 0.55612,
+        "p_ref": 0.07556475309333588
+      },
+      {
+        "domain": "pubmed_abstracts",
+        "p_star": 0.1891057748671518,
+        "ci_low": 0.0,
+        "ci_high": 0.5308669930065659,
+        "zero_probability": 0.71,
+        "upper_bound": 0.5308669930069929,
+        "p_ref": 0.06618116611257162
+      },
+      {
+        "domain": "stackexchange",
+        "p_star": 0.1490948482550418,
+        "ci_low": 0.0,
+        "ci_high": 0.5107781127051358,
+        "zero_probability": 0.615,
+        "upper_bound": 0.9531999099099095,
+        "p_ref": 0.09943242344413017
+      },
+      {
+        "domain": "europarl",
+        "p_star": 0.1037515537515665,
+        "ci_low": 0.0,
+        "ci_high": 0.1037515537515592,
+        "zero_probability": 0.295,
+        "upper_bound": 0.1037515537515536,
+        "p_ref": 0.012737064754031531
+      },
+      {
+        "domain": "wikipedia_en",
+        "p_star": 0.0759062927900517,
+        "ci_low": 0.0,
+        "ci_high": 0.2585402911728768,
+        "zero_probability": 0.505,
+        "upper_bound": 0.6120578293724585,
+        "p_ref": 0.07507775607983627
+      },
+      {
+        "domain": "hackernews",
+        "p_star": 0.0714568051475534,
+        "ci_low": 0.0,
+        "ci_high": 0.1111111111113796,
+        "zero_probability": 0.135,
+        "upper_bound": 0.1111111111111111,
+        "p_ref": 0.011650822378108678
+      },
+      {
+        "domain": "philpapers",
+        "p_star": 0.0488082393771076,
+        "ci_low": 0.0,
+        "ci_high": 0.0488082393773107,
+        "zero_probability": 0.39,
+        "upper_bound": 0.0488082393771016,
+        "p_ref": 0.005487697351193036
+      },
+      {
+        "domain": "pile_cc",
+        "p_star": 0.0354807321791484,
+        "ci_low": 0.0,
+        "ci_high": 0.2751925756024584,
+        "zero_probability": 0.74,
+        "upper_bound": 0.8745699999999998,
+        "p_ref": 0.11948759779188561
+      },
+      {
+        "domain": "ubuntu_irc",
+        "p_star": 0.0339691154784678,
+        "ci_low": 0.0,
+        "ci_high": 0.1697532064127886,
+        "zero_probability": 0.165,
+        "upper_bound": 0.1697532064128255,
+        "p_ref": 0.019599998284005892
+      },
+      {
+        "domain": "enron_emails",
+        "p_star": 0.0209218861602148,
+        "ci_low": 0.0,
+        "ci_high": 0.0239760239761351,
+        "zero_probability": 0.385,
+        "upper_bound": 0.0239760239760239,
+        "p_ref": 0.002211033043406226
+      },
+      {
+        "domain": "dm_mathematics",
+        "p_star": 0.0172151328332646,
+        "ci_low": 0.0,
+        "ci_high": 0.2219756043956936,
+        "zero_probability": 0.515,
+        "upper_bound": 0.2219756043956044,
+        "p_ref": 0.0254628540970504
+      },
+      {
+        "domain": "nih_exporter",
+        "p_star": 0.0067046432291821,
+        "ci_low": 0.0,
+        "ci_high": 0.0517447882780138,
+        "zero_probability": 0.395,
+        "upper_bound": 0.0517447882778543,
+        "p_ref": 0.00588968021709595
+      },
+      {
+        "domain": "gutenberg_pg_19",
+        "p_star": 0.0056800270604674,
+        "ci_low": 0.0,
+        "ci_high": 0.2999863961771412,
+        "zero_probability": 0.425,
+        "upper_bound": 0.3805603596403594,
+        "p_ref": 0.04691494424753537
+      },
+      {
+        "domain": "pubmed_central",
+        "p_star": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.5573083263961265,
+        "zero_probability": 0.415,
+        "upper_bound": 0.8834634634634632,
+        "p_ref": 0.11375419105058357
+      },
+      {
+        "domain": "github",
+        "p_star": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.2577623203563428,
+        "zero_probability": 0.79,
+        "upper_bound": 0.90745,
+        "p_ref": 0.11070066007050916
+      },
+      {
+        "domain": "freelaw",
+        "p_star": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.3513440839599125,
+        "zero_probability": 0.815,
+        "upper_bound": 0.8558147658147651,
+        "p_ref": 0.0968248321520278
+      },
+      {
+        "domain": "arxiv",
+        "p_star": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.2845309540046619,
+        "zero_probability": 0.68,
+        "upper_bound": 0.8546810610610607,
+        "p_ref": 0.11302252583269279
+      }
+    ],
+    "density": "positive bootstrap draws only",
+    "interval": "all successful draws including zeros",
+    "zero_threshold": 1e-06,
+    "reference": "mean of512 training compositions",
+    "max_draw": 0.807853655118875
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:07.676026+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

@@ -1,0 +1,14 @@
+{
+  "paths_relative_to": "project_root",
+  "raw_root": "../中文题目/F题/real_attachments",
+  "problem_statement": "../中文题目/F题/算力约束下提升大语言模型能力的资源配置建模.docx",
+  "q1": "问题一/results_p12_final_v2",
+  "q2": "问题二/results_p12_final_v2",
+  "q3": "问题三/results_v1",
+  "q4": "问题四/results_v2",
+  "selection_basis": "当前仓库每问唯一主结果目录与现行论文相互指向；报告提及的历史版本不是另一套正式输入",
+  "read_only": true,
+  "missing_detail_policy": "标注需补导出，不以汇总指标伪造样本分布，不覆盖冻结结果",
+  "forecast_origin": "2025-03-13",
+  "research_date": "2026-09-26"
+}

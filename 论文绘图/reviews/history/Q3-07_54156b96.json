@@ -1,0 +1,16 @@
+{
+  "id": "Q3-07",
+  "status": "changes_requested",
+  "png_sha256": "54156b96b82b09373ae6ed29140d62fe38ef37b384a97fd2e2426dbd856033d0",
+  "viewed": true,
+  "issues": [
+    "大锚点预算值未在图面解释；三簇锚点各标一次10¹⁹、10²²、10²⁴即可，不需每条路径重复标。"
+  ],
+  "reviewer": "/root/research_q3",
+  "reviewed_at": "2026-09-26T13:39:52.959Z",
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q3/Q3-16_扩展路径.png"
+  ],
+  "visual_assessment": "路径和支持范围清楚，线型/点形辨识良好；锚点大小需要对应实际预算标签。"
+}

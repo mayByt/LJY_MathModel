@@ -1,0 +1,14 @@
+{
+  "id": "Q4-06",
+  "status": "pass",
+  "png_sha256": "e63a0dab2e509764b3efec4ac28eebe387a94c63d0c73a4b21e161a2715834be",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-06_六任务零膨胀云雨图.png"
+  ],
+  "visual_assessment": "字体重导出复审：数学上标完整且未引起标签、刻度或图例碰撞。整体ECDF尾段与非精确复现误差直方图形成有效互补；零误差质量与97.2%精确比例显式保留，阈值和科学计数清晰，柔和色块配深描边。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:55:27.526174+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "C1": {
+    "exists": true,
+    "sha256_match": true
+  },
+  "C2": {
+    "exists": true,
+    "sha256_match": true
+  },
+  "C3": {
+    "exists": true,
+    "sha256_match": true
+  },
+  "C4": {
+    "exists": true,
+    "sha256_match": true
+  },
+  "C5": {
+    "exists": true,
+    "sha256_match": true
+  },
+  "C6": {
+    "exists": true,
+    "sha256_match": true
+  },
+  "C7": {
+    "exists": true,
+    "sha256_match": true
+  },
+  "C9": {
+    "exists": true,
+    "sha256_match": true
+  }
+}

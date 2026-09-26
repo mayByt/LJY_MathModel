@@ -1,0 +1,27 @@
+{
+  "id": "Q4-02",
+  "name": "Q4-02_时间与证据覆盖",
+  "question": "q4",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-02_时间与证据覆盖.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-02_时间与证据覆盖.pdf",
+  "png_sha256": "4f0ab3e85c6aa625ebbb92dc436f845c6cd54110d0fab7296a986c35d470c458",
+  "size_mm": [
+    151.0,
+    94.0
+  ],
+  "caption": "各提交月份证据可用率及顶部实际模型数。格内为可用比例而非模型能力；权重核实是当前证据状态，不等价于实际不开放。不存在的日期不插补为零。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/open_model_panel.csv"
+  ],
+  "stats": {
+    "months": 10,
+    "total": 4534,
+    "visual_reference": "gmgc2026F/evidence matrix hierarchy",
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-02.csv",
+    "rows": 10
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:30.082550+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

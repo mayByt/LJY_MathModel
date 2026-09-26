@@ -1,0 +1,24 @@
+{
+  "id": "Q3-04",
+  "name": "Q3-04_严格域可行预算边界",
+  "question": "q3",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-04_严格域可行预算边界.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-04_严格域可行预算边界.pdf",
+  "png_sha256": "869e530b3651903e673b59159173b79d16e6a2b441261767d8a8ffc3e32e460d",
+  "size_mm": [
+    133.0,
+    84.0
+  ],
+  "caption": "图型调整：聚焦发生可行性变化的低预算区域；10^22/10^24预算整体高于曲线，图注说明而不让两个远离边界点撑出大片空白。边界为(6+ηL)N_minD_min。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题三/config/problem3_v1.json"
+  ],
+  "stats": {
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-04.csv",
+    "rows": 400
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:26.762186+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

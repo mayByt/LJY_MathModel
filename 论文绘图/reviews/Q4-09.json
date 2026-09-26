@@ -1,0 +1,14 @@
+{
+  "id": "Q4-09",
+  "status": "pass",
+  "png_sha256": "9328a8bb1a179fbc5d92dfefa168c74e281b820910f1257978e1026465b1c187",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-11_子任务热图.png"
+  ],
+  "visual_assessment": "复审：连续渐变增强后，低分状态追踪与高分布尔、对象、推荐任务层次明确，家族差异可辨；色标明确到70且图注保留原0至100评分语义，无截断或暗中重标分值。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:49:50.156606+00:00"
+}

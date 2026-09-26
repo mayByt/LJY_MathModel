@@ -1,0 +1,27 @@
+{
+  "id": "Q4-06",
+  "name": "Q4-06_BBH复现误差分布",
+  "question": "q4",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-06_BBH复现误差分布.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-06_BBH复现误差分布.pdf",
+  "png_sha256": "e63a0dab2e509764b3efec4ac28eebe387a94c63d0c73a4b21e161a2715834be",
+  "size_mm": [
+    151.0,
+    82.0
+  ],
+  "caption": "左图为1786唯一可比模型的ECDF尾段（94%–100%），阈值为1e-6分；右图仅展示不满足精确复现的真实误差。用整体比例与尾部形态两个相关层次组织，无伪造零值或平滑。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/task_level_aggregates.csv"
+  ],
+  "stats": {
+    "n": 1786,
+    "exact": 1736,
+    "non_exact": 50,
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-06.csv",
+    "rows": 1786
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:28.087583+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

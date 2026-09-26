@@ -1,0 +1,24 @@
+{
+  "id": "Q3-18",
+  "name": "Q3-18_质量约束状态",
+  "question": "q3",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-18_质量约束状态.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-18_质量约束状态.pdf",
+  "png_sha256": "8c2b5062543bcfc563167563cc17c18f3b77e81812dafbb5af1760f4f7ab7aef",
+  "size_mm": [
+    160.0,
+    72.0
+  ],
+  "caption": "三成本分面、五上下文共享预算轴。离散色标直接表示冻结路径的质量约束状态；不将离散路径插值为连续观测，也不把起点已饱和解释为从未转移。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题三/results_v1/budget_paths.csv.gz"
+  ],
+  "stats": {
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-18.csv",
+    "rows": 915
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:24.504293+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

@@ -1,0 +1,449 @@
+{
+ "Q4-22_增速放缓情景前沿": {
+  "origin": "2025-03-13",
+  "tau": 0.9,
+  "visual_reference": "gmgc2026F/Q4-41",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-22.csv",
+  "rows": 6
+ },
+ "Q4-04_训练算力与能力前沿": {
+  "n": 41,
+  "month": "2025-01",
+  "visual_reference": "gmgc2026F/Q4-前沿条件图",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-04.csv",
+  "rows": 350
+ },
+ "Q4-06_BBH复现误差分布": {
+  "n": 1786,
+  "exact": 1736,
+  "non_exact": 50,
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-06.csv",
+  "rows": 1786
+ },
+ "Q4-07_BBH聚合一致性": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-07.csv",
+  "rows": 3568
+ },
+ "Q4-10_Loss与综合能力桥接": {
+  "n": 75,
+  "bootstrap": 1000,
+  "visual_reference": "gmgc2026F/Q4桥接与一致性图",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-10.csv",
+  "rows": 350
+ },
+ "Q4-16_桥接不确定性来源": {
+  "visual_reference": "gmgc2026F/Q4-40",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-16.csv",
+  "rows": 9
+ },
+ "Q4-18_规模与非规模贡献分布": {
+  "visual_reference": "gmgc2026F/云雨图",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-18.csv",
+  "rows": 2
+ },
+ "Q4-20_历史方向留族敏感性": {
+  "global_p025": -0.18594537025392927,
+  "global_p975": 0.5251327335940952,
+  "central": -0.0343099656920891,
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-20.csv",
+  "rows": 15
+ },
+ "Q4-21_月度算力前沿趋势": {
+  "visual_reference": "gmgc2026F/Q4-34,36",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-21.csv",
+  "rows": 25
+ },
+ "Q4-23_算力减速的配对代价": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-23.csv",
+  "rows": 3996
+ },
+ "Q4-01_开源证据交集": {
+  "total": 4546,
+  "marginal_counts": {
+   "权重核实": 441,
+   "算力可用": 50,
+   "基础模型": 330,
+   "严格许可": 32
+  },
+  "visual_reference": "gmgc2026F/Q4-02",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-01.csv",
+  "rows": 11
+ },
+ "Q4-02_时间与证据覆盖": {
+  "months": 10,
+  "total": 4534,
+  "visual_reference": "gmgc2026F/evidence matrix hierarchy",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-02.csv",
+  "rows": 10
+ },
+ "Q4-03_模型类型分位分布": {
+  "excluded_other": 16,
+  "visual_reference": "gmgc2026F/Q4-06; expanded to three observed model types",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-03.csv",
+  "rows": 18
+ },
+ "Q4-08_任务随机下界校正": {
+  "models": 1854,
+  "groups": {
+   "逻辑推断": [
+    "logical_deduction_three_objects",
+    "logical_deduction_five_objects",
+    "logical_deduction_seven_objects",
+    "formal_fallacies",
+    "boolean_expressions",
+    "web_of_lies",
+    "causal_judgement"
+   ],
+   "状态追踪": [
+    "tracking_shuffled_objects_three_objects",
+    "tracking_shuffled_objects_five_objects",
+    "tracking_shuffled_objects_seven_objects",
+    "temporal_sequences",
+    "date_understanding",
+    "navigate"
+   ],
+   "对象结构": [
+    "reasoning_about_colored_objects",
+    "geometric_shapes",
+    "object_counting",
+    "penguins_in_a_table"
+   ],
+   "语言语义": [
+    "disambiguation_qa",
+    "hyperbaton",
+    "snarks",
+    "ruin_names",
+    "salient_translation_error_detection"
+   ],
+   "常识推荐": [
+    "sports_understanding",
+    "movie_recommendation"
+   ]
+  },
+  "visual_reference": "gmgc2026F/Q4-11 grouped task labels",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-08.csv",
+  "rows": 24
+ },
+ "Q4-09_家族任务能力指纹": {
+  "family_model_counts": {
+   "qwen": 498,
+   "llama": 468,
+   "gemma": 145,
+   "dreadpoor": 118,
+   "mistral": 93,
+   "phi": 75,
+   "leroydyer": 35,
+   "doppelreflex": 29
+  },
+  "groups": {
+   "逻辑推断": [
+    "logical_deduction_three_objects",
+    "logical_deduction_five_objects",
+    "logical_deduction_seven_objects",
+    "formal_fallacies",
+    "boolean_expressions",
+    "web_of_lies",
+    "causal_judgement"
+   ],
+   "状态追踪": [
+    "tracking_shuffled_objects_three_objects",
+    "tracking_shuffled_objects_five_objects",
+    "tracking_shuffled_objects_seven_objects",
+    "temporal_sequences",
+    "date_understanding",
+    "navigate"
+   ],
+   "对象结构": [
+    "reasoning_about_colored_objects",
+    "geometric_shapes",
+    "object_counting",
+    "penguins_in_a_table"
+   ],
+   "语言语义": [
+    "disambiguation_qa",
+    "hyperbaton",
+    "snarks",
+    "ruin_names",
+    "salient_translation_error_detection"
+   ],
+   "常识推荐": [
+    "sports_understanding",
+    "movie_recommendation"
+   ]
+  },
+  "visual_reference": "gmgc2026F/Q4-11 task matrix hierarchy",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-09.csv",
+  "rows": 24
+ },
+ "Q4-11_七目标桥接模型选择": {
+  "selected_models": [
+   {
+    "target_name": "IFEval",
+    "target": "LB_IFEval",
+    "model": "constant",
+    "folds": 12,
+    "cv_mae": 17.033315577007176,
+    "cv_rmse": 21.50239459662,
+    "spearman": -0.4452848441679253,
+    "coverage80": 0.8125,
+    "coverage95": 0.9166666666666666,
+    "mean_width80": 49.08113450090205,
+    "mean_width95": 68.7552989770845,
+    "cv_mae_se": 1.4763407966526991,
+    "cv_scheme": "leave_source_family_out",
+    "selected": true,
+    "bridge_weak": true
+   },
+   {
+    "target_name": "MATH",
+    "target": "LB_MATH",
+    "model": "constant",
+    "folds": 12,
+    "cv_mae": 10.619275706930845,
+    "cv_rmse": 16.5218133990349,
+    "spearman": -0.6901479571561319,
+    "coverage80": 0.6875,
+    "coverage95": 0.8541666666666666,
+    "mean_width80": 25.679615000656774,
+    "mean_width95": 46.4510070493454,
+    "cv_mae_se": 1.7239165977989108,
+    "cv_scheme": "leave_source_family_out",
+    "selected": true,
+    "bridge_weak": true
+   },
+   {
+    "target_name": "GPQA",
+    "target": "LB_GPQA",
+    "model": "constant",
+    "folds": 12,
+    "cv_mae": 5.086679047172834,
+    "cv_rmse": 6.699523685624027,
+    "spearman": -0.4463204785121818,
+    "coverage80": 0.7604166666666666,
+    "coverage95": 0.9479166666666666,
+    "mean_width80": 14.50797912005966,
+    "mean_width95": 18.781730052199848,
+    "cv_mae_se": 0.6712999213273005,
+    "cv_scheme": "leave_source_family_out",
+    "selected": true,
+    "bridge_weak": true
+   },
+   {
+    "target_name": "Average",
+    "target": "LB_Average",
+    "model": "linear",
+    "folds": 12,
+    "cv_mae": 10.216954770266602,
+    "cv_rmse": 12.387409247960065,
+    "spearman": 0.2989825873997953,
+    "coverage80": 0.6458333333333334,
+    "coverage95": 0.8541666666666666,
+    "mean_width80": 23.495819748386236,
+    "mean_width95": 37.14874101976966,
+    "cv_mae_se": 1.4020895769819115,
+    "cv_scheme": "leave_source_family_out",
+    "selected": true,
+    "bridge_weak": false
+   },
+   {
+    "target_name": "BBH",
+    "target": "LB_BBH",
+    "model": "linear",
+    "folds": 12,
+    "cv_mae": 14.95053721047123,
+    "cv_rmse": 17.493090354551235,
+    "spearman": 0.4648310504022518,
+    "coverage80": 0.5520833333333334,
+    "coverage95": 0.8958333333333334,
+    "mean_width80": 33.973141573427405,
+    "mean_width95": 51.75482150764833,
+    "cv_mae_se": 2.169234605472792,
+    "cv_scheme": "leave_source_family_out",
+    "selected": true,
+    "bridge_weak": false
+   },
+   {
+    "target_name": "MUSR",
+    "target": "LB_MUSR",
+    "model": "linear",
+    "folds": 12,
+    "cv_mae": 4.387990352786331,
+    "cv_rmse": 5.211013151445427,
+    "spearman": 0.2539061536353332,
+    "coverage80": 0.7604166666666666,
+    "coverage95": 0.9270833333333334,
+    "mean_width80": 10.334625227374994,
+    "mean_width95": 15.69958602297289,
+    "cv_mae_se": 0.4233075845956457,
+    "cv_scheme": "leave_source_family_out",
+    "selected": true,
+    "bridge_weak": false
+   },
+   {
+    "target_name": "MMLU_PRO",
+    "target": "LB_MMLU_PRO",
+    "model": "linear",
+    "folds": 12,
+    "cv_mae": 15.884557061835867,
+    "cv_rmse": 18.106227806685133,
+    "spearman": 0.381374223548424,
+    "coverage80": 0.6041666666666666,
+    "coverage95": 0.8541666666666666,
+    "mean_width80": 33.67916797725554,
+    "mean_width95": 49.46236309147904,
+    "cv_mae_se": 2.1155781489462333,
+    "cv_scheme": "leave_source_family_out",
+    "selected": true,
+    "bridge_weak": false
+   }
+  ],
+  "visual_reference": "gmgc2026F model selection with selected-specification markers",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-11.csv",
+  "rows": 28
+ },
+ "Q4-12_留家族误差结构": {
+  "family_quantiles": [
+   {
+    "family": "qwen",
+    "n": 22,
+    "p10": -28.189566141210246,
+    "p25": -22.702409188579658,
+    "median": -15.935593224248159,
+    "p75": -8.536569948648758,
+    "p90": -3.9671453296737154
+   },
+   {
+    "family": "phi",
+    "n": 6,
+    "p10": -16.282272884095796,
+    "p25": -15.178561617049013,
+    "median": -10.420958628005907,
+    "p75": 0.6654296284107684,
+    "p90": 3.79753496912626
+   },
+   {
+    "family": "gemma",
+    "n": 11,
+    "p10": -18.39772701243192,
+    "p25": -8.288337097336003,
+    "median": -6.583925235902413,
+    "p75": -3.239438825971587,
+    "p90": -1.5667801653504014
+   },
+   {
+    "family": "yi",
+    "n": 10,
+    "p10": -12.398272828922657,
+    "p25": -9.056832333362212,
+    "median": -4.541565275033452,
+    "p75": -0.4462316469396588,
+    "p90": 0.4909908343080676
+   },
+   {
+    "family": "mistral",
+    "n": 3,
+    "p10": -3.3548966730364445,
+    "p25": -2.1751368724400937,
+    "median": -0.2088705381128424,
+    "p75": -0.11457579859263145,
+    "p90": -0.057998954880504876
+   },
+   {
+    "family": "facebook",
+    "n": 1,
+    "p10": 0.3436667693423159,
+    "p25": 0.3436667693423159,
+    "median": 0.3436667693423159,
+    "p75": 0.3436667693423159,
+    "p90": 0.3436667693423159
+   },
+   {
+    "family": "deepseek",
+    "n": 1,
+    "p10": 5.182829650885385,
+    "p25": 5.182829650885385,
+    "median": 5.182829650885385,
+    "p75": 5.182829650885385,
+    "p90": 5.182829650885385
+   },
+   {
+    "family": "falcon",
+    "n": 4,
+    "p10": 4.7917758671571695,
+    "p25": 5.204334823247773,
+    "median": 6.007927126225319,
+    "p75": 6.596537712061099,
+    "p90": 6.622129577296525
+   },
+   {
+    "family": "bloom",
+    "n": 1,
+    "p10": 6.223461850607958,
+    "p25": 6.223461850607958,
+    "median": 6.223461850607958,
+    "p75": 6.223461850607958,
+    "p90": 6.223461850607958
+   },
+   {
+    "family": "pythia",
+    "n": 7,
+    "p10": 6.480529838536759,
+    "p25": 8.435327957268003,
+    "median": 9.674450590654772,
+    "p75": 11.365204759977585,
+    "p90": 12.031117432668314
+   },
+   {
+    "family": "gpt",
+    "n": 1,
+    "p10": 14.04979975372866,
+    "p25": 14.04979975372866,
+    "median": 14.04979975372866,
+    "p75": 14.04979975372866,
+    "p90": 14.04979975372866
+   },
+   {
+    "family": "llama",
+    "n": 8,
+    "p10": 2.7814266084765378,
+    "p25": 5.708193781744051,
+    "median": 15.548560033553573,
+    "p75": 18.66417476179261,
+    "p90": 21.511946927401667
+   }
+  ],
+  "selected_model": "linear",
+  "visual_reference": "gmgc2026F cloud-and-interval layering",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-12.csv",
+  "rows": 75
+ },
+ "Q4-13_桥接区间覆盖率": {
+  "visual_reference": "gmgc2026F/Q4-43; paired nominal/actual instead of unsupported Wilson errors",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-13.csv",
+  "rows": 7
+ },
+ "Q4-14_最优Loss到能力映射": {
+  "highlight_context": 4096,
+  "visual_reference": "gmgc2026F bridge scatter and uncertainty layering",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-14.csv",
+  "rows": 45
+ },
+ "Q4-15_能力映射证据地图": {
+  "budgets": [
+   1e+19,
+   1e+22,
+   1e+24
+  ],
+  "contexts": [
+   2048,
+   4096,
+   8192,
+   32768,
+   131072
+  ],
+  "column_axis": "each budget column independently maps scores 0 to100",
+  "visual_reference": "gmgc2026F evidence maps enriched with actual scores and uncertainty",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-15.csv",
+  "rows": 45
+ }
+}

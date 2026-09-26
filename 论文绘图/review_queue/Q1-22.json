@@ -1,0 +1,1407 @@
+{
+  "id": "Q1-22",
+  "name": "Q1-22_稳定领域交互网络",
+  "question": "q1",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-22_稳定领域交互网络.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-22_稳定领域交互网络.pdf",
+  "png_sha256": "fa2439891ae449ab1c8a491beec0baa70186370d2c24282fb3921681ca683107",
+  "size_mm": [
+    160.0,
+    151.0
+  ],
+  "caption": "通用网页验证域的完整136个二阶域对关系，以对称矩阵代替仅展示10条边的星状网络。点标记95%系数区间不跨零的域对，主对角无二阶自交互，颜色在±1内线性、外侧对称对数。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/interaction_stability.csv"
+  ],
+  "stats": {
+    "target": "pile_cc",
+    "edges": [
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "freelaw",
+        "coefficient": -0.4930761229153861,
+        "ci_low": -1.170439973473549,
+        "ci_high": 0.1044005498290061,
+        "sign_probability": 0.942
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "nih_exporter",
+        "coefficient": -3.5449723900443675,
+        "ci_low": -31.27080488204956,
+        "ci_high": 21.324244928359985,
+        "sign_probability": 0.636
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "pubmed_central",
+        "coefficient": -0.1153681037851451,
+        "ci_low": -0.5308179125189781,
+        "ci_high": 0.424707385152578,
+        "sign_probability": 0.5920000000000001
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "wikipedia_en",
+        "coefficient": -1.484294981551216,
+        "ci_low": -2.0292625069618224,
+        "ci_high": -0.8875082612037662,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "dm_mathematics",
+        "coefficient": -0.0383473107677366,
+        "ci_low": -3.87161745429039,
+        "ci_high": 5.262738442420958,
+        "sign_probability": 0.644
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "github",
+        "coefficient": -0.8143076294745869,
+        "ci_low": -1.5912637591362,
+        "ci_high": 0.0573212728835633,
+        "sign_probability": 0.962
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "philpapers",
+        "coefficient": -4.600151299413054,
+        "ci_low": -27.170480251312256,
+        "ci_high": 27.210019063949566,
+        "sign_probability": 0.524
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "stackexchange",
+        "coefficient": -0.5754462259835225,
+        "ci_low": -1.15928553044796,
+        "ci_high": -0.0268173024524004,
+        "sign_probability": 0.978
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "enron_emails",
+        "coefficient": 2.385086110902671,
+        "ci_low": -36.73230600357056,
+        "ci_high": 32.858633136749255,
+        "sign_probability": 0.514
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": -2.707323287417102,
+        "ci_low": -4.409436511993408,
+        "ci_high": -1.0561746448278428,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "pile_cc",
+        "coefficient": -2.603353804561091,
+        "ci_low": -3.3004858076572416,
+        "ci_high": -2.079964190721512,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -9.55476465591679,
+        "ci_low": -16.881884717941283,
+        "ci_high": -4.486462283134463,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "europarl",
+        "coefficient": -7.547267692682307,
+        "ci_low": -16.588138008117674,
+        "ci_high": 5.470189797878264,
+        "sign_probability": 0.882
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "hackernews",
+        "coefficient": -6.24888213906338,
+        "ci_low": -16.855471420288083,
+        "ci_high": 10.321097612380978,
+        "sign_probability": 0.704
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": 0.6752985820431389,
+        "ci_low": -0.1946660555899143,
+        "ci_high": 1.9556708127260207,
+        "sign_probability": 0.946
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "arxiv",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -0.614390242745175,
+        "ci_low": -1.5048374682664871,
+        "ci_high": 0.3400467425584793,
+        "sign_probability": 0.878
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "nih_exporter",
+        "coefficient": 0.4397978452471813,
+        "ci_low": -31.479581308364867,
+        "ci_high": 24.777935886383055,
+        "sign_probability": 0.524
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "pubmed_central",
+        "coefficient": -1.1562382737303951,
+        "ci_low": -1.6552292913198472,
+        "ci_high": -0.4450849331915385,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "wikipedia_en",
+        "coefficient": -1.6859532186399468,
+        "ci_low": -2.6021864831447603,
+        "ci_high": -0.9027110934257512,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "dm_mathematics",
+        "coefficient": -1.0209066763744967,
+        "ci_low": -4.5762777566909785,
+        "ci_high": 4.544182372093199,
+        "sign_probability": 0.55
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "github",
+        "coefficient": -0.7291017937756801,
+        "ci_low": -1.979157531261444,
+        "ci_high": 0.0192054196726529,
+        "sign_probability": 0.97
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "philpapers",
+        "coefficient": -4.931023054299755,
+        "ci_low": -26.661917781829835,
+        "ci_high": 28.879991197586055,
+        "sign_probability": 0.528
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "stackexchange",
+        "coefficient": -1.2612388621102064,
+        "ci_low": -1.908032289147377,
+        "ci_high": -0.6481776416301728,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "enron_emails",
+        "coefficient": -0.8632910351317391,
+        "ci_low": -57.02497301101684,
+        "ci_high": 40.83520793914792,
+        "sign_probability": 0.56
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": -1.9022596149314543,
+        "ci_low": -3.8002126276493073,
+        "ci_high": -0.5778867974877359,
+        "sign_probability": 0.998
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "pile_cc",
+        "coefficient": -2.455510741378793,
+        "ci_low": -3.298954850435257,
+        "ci_high": -1.842691421508789,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -9.513910248817012,
+        "ci_low": -17.695921659469604,
+        "ci_high": -3.4502338647842423,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "europarl",
+        "coefficient": -5.6418110626144,
+        "ci_low": -15.12909288406372,
+        "ci_high": 7.579442906379695,
+        "sign_probability": 0.766
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "hackernews",
+        "coefficient": -4.77047096224052,
+        "ci_low": -16.488168811798097,
+        "ci_high": 9.953603529930112,
+        "sign_probability": 0.652
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -0.0138784985146031,
+        "ci_low": -0.7719906911253929,
+        "ci_high": 1.0612958967685695,
+        "sign_probability": 0.68
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "freelaw",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -0.960462077349504,
+        "ci_low": -2.001033878326416,
+        "ci_high": -0.0887638999149206,
+        "sign_probability": 0.98
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "pubmed_central",
+        "coefficient": -8.670967080325346,
+        "ci_low": -37.96429433822632,
+        "ci_high": 15.175443267822262,
+        "sign_probability": 0.772
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "wikipedia_en",
+        "coefficient": -2.3827626186967192,
+        "ci_low": -34.14808645248413,
+        "ci_high": 22.595952939987164,
+        "sign_probability": 0.5920000000000001
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "dm_mathematics",
+        "coefficient": -6.2785211964530205,
+        "ci_low": -42.52493343353271,
+        "ci_high": 40.668762016296384,
+        "sign_probability": 0.518
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "github",
+        "coefficient": 1.8393065243537503,
+        "ci_low": -32.86167097091675,
+        "ci_high": 26.01417875289917,
+        "sign_probability": 0.526
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "philpapers",
+        "coefficient": 20.67761260570379,
+        "ci_low": -137.96169204711913,
+        "ci_high": 196.5448600769042,
+        "sign_probability": 0.68
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "stackexchange",
+        "coefficient": 0.80305187686457,
+        "ci_low": -29.87859859466553,
+        "ci_high": 26.53402938842773,
+        "sign_probability": 0.55
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "enron_emails",
+        "coefficient": 18.14499572406334,
+        "ci_low": -428.83863830566406,
+        "ci_high": 339.49281158447246,
+        "sign_probability": 0.514
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": -1.7133564860142234,
+        "ci_low": -32.851009941101076,
+        "ci_high": 27.377661800384516,
+        "sign_probability": 0.532
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "pile_cc",
+        "coefficient": -3.0874112652833308,
+        "ci_low": -32.648937892913814,
+        "ci_high": 21.83783130645751,
+        "sign_probability": 0.6
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -0.7504229317496469,
+        "ci_low": -54.30621528625488,
+        "ci_high": 47.173629093170135,
+        "sign_probability": 0.506
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "europarl",
+        "coefficient": -29.639505162697652,
+        "ci_low": -96.04960556030274,
+        "ci_high": 31.59763426780697,
+        "sign_probability": 0.812
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "hackernews",
+        "coefficient": -11.393827430439584,
+        "ci_low": -71.16161651611328,
+        "ci_high": 39.70438985824584,
+        "sign_probability": 0.654
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -2.089535536933498,
+        "ci_low": -30.514581966400147,
+        "ci_high": 26.564628744125343,
+        "sign_probability": 0.532
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "nih_exporter",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -5.963805420918168,
+        "ci_low": -35.59023551940918,
+        "ci_high": 19.460432672500605,
+        "sign_probability": 0.6859999999999999
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "wikipedia_en",
+        "coefficient": -1.7546770079753335,
+        "ci_low": -2.4465821206569673,
+        "ci_high": -1.0683348327875144,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "dm_mathematics",
+        "coefficient": 0.8454189576620788,
+        "ci_low": -2.473541337251663,
+        "ci_high": 6.228665959835052,
+        "sign_probability": 0.79
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "github",
+        "coefficient": -0.9927124867977588,
+        "ci_low": -1.5273854285478592,
+        "ci_high": -0.2542759515345104,
+        "sign_probability": 0.994
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "philpapers",
+        "coefficient": -1.8001222347822614,
+        "ci_low": -25.876725244522095,
+        "ci_high": 27.918485736846915,
+        "sign_probability": 0.566
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "stackexchange",
+        "coefficient": -0.9800317487938156,
+        "ci_low": -1.541428545117378,
+        "ci_high": -0.5862554222345353,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "enron_emails",
+        "coefficient": 0.4222676799624341,
+        "ci_low": -38.29918737411499,
+        "ci_high": 29.886372900009142,
+        "sign_probability": 0.5740000000000001
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": -3.1757378772711458,
+        "ci_low": -5.029950642585755,
+        "ci_high": -1.218993735313416,
+        "sign_probability": 0.998
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "pile_cc",
+        "coefficient": -2.237573737920007,
+        "ci_low": -3.018889570236206,
+        "ci_high": -1.719964236021042,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -11.311993409172464,
+        "ci_low": -19.619063091278075,
+        "ci_high": -4.617000460624696,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "europarl",
+        "coefficient": -7.5862521699741885,
+        "ci_low": -16.831440782547,
+        "ci_high": 5.0108153223991385,
+        "sign_probability": 0.868
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "hackernews",
+        "coefficient": -6.12278610598047,
+        "ci_low": -17.756126642227173,
+        "ci_high": 7.518163716793058,
+        "sign_probability": 0.766
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": 1.344799619922315,
+        "ci_low": 0.6457354262471199,
+        "ci_high": 2.5352607727050778,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_central",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": 0.143598520943327,
+        "ci_low": -0.816046166419983,
+        "ci_high": 1.0357549518346787,
+        "sign_probability": 0.73
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "dm_mathematics",
+        "coefficient": -2.1964800705481964,
+        "ci_low": -5.526100301742554,
+        "ci_high": 3.1360898554325085,
+        "sign_probability": 0.698
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "github",
+        "coefficient": -1.9004169462857516,
+        "ci_low": -2.888223493099213,
+        "ci_high": -0.9613824740052226,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "philpapers",
+        "coefficient": -0.9274111525561424,
+        "ci_low": -21.94334497451782,
+        "ci_high": 31.298730182647695,
+        "sign_probability": 0.632
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "stackexchange",
+        "coefficient": -1.971856774337057,
+        "ci_low": -2.8553336918354035,
+        "ci_high": -0.8719159737229348,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "enron_emails",
+        "coefficient": 8.177802381240655,
+        "ci_low": -31.57021870613098,
+        "ci_high": 35.181374835968015,
+        "sign_probability": 0.55
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": -2.50170254292136,
+        "ci_low": -4.2877360582351685,
+        "ci_high": -0.922176642715932,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "pile_cc",
+        "coefficient": -1.5855908354293935,
+        "ci_low": -2.0389904201030733,
+        "ci_high": -0.7751417130231858,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -12.627444490291078,
+        "ci_low": -20.009609079360963,
+        "ci_high": -5.967871999740607,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "europarl",
+        "coefficient": -6.337170247756849,
+        "ci_low": -15.283122754096985,
+        "ci_high": 7.221127080917358,
+        "sign_probability": 0.8220000000000001
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "hackernews",
+        "coefficient": -2.158068391284779,
+        "ci_low": -14.98452854156494,
+        "ci_high": 13.85634925365447,
+        "sign_probability": 0.504
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -1.3300085696786912,
+        "ci_low": -2.4194032847881317,
+        "ci_high": -0.4058234393596653,
+        "sign_probability": 0.998
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "wikipedia_en",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -1.5621173870585665,
+        "ci_low": -2.419033372402191,
+        "ci_high": -0.5859894320368767,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "github",
+        "coefficient": -0.659030779608095,
+        "ci_low": -4.279055202007294,
+        "ci_high": 4.885120713710782,
+        "sign_probability": 0.574
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "philpapers",
+        "coefficient": -14.287586126734633,
+        "ci_low": -48.29802961349487,
+        "ci_high": 21.154997014999385,
+        "sign_probability": 0.706
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "stackexchange",
+        "coefficient": -0.3374297134703418,
+        "ci_low": -3.5531389176845547,
+        "ci_high": 4.111651742458342,
+        "sign_probability": 0.624
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "enron_emails",
+        "coefficient": 4.188694092734724,
+        "ci_low": -126.4398265838623,
+        "ci_high": 80.52088260650632,
+        "sign_probability": 0.532
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": -2.070820212860829,
+        "ci_low": -6.550053107738495,
+        "ci_high": 3.9439569115638657,
+        "sign_probability": 0.6859999999999999
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "pile_cc",
+        "coefficient": -2.2857907529999664,
+        "ci_low": -5.713014090061188,
+        "ci_high": 2.5685251891612997,
+        "sign_probability": 0.774
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -12.334296691741793,
+        "ci_low": -21.04056806564331,
+        "ci_high": 0.2252181287854888,
+        "sign_probability": 0.972
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "europarl",
+        "coefficient": 1.040037641608845,
+        "ci_low": -19.952684020996095,
+        "ci_high": 23.336598062515257,
+        "sign_probability": 0.586
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "hackernews",
+        "coefficient": -11.645015766993598,
+        "ci_low": -31.29124493598938,
+        "ci_high": 11.558127427101123,
+        "sign_probability": 0.8180000000000001
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": 1.7120240714250252,
+        "ci_low": -2.4860954105854036,
+        "ci_high": 7.173894941806793,
+        "sign_probability": 0.866
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "dm_mathematics",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -1.1458298050032634,
+        "ci_low": -4.55718240737915,
+        "ci_high": 4.655980384349822,
+        "sign_probability": 0.51
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "philpapers",
+        "coefficient": -8.871396513516261,
+        "ci_low": -31.31523780822754,
+        "ci_high": 21.921584367752065,
+        "sign_probability": 0.636
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "stackexchange",
+        "coefficient": -0.9698127858222438,
+        "ci_low": -1.5341240555047988,
+        "ci_high": -0.3278004549443724,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "enron_emails",
+        "coefficient": 9.888577287044566,
+        "ci_low": -21.91111617088318,
+        "ci_high": 40.757736301422106,
+        "sign_probability": 0.71
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": -1.5781337987368724,
+        "ci_low": -3.5979520618915557,
+        "ci_high": 0.063166312780231,
+        "sign_probability": 0.968
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "pile_cc",
+        "coefficient": -2.2200432523886167,
+        "ci_low": -2.750884956121445,
+        "ci_high": -1.6435218811035155,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -10.553511262929812,
+        "ci_low": -17.66699962615967,
+        "ci_high": -4.632299160957339,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "europarl",
+        "coefficient": -6.424084853094616,
+        "ci_low": -16.039588785171507,
+        "ci_high": 5.731713891029357,
+        "sign_probability": 0.8220000000000001
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "hackernews",
+        "coefficient": -3.519398267094903,
+        "ci_low": -14.87512948513031,
+        "ci_high": 11.799413180351255,
+        "sign_probability": 0.612
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": 0.4971095581652373,
+        "ci_low": -0.4901854068040847,
+        "ci_high": 1.624112889170646,
+        "sign_probability": 0.862
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "github",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -0.4622236293622729,
+        "ci_low": -1.2039651066064834,
+        "ci_high": 0.655225196480751,
+        "sign_probability": 0.692
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "stackexchange",
+        "coefficient": -0.4689770234232779,
+        "ci_low": -26.322339677810668,
+        "ci_high": 32.83471279144282,
+        "sign_probability": 0.6
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "enron_emails",
+        "coefficient": -94.21107813628842,
+        "ci_low": -344.14817123413087,
+        "ci_high": 252.94291801452633,
+        "sign_probability": 0.738
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": 1.116107239671112,
+        "ci_low": -23.767915534973145,
+        "ci_high": 35.72152242660521,
+        "sign_probability": 0.672
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "pile_cc",
+        "coefficient": -2.8437489096887325,
+        "ci_low": -24.300079774856567,
+        "ci_high": 29.82614827156067,
+        "sign_probability": 0.57
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -6.408744805387435,
+        "ci_low": -54.78044605255127,
+        "ci_high": 52.82945680618286,
+        "sign_probability": 0.55
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "europarl",
+        "coefficient": -33.789698071450275,
+        "ci_low": -87.10941982269287,
+        "ci_high": 36.85736942291258,
+        "sign_probability": 0.776
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "hackernews",
+        "coefficient": -1.2590046330292088,
+        "ci_low": -67.50305099487305,
+        "ci_high": 76.60662975311278,
+        "sign_probability": 0.526
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -17.340259872071627,
+        "ci_low": -41.7951171875,
+        "ci_high": 17.582549619674676,
+        "sign_probability": 0.798
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "philpapers",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -9.131264596381296,
+        "ci_low": -34.4167519569397,
+        "ci_high": 24.951187276840205,
+        "sign_probability": 0.634
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "stackexchange",
+        "domain_j": "enron_emails",
+        "coefficient": 1.5485028811824657,
+        "ci_low": -40.22491245269775,
+        "ci_high": 33.3943007469177,
+        "sign_probability": 0.542
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "stackexchange",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": -1.6596528303477718,
+        "ci_low": -3.071437358856201,
+        "ci_high": -0.430442669242622,
+        "sign_probability": 0.998
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "stackexchange",
+        "domain_j": "pile_cc",
+        "coefficient": -1.8482904951646268,
+        "ci_low": -2.508219373226166,
+        "ci_high": -1.3627522677183153,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "stackexchange",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -10.47247929487304,
+        "ci_low": -18.474521732330324,
+        "ci_high": -3.854455685615539,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "stackexchange",
+        "domain_j": "europarl",
+        "coefficient": -5.835744136746862,
+        "ci_low": -14.717839860916138,
+        "ci_high": 6.303020846843719,
+        "sign_probability": 0.81
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "stackexchange",
+        "domain_j": "hackernews",
+        "coefficient": -2.2642222442961684,
+        "ci_low": -13.167796063423156,
+        "ci_high": 12.516444611549364,
+        "sign_probability": 0.51
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "stackexchange",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -0.0922212472313812,
+        "ci_low": -1.0666003108024598,
+        "ci_high": 1.2525224834680555,
+        "sign_probability": 0.584
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "stackexchange",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -0.935673378071345,
+        "ci_low": -1.6464470714330672,
+        "ci_high": -0.0092649151571096,
+        "sign_probability": 0.976
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "enron_emails",
+        "domain_j": "gutenberg_pg_19",
+        "coefficient": 29.518163479458774,
+        "ci_low": -20.15843925476074,
+        "ci_high": 68.60277137756347,
+        "sign_probability": 0.884
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "enron_emails",
+        "domain_j": "pile_cc",
+        "coefficient": 0.607427461994699,
+        "ci_low": -36.385489273071286,
+        "ci_high": 27.59631490707395,
+        "sign_probability": 0.594
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "enron_emails",
+        "domain_j": "ubuntu_irc",
+        "coefficient": 23.052618063708454,
+        "ci_low": -37.113185214996335,
+        "ci_high": 145.59820251464836,
+        "sign_probability": 0.824
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "enron_emails",
+        "domain_j": "europarl",
+        "coefficient": -79.41681296993328,
+        "ci_low": -203.03262519836423,
+        "ci_high": 50.73223295211792,
+        "sign_probability": 0.896
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "enron_emails",
+        "domain_j": "hackernews",
+        "coefficient": 37.28840760001729,
+        "ci_low": -119.82312641143798,
+        "ci_high": 159.56512947082518,
+        "sign_probability": 0.636
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "enron_emails",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -2.734396793251624,
+        "ci_low": -42.589601802825925,
+        "ci_high": 25.37922921180724,
+        "sign_probability": 0.7
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "enron_emails",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -8.967732664986551,
+        "ci_low": -56.34788026809692,
+        "ci_high": 25.16141657829281,
+        "sign_probability": 0.748
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "gutenberg_pg_19",
+        "domain_j": "pile_cc",
+        "coefficient": -2.6997341805862862,
+        "ci_low": -4.31630380153656,
+        "ci_high": -1.1397336691617983,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "gutenberg_pg_19",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -11.763344991884566,
+        "ci_low": -21.551487970352177,
+        "ci_high": -4.305689513683319,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "gutenberg_pg_19",
+        "domain_j": "europarl",
+        "coefficient": -6.97723625354451,
+        "ci_low": -18.78621664047241,
+        "ci_high": 6.342574298381798,
+        "sign_probability": 0.84
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "gutenberg_pg_19",
+        "domain_j": "hackernews",
+        "coefficient": -5.491641733960393,
+        "ci_low": -17.72297568321228,
+        "ci_high": 13.559718418121331,
+        "sign_probability": 0.62
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "gutenberg_pg_19",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -1.581296029291633,
+        "ci_low": -3.6198910892009737,
+        "ci_high": 0.4933593928813929,
+        "sign_probability": 0.938
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "gutenberg_pg_19",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -2.3352077925891956,
+        "ci_low": -4.016402995586395,
+        "ci_high": -0.56530092060566,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pile_cc",
+        "domain_j": "ubuntu_irc",
+        "coefficient": -10.343315256113607,
+        "ci_low": -17.36987986564636,
+        "ci_high": -3.8533204495906848,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pile_cc",
+        "domain_j": "europarl",
+        "coefficient": -6.682505583034398,
+        "ci_low": -15.71087188720703,
+        "ci_high": 6.479120182991027,
+        "sign_probability": 0.8280000000000001
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pile_cc",
+        "domain_j": "hackernews",
+        "coefficient": -2.0082667198651727,
+        "ci_low": -13.591322469711304,
+        "ci_high": 13.235301518440243,
+        "sign_probability": 0.508
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pile_cc",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -1.5833919917902584,
+        "ci_low": -2.4492650270462035,
+        "ci_high": -0.5077672541141512,
+        "sign_probability": 0.998
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pile_cc",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -2.292075383054706,
+        "ci_low": -2.872710484266281,
+        "ci_high": -1.4763860702514655,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "ubuntu_irc",
+        "domain_j": "europarl",
+        "coefficient": -18.80560558691817,
+        "ci_low": -41.55269660949707,
+        "ci_high": 0.7995006322860583,
+        "sign_probability": 0.97
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "ubuntu_irc",
+        "domain_j": "hackernews",
+        "coefficient": -17.418926068615804,
+        "ci_low": -43.57766065597534,
+        "ci_high": 6.031477844715116,
+        "sign_probability": 0.918
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "ubuntu_irc",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -9.434541638491966,
+        "ci_low": -17.085271453857423,
+        "ci_high": -2.3199696063995403,
+        "sign_probability": 0.996
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "ubuntu_irc",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -11.511092957770389,
+        "ci_low": -18.898161506652833,
+        "ci_high": -4.70854654312135,
+        "sign_probability": 1.0
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "europarl",
+        "domain_j": "hackernews",
+        "coefficient": -15.226198829897593,
+        "ci_low": -40.593982410430904,
+        "ci_high": 21.75273184776306,
+        "sign_probability": 0.748
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "europarl",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -5.814290941754899,
+        "ci_low": -16.001064085960387,
+        "ci_high": 6.398676097393035,
+        "sign_probability": 0.804
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "europarl",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -5.837528509616761,
+        "ci_low": -16.856111812591553,
+        "ci_high": 6.57164318561553,
+        "sign_probability": 0.768
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "hackernews",
+        "domain_j": "pubmed_abstracts",
+        "coefficient": -3.5506291168776345,
+        "ci_low": -15.0570654630661,
+        "ci_high": 11.157733607292174,
+        "sign_probability": 0.5760000000000001
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "hackernews",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": -6.8556130634412575,
+        "ci_low": -18.739160442352297,
+        "ci_high": 8.438971972465511,
+        "sign_probability": 0.744
+      },
+      {
+        "loss_domain": "pile_cc",
+        "term_type": "interaction",
+        "domain_i": "pubmed_abstracts",
+        "domain_j": "uspto_backgrounds",
+        "coefficient": 0.5824673247859542,
+        "ci_low": -0.4225715726613998,
+        "ci_high": 2.0370721340179436,
+        "sign_probability": 0.902
+      }
+    ],
+    "node_order": [
+      "arxiv",
+      "nih_exporter",
+      "pubmed_central",
+      "pubmed_abstracts",
+      "philpapers",
+      "github",
+      "dm_mathematics",
+      "stackexchange",
+      "hackernews",
+      "ubuntu_irc",
+      "enron_emails",
+      "pile_cc",
+      "wikipedia_en",
+      "gutenberg_pg_19",
+      "freelaw",
+      "europarl",
+      "uspto_backgrounds"
+    ],
+    "n_stable": 41,
+    "layout_change": "replace top10 hub-star network with complete symmetric interaction matrix",
+    "color_norm": "symmetric log, linear within +/-1"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:11.579119+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

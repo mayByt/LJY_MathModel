@@ -1,0 +1,192 @@
+[
+  {
+    "file": "问题四/reports_v2/RESULTS_REPORT.md",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/backtest_results.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/bridge_cv_predictions.csv.gz",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/bridge_cv_results.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/bridge_weight_sensitivity.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/c3_historical_sensitivity.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/c3_historical_summary.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/c8_corrupt_log.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/c8_subtask_normalization.csv.gz",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/compute_growth_bootstrap.csv.gz",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/compute_growth_monthly.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/compute_growth_scenarios.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/compute_growth_summary.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/contribution_decomposition.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/data_audit.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/duplicate_resolution.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/dynamic_frontier_parameters.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/frontier_bootstrap_draws.csv.gz",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/frontier_forecast.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/frontier_forecast_draws.csv.gz",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/frontier_model_comparison.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/frontier_sensitivity.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/frontier_training_panel.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/loss_benchmark_bootstrap_draws.csv.gz",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/loss_benchmark_mapping.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/loss_benchmark_predictions.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/loss_benchmark_uncertainty.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/model_match_ledger.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/open_model_panel.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/problem4_acceptance_report.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/problem4_acceptance_report.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/repair_baseline_v1.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/repair_comparison_v1_v2.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/reproducibility_check.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/reproducibility_signature.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/run_log.json",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/task_level_aggregates.csv",
+    "exists": true,
+    "sha256_match": true
+  },
+  {
+    "file": "问题四/results_v2/uncertainty_budget.csv",
+    "exists": true,
+    "sha256_match": true
+  }
+]

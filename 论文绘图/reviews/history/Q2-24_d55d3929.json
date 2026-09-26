@@ -1,0 +1,14 @@
+{
+  "id": "Q2-24",
+  "status": "pass",
+  "png_sha256": "d55d3929b70f8706fc5d19f5ed7b38f4b294e236ed5449deac6287a1a13606a2",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q3/Q3-21_成本份额三元图.png"
+  ],
+  "visual_assessment": "三种映射强度的三元分面整齐，27状态按参数规模以形状和颜色区分，三边比例刻度可读；图注明确归一化弹性份额而非原始弹性或预算份额，点未越界。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:56:23.796412+00:00"
+}

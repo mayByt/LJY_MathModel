@@ -1,0 +1,28 @@
+{
+  "id": "Q4-22",
+  "name": "Q4-22_增速放缓情景前沿",
+  "question": "q4",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-22_增速放缓情景前沿.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-22_增速放缓情景前沿.pdf",
+  "png_sha256": "5fcb632e3a9325048ac15f74f20fb5d9b2553499c7bf2ac65d141c0cbd1d2964",
+  "size_mm": [
+    158.0,
+    88.0
+  ],
+  "caption": "参考预测分位/密度层次，将12/24个月分面，每情景展示已保存的真实预测抽样分布与80%/95%区间；中心用重排值。起点仍是2025-03-13，不虚构连续月份扇带。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/frontier_forecast.csv",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/frontier_forecast_draws.csv.gz"
+  ],
+  "stats": {
+    "origin": "2025-03-13",
+    "tau": 0.9,
+    "visual_reference": "gmgc2026F/Q4-41",
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-22.csv",
+    "rows": 6
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:29.348464+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

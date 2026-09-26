@@ -1,0 +1,14 @@
+{
+  "id": "Q2-04",
+  "status": "pass",
+  "png_sha256": "7c2182c432dbc8d2c71c48cb6b1753730c3c8a52fe11bcb3fddab3e1ef12355f",
+  "viewed": true,
+  "issues": [],
+  "reviewer": "/root/research_q3",
+  "reviewed_at": "2026-09-26T13:45:45.049Z",
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-04_B1训练轨迹与拟合.png"
+  ],
+  "visual_assessment": "上方坍缩、下方同轴相对残差增加有效诊断层次，色条位置不挤压共享轴，主要图形清楚。"
+}

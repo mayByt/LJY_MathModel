@@ -1,0 +1,16 @@
+{
+  "id": "Q4-09",
+  "status": "changes_requested",
+  "png_sha256": "c32ffd0e02b68dbd7e6d8e92644f3d0cc9de6eb6bf7e6f70acfeff0d9cb01816",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-11_子任务热图.png"
+  ],
+  "visual_assessment": "任务语义组和家族样本数编排清楚，但连续色图整体过浅，实际家族差异的视觉力度尚未达到参考。",
+  "issues": [
+    "全图实际约0.39–65.34分，但0–100的柔浅绿色图把绝大多数格压到相近浅绿色，缺少参考任务热图的可辨明度层次。请增强同色系连续渐变的明度跨度，或使用显式标注的有效色标范围；不要仅增饱和度或把离散标签插值。"
+  ],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:46:35.601925+00:00"
+}

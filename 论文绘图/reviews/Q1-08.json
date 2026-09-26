@@ -1,0 +1,14 @@
+{
+  "id": "Q1-08",
+  "status": "pass",
+  "png_sha256": "1f45fcc3186bfab05eb1a40470387a0d2b99e11426da8b4aa7a41f786942b3eb",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-14_分位数移动函数.png"
+  ],
+  "visual_assessment": "QQ对应与分位差异双面板共同呈现主体一致及上尾偏差，圆与方形区分两域；分位一致线和零差线明确，无裁切，图注交代1%至99%实际分位与非重合扩展样本。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:59:47.081257+00:00"
+}

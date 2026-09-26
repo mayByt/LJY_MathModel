@@ -1,0 +1,14 @@
+{
+  "id": "Q3-25",
+  "status": "pass",
+  "png_sha256": "e5f09d6bd3b686ba54dc0868e5c5b2027932fd3c3920d65471475fd88bf494e5",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q3/Q3-34_主情景矩阵热图.png"
+  ],
+  "visual_assessment": "与参考情景矩阵对照：三成本/五上下文/三预算的分类状态清楚，颜色加圆/叉/三角冗余编码，成功/不可行/数值失败分开，失败值未作为最优解显示；当前上标字体清晰。",
+  "issues": [],
+  "reviewer": "/root/research_q2",
+  "reviewed_at": "2026-09-26T14:11:23.470555+00:00"
+}

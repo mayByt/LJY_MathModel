@@ -1,0 +1,46 @@
+{
+  "id": "Q2-24",
+  "name": "Q2-24_资源弹性组成",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-24_资源弹性组成.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-24_资源弹性组成.pdf",
+  "png_sha256": "d55d3929b70f8706fc5d19f5ed7b38f4b294e236ed5449deac6287a1a13606a2",
+  "size_mm": [
+    160.0,
+    70.0
+  ],
+  "caption": "三种sQ情景的总Loss弹性份额三元图。每面27个N–D–Q状态，三种参数规模以颜色和点形共同区分；每点三份额之和为1，三边均给分位刻度。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/elasticity_grid.csv"
+  ],
+  "stats": {
+    "rows": 81,
+    "dominance_counts": {
+      "0.5": {
+        "N": 13,
+        "D": 7,
+        "Q": 7
+      },
+      "1": {
+        "N": 9,
+        "D": 2,
+        "Q": 16
+      },
+      "1.5": {
+        "N": 6,
+        "D": 0,
+        "Q": 21
+      }
+    },
+    "normalization": "epsilon / sum(epsilon_N,epsilon_D,epsilon_Q)",
+    "p": "p_ref",
+    "profile": 0,
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/../q3/Q3-21_成本份额三元图.png",
+    "design_change": "81点单一三元图 → 三种映射强度的对齐三元分面，N用点形冗余编码，降低遮挡。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:17.905073+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2",
+  "interpretation": "εN、εD、εQ在此表示各自弹性除以三者和的份额，不是原始弹性，也不是预算份额。"
+}

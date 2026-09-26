@@ -1,0 +1,25 @@
+{
+  "id": "Q4-13",
+  "name": "Q4-13_桥接区间覆盖率",
+  "question": "q4",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-13_桥接区间覆盖率.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-13_桥接区间覆盖率.pdf",
+  "png_sha256": "4dc99d39a12e0c03f3a6edfd179f34a4b5c229f81ce7e39b3dd6818932b8406e",
+  "size_mm": [
+    134.0,
+    100.0
+  ],
+  "caption": "选中桥接模型的折外实际覆盖率（实心）与名义80%/95%覆盖率（空心）逐目标配对。连接线表示覆盖缺口；未套用独立二项Wilson区间，因为正式覆盖使用可比性权重和留族结构。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/bridge_cv_results.csv"
+  ],
+  "stats": {
+    "visual_reference": "gmgc2026F/Q4-43; paired nominal/actual instead of unsupported Wilson errors",
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-13.csv",
+    "rows": 7
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:33.154323+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

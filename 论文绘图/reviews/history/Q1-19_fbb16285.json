@@ -1,0 +1,15 @@
+{
+  "id": "Q1-19",
+  "status": "pass",
+  "png_sha256": "fbb1628530ac60a7baeb18340c96b4b673bd77f54dc9413bf29f60f17e99cf3e",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-14_分位数移动函数.png",
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-40_分规模预测实测与名次.png"
+  ],
+  "visual_assessment": "三规模共享归一化秩轴并各列真实样本数及相关，浅点白边保留密集配方结构；共同前10%区域和秩一致线明确，轴单位未与绝对Loss混用。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T14:00:57.429848+00:00"
+}

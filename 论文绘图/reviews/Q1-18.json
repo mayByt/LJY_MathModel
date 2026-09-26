@@ -1,0 +1,14 @@
+{
+  "id": "Q1-18",
+  "status": "pass",
+  "png_sha256": "a75e455450a3f5abb5efda07e77b5bfe3ec1bf50abca57ba76ef4593cd843790",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-04_B1训练轨迹与拟合.png"
+  ],
+  "visual_assessment": "近优局部和完整路径并列避免单一尺度压扁谷值，最优菱形、线型与1%浅带可读；右图保留全范围且误差对数刻度明确，左侧显示截断由完整面板补足。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T14:00:57.429561+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Q4-03",
+  "status": "pass",
+  "png_sha256": "73b5186158b8e59020809faea33afc2320ece1c42b03f9ff3344f79126d477c0",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-06_六任务零膨胀云雨图.png"
+  ],
+  "visual_assessment": "复审：六任务右侧零分率列已补齐，12.1%、6.0%、2.8%及小于0.1%的质量均可读取；密度仅用正分且分位与散点保留零值，三类型层次清楚，版式未产生文字碰撞。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:48:10.064967+00:00"
+}

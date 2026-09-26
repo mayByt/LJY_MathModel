@@ -1,0 +1,24 @@
+{
+  "id": "Q3-01",
+  "name": "Q3-01_C7上下文分布",
+  "question": "q3",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-01_C7上下文分布.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-01_C7上下文分布.pdf",
+  "png_sha256": "e469183494dc0a6836e2407f2274fcecb9da3515bb819120f41f003987b95d4d",
+  "size_mm": [
+    118.0,
+    79.0
+  ],
+  "caption": "C7全部45条记录，一点一模型。上下文档位使用相邻深浅色并由横轴区分，顶端数值为模型数；不作连续密度。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题三/results_v1/c7_context_audit.csv"
+  ],
+  "stats": {
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-01.csv",
+    "rows": 5
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:26.126429+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

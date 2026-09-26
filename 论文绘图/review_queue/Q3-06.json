@@ -1,0 +1,24 @@
+{
+  "id": "Q3-06",
+  "name": "Q3-06_近优配置剖面",
+  "question": "q3",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-06_近优配置剖面.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-06_近优配置剖面.pdf",
+  "png_sha256": "16209e218162afa1bb99c0027278f85518e298d2f2c8e161798c3729cc1c713a",
+  "size_mm": [
+    129.0,
+    81.0
+  ],
+  "caption": "低预算10^19、上下文4096。按Q网格最小化后的剖面与三种中心解，浅带表示预先声明的0.01容许Loss增量，不是统计区间。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题三/results_v1/optimal_allocations.csv"
+  ],
+  "stats": {
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-06.csv",
+    "rows": 1200
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:27.028975+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

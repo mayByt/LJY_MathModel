@@ -1,0 +1,36 @@
+{
+  "id": "Q2-01",
+  "name": "Q2-01_证据覆盖地图",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-01_证据覆盖地图.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-01_证据覆盖地图.pdf",
+  "png_sha256": "6bee6429b7b0ecc32be04f120a7d60e0725a4c6cfba77f60ce44e9e4ff670868",
+  "size_mm": [
+    160.0,
+    110.0
+  ],
+  "caption": "N–D证据覆盖图。B1以八条真实训练轨迹的取值范围呈现，B7/B8半合成网格以范围区域呈现；B4、B5和B9保留原始稀疏记录。范围内部不代表全部组合均有实验观测。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/pythia_training_log_existing.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/scaling_baseline.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/published_scaling_data.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/supplementary_NQ_experiment_expanded.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/supplementary_NQ_experiment_large.csv",
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/supplementary_large_models.csv"
+  ],
+  "stats": {
+    "B1_rows": 1176,
+    "B7_rows": 450,
+    "B8_rows": 1704,
+    "B4_rows": 57,
+    "B5_rows": 44,
+    "B9_positive_D_rows": 128,
+    "B9_zero_D_rows": 4,
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-01_证据地图.png",
+    "design_change": "密集重叠格点 → 轨迹、支持区域和稀疏来源点，保留完整稀疏来源而避免重复Q点叠画。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:11.950983+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

@@ -1,0 +1,94 @@
+{
+ "Q3-05_等预算损失地形": {
+  "visual_reference": "gmgc2026F/Q3-09",
+  "color_floor": 1e-05,
+  "color_max": 0.3,
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-05.csv",
+  "rows": 529200
+ },
+ "Q3-08_预算组成路径": {
+  "visual_reference": "gmgc2026F/Q3-19",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-08.csv",
+  "rows": 183
+ },
+ "Q3-10_三档配置不确定性": {
+  "visual_reference": "gmgc2026F/Q3-10",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-10.csv",
+  "rows": 9
+ },
+ "Q3-03_注意力成本临界": {
+  "eta": 0.0002,
+  "critical": 30000.0,
+  "visual_reference": "gmgc2026F/Q3-02",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-03.csv",
+  "rows": 500
+ },
+ "Q3-11_上下文损失惩罚": {
+  "visual_reference": "gmgc2026F/Q3-34",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-11.csv",
+  "rows": 9
+ },
+ "Q3-02_质量提升成本曲线": {
+  "visual_reference": "gmgc2026F/Q3-05a,b",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-02.csv",
+  "rows": 1050
+ },
+ "Q3-07_最优配置路径": {
+  "visual_reference": "gmgc2026F/Q3-16",
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-07.csv",
+  "rows": 183
+ },
+ "Q3-06_近优配置剖面": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-06.csv",
+  "rows": 1200
+ },
+ "Q3-12_提质收益配对": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-12.csv",
+  "rows": 9
+ },
+ "Q3-17_结构转移双区间": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-17.csv",
+  "rows": 13
+ },
+ "Q3-18_质量约束状态": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-18.csv",
+  "rows": 915
+ },
+ "Q3-25_严格域求解状态": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-25.csv",
+  "rows": 45
+ },
+ "Q3-01_C7上下文分布": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-01.csv",
+  "rows": 5
+ },
+ "Q3-04_严格域可行预算边界": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-04.csv",
+  "rows": 400
+ },
+ "Q3-14_质量边界点质量": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-14.csv",
+  "rows": 1500
+ },
+ "Q3-15_资源配置联合分布": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-15.csv",
+  "rows": 500
+ },
+ "Q3-21_关键假设敏感性": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-21.csv",
+  "rows": 9
+ },
+ "Q3-23_领域Token配额": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-23.csv",
+  "rows": 17
+ },
+ "Q3-26_边际资源竞争": {
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-26.csv",
+  "rows": 183
+ },
+ "Q3-20_质量启动与饱和配对": {
+  "paired_draws": 200,
+  "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-20.csv",
+  "rows": 29
+ }
+}

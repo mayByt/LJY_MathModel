@@ -1,0 +1,14 @@
+{
+  "id": "Q2-26",
+  "status": "pass",
+  "png_sha256": "0e99482679826fc8e74f37848cd5322a8e16b49a8dfc0100567646cee4ccb345",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-35_等效倍数不确定性阶梯.png"
+  ],
+  "visual_assessment": "提质幅度与参数/数据两类等价量分面明确，三个基线质量点和Qref参考线可读，映射强度有颜色、形状、线型多重编码；保留截断回落并明确等价增幅不是成本节省。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:56:47.365700+00:00"
+}

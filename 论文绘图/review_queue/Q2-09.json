@@ -1,0 +1,31 @@
+{
+  "id": "Q2-09",
+  "name": "Q2-09_质量增量响应矩阵",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-09_质量增量响应矩阵.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-09_质量增量响应矩阵.pdf",
+  "png_sha256": "805fa8a97b9eaf02f0ca2acc3e591b0e54066b78bb25ef7e3134122757ae85cf",
+  "size_mm": [
+    160.0,
+    140.0
+  ],
+  "caption": "B7半合成质量增量按九个参数规模分面，每面为五个D水平与十个Q水平的原始网格。所有面使用同一有符号色阶，相对同单元Q=1中心化。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/supplementary_NQ_experiment_expanded.csv"
+  ],
+  "stats": {
+    "cells": 45,
+    "rows": 450,
+    "delta_range": [
+      -0.1995,
+      0.6091000000000002
+    ],
+    "negative_delta_rows": 23,
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-15_组内中心化质量响应束.png",
+    "design_change": "45行长条热图 → 九规模共享D/Q轴的小矩阵，清楚区分参数与数据两个层级。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:15.916314+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

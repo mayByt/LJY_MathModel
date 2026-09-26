@@ -1,0 +1,14 @@
+{
+  "id": "Q4-23",
+  "status": "pass",
+  "png_sha256": "afaf207a9615ead201ac1a5f307cd321c3f0addebc7477f19bb933eee0ae208b",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-41_24月前沿分位点阵.png"
+  ],
+  "visual_assessment": "复审：横轴已明确维持增速减放缓情景，图注同步说明正值代表放缓更低；ECDF阶梯、线型双编码、中位差引线与期限分面清楚，字体无缺字和碰撞。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:51:56.606954+00:00"
+}

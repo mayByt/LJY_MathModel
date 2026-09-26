@@ -1,0 +1,535 @@
+{
+  "id": "Q1-18",
+  "name": "Q1-18_正则化路径",
+  "question": "q1",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-18_正则化路径.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-18_正则化路径.pdf",
+  "png_sha256": "a75e455450a3f5abb5efda07e77b5bfe3ec1bf50abca57ba76ef4593cd843790",
+  "size_mm": [
+    154.0,
+    80.0
+  ],
+  "caption": "共享实际41点正则化路径，左侧放大近优强度区间，右侧保留全范围并使用对数误差轴。浅带表示二阶Ridge误差不超过最小值1%的采样强度跨度。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/ridge_path_linear.csv",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/ridge_path_quadratic.csv"
+  ],
+  "stats": {
+    "线性Ridge": {
+      "best": {
+        "alpha": 0.1778279410038923,
+        "normalized_rmse": 0.4107853907925077,
+        "median_spearman": 0.8098672229947013,
+        "model": "linear_ridge"
+      },
+      "rows": [
+        {
+          "alpha": 1e-06,
+          "normalized_rmse": 0.4107919802322503,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 1.778279410038923e-06,
+          "normalized_rmse": 0.410791980185749,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 3.162277660168379e-06,
+          "normalized_rmse": 0.4107919801030569,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 5.623413251903491e-06,
+          "normalized_rmse": 0.4107919799560088,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 1e-05,
+          "normalized_rmse": 0.4107919796945198,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 1.778279410038923e-05,
+          "normalized_rmse": 0.4107919792295313,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 3.1622776601683795e-05,
+          "normalized_rmse": 0.4107919784026904,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 5.623413251903491e-05,
+          "normalized_rmse": 0.4107919769324568,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0001,
+          "normalized_rmse": 0.4107919743183532,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0001778279410038,
+          "normalized_rmse": 0.4107919696709559,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0003162277660168,
+          "normalized_rmse": 0.4107919614104083,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0005623413251903,
+          "normalized_rmse": 0.4107919467329386,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.001,
+          "normalized_rmse": 0.410791920670533,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0017782794100389,
+          "normalized_rmse": 0.4107918744452075,
+          "median_spearman": 0.809786398788066,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0031622776601683,
+          "normalized_rmse": 0.4107917926260198,
+          "median_spearman": 0.809786398788066,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0056234132519034,
+          "normalized_rmse": 0.4107916483377221,
+          "median_spearman": 0.8098013298085396,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.01,
+          "normalized_rmse": 0.4107913955760418,
+          "median_spearman": 0.8097970382577449,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0177827941003892,
+          "normalized_rmse": 0.4107909581840434,
+          "median_spearman": 0.809774418208764,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0316227766016837,
+          "normalized_rmse": 0.4107902186004535,
+          "median_spearman": 0.8098065154324167,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.0562341325190349,
+          "normalized_rmse": 0.410789024242968,
+          "median_spearman": 0.8097794250180246,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.1,
+          "normalized_rmse": 0.4107872822189184,
+          "median_spearman": 0.809861500926975,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.1778279410038923,
+          "normalized_rmse": 0.4107853907925077,
+          "median_spearman": 0.8098672229947013,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.3162277660168379,
+          "normalized_rmse": 0.4107858353046645,
+          "median_spearman": 0.8099851512342501,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 0.5623413251903491,
+          "normalized_rmse": 0.4107986285458287,
+          "median_spearman": 0.8104691129936714,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 1.0,
+          "normalized_rmse": 0.4108591112221376,
+          "median_spearman": 0.811008864913425,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 1.7782794100389228,
+          "normalized_rmse": 0.4110847011755475,
+          "median_spearman": 0.8119786659857406,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 3.1622776601683795,
+          "normalized_rmse": 0.411851602374487,
+          "median_spearman": 0.8136743649935342,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 5.623413251903491,
+          "normalized_rmse": 0.414327122280743,
+          "median_spearman": 0.8167042892619677,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 10.0,
+          "normalized_rmse": 0.4219737602225117,
+          "median_spearman": 0.8141841654650324,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 17.78279410038923,
+          "normalized_rmse": 0.4442196473129973,
+          "median_spearman": 0.8156701149277302,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 31.622776601683793,
+          "normalized_rmse": 0.5026122817541155,
+          "median_spearman": 0.7515968145248968,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 56.23413251903491,
+          "normalized_rmse": 0.632813465070351,
+          "median_spearman": 0.6738029791945618,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 100.0,
+          "normalized_rmse": 0.8711370836096219,
+          "median_spearman": 0.5290747201908882,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 177.82794100389228,
+          "normalized_rmse": 1.2368001519506544,
+          "median_spearman": 0.3540413176205353,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 316.22776601683796,
+          "normalized_rmse": 1.7323721491277788,
+          "median_spearman": 0.175267649717902,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 562.341325190349,
+          "normalized_rmse": 2.3582465941331106,
+          "median_spearman": 0.0615840221272359,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 1000.0,
+          "normalized_rmse": 3.1105164739855504,
+          "median_spearman": -0.0132179764479692,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 1778.2794100389228,
+          "normalized_rmse": 3.943880280487227,
+          "median_spearman": -0.0880813084366166,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 3162.2776601683795,
+          "normalized_rmse": 4.755187189072848,
+          "median_spearman": -0.1277115448438447,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 5623.413251903491,
+          "normalized_rmse": 5.436952155535005,
+          "median_spearman": -0.1422835055675718,
+          "model": "linear_ridge"
+        },
+        {
+          "alpha": 10000.0,
+          "normalized_rmse": 5.939334814397627,
+          "median_spearman": -0.1511603995719893,
+          "model": "linear_ridge"
+        }
+      ]
+    },
+    "二阶Ridge": {
+      "best": {
+        "alpha": 0.0562341325190349,
+        "normalized_rmse": 0.3958904769459819,
+        "median_spearman": 0.8284758342774744,
+        "model": "quadratic_ridge"
+      },
+      "rows": [
+        {
+          "alpha": 1e-06,
+          "normalized_rmse": 0.4006345851411743,
+          "median_spearman": 0.8275254345910438,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 1.778279410038923e-06,
+          "normalized_rmse": 0.4006340627668239,
+          "median_spearman": 0.8275254345910438,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 3.162277660168379e-06,
+          "normalized_rmse": 0.4006331342620173,
+          "median_spearman": 0.8275241828887286,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 5.623413251903491e-06,
+          "normalized_rmse": 0.4006314844566717,
+          "median_spearman": 0.8275526144127442,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 1e-05,
+          "normalized_rmse": 0.4006285548562703,
+          "median_spearman": 0.8275526144127442,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 1.778279410038923e-05,
+          "normalized_rmse": 0.4006233584861361,
+          "median_spearman": 0.827552525005436,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 3.1622776601683795e-05,
+          "normalized_rmse": 0.4006141596005376,
+          "median_spearman": 0.8275512733031207,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 5.623413251903491e-05,
+          "normalized_rmse": 0.4005979317839238,
+          "median_spearman": 0.8275529720419772,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0001,
+          "normalized_rmse": 0.4005694780320873,
+          "median_spearman": 0.82759311592337,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0001778279410038,
+          "normalized_rmse": 0.4005201107930429,
+          "median_spearman": 0.8276271801078037,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0003162277660168,
+          "normalized_rmse": 0.4004359772741495,
+          "median_spearman": 0.8276971860301439,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0005623413251903,
+          "normalized_rmse": 0.4002967309838593,
+          "median_spearman": 0.8277148886771724,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.001,
+          "normalized_rmse": 0.4000764232634376,
+          "median_spearman": 0.8277840005264303,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0017782794100389,
+          "normalized_rmse": 0.3997489823391268,
+          "median_spearman": 0.8281726540952838,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0031622776601683,
+          "normalized_rmse": 0.3992967109413159,
+          "median_spearman": 0.8285239354092996,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0056234132519034,
+          "normalized_rmse": 0.3987130724346199,
+          "median_spearman": 0.8288144197537222,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.01,
+          "normalized_rmse": 0.3980001828906174,
+          "median_spearman": 0.8289377124317644,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0177827941003892,
+          "normalized_rmse": 0.397188316519871,
+          "median_spearman": 0.8289350302125177,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0316227766016837,
+          "normalized_rmse": 0.3963942179352601,
+          "median_spearman": 0.8283776650530436,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.0562341325190349,
+          "normalized_rmse": 0.3958904769459819,
+          "median_spearman": 0.8284758342774744,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.1,
+          "normalized_rmse": 0.396118497189785,
+          "median_spearman": 0.8277688906913403,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.1778279410038923,
+          "normalized_rmse": 0.3975813717507155,
+          "median_spearman": 0.8271672689142948,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.3162277660168379,
+          "normalized_rmse": 0.4007348264534219,
+          "median_spearman": 0.827050413562445,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 0.5623413251903491,
+          "normalized_rmse": 0.4060943021972442,
+          "median_spearman": 0.8208787164829882,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 1.0,
+          "normalized_rmse": 0.4146895933677919,
+          "median_spearman": 0.8189411707064466,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 1.7782794100389228,
+          "normalized_rmse": 0.4289140553606312,
+          "median_spearman": 0.8186508651766402,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 3.1622776601683795,
+          "normalized_rmse": 0.4533517333428903,
+          "median_spearman": 0.8072548308556781,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 5.623413251903491,
+          "normalized_rmse": 0.4948247844030607,
+          "median_spearman": 0.7611954937286138,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 10.0,
+          "normalized_rmse": 0.5612987079458911,
+          "median_spearman": 0.6958903394330576,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 17.78279410038923,
+          "normalized_rmse": 0.6597847555812192,
+          "median_spearman": 0.6072049058147653,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 31.622776601683793,
+          "normalized_rmse": 0.7926060923242241,
+          "median_spearman": 0.482713275769332,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 56.23413251903491,
+          "normalized_rmse": 0.953092004089811,
+          "median_spearman": 0.4303761150879481,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 100.0,
+          "normalized_rmse": 1.1299269200303002,
+          "median_spearman": 0.3168899882411508,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 177.82794100389228,
+          "normalized_rmse": 1.3233533930352197,
+          "median_spearman": 0.2141141416612307,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 316.22776601683796,
+          "normalized_rmse": 1.5568444371932464,
+          "median_spearman": 0.1179085699408338,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 562.341325190349,
+          "normalized_rmse": 1.8692286189081864,
+          "median_spearman": 0.0220636673018161,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 1000.0,
+          "normalized_rmse": 2.2910607069620936,
+          "median_spearman": -0.0569468226788432,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 1778.2794100389228,
+          "normalized_rmse": 2.8275151356426993,
+          "median_spearman": -0.1006226503759398,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 3162.2776601683795,
+          "normalized_rmse": 3.4639200451937446,
+          "median_spearman": -0.1322859803618635,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 5623.413251903491,
+          "normalized_rmse": 4.167273094087145,
+          "median_spearman": -0.1545420521909797,
+          "model": "quadratic_ridge"
+        },
+        {
+          "alpha": 10000.0,
+          "normalized_rmse": 4.869863533043649,
+          "median_spearman": -0.1689927766047539,
+          "model": "quadratic_ridge"
+        }
+      ]
+    }
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:11.030007+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

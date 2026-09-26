@@ -1,0 +1,14 @@
+{
+  "id": "Q4-02",
+  "status": "pass",
+  "png_sha256": "4f0ab3e85c6aa625ebbb92dc436f845c6cd54110d0fab7296a986c35d470c458",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q4/Q4-12_纪录变化分解与子任务月度热图.png"
+  ],
+  "visual_assessment": "月度样本柱与证据覆盖矩阵对齐，0%至100%单色渐变和格内比例明确；日期斜排无碰撞，文字在深浅格均可读，低可用率与完整分数的对比直接。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:45:29.314345+00:00"
+}

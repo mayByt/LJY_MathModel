@@ -1,0 +1,22 @@
+Python 3.12.14  Darwin arm64
+== 依赖
+  ✓ matplotlib 3.11.2
+  ✓ numpy 2.5.3
+  ✓ pandas 3.0.6
+  ✓ scipy 1.18.1
+  · cmcrameri 1.8  Crameri 科学色图
+  · PIL 12.3.0  缩略图总览、读取 PNG（pillow）
+  · squarify 未安装  矩形树图（用到时再装）
+  · openpyxl 未安装  读取 xlsx（用到时再装）
+  · librosa 未安装  语谱图（用到时再装）
+  · cv2 未安装  读取视频帧（opencv-python）（用到时再装）
+  · ffmpeg 可用（解码音视频时才需要）
+== 字体
+  ✓ Times New Roman: /System/Library/Fonts/Supplemental/Times New Roman.ttf
+  ✓ SimSun: /Users/sd3/Library/Fonts/Simsun.ttc
+== 中英混排测试
+  ✓ 无缺字
+  PDF 字体：STIXGeneral-Italic, STIXGeneral-Regular, SimSun, TimesNewRomanPSMT；嵌入字体文件 6 个；Type 3：无
+  ✓ PDF 已嵌入中英两种字体
+
+结论：环境可用。

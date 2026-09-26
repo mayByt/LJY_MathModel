@@ -1,0 +1,24 @@
+{
+  "id": "Q3-12",
+  "name": "Q3-12_提质收益配对",
+  "question": "q3",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-12_提质收益配对.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/Q3-12_提质收益配对.pdf",
+  "png_sha256": "be406f81532e024fa461c119b37e9af203f76b4b8fa7f1ef50661e45715b57e4",
+  "size_mm": [
+    150.0,
+    100.0
+  ],
+  "caption": "上下文4096；左侧同预算基线与联合优化配对，右侧精确损失收益补足点距离难以比较的问题。零收益如实为零，条件结果不外推为独立训练收益。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题三/results_v1/optimal_allocations.csv"
+  ],
+  "stats": {
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q3/data/Q3-12.csv",
+    "rows": 9
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:23.283237+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

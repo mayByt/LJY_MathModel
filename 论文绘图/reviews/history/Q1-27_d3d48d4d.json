@@ -1,0 +1,14 @@
+{
+  "id": "Q1-27",
+  "status": "pass",
+  "png_sha256": "d3d48d4d799628815fbc8da480151e03e55d2100c092d450ae2c01c11a268ffb",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-11_七域Q云雨图.png"
+  ],
+  "visual_assessment": "200次成功配比族的非零密度、含零95%区间、近优候选和训练平均配方层次清楚；右侧零份额率显式保留，横轴覆盖全部抽样长尾，未把近优配比族误写为唯一解。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T14:02:27.269181+00:00"
+}

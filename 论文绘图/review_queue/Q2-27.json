@@ -1,0 +1,38 @@
+{
+  "id": "Q2-27",
+  "name": "Q2-27_配比接口下界缺口",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-27_配比接口下界缺口.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-27_配比接口下界缺口.pdf",
+  "png_sha256": "2581ac76198e1e4fc991c2168f5bc4af1ae17ff3f0c26deeb85c9400255e0db1",
+  "size_mm": [
+    160.0,
+    136.0
+  ],
+  "caption": "近优配比敏感性网格按sQ分面，黑点为预测Loss低于E的违规状态。参考配比全部324个状态无违规，因此其重复色块省略，并以顶部汇总注明；三个分面保留全部324个近优配比状态。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/generalized_scaling_predictions.csv.gz",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/mixture_physical_gate.csv"
+  ],
+  "stats": {
+    "p_star_violations_by_sQ": {
+      "0.5": 16,
+      "1": 18,
+      "1.5": 18
+    },
+    "total_violations": 52,
+    "p_ref_rows": 324,
+    "p_star_rows": 324,
+    "gap_range": [
+      -0.6420163112277055,
+      1.7686444307059628
+    ],
+    "profile_to_lambda0": 0.4822250000000001,
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-37_迁移情景热图.png",
+    "design_change": "648格冗长列层级 → sQ三分面保留完整风险网格，无风险参考配比以严格计数汇总，避免重复信息。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:14.340185+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

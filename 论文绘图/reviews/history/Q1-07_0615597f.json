@@ -1,0 +1,14 @@
+{
+  "id": "Q1-07",
+  "status": "pass",
+  "png_sha256": "0615597f36dc562e8893e8ec2be04b22b5c3d7f47f6ab344a3195dae952ba06e",
+  "viewed": true,
+  "issues": [],
+  "reviewer": "/root/research_q3",
+  "reviewed_at": "2026-09-26T13:17:57.958Z",
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-11_七域Q云雨图.png"
+  ],
+  "visual_assessment": "已打开同类参考原图与本图比较。新版采用七域固定浅填充和中深描边，密度、白箱IQR、分位须线、透明白边散点及右侧样本量形成清晰层级；对齐、标记力度和信息密度达到参考水准。未复制参考质量定义或数值。"
+}

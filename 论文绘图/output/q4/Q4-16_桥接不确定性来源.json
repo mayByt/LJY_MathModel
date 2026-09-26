@@ -1,0 +1,26 @@
+{
+  "id": "Q4-16",
+  "name": "Q4-16_桥接不确定性来源",
+  "question": "q4",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-16_桥接不确定性来源.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-16_桥接不确定性来源.pdf",
+  "png_sha256": "fcc263b3b00f07f0b19c55d6f1f724ad525621eb62cdf183211adeaae182ea20",
+  "size_mm": [
+    155.0,
+    102.0
+  ],
+  "caption": "指数成本、上下文4096的三预算情景。左并列三来源区间，右列出其95%宽度以比较大小；不将区间堆叠或将宽度解释为可加方差贡献。点是各模式中位数。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/loss_benchmark_predictions.csv",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/loss_benchmark_uncertainty.csv"
+  ],
+  "stats": {
+    "visual_reference": "gmgc2026F/Q4-40",
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-16.csv",
+    "rows": 9
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:28.845212+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

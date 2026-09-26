@@ -1,0 +1,482 @@
+[
+  {
+    "id": "Q1-02",
+    "name": "Q1-02_原始文本长度字母值图",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-08",
+    "name": "Q1-08_抽样与扩展质量QQ检验",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-09",
+    "name": "Q1-09_七域质量区间",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-10",
+    "name": "Q1-10_质量冲突相平面",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-11",
+    "name": "Q1-11_冲突消解评分修正",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-13",
+    "name": "Q1-13_跨体系映射双层区间",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-17",
+    "name": "Q1-17_模型选择Pareto前沿",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-19",
+    "name": "Q1-19_跨规模配方秩验证",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-20",
+    "name": "Q1-20_跨规模绝对误差校准",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-23",
+    "name": "Q1-23_局部配比收益与不确定性",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-25",
+    "name": "Q1-25_经验支持域内三元响应切片",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-27",
+    "name": "Q1-27_零膨胀近优配比族",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-28",
+    "name": "Q1-28_多起点优化终态",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-05",
+    "name": "Q1-05_质量指标相关结构",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-06",
+    "name": "Q1-06_语义块与质量指标权重",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-07",
+    "name": "Q1-07_七域质量云雨分布",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-15",
+    "name": "Q1-15_训练配方组成条码",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-16",
+    "name": "Q1-16_领域覆盖与份额集中度",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-18",
+    "name": "Q1-18_正则化路径",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q1-22",
+    "name": "Q1-22_稳定领域交互网络",
+    "question": "q1",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-01",
+    "name": "Q2-01_证据覆盖地图",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-04",
+    "name": "Q2-04_幂律数据坍缩",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-10",
+    "name": "Q2-10_质量模型分块选择",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-14",
+    "name": "Q2-14_质量惩罚条件区间",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-19",
+    "name": "Q2-19_领域互补矩阵",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-23",
+    "name": "Q2-23_等损失资源替代",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-26",
+    "name": "Q2-26_质量提升有限等价量",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-27",
+    "name": "Q2-27_配比接口下界缺口",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-03",
+    "name": "Q2-03_原始训练曲线族",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-06",
+    "name": "Q2-06_经典参数联合分布",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-08",
+    "name": "Q2-08_外部误差结构诊断",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-09",
+    "name": "Q2-09_质量增量响应矩阵",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-12",
+    "name": "Q2-12_离散质量条件分布",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-13",
+    "name": "Q2-13_分块残差云雨分布",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-15",
+    "name": "Q2-15_质量响应方向冲突",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-16",
+    "name": "Q2-16_截断地板边界",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-18",
+    "name": "Q2-18_配比响应跨规模路径",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-21",
+    "name": "Q2-21_近优配比响应不确定性",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-24",
+    "name": "Q2-24_资源弹性组成",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q2-25",
+    "name": "Q2-25_资源改进方向场",
+    "question": "q2",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-03",
+    "name": "Q3-03_注意力成本临界",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-05",
+    "name": "Q3-05_等预算损失地形",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-07",
+    "name": "Q3-07_最优配置路径",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-08",
+    "name": "Q3-08_预算组成路径",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-10",
+    "name": "Q3-10_三档配置不确定性",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-11",
+    "name": "Q3-11_上下文损失惩罚",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-12",
+    "name": "Q3-12_提质收益配对",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-14",
+    "name": "Q3-14_质量边界点质量",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-15",
+    "name": "Q3-15_资源配置联合分布",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-17",
+    "name": "Q3-17_结构转移双区间",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-18",
+    "name": "Q3-18_质量约束状态",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-21",
+    "name": "Q3-21_关键假设敏感性",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-23",
+    "name": "Q3-23_领域Token配额",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-25",
+    "name": "Q3-25_严格域求解状态",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-26",
+    "name": "Q3-26_边际资源竞争",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-01",
+    "name": "Q3-01_C7上下文分布",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-02",
+    "name": "Q3-02_质量提升成本曲线",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-04",
+    "name": "Q3-04_严格域可行预算边界",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-06",
+    "name": "Q3-06_近优配置剖面",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q3-20",
+    "name": "Q3-20_质量启动与饱和配对",
+    "question": "q3",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-04",
+    "name": "Q4-04_训练算力与能力前沿",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-06",
+    "name": "Q4-06_BBH复现误差分布",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-10",
+    "name": "Q4-10_Loss与综合能力桥接",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-16",
+    "name": "Q4-16_桥接不确定性来源",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-18",
+    "name": "Q4-18_规模与非规模贡献分布",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-22",
+    "name": "Q4-22_增速放缓情景前沿",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-01",
+    "name": "Q4-01_开源证据交集",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-02",
+    "name": "Q4-02_时间与证据覆盖",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-03",
+    "name": "Q4-03_模型类型分位分布",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-07",
+    "name": "Q4-07_BBH聚合一致性",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-08",
+    "name": "Q4-08_任务随机下界校正",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-09",
+    "name": "Q4-09_家族任务能力指纹",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-11",
+    "name": "Q4-11_七目标桥接模型选择",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-12",
+    "name": "Q4-12_留家族误差结构",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-13",
+    "name": "Q4-13_桥接区间覆盖率",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-14",
+    "name": "Q4-14_最优Loss到能力映射",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-15",
+    "name": "Q4-15_能力映射证据地图",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-20",
+    "name": "Q4-20_历史方向留族敏感性",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-21",
+    "name": "Q4-21_月度算力前沿趋势",
+    "question": "q4",
+    "review_status": "通过"
+  },
+  {
+    "id": "Q4-23",
+    "name": "Q4-23_算力减速的配对代价",
+    "question": "q4",
+    "review_status": "通过"
+  }
+]

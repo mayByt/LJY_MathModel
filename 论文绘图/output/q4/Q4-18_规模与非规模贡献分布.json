@@ -1,0 +1,26 @@
+{
+  "id": "Q4-18",
+  "name": "Q4-18_规模与非规模贡献分布",
+  "question": "q4",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-18_规模与非规模贡献分布.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-18_规模与非规模贡献分布.pdf",
+  "png_sha256": "6d7375a0cdddfbc6a2920a42c063953801dece9ac81dacdc652976e80feb248d",
+  "size_mm": [
+    152.0,
+    87.0
+  ],
+  "caption": "2024-06至2025-01、τ=0.90。两个分布各用自己的横轴尺度，配对draw未拆散；密度/抽样点/双区间提高可读性。非规模残余强正则压近零且跨零，不证明技术进步不存在；观察性分解不作因果份额。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/frontier_bootstrap_draws.csv.gz",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/contribution_decomposition.csv"
+  ],
+  "stats": {
+    "visual_reference": "gmgc2026F/云雨图",
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-18.csv",
+    "rows": 2
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:29.075303+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Q4-03",
+  "name": "Q4-03_模型类型分位分布",
+  "question": "q4",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-03_模型类型分位分布.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/Q4-03_模型类型分位分布.pdf",
+  "png_sha256": "73b5186158b8e59020809faea33afc2320ece1c42b03f9ff3344f79126d477c0",
+  "size_mm": [
+    160.0,
+    149.0
+  ],
+  "caption": "六项真实评测分布按基础、后训练和合并模型分面比较。密度仅由正分记录构造，零分率另以原点竖线及右侧百分数表示；分位数与散点包括零分。分位范围不是均值CI，组间差异未控制规模或家族。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题四/results_v2/open_model_panel.csv"
+  ],
+  "stats": {
+    "excluded_other": 16,
+    "visual_reference": "gmgc2026F/Q4-06; expanded to three observed model types",
+    "table": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q4/data/Q4-03.csv",
+    "rows": 18
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:30.898109+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

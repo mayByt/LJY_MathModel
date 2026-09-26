@@ -1,0 +1,183 @@
+{
+  "id": "Q1-23",
+  "name": "Q1-23_局部配比收益与不确定性",
+  "question": "q1",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-23_局部配比收益与不确定性.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-23_局部配比收益与不确定性.pdf",
+  "png_sha256": "bc840fbf70af90d870f9358186294ece9f38b0cf7976ad5b980e0562300e9d7a",
+  "size_mm": [
+    158.0,
+    132.0
+  ],
+  "caption": "平均训练配方处的切向替换收益及500次冻结系数bootstrap分布，正/负点值用橙/靛区分。右侧展示正收益概率，虚线为50%，左侧虚线为零收益。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/mixture_directional_effects.csv",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题一/results_p12_final_v2/problem2_bridge_input.npz"
+  ],
+  "stats": {
+    "rows": [
+      {
+        "domain": "ubuntu_irc",
+        "mean_directional_effect": -3.664694627350499,
+        "benefit_score": 3.664694627350499,
+        "lo": 2.4315380831212656,
+        "hi": 4.818662008297221,
+        "prob_positive": 1.0
+      },
+      {
+        "domain": "enron_emails",
+        "mean_directional_effect": -3.3509175120045223,
+        "benefit_score": 3.3509175120045223,
+        "lo": -2.9059583341705433,
+        "hi": 9.271609969667555,
+        "prob_positive": 0.858
+      },
+      {
+        "domain": "nih_exporter",
+        "mean_directional_effect": -1.6715633049831775,
+        "benefit_score": 1.6715633049831775,
+        "lo": -0.6357284595823532,
+        "hi": 4.764176840721568,
+        "prob_positive": 0.93
+      },
+      {
+        "domain": "dm_mathematics",
+        "mean_directional_effect": -1.5666300251017835,
+        "benefit_score": 1.5666300251017835,
+        "lo": 0.591320863443611,
+        "hi": 2.5809934916342057,
+        "prob_positive": 0.998
+      },
+      {
+        "domain": "hackernews",
+        "mean_directional_effect": -0.8190657549152275,
+        "benefit_score": 0.8190657549152275,
+        "lo": -1.1046287467297555,
+        "hi": 2.1796020399231315,
+        "prob_positive": 0.762
+      },
+      {
+        "domain": "gutenberg_pg_19",
+        "mean_directional_effect": 0.4461095750648619,
+        "benefit_score": -0.4461095750648619,
+        "lo": -1.040012703257918,
+        "hi": 0.30335079346433463,
+        "prob_positive": 0.134
+      },
+      {
+        "domain": "stackexchange",
+        "mean_directional_effect": 0.6297061551407332,
+        "benefit_score": -0.6297061551407332,
+        "lo": -1.0761983826986878,
+        "hi": -0.20270761611513388,
+        "prob_positive": 0.002
+      },
+      {
+        "domain": "wikipedia_en",
+        "mean_directional_effect": 0.7868152730391466,
+        "benefit_score": -0.7868152730391466,
+        "lo": -1.3461085217827171,
+        "hi": -0.2741483833838186,
+        "prob_positive": 0.004
+      },
+      {
+        "domain": "pubmed_central",
+        "mean_directional_effect": 0.8010496831213783,
+        "benefit_score": -0.8010496831213783,
+        "lo": -1.2928795130692097,
+        "hi": -0.3827121904435327,
+        "prob_positive": 0.0
+      },
+      {
+        "domain": "uspto_backgrounds",
+        "mean_directional_effect": 0.8840360437600743,
+        "benefit_score": -0.8840360437600743,
+        "lo": -1.4012159591589246,
+        "hi": -0.4459903744956708,
+        "prob_positive": 0.0
+      },
+      {
+        "domain": "europarl",
+        "mean_directional_effect": 0.9087380425764416,
+        "benefit_score": -0.9087380425764416,
+        "lo": -2.36225907110084,
+        "hi": 0.1464114835030869,
+        "prob_positive": 0.056
+      },
+      {
+        "domain": "arxiv",
+        "mean_directional_effect": 0.919743231317506,
+        "benefit_score": -0.919743231317506,
+        "lo": -1.4331627133655347,
+        "hi": -0.5115988085096792,
+        "prob_positive": 0.0
+      },
+      {
+        "domain": "github",
+        "mean_directional_effect": 0.9579780237288208,
+        "benefit_score": -0.9579780237288208,
+        "lo": -1.3908112881341406,
+        "hi": -0.4447868455427574,
+        "prob_positive": 0.0
+      },
+      {
+        "domain": "freelaw",
+        "mean_directional_effect": 0.965082108923554,
+        "benefit_score": -0.965082108923554,
+        "lo": -1.4090222275505067,
+        "hi": -0.48240784467457914,
+        "prob_positive": 0.0
+      },
+      {
+        "domain": "pile_cc",
+        "mean_directional_effect": 0.9958575429018554,
+        "benefit_score": -0.9958575429018554,
+        "lo": -1.433023350323648,
+        "hi": -0.5711593979862104,
+        "prob_positive": 0.0
+      },
+      {
+        "domain": "pubmed_abstracts",
+        "mean_directional_effect": 1.369850016211191,
+        "benefit_score": -1.369850016211191,
+        "lo": -1.8954189126431265,
+        "hi": -0.8450497984418059,
+        "prob_positive": 0.0
+      },
+      {
+        "domain": "philpapers",
+        "mean_directional_effect": 1.407905528569645,
+        "benefit_score": -1.407905528569645,
+        "lo": -3.4592274693077023,
+        "hi": 0.9224151822619502,
+        "prob_positive": 0.096
+      }
+    ],
+    "bootstrap_reps": 500,
+    "baseline": [
+      0.11302252583269279,
+      0.0968248321520278,
+      0.00588968021709595,
+      0.11375419105058357,
+      0.07507775607983627,
+      0.0254628540970504,
+      0.11070066007050916,
+      0.005487697351193036,
+      0.09943242344413017,
+      0.002211033043406226,
+      0.04691494424753537,
+      0.11948759779188561,
+      0.019599998284005892,
+      0.012737064754031531,
+      0.011650822378108678,
+      0.06618116611257162,
+      0.07556475309333588
+    ],
+    "definition": "negative centered gradient at fixed p_ref, average over13 losses",
+    "right_probability": "fraction of bootstrap directional effects above0"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:06.900813+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

@@ -1,0 +1,277 @@
+{
+  "id": "Q1-06",
+  "name": "Q1-06_语义块与质量指标权重",
+  "question": "q1",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-06_语义块与质量指标权重.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q1/Q1-06_语义块与质量指标权重.pdf",
+  "png_sha256": "f3275709e6c63b1fef8102518f31444b2d023b4e93a99c06df05b89e30eea7f9",
+  "size_mm": [
+    158.0,
+    151.0
+  ],
+  "caption": "左侧为稳定CRITIC综合权重，五块各占20%；右侧为同一指标与综合评分Q的Spearman关联，使用七域等量样本。对齐行与分块帮助比较名义赋权和实际评分结构。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/cache/q1_quality/quality_weights.csv",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/cache/q1_quality/quality_sample.csv.gz"
+  ],
+  "stats": {
+    "rows": [
+      {
+        "block": "education",
+        "field": "fineweb_edu",
+        "source": "Model",
+        "sd": 0.2935050314948862,
+        "critic_information": 0.5570930979815266,
+        "stability": 0.9876061455767357,
+        "conditional_weight": 0.3069686745678167,
+        "total_weight": 0.0613937349135633,
+        "rho_Q": 0.4378947930153462
+      },
+      {
+        "block": "education",
+        "field": "qurater",
+        "source": "Model",
+        "sd": 0.2362343398870195,
+        "critic_information": 0.4547795399094644,
+        "stability": 0.9635654567635572,
+        "conditional_weight": 0.2444919913202751,
+        "total_weight": 0.048898398264055,
+        "rho_Q": 0.5857811372838325
+      },
+      {
+        "block": "education",
+        "field": "dsir_books",
+        "source": "DSIR",
+        "sd": 0.2671935491463457,
+        "critic_information": 0.2751692822908204,
+        "stability": 0.9923388362949028,
+        "conditional_weight": 0.1523499923547008,
+        "total_weight": 0.0304699984709401,
+        "rho_Q": -0.07756307000309655
+      },
+      {
+        "block": "education",
+        "field": "dsir_wiki",
+        "source": "DSIR",
+        "sd": 0.2611075359118414,
+        "critic_information": 0.2699308777872666,
+        "stability": 0.992178817161355,
+        "conditional_weight": 0.1494256023014123,
+        "total_weight": 0.0298851204602824,
+        "rho_Q": -0.07321629628706626
+      },
+      {
+        "block": "education",
+        "field": "dsir_math",
+        "source": "DSIR",
+        "sd": 0.2551257186691937,
+        "critic_information": 0.2648373566519059,
+        "stability": 0.9932464623149492,
+        "conditional_weight": 0.146763739455795,
+        "total_weight": 0.029352747891159,
+        "rho_Q": -0.07928234615103444
+      },
+      {
+        "block": "expression",
+        "field": "rps_lines_ending_with_terminal_punctution_mark",
+        "source": "Rule",
+        "sd": 0.313424819990593,
+        "critic_information": 0.7394912095489122,
+        "stability": 0.9952037511486688,
+        "conditional_weight": 0.3998639781065476,
+        "total_weight": 0.0799727956213095,
+        "rho_Q": 0.4307510205406629
+      },
+      {
+        "block": "expression",
+        "field": "fluency_en",
+        "source": "Model",
+        "sd": 0.2869096036799081,
+        "critic_information": 0.4268902474879451,
+        "stability": 0.9970110691726284,
+        "conditional_weight": 0.2312509233362025,
+        "total_weight": 0.0462501846672405,
+        "rho_Q": 0.6133013543885036
+      },
+      {
+        "block": "expression",
+        "field": "modernbert_cleanliness",
+        "source": "Model",
+        "sd": 0.2417914896376449,
+        "critic_information": 0.343890706952042,
+        "stability": 0.999435881538432,
+        "conditional_weight": 0.1867422724709713,
+        "total_weight": 0.0373484544941942,
+        "rho_Q": 0.6111581528905596
+      },
+      {
+        "block": "expression",
+        "field": "modernbert_readability",
+        "source": "Model",
+        "sd": 0.2153868631208458,
+        "critic_information": 0.3357786816885877,
+        "stability": 0.9983703825718492,
+        "conditional_weight": 0.1821428260862785,
+        "total_weight": 0.0364285652172557,
+        "rho_Q": 0.5235030712218092
+      },
+      {
+        "block": "reasoning",
+        "field": "modernbert_professionalism",
+        "source": "Model",
+        "sd": 0.2992673690778978,
+        "critic_information": 0.3983675621840866,
+        "stability": 0.9638673274797176,
+        "conditional_weight": 0.3116601008645525,
+        "total_weight": 0.0623320201729105,
+        "rho_Q": 0.043521074253072285
+      },
+      {
+        "block": "reasoning",
+        "field": "rps_doc_unigram_entropy",
+        "source": "Rule",
+        "sd": 0.2659046775392281,
+        "critic_information": 0.2966574338786448,
+        "stability": 0.9907315561791225,
+        "conditional_weight": 0.2385564765219683,
+        "total_weight": 0.0477112953043936,
+        "rho_Q": 0.2607555911028534
+      },
+      {
+        "block": "reasoning",
+        "field": "modernbert_reasoning",
+        "source": "Model",
+        "sd": 0.3233665883819325,
+        "critic_information": 0.2937021850919608,
+        "stability": 0.9877804755921228,
+        "conditional_weight": 0.2354765124948192,
+        "total_weight": 0.0470953024989638,
+        "rho_Q": 0.38954899210550314
+      },
+      {
+        "block": "reasoning",
+        "field": "rps_doc_frac_unique_words",
+        "source": "Rule",
+        "sd": 0.2636172983715285,
+        "critic_information": 0.2651096901031382,
+        "stability": 0.9959340776884656,
+        "conditional_weight": 0.2143069101186599,
+        "total_weight": 0.0428613820237319,
+        "rho_Q": -0.10128907666075193
+      },
+      {
+        "block": "noise",
+        "field": "rps_doc_frac_no_alph_words",
+        "source": "Rule",
+        "sd": 0.3033776363233477,
+        "critic_information": 1.2396654522411776,
+        "stability": 0.9917245155400488,
+        "conditional_weight": 0.1866074672761525,
+        "total_weight": 0.0373214934552305,
+        "rho_Q": 0.48945649349624326
+      },
+      {
+        "block": "noise",
+        "field": "rps_doc_frac_chars_top_2gram",
+        "source": "Rule",
+        "sd": 0.2793142652005764,
+        "critic_information": 1.185325421277591,
+        "stability": 0.9999999999999998,
+        "conditional_weight": 0.1799165314016637,
+        "total_weight": 0.0359833062803327,
+        "rho_Q": 0.11861578286631913
+      },
+      {
+        "block": "noise",
+        "field": "rps_doc_frac_chars_top_3gram",
+        "source": "Rule",
+        "sd": 0.2678230130090391,
+        "critic_information": 1.182900906899062,
+        "stability": 1.0,
+        "conditional_weight": 0.1795485225751524,
+        "total_weight": 0.0359097045150304,
+        "rho_Q": -0.022346688163041337
+      },
+      {
+        "block": "noise",
+        "field": "rps_lines_numerical_chars_fraction",
+        "source": "Rule",
+        "sd": 0.2797954485645772,
+        "critic_information": 1.2095474084308486,
+        "stability": 0.9307263793574114,
+        "conditional_weight": 0.1708749457055124,
+        "total_weight": 0.0341749891411024,
+        "rho_Q": 0.015180870481296346
+      },
+      {
+        "block": "noise",
+        "field": "rps_lines_uppercase_letter_fraction",
+        "source": "Rule",
+        "sd": 0.2610432708002135,
+        "critic_information": 1.1020299254609645,
+        "stability": 0.9961488173778106,
+        "conditional_weight": 0.1666291898117369,
+        "total_weight": 0.0333258379623473,
+        "rho_Q": 0.32584413016660774
+      },
+      {
+        "block": "noise",
+        "field": "ad_en",
+        "source": "Model",
+        "sd": 0.1815524480277335,
+        "critic_information": 0.7671038802994788,
+        "stability": 0.9998904391256258,
+        "conditional_weight": 0.1164233432297819,
+        "total_weight": 0.0232846686459563,
+        "rho_Q": -0.037344740014726416
+      },
+      {
+        "block": "structure",
+        "field": "rps_doc_mean_word_length",
+        "source": "Rule",
+        "sd": 0.3819079194339617,
+        "critic_information": 0.625392692619403,
+        "stability": 0.9810535956907896,
+        "conditional_weight": 0.4493984633861388,
+        "total_weight": 0.0898796926772277,
+        "rho_Q": 0.5800413653629111
+      },
+      {
+        "block": "structure",
+        "field": "rps_doc_num_sentences",
+        "source": "Rule",
+        "sd": 0.3653388015895462,
+        "critic_information": 0.4010034477074914,
+        "stability": 0.9720854090919172,
+        "conditional_weight": 0.2855213430772456,
+        "total_weight": 0.0571042686154491,
+        "rho_Q": 0.31889471831032673
+      },
+      {
+        "block": "structure",
+        "field": "rps_doc_word_count",
+        "source": "Rule",
+        "sd": 0.3694627818518682,
+        "critic_information": 0.3683969574284592,
+        "stability": 0.9823702400249654,
+        "conditional_weight": 0.2650801935366156,
+        "total_weight": 0.0530160387073231,
+        "rho_Q": 0.3621423358838171
+      }
+    ],
+    "block_totals": {
+      "education": 0.1999999999999998,
+      "expression": 0.1999999999999999,
+      "noise": 0.19999999999999962,
+      "reasoning": 0.1999999999999998,
+      "structure": 0.1999999999999999
+    },
+    "association_n_per_domain": 171,
+    "association_n": 1197,
+    "layout_change": "weights and observed score association in aligned columns"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:09.218085+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2"
+}

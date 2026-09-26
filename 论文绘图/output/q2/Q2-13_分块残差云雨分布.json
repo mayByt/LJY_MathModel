@@ -1,0 +1,60 @@
+{
+  "id": "Q2-13",
+  "name": "Q2-13_分块残差云雨分布",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-13_分块残差云雨分布.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-13_分块残差云雨分布.pdf",
+  "png_sha256": "7e3e186fbcac34733841892f21d4574332c410d3bc5e224929fd4909693d55d8",
+  "size_mm": [
+    160.0,
+    106.0
+  ],
+  "caption": "四类留出切分的GQ2残差云雨图。半密度、逐点和中位数/IQR在同一竖向损失尺度上比较，450个逐点残差在各切分中分别保留。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/quality_block_predictions.csv.gz"
+  ],
+  "stats": {
+    "split_summaries": [
+      {
+        "split": "leave_N",
+        "n": 450,
+        "median": 0.0028864099347403,
+        "q25": -0.046379353880679326,
+        "q75": 0.0482483487732445,
+        "MAE": 0.06082108374640842
+      },
+      {
+        "split": "leave_D",
+        "n": 450,
+        "median": 0.0035933680483988,
+        "q25": -0.04595701624481838,
+        "q75": 0.04808453265943057,
+        "MAE": 0.05730139812954821
+      },
+      {
+        "split": "leave_Q",
+        "n": 450,
+        "median": 0.00270673115458095,
+        "q25": -0.04539549044077705,
+        "q75": 0.04567260266415665,
+        "MAE": 0.05702569436597904
+      },
+      {
+        "split": "leave_cell",
+        "n": 450,
+        "median": 0.00287485020468265,
+        "q25": -0.045438588481076694,
+        "q75": 0.047385777741217376,
+        "MAE": 0.05779436428289401
+      }
+    ],
+    "raw_rows_per_split": 450,
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/../q4/Q4-06_六任务零膨胀云雨图.png",
+    "design_change": "横向长条分布 → 四列紧凑竖向云雨和共同零线，标记白边并增强中位/IQR层次。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:16.401740+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2",
+  "interpretation": "四列是同一原始样本的不同验证切分，不能合并为1800个独立观测；只作残差分布诊断。"
+}

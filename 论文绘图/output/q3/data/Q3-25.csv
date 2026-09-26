@@ -1,0 +1,46 @@
+quality_cost_type,context_length,budget_FLOPs,solver_success,solver_message,N_B
+exponential,2048,1e+19,True,Optimization terminated successfully,0.1546004942121721
+exponential,2048,1e+22,True,Optimization terminated successfully,5.622128077450974
+exponential,2048,1e+24,True,Optimization terminated successfully,11.965825000000002
+exponential,4096,1e+19,True,Optimization terminated successfully,0.1459115931374586
+exponential,4096,1e+22,True,Optimization terminated successfully,5.44886364444534
+exponential,4096,1e+24,True,Optimization terminated successfully,11.965825000000002
+exponential,8192,1e+19,True,Optimization terminated successfully,0.1309174696163296
+exponential,8192,1e+22,True,Optimization terminated successfully,5.146373498844602
+exponential,8192,1e+24,True,Optimization terminated successfully,11.965825000000002
+exponential,32768,1e+19,False,Inequality constraints incompatible,0.0796584204962826
+exponential,32768,1e+22,True,Optimization terminated successfully,4.019751215492754
+exponential,32768,1e+24,True,Optimization terminated successfully,11.965825000000002
+exponential,131072,1e+19,False,minimum support point exceeds budget,
+exponential,131072,1e+22,True,Optimization terminated successfully,2.5450354719443338
+exponential,131072,1e+24,True,Optimization terminated successfully,11.965825000000002
+power,2048,1e+19,False,Inequality constraints incompatible,0.1560159734488019
+power,2048,1e+22,True,Optimization terminated successfully,5.7379694428556665
+power,2048,1e+24,True,Optimization terminated successfully,11.965825000000002
+power,4096,1e+19,False,Inequality constraints incompatible,0.1466447655213084
+power,4096,1e+22,True,Optimization terminated successfully,5.558397620914726
+power,4096,1e+24,True,Optimization terminated successfully,11.965825000000002
+power,8192,1e+19,False,Inequality constraints incompatible,0.1309174675815444
+power,8192,1e+22,True,Optimization terminated successfully,5.245201104372402
+power,8192,1e+24,True,Optimization terminated successfully,11.965825000000002
+power,32768,1e+19,False,Inequality constraints incompatible,0.0796584226962326
+power,32768,1e+22,True,Optimization terminated successfully,4.0824347493496855
+power,32768,1e+24,True,Optimization terminated successfully,11.965825000000002
+power,131072,1e+19,False,minimum support point exceeds budget,
+power,131072,1e+22,True,Optimization terminated successfully,2.5709581234380283
+power,131072,1e+24,True,Optimization terminated successfully,11.965825000000002
+logarithmic,2048,1e+19,False,Inequality constraints incompatible,0.1560159729948662
+logarithmic,2048,1e+22,True,Optimization terminated successfully,5.197066773020763
+logarithmic,2048,1e+24,True,Optimization terminated successfully,11.965825000000002
+logarithmic,4096,1e+19,False,Inequality constraints incompatible,0.1466447654246674
+logarithmic,4096,1e+22,True,Optimization terminated successfully,5.047738345225362
+logarithmic,4096,1e+24,True,Optimization terminated successfully,11.965825000000002
+logarithmic,8192,1e+19,False,Inequality constraints incompatible,0.1309174675376882
+logarithmic,8192,1e+22,True,Optimization terminated successfully,4.7857374303871
+logarithmic,8192,1e+24,True,Optimization terminated successfully,11.965825000000002
+logarithmic,32768,1e+19,False,Inequality constraints incompatible,0.0796584226962464
+logarithmic,32768,1e+22,True,Optimization terminated successfully,3.7942674270627177
+logarithmic,32768,1e+24,True,Optimization terminated successfully,11.965825000000002
+logarithmic,131072,1e+19,False,minimum support point exceeds budget,
+logarithmic,131072,1e+22,True,Optimization terminated successfully,2.453785028496905
+logarithmic,131072,1e+24,True,Optimization terminated successfully,11.965825000000002

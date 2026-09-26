@@ -1,0 +1,66 @@
+{
+  "recreated": 80,
+  "changed_images": {
+    "Q1-25_经验支持域内三元响应切片": {
+      "before": "3b0de6328b9824b1421d1649465ef64e2adbd5a6ca79bf2de3bed1ffdba610a9",
+      "after": "edb3704461652020c5893687bba5eb27824ef3d3e02426cbb37742c87b997f57"
+    },
+    "Q2-08_外部误差结构诊断": {
+      "before": "5348b9880ed74adf9393e551202c3b12b8768348a3b0448662bd130df5b15a50",
+      "after": "56ea88fda1282e022ca2e69466d280a30788dedf7d193e065530f78f8d801957"
+    },
+    "Q2-03_原始训练曲线族": {
+      "before": "95df0c6d2b7137585c78e66ea83479b826790b004c138509ffbf7e6308d6b84e",
+      "after": "1c83f65003e77c345847b660f8cc923cfff7bb449c1ca6fcbff30dd674df7159"
+    },
+    "Q2-06_经典参数联合分布": {
+      "before": "8d0563f00398a6d1b0168e03c751f59769765422a62935b0b1df98f5d478d0a6",
+      "after": "a86e284e58c263e964ec0e3f4bd8565e467c0735a752abdd242ce3bee4d65bc1"
+    },
+    "Q4-15_能力映射证据地图": {
+      "before": "9ab0293862df431a04989cb484c5bd0dde92de58169ee6893dac14029a29d2a3",
+      "after": "3c25d25443ab46f3e03e5f5fd9613871c06682de25b02f8022f4c44fa5aaea0f"
+    },
+    "Q4-16_桥接不确定性来源": {
+      "before": "5d00b1cccae0216560416f9e2ca9cac84167774343540587378369f37af6b0d2",
+      "after": "fcc263b3b00f07f0b19c55d6f1f724ad525621eb62cdf183211adeaae182ea20"
+    },
+    "Q4-06_BBH复现误差分布": {
+      "before": "0843110678d53c24895c986319172a2a196e3b60d128a407d76135aca69a7c5d",
+      "after": "e63a0dab2e509764b3efec4ac28eebe387a94c63d0c73a4b21e161a2715834be"
+    },
+    "Q3-18_质量约束状态": {
+      "before": "7139e5b9833ec587f998d81b0a38567d3099c0ccc464c05e5756a24a9d9ec6f8",
+      "after": "8c2b5062543bcfc563167563cc17c18f3b77e81812dafbb5af1760f4f7ab7aef"
+    },
+    "Q3-25_严格域求解状态": {
+      "before": "c229ce733e02614e0f1e9308dfeeacdcadf5ca5919986630287d06cc2f0f9e6d",
+      "after": "e5f09d6bd3b686ba54dc0868e5c5b2027932fd3c3920d65471475fd88bf494e5"
+    },
+    "Q3-12_提质收益配对": {
+      "before": "fccd944f1a31305c5d5f05179b77f1da152bbf9eea28e0e08b55504e8fc4cc3c",
+      "after": "be406f81532e024fa461c119b37e9af203f76b4b8fa7f1ef50661e45715b57e4"
+    },
+    "Q3-07_最优配置路径": {
+      "before": "7cfa9c1a00b6258a5931dbdfe49794aba4693c2418d12972da74302f3170c89d",
+      "after": "a2c2d8d1665a8be7b85f167fb9587d1b3b9dc7c0f48084d35fdfc6c7d21a4f1e"
+    },
+    "Q3-04_严格域可行预算边界": {
+      "before": "eb28f82703e04a52eb6938e8a6a1d6a545a51cf71400de97761c177b6cdc414d",
+      "after": "869e530b3651903e673b59159173b79d16e6a2b441261767d8a8ffc3e32e460d"
+    },
+    "Q3-11_上下文损失惩罚": {
+      "before": "39356d4290da612ebb451c9e697a3237bfe1c7aead6267a30113bee798f872f4",
+      "after": "5677148dc738b8a3c068924727f8cc06344490c0f078b6f904cacd18a2941def"
+    },
+    "Q3-10_三档配置不确定性": {
+      "before": "990c1a293283354b2d169b3290d41538e005df5adc83813c09b250364c6276c3",
+      "after": "a766caf53743fb06b81a3c48f50111e10ae9d40e8dd834d9405b9258cf213a96"
+    },
+    "Q3-20_质量启动与饱和配对": {
+      "before": "6bf8c68d02248142dd676438d17fe3a886237124a846d9019e81c2f76b9841f3",
+      "after": "5b0d6a677da6978cbd47c98d03d4b3b515ff85e8433e610288ed972e28fe2043"
+    }
+  },
+  "note": "Changed hashes need independent visual review; existing matching review hashes remain valid."
+}

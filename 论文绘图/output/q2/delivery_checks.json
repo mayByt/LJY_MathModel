@@ -1,0 +1,502 @@
+{
+  "checked_at": "2026-09-26T13:47:53.487669+00:00",
+  "expected_count": 20,
+  "actual_count": 20,
+  "ids_match": true,
+  "assets_pass": true,
+  "reviews_pass": false,
+  "figures": [
+    {
+      "id": "Q2-01",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-01_证据覆盖地图.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-01_证据覆盖地图.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "STIXGeneral-Regular",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": true
+    },
+    {
+      "id": "Q2-03",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-03_原始训练曲线族.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-03_原始训练曲线族.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "STIXTwoMath-Regular",
+          "embedded": true
+        },
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": true
+    },
+    {
+      "id": "Q2-04",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-04_幂律数据坍缩.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-04_幂律数据坍缩.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": true
+    },
+    {
+      "id": "Q2-06",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-06_经典参数联合分布.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-06_经典参数联合分布.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "STIXTwoMath-Regular",
+          "embedded": true
+        },
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-08",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-08_外部误差结构诊断.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-08_外部误差结构诊断.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "STIXTwoMath-Regular",
+          "embedded": true
+        },
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-09",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-09_质量增量响应矩阵.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-09_质量增量响应矩阵.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-10",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-10_质量模型分块选择.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-10_质量模型分块选择.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": true
+    },
+    {
+      "id": "Q2-12",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-12_离散质量条件分布.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-12_离散质量条件分布.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-13",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-13_分块残差云雨分布.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-13_分块残差云雨分布.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-14",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-14_质量惩罚条件区间.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-14_质量惩罚条件区间.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-15",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-15_质量响应方向冲突.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-15_质量响应方向冲突.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-16",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-16_截断地板边界.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-16_截断地板边界.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-18",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-18_配比响应跨规模路径.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-18_配比响应跨规模路径.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-19",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-19_领域互补矩阵.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-19_领域互补矩阵.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": true
+    },
+    {
+      "id": "Q2-21",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-21_近优配比响应不确定性.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-21_近优配比响应不确定性.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-23",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-23_等损失资源替代.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-23_等损失资源替代.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": true
+    },
+    {
+      "id": "Q2-24",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-24_资源弹性组成.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-24_资源弹性组成.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-25",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-25_资源改进方向场.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-25_资源改进方向场.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-26",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-26_质量提升有限等价量.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-26_质量提升有限等价量.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    },
+    {
+      "id": "Q2-27",
+      "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-27_配比接口下界缺口.png",
+      "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-27_配比接口下界缺口.pdf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "dpi_300": true,
+      "hash_matches_metadata": true,
+      "fonts": [
+        {
+          "name": "TimesNewRomanPSMT",
+          "embedded": true
+        },
+        {
+          "name": "SimSun",
+          "embedded": true
+        }
+      ],
+      "all_fonts_embedded": true,
+      "automatic_issues": [],
+      "current_review_pass": false
+    }
+  ]
+}

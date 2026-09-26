@@ -1,0 +1,14 @@
+{
+  "id": "Q3-14",
+  "status": "pass",
+  "png_sha256": "2c14d54d485dd2e49cc3c3216efbd58be1ca2e969920d60f8b542741590186d1",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-02_A1文本长度ECDF.png"
+  ],
+  "visual_assessment": "与实际打开的参考ECDF对照：当前500次条件抽样用原始阶梯保留质量边界点质量，线型/端点形状和成本颜色清楚；图例与细网格满足参考强度，未用核密度伪造边界外连续概率。",
+  "issues": [],
+  "reviewer": "/root/research_q2",
+  "reviewed_at": "2026-09-26T14:01:21.315598+00:00"
+}

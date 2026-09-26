@@ -1,0 +1,154 @@
+{
+  "status": "reference_v2：80张当前版本逐图独立审阅通过",
+  "palette_name": "柔绿森林",
+  "palette_source": "用户2026-09-26提供的图片底部HEX标注；不是Nature官方色板",
+  "palette": {
+    "light_green": "#B8DBB3",
+    "leaf_green": "#86BC79",
+    "forest_green": "#71A682",
+    "slate_teal": "#81989B",
+    "ochre": "#D19246",
+    "olive_gray": "#B5AF8B",
+    "blue_gray": "#7EA4B6",
+    "indigo": "#4A4F7E"
+  },
+  "line": {
+    "light_green": "#608E55",
+    "leaf_green": "#608E55",
+    "forest_green": "#52745D",
+    "slate_teal": "#5C6C6E",
+    "ochre": "#8F6736",
+    "olive_gray": "#8B8563",
+    "blue_gray": "#5A7A89",
+    "indigo": "#4A4F7E"
+  },
+  "line_note": "同色相加深；嫩绿不作独立细线，沿用叶绿深线；靛紫原色已经足够深",
+  "global_semantics": {
+    "N": "blue_gray",
+    "D": "forest_green",
+    "Q": "leaf_green",
+    "context_attention": "ochre",
+    "baseline": "slate_teal",
+    "selected_model": "indigo",
+    "positive_signed_value": "ochre",
+    "negative_signed_value": "indigo"
+  },
+  "questions": {
+    "q1": {
+      "primary": "forest_green",
+      "secondary": "leaf_green",
+      "contrast": "ochre",
+      "sequential": [
+        "#B8DBB3",
+        "#71A682",
+        "#4A4F7E"
+      ]
+    },
+    "q2": {
+      "primary": "indigo",
+      "secondary": "blue_gray",
+      "contrast": "ochre",
+      "sequential": [
+        "#B8DBB3",
+        "#7EA4B6",
+        "#4A4F7E"
+      ]
+    },
+    "q3": {
+      "primary": "indigo",
+      "cost_train": "blue_gray",
+      "cost_quality": "leaf_green",
+      "cost_attention": "ochre",
+      "sequential": [
+        "#B8DBB3",
+        "#71A682",
+        "#4A4F7E"
+      ]
+    },
+    "q4": {
+      "primary": "indigo",
+      "scale": "blue_gray",
+      "non_scale": "ochre",
+      "growth_1": "indigo",
+      "growth_0_5": "blue_gray",
+      "growth_0_25": "forest_green",
+      "sequential": [
+        "#B8DBB3",
+        "#7EA4B6",
+        "#4A4F7E"
+      ]
+    }
+  },
+  "diverging": {
+    "negative": "#4A4F7E",
+    "zero": "#FFFFFF",
+    "positive": "#D19246",
+    "center": 0
+  },
+  "fonts": {
+    "latin": "Times New Roman",
+    "cjk": "SimSun",
+    "math": "stix",
+    "axis_pt": 9,
+    "tick_pt": 8,
+    "legend_pt": 8,
+    "panel_pt": 10,
+    "minimum_pt": 7.5,
+    "math_fallback": [
+      "STIXGeneral",
+      "STIX Two Text"
+    ],
+    "fallback_note": "STIXGeneral TrueType用于数学字母，STIX Two Text TrueType补上标，避免CFF OTF字体嵌入警告"
+  },
+  "layout": {
+    "paper_text_width_mm": 165,
+    "full_width_mm": 160,
+    "half_width_mm": 78,
+    "gap_mm": 4,
+    "max_panels_recommended": 4,
+    "background": "#FFFFFF",
+    "text_color": "#202020",
+    "titles_inside_plot": false,
+    "explanatory_paragraphs_inside_plot": false,
+    "grid_default": false
+  },
+  "export": {
+    "planned": [
+      "png",
+      "pdf"
+    ],
+    "png_dpi": 300,
+    "pdf_fonttype": 42,
+    "separate_figure_files": true
+  },
+  "accessibility": {
+    "color_only_categories": false,
+    "markers": [
+      "o",
+      "s",
+      "^",
+      "D"
+    ],
+    "linestyles": [
+      "-",
+      "--",
+      "-.",
+      ":"
+    ],
+    "avoid_simultaneous_pairs": [
+      [
+        "slate_teal",
+        "blue_gray"
+      ],
+      [
+        "leaf_green",
+        "olive_gray"
+      ]
+    ],
+    "sequential_claim": "按明度检查的项目自定义渐变；不宣称感知均匀",
+    "missing_data": "empty_cell_with_cross"
+  },
+  "visual_revision": "reference_v2",
+  "reference_project": "/Users/sd3/Desktop/project/gmgc2026F/绘图",
+  "large_fill_policy": "原色与白混合48%，仅填充；描边仍用中深原色同相"
+}

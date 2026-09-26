@@ -1,0 +1,62 @@
+{
+  "id": "Q2-04",
+  "name": "Q2-04_幂律数据坍缩",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-04_幂律数据坍缩.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-04_幂律数据坍缩.pdf",
+  "png_sha256": "7c2182c432dbc8d2c71c48cb6b1753730c3c8a52fe11bcb3fddab3e1ef12355f",
+  "size_mm": [
+    160.0,
+    113.0
+  ],
+  "caption": "上方为剥离不可约项与参数项后的八规模数据坍缩，下方为各规模相对冻结数据幂律的百分比偏离。色阶沿用参数规模，零线用于识别微小系统偏差。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/中文题目/F题/real_attachments/B_scaling_laws/pythia_training_log_existing.csv",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/classic_scaling_parameters.json"
+  ],
+  "stats": {
+    "rows": 1176,
+    "beta": 0.27987812854272615,
+    "scale_deviation": [
+      {
+        "N_B": 0.070542,
+        "max_relative_deviation_percent": 0.163363695454799
+      },
+      {
+        "N_B": 0.162405,
+        "max_relative_deviation_percent": 0.1816548659467454
+      },
+      {
+        "N_B": 0.409009,
+        "max_relative_deviation_percent": 0.10518508742711763
+      },
+      {
+        "N_B": 1.040867,
+        "max_relative_deviation_percent": 0.10521847957107866
+      },
+      {
+        "N_B": 1.416184,
+        "max_relative_deviation_percent": 0.09727129707121085
+      },
+      {
+        "N_B": 2.782831,
+        "max_relative_deviation_percent": 0.0832868905577433
+      },
+      {
+        "N_B": 6.86104,
+        "max_relative_deviation_percent": 0.07138822306641535
+      },
+      {
+        "N_B": 11.965825,
+        "max_relative_deviation_percent": 0.07673002373979054
+      }
+    ],
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-04_B1训练轨迹与拟合.png",
+    "design_change": "单条坍缩线 → 共享D轴的结构与相对残差两层，显示原图隐藏的规模差异。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:12.285524+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2",
+  "interpretation": "下方放大残差使近乎完全重叠的数据仍可检查；这是结构诊断，不新增独立验证证据。"
+}

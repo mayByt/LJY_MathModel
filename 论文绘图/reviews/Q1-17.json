@@ -1,0 +1,14 @@
+{
+  "id": "Q1-17",
+  "status": "pass",
+  "png_sha256": "3b1ac7708a2ab37c1e75639c48dd4815404fcf44fec3c2ecb833b5c4c49401ab",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q1/Q1-36_候选模型训练侧误差点阵.png"
+  ],
+  "visual_assessment": "五个模型在紧凑画布上直接标名，误差与排序权衡的非支配前沿清楚；主要点足够醒目，邻近二阶Ridge与Elastic Net标签错开可辨，无夸造额外验证点。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T14:00:57.429278+00:00"
+}

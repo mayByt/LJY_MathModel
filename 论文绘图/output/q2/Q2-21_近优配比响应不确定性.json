@@ -1,0 +1,34 @@
+{
+  "id": "Q2-21",
+  "name": "Q2-21_近优配比响应不确定性",
+  "question": "q2",
+  "png": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-21_近优配比响应不确定性.png",
+  "pdf": "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/论文绘图/output/q2/Q2-21_近优配比响应不确定性.pdf",
+  "png_sha256": "3096f2796f92fbda4e57d6a4eaae387e45dc373d907c8171ac7a32f7320721e5",
+  "size_mm": [
+    160.0,
+    85.0
+  ],
+  "caption": "固定近优配比p*的500次既有响应抽样分布及经验累计曲线。右侧浅带为95%分位范围，R<0百分比为抽样中负响应的经验占比，不是后验优胜概率。",
+  "sources": [
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/problem1_mixture_response_bootstrap.npz",
+    "/Users/sd3/Desktop/2026 数学建模/LJY_MathModel/问题二/results_p12_final_v2/problem1_bridge.json"
+  ],
+  "stats": {
+    "valid_draws": 500,
+    "R_point": -2.2897634910840576,
+    "median": -1.6975796237464926,
+    "ci95": [
+      -3.568433322931743,
+      0.11303060268897336
+    ],
+    "empirical_fraction_R_below_zero": 0.966,
+    "visual_reference": "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-19_质量系数联合分布.png",
+    "design_change": "单一巨大密度面 → 频数形态与ECDF的互补分布视图，区间跨0与尾部概率均可读。"
+  },
+  "automatic_issues": [],
+  "created_at": "2026-09-26T13:53:17.765676+00:00",
+  "status": "pending_review",
+  "visual_revision": "reference_v2",
+  "interpretation": "95%区间仍跨0，近优配比仅作敏感性情景。没有混入sQ或迁移强度情景的广义bootstrap。"
+}

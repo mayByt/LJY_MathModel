@@ -1,0 +1,14 @@
+{
+  "id": "Q2-27",
+  "status": "pass",
+  "png_sha256": "2581ac76198e1e4fc991c2168f5bc4af1ae17ff3f0c26deeb85c9400255e0db1",
+  "viewed": true,
+  "visual_revision": "reference_v2",
+  "reference_images": [
+    "/Users/sd3/Desktop/project/gmgc2026F/绘图/output/q2/Q2-37_迁移情景热图.png"
+  ],
+  "visual_assessment": "三种sQ的27状态与四profile矩阵完整，N分组留白、行标签及低于E黑点使52处违规易定位；色标以0为界，参考配比无违规用计数概括，profile单位未误写成lambda0。",
+  "issues": [],
+  "reviewer": "review_q4_v2",
+  "reviewed_at": "2026-09-26T13:56:47.366264+00:00"
+}
