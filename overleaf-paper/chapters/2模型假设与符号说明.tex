@@ -1,0 +1,66 @@
+\section{模型假设与符号说明}
+
+\subsection{模型假设}
+
+\begin{enumerate}
+    \item \textbf{证据分层假设。}附件 A、B、C 的生成方式、实验条件和响应尺度存在差异，不将其 Loss 观测直接拼接为同一回归样本。各数据源分别用于参数估计、内部验证、外部对照或外推压力测试，跨体系信息仅通过显式定义的冻结接口传递。
+
+    \item \textbf{质量信号单调可比假设。}对于问题一的 $22$ 项质量信号，经语义同向化和稳健尺度变换后，数值越大表示在相应语义下质量越高。综合得分只表示当前指标体系内的相对质量，不等同于人工标注意义下的绝对文本价值。
+
+    \item \textbf{支持域内平滑标度假设。}在附件 B 的观测范围内，验证损失随参数量、训练 Token 数和有效质量的变化可由正参数幂律与质量惩罚项近似。该假设不自动延伸到新模型族或远离观测支持域的资源区间，所有带外推标记的结果均按条件推断解释。
+
+    \item \textbf{质量尺度锚定假设。}问题一的质量尺度与附件 B 的质量变量没有独立校准实验，因此以参考质量 $Q_{\mathrm{ref}}$ 为公共锚点，用斜率 $s_Q$ 构造情景映射。该映射用于检验方向和敏感性，不解释为已经实验识别的一一物理换算。
+
+    \item \textbf{固定参考配比决策假设。}问题一的配比响应可支持候选方案和方向分析，但 A、B 体系之间缺少可识别配比绝对强度的共同实验。因此问题三的中心优化固定 $\boldsymbol p=\boldsymbol p_{\mathrm{ref}}$，近优配比 $\boldsymbol p^\star$ 只作敏感性及机制分析，不直接代入主资源决策。
+
+    \item \textbf{算力成本可加假设。}基础训练、质量提升与长上下文注意力成本按题设 FLOPs 代理量在同一预算中相加，上下文长度 $L_{\mathrm{ctx}}$ 视为外生情景。三类质量成本函数是题设情景而非现实工程计费函数，其结果用于比较资源分配机制。
+
+    \item \textbf{历史能力的观察性解释假设。}问题四中的“规模扩张相关贡献”指模型内训练算力变化对应的预测增量，“非规模残余”仍可能包含架构、数据工程、优化、后训练和未观测混杂，不将其解释为严格因果效应。
+\end{enumerate}
+
+\subsection{符号说明}
+
+本文将绝对参数量与 Token 数分别记为 $N$ 和 $D$，仅在标度律估计中使用十亿尺度的 $n$ 和 $d$。为避免质量符号在不同层次间混用，样本质量、领域质量、决策质量和映射后有效质量分别使用 $Q_i$、$q_j$、$Q_A$ 和 $Q_{\mathrm{eff}}$。主要符号见表~\ref{tab:symbol_explanation}。
+
+\begin{longtable}{>{\Centering\arraybackslash}p{0.20\linewidth} p{0.59\linewidth} >{\Centering\arraybackslash}p{0.13\linewidth}}
+\caption{主要符号及其含义}\label{tab:symbol_explanation}\\
+\toprule
+符号 & 含义 & 单位或范围 \\
+\midrule
+\endfirsthead
+\caption*{表 \thetable：主要符号及其含义（续）}\\
+\toprule
+符号 & 含义 & 单位或范围 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{接下页}\\
+\endfoot
+\bottomrule
+\endlastfoot
+$i,j,k$ & 样本、训练领域与验证领域索引 & --- \\
+$Q_i$ & 问题一中第 $i$ 个文本的综合质量得分 & $[0,1]$ \\
+$q_j$ & 第 $j$ 个训练领域的稳健聚合质量 & $[0,1]$ \\
+$\boldsymbol p$ & $17$ 个训练领域的配比向量，$\boldsymbol 1^{\mathsf T}\boldsymbol p=1$ & 单纯形 \\
+$\boldsymbol p_{\mathrm{ref}}$ & 问题一训练配比样本的平均配比，用作跨体系中性锚点 & 单纯形 \\
+$\boldsymbol p^\star$ & 经支持域与份额上界约束的参考近优配比族 & 单纯形 \\
+$J(\boldsymbol p)$ & 问题一中经验证域尺度标准化的综合配比目标 & 无量纲 \\
+$R(\boldsymbol p)$ & 相对 $\boldsymbol p_{\mathrm{ref}}$ 的归一化配比响应 & 无量纲 \\
+$N,n$ & 模型参数总量及其十亿尺度，$n=N/10^9$ & 个，B \\
+$D,d$ & 训练 Token 总量及其十亿尺度，$d=D/10^9$ & Token，B \\
+$\widehat L$ & 标度律给出的验证集交叉熵损失预测 & 无量纲 \\
+$E$ & 标度律中的不可约损失项 & 无量纲 \\
+$A,B$ & 参数项与数据项的标度系数 & 无量纲 \\
+$\alpha,\beta$ & 参数项与数据项的标度指数 & 正数 \\
+$Q_A$ & 资源决策中的数据质量水平，沿用问题一尺度 & $[0,1]$ \\
+$Q_{\mathrm{ref}}$ & $\boldsymbol p_{\mathrm{ref}}$ 对应的公共参考质量 & $[0,1]$ \\
+$Q_{\mathrm{eff}}$ & 由 $Q_A$ 经锚定映射后进入 Loss 模型的有效质量 & $[\varepsilon,1]$ \\
+$s_Q$ & 从 $Q_A$ 到 $Q_{\mathrm{eff}}$ 的质量映射斜率 & $\{0.5,1,1.5\}$ \\
+$c_Q,\nu_Q$ & 质量惩罚项的系数与指数 & 正数 \\
+$C$ & 问题三中的总算力预算 & FLOPs \\
+$L_{\mathrm{ctx}}$ & 外生给定的上下文长度 & Token \\
+$g(Q_A)$ & 单位 Token 的数据质量提升成本函数 & \shortstack{FLOPs/\\Token} \\
+$\eta$ & 长上下文注意力成本系数 & 情景参数 \\
+$N^*,D^*,Q_A^*$ & 给定预算与情景下的最优资源配置 & 对应单位 \\
+$S$ & 问题四中的综合 Benchmark 能力得分 & $[0,100]$ \\
+\end{longtable}

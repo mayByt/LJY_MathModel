@@ -1,0 +1,223 @@
+{
+  "version": "problem4-reference-types-v3",
+  "figure_count": 11,
+  "font_policy": {
+    "Chinese body": "Noto Serif SC",
+    "Chinese heading/subheading": "Noto Sans SC Bold",
+    "Latin letters and numerals": "Times New Roman",
+    "Mathematics": "Computer Modern via Matplotlib mathtext"
+  },
+  "figures": [
+    {
+      "stem": "P4_F01_数据筛选与逐任务复现审计",
+      "caption": "问题四的数据筛选与逐任务复现审计。(a) 原始记录经去重、C4匹配和前沿筛选后的样本规模；(b) BBH精确复现率超过95%门槛；(c) MATH hard未过门槛，因此只作审计敏感性。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_F01_数据筛选与逐任务复现审计.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_F01_数据筛选与逐任务复现审计.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_F01_数据筛选与逐任务复现审计.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/data_audit.json",
+          "sha256": "83e0f10e8b709a66558cf5a15df8bd984c336ca10a56c94007615107fcc19517"
+        },
+        {
+          "path": "问题四/results_v2/task_level_aggregates.csv",
+          "sha256": "07dcedf2294f7a8b912d046991f4e4f732ec1a395cdf8598b72ff36654049ab9"
+        },
+        {
+          "path": "论文图片/问题四_参考图型版_v3/figure_data/F01_data_funnel.csv",
+          "sha256": "e95c8bde89013e408e74382682da4495e8af545ce305426fcf76aee02275259d"
+        }
+      ]
+    },
+    {
+      "stem": "P4_F02_Loss_Benchmark桥接选择与留族验证",
+      "caption": "Loss--Benchmark桥接的选模与留来源族验证。Average在one-SE规则下选择单调线性桥接；留族预测显示桥接仍具有较大误差，IFEval、MATH和GPQA降级为弱桥接。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_F02_Loss_Benchmark桥接选择与留族验证.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_F02_Loss_Benchmark桥接选择与留族验证.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_F02_Loss_Benchmark桥接选择与留族验证.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/bridge_cv_results.csv",
+          "sha256": "bb6862b19bec47724dc642aba85a9b6c5e805d8797df210c7ae738d63328b51a"
+        },
+        {
+          "path": "问题四/results_v2/bridge_cv_predictions.csv.gz",
+          "sha256": "bd2ed66826227ae6a4861a08279557e373a1fb4937dfba07ec8f9ffe3baf12e2"
+        }
+      ]
+    },
+    {
+      "stem": "P4_F03_问题三Loss到综合能力映射",
+      "caption": "问题三最优Loss到综合能力的桥接映射。上图给出映射中位数和联合不确定区间，下图保留45个冻结情景的成本类型、预算和支持域位置。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_F03_问题三Loss到综合能力映射.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_F03_问题三Loss到综合能力映射.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_F03_问题三Loss到综合能力映射.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/loss_benchmark_predictions.csv",
+          "sha256": "d784ba1f7376b12c702a8edfb18803bfdce0d3ded151b81ba8cc792682c8083d"
+        },
+        {
+          "path": "论文图片/问题四_参考图型版_v3/figure_data/F03_problem3_average_mapping.csv",
+          "sha256": "dfc2ec8927beb5927c34cd4bad7c1f81572942b9cc7879eded1c1a858accda12"
+        }
+      ]
+    },
+    {
+      "stem": "P4_F04_训练算力与动力学能力前沿",
+      "caption": "确认性pretrained样本的训练算力与综合能力。点颜色表示月份，点面积表示参数量；曲线为首末月的0.90动力学前沿。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_F04_训练算力与动力学能力前沿.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_F04_训练算力与动力学能力前沿.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_F04_训练算力与动力学能力前沿.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/frontier_training_panel.csv",
+          "sha256": "8dac3d0d5bb4df322ec8cd07609f02a73f60c3e848f4acf05b7d40ce32c70ab0"
+        },
+        {
+          "path": "问题四/results_v2/dynamic_frontier_parameters.json",
+          "sha256": "e4b6c5f287a0ff9e9a950f1c3c240cad8950033418b5ae6a324663f55cb63589"
+        },
+        {
+          "path": "论文图片/问题四_参考图型版_v3/figure_data/F04_dynamic_frontier_curves.csv",
+          "sha256": "a44fa83a0eda52dfe0779f3cf981a0b68a9c8294077876fa63607e5c986ea247"
+        }
+      ]
+    },
+    {
+      "stem": "P4_F05_规模与非规模贡献联合分布",
+      "caption": "规模扩张相关贡献与非规模残余贡献的联合bootstrap分布。规模项稳定为正，残余项集中于零附近且横跨正负，不支持稳定方向结论。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_F05_规模与非规模贡献联合分布.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_F05_规模与非规模贡献联合分布.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_F05_规模与非规模贡献联合分布.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/frontier_bootstrap_draws.csv.gz",
+          "sha256": "74ed1bd4f427079083236225f1ce4298d6ad1c5ee9966dd3a15a0c21a87fa102"
+        },
+        {
+          "path": "问题四/results_v2/contribution_decomposition.csv",
+          "sha256": "666620c766a36ba5dd1af18d28cfadca900fb501ca8c67a4ff7704b17904eda2"
+        },
+        {
+          "path": "论文图片/问题四_参考图型版_v3/figure_data/F05_contribution_draws.csv",
+          "sha256": "891295c7d520f3845ba23322bc32521b38e684b2ed78096edb1dacf354ea871e"
+        }
+      ]
+    },
+    {
+      "stem": "P4_F06_训练算力趋势与放缓情景",
+      "caption": "开源模型训练算力的年度分布、月度前沿、趋势端点与三种放缓情景。年度箱线刻画历史离散度，预测段同时传播端点和增速不确定性。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_F06_训练算力趋势与放缓情景.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_F06_训练算力趋势与放缓情景.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_F06_训练算力趋势与放缓情景.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/compute_growth_monthly.csv",
+          "sha256": "a4165f27896d2180da5a60934fdd44fac48edbd4c64e5dfa36b12d248986f391"
+        },
+        {
+          "path": "问题四/results_v2/compute_growth_bootstrap.csv.gz",
+          "sha256": "19b58c21738765834f372f5da90be753a8bbcce65b77faadf36144286654edd5"
+        },
+        {
+          "path": "问题四/results_v2/compute_growth_scenarios.csv",
+          "sha256": "723b5ffd6eec594cb2aea020576da93ab8b87120b34ff8cf9cbeba8cfb5bafae"
+        },
+        {
+          "path": "问题四/results_v2/frontier_training_panel.csv",
+          "sha256": "8dac3d0d5bb4df322ec8cd07609f02a73f60c3e848f4acf05b7d40ce32c70ab0"
+        },
+        {
+          "path": "论文图片/问题四_参考图型版_v3/figure_data/F06_compute_scenario_paths.csv",
+          "sha256": "3547354c215c1e4eda9b52b6d2021d266bccc52a6de7e0fc8fb8a0500197f60b"
+        }
+      ]
+    },
+    {
+      "stem": "P4_F07_算力放缓下的未来能力前沿",
+      "caption": "三种算力增速情景下12个月和24个月的0.90能力前沿。点为中心预测，粗线和细线分别为80%与95%联合区间，小提琴展示999次有效预测抽样。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_F07_算力放缓下的未来能力前沿.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_F07_算力放缓下的未来能力前沿.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_F07_算力放缓下的未来能力前沿.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/frontier_forecast.csv",
+          "sha256": "c1849b6c31c08ce357be5a2a9694bb50446be9152bf84334a22a3f11fe6b6d22"
+        },
+        {
+          "path": "问题四/results_v2/frontier_forecast_draws.csv.gz",
+          "sha256": "5e2ff8f3d953ca06a58ca82792fa80af6bb07cef9eb34e5f930ddade87d3b608"
+        }
+      ]
+    },
+    {
+      "stem": "P4_F08_滚动回测与桥接不确定性",
+      "caption": "动力学前沿的滚动回测与问题三能力映射的不确定性分解。回测中M-C与M-scale性能接近；映射区间宽度主要来自Loss--Benchmark桥接而非问题三上游优化。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_F08_滚动回测与桥接不确定性.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_F08_滚动回测与桥接不确定性.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_F08_滚动回测与桥接不确定性.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/backtest_results.csv",
+          "sha256": "57afd43c4cf2ca8b3f842b0c84e8e6767a768c2e03834255562919b7cabad87c"
+        },
+        {
+          "path": "问题四/results_v2/uncertainty_budget.csv",
+          "sha256": "218f55ec9adab2531e22b09285d2ec9197805cdf05858bb14c0be59845314900"
+        },
+        {
+          "path": "论文图片/问题四_参考图型版_v3/figure_data/F08_backtest_skill.csv",
+          "sha256": "1da0723c8428db371fb2f2ec24cb75b597e1123a5953f5c05e0d17071dcf217e"
+        }
+      ]
+    },
+    {
+      "stem": "P4_A01_七类能力桥接模型比较",
+      "caption": "七类能力目标的四类候选桥接模型留来源族CV-MAE小多图。星号表示one-SE规则选中的最简模型。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_A01_七类能力桥接模型比较.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_A01_七类能力桥接模型比较.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_A01_七类能力桥接模型比较.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/bridge_cv_results.csv",
+          "sha256": "bb6862b19bec47724dc642aba85a9b6c5e805d8797df210c7ae738d63328b51a"
+        },
+        {
+          "path": "论文图片/问题四_参考图型版_v3/figure_data/A01_bridge_cv_mae_matrix.csv",
+          "sha256": "16c44a2a5e0d916f2ded11d2c5966e2d72d6018e80dbd3991801f30112e51702"
+        }
+      ]
+    },
+    {
+      "stem": "P4_A02_贡献分解规格敏感性",
+      "caption": "不同证据口径、时间轴、能力构造和重采样块长下的贡献分解敏感性；下方点阵标记每个规格所改变的设定。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_A02_贡献分解规格敏感性.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_A02_贡献分解规格敏感性.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_A02_贡献分解规格敏感性.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/frontier_sensitivity.csv",
+          "sha256": "46a70fc39ac7a6d76e542f13557e3ef68435f6ad913a1caf31c087b0af54037a"
+        }
+      ]
+    },
+    {
+      "stem": "P4_A03_C3历史方向敏感性",
+      "caption": "C3历史回归中参数量系数与年份系数的联合bootstrap分布，并叠加逐家族删除结果；年份方向跨零且符号不稳定。",
+      "pdf": "论文图片/问题四_参考图型版_v3/P4_A03_C3历史方向敏感性.pdf",
+      "png": "论文图片/问题四_参考图型版_v3/P4_A03_C3历史方向敏感性.png",
+      "overleaf_pdf": "overleaf-paper/images/no4/P4_A03_C3历史方向敏感性.pdf",
+      "sources": [
+        {
+          "path": "问题四/results_v2/c3_historical_sensitivity.csv",
+          "sha256": "fe3a140dd3b5c4624531ffff4a75d6f16595ea7de2180975110affc7e3f240ca"
+        },
+        {
+          "path": "问题四/results_v2/c3_historical_summary.json",
+          "sha256": "cdbb418787d729c44aa038d0454d7992c7aa214297e4749c1d13e5f95d747fa0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1420" viewBox="0 0 1800 1420">
+  <defs>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6B7280"/></marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2A7F72"/></marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3E6F9E"/></marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#C28B32"/></marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7A5AA6"/></marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5F8E4E"/></marker>
+    <style>
+      text { font-family: "Times New Roman", "Noto Serif CJK SC", serif; }
+      .stage { font-family: "Times New Roman", "Noto Sans CJK SC", sans-serif; font-size: 20px; font-weight: 700; fill: #fff; }
+      .card-title { font-family: "Times New Roman", "Noto Sans CJK SC", sans-serif; font-size: 23px; font-weight: 700; fill: #1F2937; }
+      .card-sub { font-size: 18px; font-weight: 400; fill: #4B5563; }
+      .lane-title { font-family: "Times New Roman", "Noto Sans CJK SC", sans-serif; font-size: 27px; font-weight: 700; }
+      .node-title { font-family: "Times New Roman", "Noto Sans CJK SC", sans-serif; font-size: 21px; font-weight: 700; }
+      .node-sub { font-size: 17px; font-weight: 400; }
+      .output-title { font-family: "Times New Roman", "Noto Sans CJK SC", sans-serif; font-size: 20px; font-weight: 700; fill: #395A30; }
+      .output-sub { font-size: 17px; fill: #52634A; }
+      .legend { font-size: 15px; fill: #4B5563; }
+      .edge { fill: none; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1420" fill="#FFFFFF"/>
+
+  <!-- Group backgrounds -->
+  <rect x="80" y="400" width="790" height="620" rx="22" fill="#F7FBFA" stroke="#77AFA1" stroke-width="2.2"/>
+  <path d="M102 400 H848 Q870 400 870 422 V454 H80 V422 Q80 400 102 400Z" fill="#E8F4F0"/>
+  <line x1="80" y1="454" x2="870" y2="454" stroke="#77AFA1" stroke-width="1.5"/>
+  <rect x="930" y="400" width="790" height="620" rx="22" fill="#F8FAFC" stroke="#7FA4C7" stroke-width="2.2"/>
+  <path d="M952 400 H1698 Q1720 400 1720 422 V454 H930 V422 Q930 400 952 400Z" fill="#EAF1F8"/>
+  <line x1="930" y1="454" x2="1720" y2="454" stroke="#7FA4C7" stroke-width="1.5"/>
+
+  <!-- Connectors behind nodes -->
+  <path class="edge" d="M330 210 V232 H650 V255" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-gray)"/>
+  <path class="edge" d="M900 210 V255" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-gray)"/>
+  <path class="edge" d="M1470 210 V232 H1150 V255" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-gray)"/>
+  <path class="edge" d="M750 343 V370 H475 V475" stroke="#2A7F72" stroke-width="2.6" marker-end="url(#arrow-teal)"/>
+  <path class="edge" d="M1050 343 V370 H1325 V475" stroke="#3E6F9E" stroke-width="2.6" marker-end="url(#arrow-blue)"/>
+  <path class="edge" d="M475 563 V580" stroke="#2A7F72" stroke-width="2.6" marker-end="url(#arrow-teal)"/>
+  <path class="edge" d="M475 668 V685" stroke="#2A7F72" stroke-width="2.6" marker-end="url(#arrow-teal)"/>
+  <path class="edge" d="M475 773 V790" stroke="#2A7F72" stroke-width="2.6" marker-end="url(#arrow-teal)"/>
+  <path class="edge" d="M475 878 V895" stroke="#2A7F72" stroke-width="2.6" marker-end="url(#arrow-teal)"/>
+  <path class="edge" d="M1325 563 V580" stroke="#3E6F9E" stroke-width="2.6" marker-end="url(#arrow-blue)"/>
+  <path class="edge" d="M1325 668 V685" stroke="#3E6F9E" stroke-width="2.6" marker-end="url(#arrow-blue)"/>
+  <path class="edge" d="M1325 773 V790" stroke="#3E6F9E" stroke-width="2.6" marker-end="url(#arrow-blue)"/>
+  <path class="edge" d="M1325 878 V895" stroke="#7A5AA6" stroke-width="2.6" marker-end="url(#arrow-purple)"/>
+  <path class="edge" d="M475 983 V1028 H530 V1060" stroke="#C28B32" stroke-width="2.5" stroke-dasharray="10 7" marker-end="url(#arrow-amber)"/>
+  <path class="edge" d="M980 834 H900 V1028 H790 V1060" stroke="#C28B32" stroke-width="2.5" stroke-dasharray="10 7" marker-end="url(#arrow-amber)"/>
+  <path class="edge" d="M1325 983 V1060" stroke="#7A5AA6" stroke-width="2.8" marker-end="url(#arrow-purple)"/>
+  <path class="edge" d="M530 1148 V1220" stroke="#5F8E4E" stroke-width="2.8" marker-end="url(#arrow-green)"/>
+  <path class="edge" d="M1280 1148 V1220" stroke="#7A5AA6" stroke-width="2.8" marker-end="url(#arrow-purple)"/>
+
+  <!-- Stage chip and inputs -->
+  <rect x="80" y="20" width="150" height="34" rx="17" fill="#4B5563"/>
+  <text x="155" y="43" text-anchor="middle" class="stage">数据输入</text>
+
+  <g>
+    <rect x="80" y="65" width="500" height="145" rx="18" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.8"/>
+    <rect x="80" y="65" width="10" height="145" rx="5" fill="#6B7280"/>
+    <text x="115" y="112" class="card-title">质量信号数据</text>
+    <text x="115" y="151" class="card-sub">A1质量抽样集 · A2 ArXiv · A3 GitHub</text>
+    <text x="115" y="184" class="card-sub">22项异构质量指标</text>
+  </g>
+  <g>
+    <rect x="650" y="65" width="500" height="145" rx="18" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.8"/>
+    <rect x="650" y="65" width="10" height="145" rx="5" fill="#6B7280"/>
+    <text x="685" y="112" class="card-title">领域映射证据</text>
+    <text x="685" y="151" class="card-sub">A16映射先验 · A18文本样本</text>
+    <text x="685" y="184" class="card-sub">直接 / 近直接 / 推断映射</text>
+  </g>
+  <g>
+    <rect x="1220" y="65" width="500" height="145" rx="18" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.8"/>
+    <rect x="1220" y="65" width="10" height="145" rx="5" fill="#6B7280"/>
+    <text x="1255" y="112" class="card-title">配比实验数据</text>
+    <text x="1255" y="151" class="card-sub">A4–A15：17域配比 × 13域 Loss</text>
+    <text x="1255" y="184" class="card-sub">训练 / 实测验证 / 外推敏感性</text>
+  </g>
+
+  <!-- Audit -->
+  <rect x="490" y="255" width="820" height="88" rx="22" fill="#FFFFFF" stroke="#6B7280" stroke-width="2.2"/>
+  <circle cx="540" cy="299" r="22" fill="#4B5563"/>
+  <path d="M529 299 l8 8 15-18" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="580" y="293" font-size="22" font-weight="700" fill="#374151">数据审计与冻结</text>
+  <text x="580" y="322" font-size="17" fill="#5B6470">去重与缺失处理 · 索引对齐 · 配比闭合 · 训练/验证/外推隔离</text>
+
+  <!-- Lane titles -->
+  <circle cx="118" cy="427" r="15" fill="#2A7F72"/><path d="M110 427 l5 5 10-12" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="145" y="437" class="lane-title" fill="#1F5F54">质量评价与领域映射</text>
+  <circle cx="968" cy="427" r="15" fill="#3E6F9E"/><path d="M960 427 l5 5 10-12" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="995" y="437" class="lane-title" fill="#315E85">配比响应建模与约束优化</text>
+
+  <!-- Quality nodes -->
+  <g><rect x="130" y="475" width="690" height="88" rx="15" fill="#FFFFFF" stroke="#2A7F72" stroke-width="2"/><rect x="130" y="475" width="8" height="88" rx="4" fill="#2A7F72"/><text x="163" y="510" class="node-title" fill="#173F38">Q1　指标标量化与同向化</text><text x="163" y="541" class="node-sub" fill="#4C6B65">稳定 Softmax · 分位数变换 · 适中型锚定</text></g>
+  <g><rect x="130" y="580" width="690" height="88" rx="15" fill="#FFFFFF" stroke="#2A7F72" stroke-width="2"/><rect x="130" y="580" width="8" height="88" rx="4" fill="#2A7F72"/><text x="163" y="615" class="node-title" fill="#173F38">Q2　五块评分与稳定 CRITIC</text><text x="163" y="646" class="node-sub" fill="#4C6B65">教育 · 表达 · 推理 · 噪声 · 结构　|　块内去冗余赋权</text></g>
+  <g><rect x="130" y="685" width="690" height="88" rx="15" fill="#FFFFFF" stroke="#2A7F72" stroke-width="2"/><rect x="130" y="685" width="8" height="88" rx="4" fill="#2A7F72"/><text x="163" y="720" class="node-title" fill="#173F38">Q3　冲突检测与 Huber 聚合</text><text x="163" y="751" class="node-sub" fill="#4C6B65">冲突指数 Kᵢ / QCIᵢ · 有向冲突类型 · 稳健样本质量 Qᵢ</text></g>
+  <g><rect x="130" y="790" width="690" height="88" rx="15" fill="#FFFFFF" stroke="#2A7F72" stroke-width="2"/><rect x="130" y="790" width="8" height="88" rx="4" fill="#2A7F72"/><text x="163" y="825" class="node-title" fill="#173F38">Q4　领域质量与代表性检验</text><text x="163" y="856" class="node-sub" fill="#4C6B65">领域 Huber 均值 + Bootstrap　|　A1子集 vs 扩展余集</text></g>
+  <g><rect x="130" y="895" width="690" height="88" rx="15" fill="#FFFFFF" stroke="#2A7F72" stroke-width="2"/><rect x="130" y="895" width="8" height="88" rx="4" fill="#2A7F72"/><text x="163" y="930" class="node-title" fill="#173F38">Q5　7域质量 → 17域质量映射</text><text x="163" y="961" class="node-sub" fill="#4C6B65">direct · near-direct · inferred　|　q_d、区间与证据等级</text></g>
+
+  <!-- Mixture nodes -->
+  <g><rect x="980" y="475" width="690" height="88" rx="15" fill="#FFFFFF" stroke="#3E6F9E" stroke-width="2"/><rect x="980" y="475" width="8" height="88" rx="4" fill="#3E6F9E"/><text x="1013" y="510" class="node-title" fill="#244864">M1　17维配比闭合与特征构造</text><text x="1013" y="541" class="node-sub" fill="#4F6478">pᵢ ≥ 0 · Σpᵢ = 1　|　二阶混料特征 153维</text></g>
+  <g><rect x="980" y="580" width="690" height="88" rx="15" fill="#FFFFFF" stroke="#3E6F9E" stroke-width="2"/><rect x="980" y="580" width="8" height="88" rx="4" fill="#3E6F9E"/><text x="1013" y="615" class="node-title" fill="#244864">M2　二阶 Scheffé–Ridge 响应面</text><text x="1013" y="646" class="node-sub" fill="#4F6478">A4–A5 内部交叉验证选型 · 13个 Loss 域分别拟合</text></g>
+  <g><rect x="980" y="685" width="690" height="88" rx="15" fill="#FFF7E7" stroke="#C28B32" stroke-width="2"/><rect x="980" y="685" width="8" height="88" rx="4" fill="#C28B32"/><text x="1013" y="720" class="node-title" fill="#6B4A13">M3　多尺度折外验证</text><text x="1013" y="751" class="node-sub" fill="#795E32">1M · 60M · 1B实测　|　10B / 70B仅作外推敏感性</text></g>
+  <g><rect x="980" y="790" width="690" height="88" rx="15" fill="#FFFFFF" stroke="#3E6F9E" stroke-width="2"/><rect x="980" y="790" width="8" height="88" rx="4" fill="#3E6F9E"/><text x="1013" y="825" class="node-title" fill="#244864">M4　模型解释：边际收益与交互</text><text x="1013" y="856" class="node-sub" fill="#4F6478">方向边际效应 · 136组互补/替代关系 · 符号稳定性</text></g>
+  <g><rect x="980" y="895" width="690" height="88" rx="15" fill="#F3EDF8" stroke="#7A5AA6" stroke-width="2"/><rect x="980" y="895" width="8" height="88" rx="4" fill="#7A5AA6"/><text x="1013" y="930" class="node-title" fill="#4B3764">M5　支持域内多起点约束优化</text><text x="1013" y="961" class="node-sub" fill="#5E5072">综合目标 J(p) · 上界/距离约束 · SLSQP + Bootstrap</text></g>
+
+  <!-- Association check -->
+  <rect x="160" y="1060" width="740" height="88" rx="22" fill="#FFF7E7" stroke="#C28B32" stroke-width="2.2"/>
+  <circle cx="212" cy="1104" r="24" fill="#C28B32"/>
+  <path d="M201 1109 C208 1091 218 1091 225 1109 M204 1099 H222" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+  <text x="255" y="1096" font-size="21" font-weight="700" fill="#6B4A13">质量—收益一致性检验</text>
+  <text x="255" y="1126" font-size="17" fill="#795E32">Spearman / Kendall · 质量属性 ≠ 配比边际收益 · 仅作关联解释</text>
+  <rect x="920" y="1060" width="720" height="88" rx="22" fill="#F3EDF8" stroke="#7A5AA6" stroke-width="2.2"/>
+  <circle cx="972" cy="1104" r="24" fill="#7A5AA6"/>
+  <text x="972" y="1112" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">★</text>
+  <text x="1015" y="1096" font-size="21" font-weight="700" fill="#4B3764">近优可行配比族 p★</text>
+  <text x="1015" y="1126" font-size="17" fill="#655277">多起点复现 · Bootstrap区间 · 支持域边界与约束余量</text>
+
+  <!-- Outputs -->
+  <rect x="80" y="1180" width="205" height="34" rx="17" fill="#5F8E4E"/>
+  <text x="182.5" y="1203" text-anchor="middle" class="stage">问题一冻结成果</text>
+  <rect x="80" y="1220" width="1640" height="145" rx="20" fill="#F5FAF2" stroke="#8FB17F" stroke-width="2.2"/>
+  <g><rect x="110" y="1250" width="360" height="84" rx="14" fill="#FFFFFF" stroke="#8FB17F" stroke-width="1.7"/><circle cx="145" cy="1278" r="14" fill="#6F9B60"/><text x="145" y="1285" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">1</text><text x="172" y="1285" class="output-title">样本层</text><text x="145" y="1317" class="output-sub">Qᵢ · Kᵢ · 冲突类型</text></g>
+  <g><rect x="510" y="1250" width="360" height="84" rx="14" fill="#FFFFFF" stroke="#8FB17F" stroke-width="1.7"/><circle cx="545" cy="1278" r="14" fill="#6F9B60"/><text x="545" y="1285" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">2</text><text x="572" y="1285" class="output-title">领域层</text><text x="545" y="1317" class="output-sub">7域 q_d · 17域映射与区间</text></g>
+  <g><rect x="910" y="1250" width="360" height="84" rx="14" fill="#FFFFFF" stroke="#8FB17F" stroke-width="1.7"/><circle cx="945" cy="1278" r="14" fill="#6F9B60"/><text x="945" y="1285" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">3</text><text x="972" y="1285" class="output-title">响应层</text><text x="945" y="1317" class="output-sub">L̂ₖ(p) · J(p) · 主效应/交互</text></g>
+  <g><rect x="1310" y="1250" width="360" height="84" rx="14" fill="#FFFFFF" stroke="#8FB17F" stroke-width="1.7"/><circle cx="1345" cy="1278" r="14" fill="#6F9B60"/><text x="1345" y="1285" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">4</text><text x="1372" y="1285" class="output-title">决策层</text><text x="1345" y="1317" class="output-sub">近优配比族 p★ · 约束余量 · 区间</text></g>
+
+  <!-- Legend -->
+  <line x1="1110" y1="1393" x2="1170" y2="1393" stroke="#4B5563" stroke-width="2.2" marker-end="url(#arrow-gray)"/>
+  <text x="1185" y="1399" class="legend">正式数据 / 模型传递</text>
+  <line x1="1430" y1="1393" x2="1490" y2="1393" stroke="#C28B32" stroke-width="2.2" stroke-dasharray="9 6" marker-end="url(#arrow-amber)"/>
+  <text x="1505" y="1399" class="legend">验证、敏感性或关联解释</text>
+</svg>

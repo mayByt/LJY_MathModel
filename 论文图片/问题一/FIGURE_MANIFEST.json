@@ -1,0 +1,172 @@
+{
+  "project": "华为杯F题问题一论文图",
+  "seed": 2026,
+  "result_source": "问题一/results_p12_final_v2",
+  "font_chinese": "Noto Serif CJK SC",
+  "font_profile": {
+    "font_latin": "Times New Roman",
+    "font_chinese_body": "Noto Serif CJK SC (Source Han Serif equivalent)",
+    "font_chinese_title": "Noto Sans CJK SC Bold (Source Han Sans equivalent)",
+    "font_math": "Computer Modern via LaTeX-style mathtext",
+    "font_files": {
+      "latin": "/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf",
+      "chinese_body": "/home/xxxten/26华为杯/中文题目/F题/tmp/p1_unified_font_cache/NotoSerifCJKsc-Regular.otf",
+      "chinese_title": "/home/xxxten/26华为杯/中文题目/F题/tmp/p1_unified_font_cache/NotoSansCJKsc-Bold.otf",
+      "math": "Computer Modern (Matplotlib mathtext, LaTeX syntax)"
+    }
+  },
+  "figures": [
+    {
+      "figure": "P1_F01_质量指标结构与权重",
+      "pdf": "P1_F01_质量指标结构与权重.pdf",
+      "png": "P1_F01_质量指标结构与权重.png",
+      "caption": "经层次聚类重排的22项同向化质量指标完整相关矩阵与稳定CRITIC权重。边缘色带表示五个语义块，右侧点线轨道为指标最终权重。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/_cache_quality_transformed.pkl",
+          "sha256": "5b30c32657d5f450b35de9c2f2c59488ce6355e3efe1497b9b6280e284f5d647"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/_cache_quality_score_v3_b500_s2026.pkl",
+          "sha256": "a619689a0962316b131c9ed22d7859b419bc1afaa0f40d595ddfb6aa3822d811"
+        }
+      ]
+    },
+    {
+      "figure": "P1_F02_领域质量景观与映射",
+      "pdf": "P1_F02_领域质量景观与映射.pdf",
+      "png": "P1_F02_领域质量景观与映射.png",
+              "caption": "七个质量信号域的质量分布及其向17个配方域的映射。山脊基线下方的点带为每个领域最多500个原始样本的固定随机抽样，用于辅助识别质量分的局部聚集；每行依次标注P5、中位数和P95。连线宽度表示映射权重，颜色区分直接、近直接和推断映射。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/_cache_quality_score_v3_b500_s2026.pkl",
+          "sha256": "a619689a0962316b131c9ed22d7859b419bc1afaa0f40d595ddfb6aa3822d811"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/domain_mapping.csv",
+          "sha256": "3e4c6f576d40dd54376ae8a9fb1ce55e40e1dd1b67dcd44a173840ef1cd5844c"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/domain_mapping_weights.csv",
+          "sha256": "0bea18edf51879c0fcb62446580f8b13698788971f44ad60d083ae5d9687c9d6"
+        }
+      ]
+    },
+    {
+      "figure": "P1_F03_扩展集代表性诊断",
+      "pdf": "P1_F03_扩展集代表性诊断.pdf",
+      "png": "P1_F03_扩展集代表性诊断.png",
+      "caption": "分别在ArXiv（学术论文域）与GitHub（代码域）内部检验A1抽样集相对扩展余集的分布代表性。上行为带95%点置信带的ECDF差值并标记KS最大差异位置，下行为分位数位移及bootstrap 95%区间。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/_cache_quality_score_v3_b500_s2026.pkl",
+          "sha256": "a619689a0962316b131c9ed22d7859b419bc1afaa0f40d595ddfb6aa3822d811"
+        }
+      ]
+    },
+    {
+      "figure": "P1_F04_质量冲突机制与稳健消解",
+      "pdf": "P1_F04_质量冲突机制与稳健消解.pdf",
+      "png": "P1_F04_质量冲突机制与稳健消解.png",
+      "caption": "质量冲突的分向网络、领域分布及稳健消解效应。互为反向的冲突沿弦两侧分离绘制，线旁数字标注频数最高的5个有向冲突组合；气泡下方百分比为对应领域内冲突率。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/_cache_quality_score_v3_b500_s2026.pkl",
+          "sha256": "a619689a0962316b131c9ed22d7859b419bc1afaa0f40d595ddfb6aa3822d811"
+        }
+      ]
+    },
+    {
+      "figure": "P1_F05_配比模型跨尺度验证",
+      "pdf": "P1_F05_配比模型跨尺度验证.pdf",
+      "png": "P1_F05_配比模型跨尺度验证.png",
+      "caption": "二阶Scheffé–Ridge配比模型在1M、60M和1B三个实测尺度上的折外验证。六边形深浅表示局部样本密度，橙色空心圈标出绝对残差最高1%的原始样本。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/mixture_predictions.csv.gz",
+          "sha256": "a6f1e8d6f30f53934843878aa05451ca6a489c9f5dc3a9abfbbaa143d96e11c9"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/mixture_metrics.csv",
+          "sha256": "955a54a211cfc83e610130ed840eed9a8c460f5f0af4ca60d4ea338b26f4154a"
+        }
+      ]
+    },
+    {
+      "figure": "P1_F06_领域边际效应与交互网络",
+      "pdf": "P1_F06_领域边际效应与交互网络.pdf",
+      "png": "P1_F06_领域边际效应与交互网络.png",
+      "caption": "领域方向边际收益、完整交互结构及质量—收益秩一致性。交互矩阵纳入全部136组领域关系，蓝色表示互补、橙色表示替代，低稳定性关系以浅色显示；质量秩与收益秩之间的长连线表示排序不一致。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/problem2_bridge_input.npz",
+          "sha256": "b9afaa136cd61da446589fc811b35c137b4b777ccefffe99a127e5f2032ad370"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/domain_mapping.csv",
+          "sha256": "3e4c6f576d40dd54376ae8a9fb1ce55e40e1dd1b67dcd44a173840ef1cd5844c"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/domain_mapping_bootstrap.npz",
+          "sha256": "c64b1fbae1916e331615c8b71d0c868c10f23d3323fa418870fb9a47f1003063"
+        }
+      ]
+    },
+    {
+      "figure": "P1_F07_组成空间近优配比与不确定性",
+      "pdf": "P1_F07_组成空间近优配比与不确定性.pdf",
+      "png": "P1_F07_组成空间近优配比与不确定性.png",
+      "caption": "17域配比在组成空间中的训练支持、近优解不确定性与多起点优化诊断。星形为参考近优解，紫色云为bootstrap近优配比族；多起点解簇图以相对最优目标差距区分局部最优解，纵向位置仅用于分离重合起点。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/problem2_bridge_input.npz",
+          "sha256": "b9afaa136cd61da446589fc811b35c137b4b777ccefffe99a127e5f2032ad370"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/optimal_mixture.csv",
+          "sha256": "2e6378baa04891630a9a03bc828fac88dfdc8fcfd78c9be3f4898fa955ed9ae7"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/optimal_mixture_bootstrap.npz",
+          "sha256": "858380fff9a74cf79123ceb0c2566aaca964384661637b554086065ae138745c"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/optimization_history.csv",
+          "sha256": "053cf97603e9752bf6d95d8458a8951ea4867c28ee044cbc375d1081963b83e6"
+        }
+      ]
+    },
+    {
+      "figure": "P1_F08_领域局部替换效应",
+      "pdf": "P1_F08_领域局部替换效应.pdf",
+      "png": "P1_F08_领域局部替换效应.png",
+      "caption": "512个训练配方上的17域局部替换效应。每个点表示按比例缩减原配方后向目标领域转入2%份额所带来的13域平均Loss降低量，正值表示有利；颜色编码目标领域的原有份额，空心点表示原份额为零。黑色菱形及横线分别表示点模型中位效应与500次训练行bootstrap得到的95%区间，右侧为点模型在512个参照配方上的有利占比。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/problem2_bridge_input.npz",
+          "sha256": "b9afaa136cd61da446589fc811b35c137b4b777ccefffe99a127e5f2032ad370"
+        }
+      ]
+    },
+    {
+      "figure": "P1_F09_响应面选择与正则化诊断",
+      "pdf": "P1_F09_响应面选择与正则化诊断.pdf",
+      "png": "P1_F09_响应面选择与正则化诊断.png",
+      "caption": "配比响应面的内部交叉验证选择与Ridge正则化诊断。(a)以对齐点阵比较五类候选模型的IQR标准化NRMSE、Spearman、Kendall及Pareto状态，酒红色行为冻结的二阶Ridge。(b)在alpha介于0.001与10的区间内展示线性与二阶Ridge的误差和排序路径；浅色带表示二阶Ridge的NRMSE距最优值不超过1%的参数区间，虚线标记alpha星等于0.0562。",
+      "sources": [
+        {
+          "path": "问题一/results_p12_final_v2/mixture_internal_cv.csv",
+          "sha256": "04aace94bbcd6569705e63110b118c903a403e4c49b59421b1d5041b100e4906"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/ridge_path_linear.csv",
+          "sha256": "59da7e70d0ad0bc1aef877f6cfd06d89fe9a6ed3d300630e8f10522f3dbed2e8"
+        },
+        {
+          "path": "问题一/results_p12_final_v2/ridge_path_quadratic.csv",
+          "sha256": "413b3a6f1120fc16187f3e21999f9656fd0dcedb3835b2e177012156adda8f93"
+        }
+      ]
+    }
+  ]
+}

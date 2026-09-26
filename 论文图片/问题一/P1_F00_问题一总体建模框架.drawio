@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net" modified="2026-09-25T00:00:00.000Z" agent="Codex" version="26.0.9" type="device">
+  <diagram id="p1-framework" name="问题一总体建模框架">
+    <mxGraphModel dx="1800" dy="1450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1450" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="stage1" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;数据输入&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#4B5563;strokeColor=#4B5563;fontColor=#FFFFFF;fontFamily=Times New Roman;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="in_quality" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;质量信号数据&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4B5563&quot;&gt;A1质量抽样集 · A2 ArXiv · A3 GitHub&lt;br&gt;22项异构质量指标&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F4F6;strokeColor=#9CA3AF;strokeWidth=1.5;fontColor=#1F2937;fontFamily=Times New Roman;fontSize=17;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="65" width="500" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="in_mapping" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;领域映射证据&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4B5563&quot;&gt;A16映射先验 · A18文本样本&lt;br&gt;直接 / 近直接 / 推断映射&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F4F6;strokeColor=#9CA3AF;strokeWidth=1.5;fontColor=#1F2937;fontFamily=Times New Roman;fontSize=17;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="65" width="500" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="in_mixture" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;配比实验数据&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4B5563&quot;&gt;A4–A15：17域配比 × 13域 Loss&lt;br&gt;训练 / 实测验证 / 外推敏感性&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3F4F6;strokeColor=#9CA3AF;strokeWidth=1.5;fontColor=#1F2937;fontFamily=Times New Roman;fontSize=17;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="65" width="500" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="audit" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;数据审计与冻结&lt;/span&gt;&lt;/b&gt;&amp;nbsp;&amp;nbsp; 去重与缺失处理 · 索引对齐 · 配比闭合 · 训练/验证/外推隔离&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#FFFFFF;strokeColor=#6B7280;strokeWidth=2;fontColor=#374151;fontFamily=Times New Roman;fontSize=18;fontStyle=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="255" width="820" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="q_lane" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;质量评价与领域映射&lt;/span&gt;" style="swimlane;horizontal=1;startSize=54;rounded=1;arcSize=10;fillColor=#E8F4F0;swimlaneFillColor=#F7FBFA;strokeColor=#77AFA1;strokeWidth=2;fontColor=#1F5F54;fontFamily=Times New Roman;fontSize=21;fontStyle=1;spacingLeft=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="790" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="m_lane" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;配比响应建模与约束优化&lt;/span&gt;" style="swimlane;horizontal=1;startSize=54;rounded=1;arcSize=10;fillColor=#EAF1F8;swimlaneFillColor=#F8FAFC;strokeColor=#7FA4C7;strokeWidth=2;fontColor=#315E85;fontFamily=Times New Roman;fontSize=21;fontStyle=1;spacingLeft=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="930" y="400" width="790" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="q1" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;Q1　指标标量化与同向化&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4C6B65&quot;&gt;稳定 Softmax · 分位数变换 · 适中型锚定&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2A7F72;strokeWidth=2;fontColor=#173F38;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="475" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="q2" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;Q2　五块评分与稳定 CRITIC&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4C6B65&quot;&gt;教育 · 表达 · 推理 · 噪声 · 结构　|　块内去冗余赋权&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2A7F72;strokeWidth=2;fontColor=#173F38;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="580" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="q3" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;Q3　冲突检测与 Huber 聚合&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4C6B65&quot;&gt;冲突指数 Kᵢ / QCIᵢ · 有向冲突类型 · 稳健样本质量 Qᵢ&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2A7F72;strokeWidth=2;fontColor=#173F38;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="685" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="q4" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;Q4　领域质量与代表性检验&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4C6B65&quot;&gt;领域 Huber 均值 + Bootstrap　|　A1子集 vs 扩展余集&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2A7F72;strokeWidth=2;fontColor=#173F38;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="790" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="q5" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;Q5　7域质量 → 17域质量映射&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4C6B65&quot;&gt;direct · near-direct · inferred　|　q_d、区间与证据等级&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#2A7F72;strokeWidth=2;fontColor=#173F38;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="895" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;M1　17维配比闭合与特征构造&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4F6478&quot;&gt;pᵢ ≥ 0 · Σpᵢ = 1　|　二阶混料特征 153 维&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3E6F9E;strokeWidth=2;fontColor=#244864;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="980" y="475" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;M2　二阶 Scheffé–Ridge 响应面&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4F6478&quot;&gt;A4–A5 内部交叉验证选型 · 13个 Loss 域分别拟合&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3E6F9E;strokeWidth=2;fontColor=#244864;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="980" y="580" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;M3　多尺度折外验证&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4F6478&quot;&gt;1M · 60M · 1B 实测　|　10B / 70B仅作外推敏感性&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF7E7;strokeColor=#C28B32;strokeWidth=2;fontColor=#6B4A13;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="980" y="685" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;M4　模型解释：边际收益与交互&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4F6478&quot;&gt;方向边际效应 · 136组互补/替代关系 · 符号稳定性&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#3E6F9E;strokeWidth=2;fontColor=#244864;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="980" y="790" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;M5　支持域内多起点约束优化&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#5E5072&quot;&gt;综合目标 J(p) · 上界/距离约束 · SLSQP + Bootstrap&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F3EDF8;strokeColor=#7A5AA6;strokeWidth=2;fontColor=#4B3764;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="980" y="895" width="690" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="relation" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;质量—收益一致性检验&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#8A672A&quot;&gt;Spearman / Kendall　·　质量属性 ≠ 配比边际收益　·　仅作关联解释&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFF7E7;strokeColor=#C28B32;strokeWidth=2;fontColor=#6B4A13;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1060" width="740" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="opt_summary" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;近优可行配比族 p★&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#655277&quot;&gt;多起点复现 · Bootstrap 区间 · 支持域边界与约束余量&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#F3EDF8;strokeColor=#7A5AA6;strokeWidth=2;fontColor=#4B3764;fontFamily=Times New Roman;fontSize=17;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1060" width="720" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;问题一冻结成果&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#5F8E4E;strokeColor=#5F8E4E;fontColor=#FFFFFF;fontFamily=Times New Roman;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1180" width="205" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="out_container" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#F5FAF2;strokeColor=#8FB17F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1220" width="1640" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="out1" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;样本层&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#52634A&quot;&gt;Qᵢ · Kᵢ · 冲突类型&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#8FB17F;strokeWidth=1.5;fontColor=#395A30;fontFamily=Times New Roman;fontSize=17;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1250" width="360" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="out2" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;领域层&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#52634A&quot;&gt;7域 q_d · 17域映射与区间&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#8FB17F;strokeWidth=1.5;fontColor=#395A30;fontFamily=Times New Roman;fontSize=17;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1250" width="360" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="out3" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;响应层&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#52634A&quot;&gt;L̂ₖ(p) · J(p) · 主效应/交互&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#8FB17F;strokeWidth=1.5;fontColor=#395A30;fontFamily=Times New Roman;fontSize=17;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1250" width="360" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="out4" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:'Times New Roman','Noto Sans CJK SC';&quot;&gt;决策层&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#52634A&quot;&gt;近优配比族 p★ · 约束余量 · 区间&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#8FB17F;strokeWidth=1.5;fontColor=#395A30;fontFamily=Times New Roman;fontSize=17;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1250" width="360" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="&lt;span style=&quot;font-family:'Times New Roman','Noto Serif CJK SC';&quot;&gt;&lt;font color=&quot;#4B5563&quot;&gt;实线：正式数据/模型传递　　&lt;/font&gt;&lt;font color=&quot;#A57424&quot;&gt;虚线：验证、敏感性或关联解释&lt;/font&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1380" width="690" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e_iq_a" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B7280;strokeWidth=1.6;" edge="1" parent="1" source="in_quality" target="audit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_im_a" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B7280;strokeWidth=1.6;" edge="1" parent="1" source="in_mapping" target="audit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ip_a" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6B7280;strokeWidth=1.6;" edge="1" parent="1" source="in_mixture" target="audit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_q1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2A7F72;strokeWidth=2;exitX=0.32;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="audit" target="q1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#3E6F9E;strokeWidth=2;exitX=0.68;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="audit" target="m1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_q1_q2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2A7F72;strokeWidth=2;" edge="1" parent="1" source="q1" target="q2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_q2_q3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2A7F72;strokeWidth=2;" edge="1" parent="1" source="q2" target="q3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_q3_q4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2A7F72;strokeWidth=2;" edge="1" parent="1" source="q3" target="q4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_q4_q5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2A7F72;strokeWidth=2;" edge="1" parent="1" source="q4" target="q5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m1_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#3E6F9E;strokeWidth=2;" edge="1" parent="1" source="m1" target="m2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m2_m3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#3E6F9E;strokeWidth=2;" edge="1" parent="1" source="m2" target="m3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m3_m4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#3E6F9E;strokeWidth=2;" edge="1" parent="1" source="m3" target="m4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m4_m5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#7A5AA6;strokeWidth=2;" edge="1" parent="1" source="m4" target="m5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_q5_rel" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;dashed=1;dashPattern=6 4;strokeColor=#C28B32;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="q5" target="relation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m4_rel" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;dashed=1;dashPattern=6 4;strokeColor=#C28B32;strokeWidth=2;exitX=0;exitY=0.5;entryX=0.85;entryY=0;" edge="1" parent="1" source="m4" target="relation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="834" />
+              <mxPoint x="900" y="1028" />
+              <mxPoint x="790" y="1028" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_m5_opt" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#7A5AA6;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.56;entryY=0;" edge="1" parent="1" source="m5" target="opt_summary">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rel_out" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#5F8E4E;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.275;entryY=0;" edge="1" parent="1" source="relation" target="out_container">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_opt_out" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#7A5AA6;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.732;entryY=0;" edge="1" parent="1" source="opt_summary" target="out_container">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

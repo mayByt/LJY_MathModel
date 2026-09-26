@@ -1,0 +1,34 @@
+{
+  "figure": "P1_F10_近优配比参数敏感性",
+  "pdf": "P1_F10_近优配比参数敏感性.pdf",
+  "png": "P1_F10_近优配比参数敏感性.png",
+  "caption": "近优配比对支持半径、分量上界和Ridge强度的单因素敏感性。(a)比较各情景相对基准配比的L1变化及在基准响应面下的目标代价；(b)以变化矩阵展示六种扰动情景下份额变化最大的九个领域，顶部条带为基准份额；(c)给出支持边界占用率、激活的份额上界数和30个起点的正常终止率。结果表明Ridge强度减半或加倍只引起小幅配比漂移，而收紧经验支持域或份额上界会产生更明显的方案调整和目标代价。",
+  "seed": 2026,
+  "scenario_count": 7,
+  "font_profile": {
+    "font_latin": "Times New Roman",
+    "font_chinese_body": "Noto Serif CJK SC (Source Han Serif equivalent)",
+    "font_chinese_title": "Noto Sans CJK SC Bold (Source Han Sans equivalent)",
+    "font_math": "Computer Modern via LaTeX-style mathtext",
+    "font_files": {
+      "latin": "/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf",
+      "chinese_body": "/home/xxxten/26华为杯/中文题目/F题/tmp/p1_unified_font_cache/NotoSerifCJKsc-Regular.otf",
+      "chinese_title": "/home/xxxten/26华为杯/中文题目/F题/tmp/p1_unified_font_cache/NotoSansCJKsc-Bold.otf",
+      "math": "Computer Modern (Matplotlib mathtext, LaTeX syntax)"
+    }
+  },
+  "sources": [
+    {
+      "path": "问题一/results_p12_final_v2/problem2_bridge_input.npz",
+      "sha256": "b9afaa136cd61da446589fc811b35c137b4b777ccefffe99a127e5f2032ad370"
+    },
+    {
+      "path": "问题一/results_p12_final_v2/optimal_mixture.csv",
+      "sha256": "2e6378baa04891630a9a03bc828fac88dfdc8fcfd78c9be3f4898fa955ed9ae7"
+    }
+  ],
+  "data": [
+    "figure_data/P1_F10_sensitivity_scenarios.csv",
+    "figure_data/P1_F10_sensitivity_compositions.csv"
+  ]
+}

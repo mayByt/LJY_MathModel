@@ -1,0 +1,249 @@
+{
+  "version": "font-unified-v1",
+  "seed": 2026,
+  "result_root": "问题二/results_p12_final_v2",
+  "retained_from_v1_design": [
+    "F01",
+    "F03",
+    "F04"
+  ],
+  "redrawn": [
+    "A01",
+    "F02",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10"
+  ],
+  "figures": [
+    {
+      "figure": "P2R_F01_经典标度律拟合与数据坍缩",
+      "pdf": "P2R_F01_经典标度律拟合与数据坍缩.pdf",
+      "png": "P2R_F01_经典标度律拟合与数据坍缩.png",
+      "caption": "B1 八种参数规模下的经典标度律局部拟合与分规模残差诊断。四个小倍图以深色点表示观测检查点、浅色线表示 M0 拟合，横向区间图汇总各规模残差分布及 RMSE。",
+      "sources": [
+        {
+          "path": "real_attachments/B_scaling_laws/pythia_training_log_existing.csv",
+          "sha256": "529a59644b0f57bf3a76037838b614bfedc35e58bb26b93052e34ffc63e454c2"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/classic_scaling_parameters.json",
+          "sha256": "a23f6ec652050ca8c1d784ef74a5c532d5260ae931dd2a047ba93210bc95fe61"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F02_质量模型成块交叉验证选择",
+      "pdf": "P2R_F02_质量模型成块交叉验证选择.pdf",
+      "png": "P2R_F02_质量模型成块交叉验证选择.png",
+      "caption": "质量响应候选模型的无泄漏成块验证。误差轨迹、逐折赢家构成与 69 个留出块的误差累积分布共同表明 GQ2 在四类切分下兼具低误差和稳定性；其等权 RMSE 为 0.072，较 GQ1 降低 38.7%，并按 one-SE 规则选定。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/quality_split_family_scores.csv",
+          "sha256": "575e91607855caf6cc5b754891c653591ab45aee11fd0d81934f409e0f30c9c9"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/quality_model_comparison.csv",
+          "sha256": "5cef736db57eaada1552ab903a3e664a44db09179307e286da3d4fb8dba69481"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/quality_model_parameters.json",
+          "sha256": "997f9e0b2984b08a08336d8703eda845b81d8c244998446ead3a1370f5647693"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F03_GQ2预测观测边缘分布",
+      "pdf": "P2R_F03_GQ2预测观测边缘分布.pdf",
+      "png": "P2R_F03_GQ2预测观测边缘分布.png",
+      "caption": "GQ2留参数量-数据量单元验证的预测值与观测值联合分布。中心散点按质量水平着色；上方蓝色分布为观测Loss的边缘分布，右侧绿色分布为预测Loss的边缘分布。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/quality_block_predictions.csv.gz",
+          "sha256": "49920af1876c0ec6d4da9418645a3c3b0909530b9728373b8eca09bafa8df46a"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F04_B7与B8质量响应压力测试",
+      "pdf": "P2R_F04_B7与B8质量响应压力测试.pdf",
+      "png": "P2R_F04_B7与B8质量响应压力测试.png",
+      "caption": "B7 主质量网格与 B8 分规模压力测试。五个同构子图展示 B7 的负向质量响应与 B8 的方向反转，并沿校准区至远端外推区追踪截断地板；汇总图显示地板记录比例随参数规模升至 38.3%。",
+      "sources": [
+        {
+          "path": "real_attachments/B_scaling_laws/supplementary_NQ_experiment_expanded.csv",
+          "sha256": "880fd265ca3e1d9bc93b4559af7ed7c18f89040634266c50bae03d88486e0f3a"
+        },
+        {
+          "path": "real_attachments/B_scaling_laws/supplementary_NQ_experiment_large.csv",
+          "sha256": "bda0d449f75c73bbd04141e5cffbf4bea7002073e34b7fa95a638570fa095ffe"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/b8_anomaly_sensitivity.csv",
+          "sha256": "a65dd0706057a300ce894bb98320aa519a459b1953052f01348e6d7cbccded40"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F05_配比效应跨尺度迁移",
+      "pdf": "P2R_F05_配比效应跨尺度迁移.pdf",
+      "png": "P2R_F05_配比效应跨尺度迁移.png",
+      "caption": "问题一标准化配比响应向 1M、60M 与 1B 规模迁移的领域异质性和配对 bootstrap 不确定性。多数领域在 1M 与 60M 保持正向响应，但 1B 的综合效应仅为 1M 的 31.2%，且部分领域出现方向不确定。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/mixture_transfer_bootstrap.csv.gz",
+          "sha256": "445c9752f148b0b21484e388f947e4327eb28f02660aff4820839bf8dbeb19cf"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/mixture_transfer_parameters.csv",
+          "sha256": "4cd9ec0e09866fb5ed0ecbca7f283fd7d49bf5cb2fede3d0aed9ddc85a07ee72"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F06_广义标度律地形与等损失前沿",
+      "pdf": "P2R_F06_广义标度律地形与等损失前沿.pdf",
+      "png": "P2R_F06_广义标度律地形与等损失前沿.png",
+      "caption": "固定参考配比下的广义标度律地形与质量条件等Loss前沿。左图在图框外标注观测支持域和B9扩展起点；右图展示不同质量水平下资源前沿的系统移动，圆点为从连续模型前沿抽取的计算节点而非原始观测点。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/generalized_scaling_parameters.json",
+          "sha256": "e0ad2f4bde72dcf96d3814718d031759353f61a68919bdffd607c7dcd3335aa2"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/classic_scaling_parameters.json",
+          "sha256": "a23f6ec652050ca8c1d784ef74a5c532d5260ae931dd2a047ba93210bc95fe61"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/quality_model_parameters.json",
+          "sha256": "997f9e0b2984b08a08336d8703eda845b81d8c244998446ead3a1370f5647693"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F07_资源弹性组成状态图",
+      "pdf": "P2R_F07_资源弹性组成状态图.pdf",
+      "png": "P2R_F07_资源弹性组成状态图.png",
+      "caption": "固定参考配比下的资源弹性路径与主导结构迁移。左图固定D=150B和参考质量，展示参数、Token与质量标准弹性随模型规模的连续变化；绿色带表示质量映射情景s_Q=0.5至1.5，主情景下质量弹性约在N=0.24B后超过参数弹性。右图汇总27个N-D-Q网格状态的平均弹性组成，质量映射增强时质量平均份额由30.8%升至55.5%，质量主导状态由7/27增至21/27。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/elasticity_grid.csv",
+          "sha256": "663e4e7b5e1c40246fd7976e825631b17886088a0a252f02c73fe1dc13ebf735"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/generalized_scaling_parameters.json",
+          "sha256": "e0ad2f4bde72dcf96d3814718d031759353f61a68919bdffd607c7dcd3335aa2"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F08_质量提升的有限资源等价量",
+      "pdf": "P2R_F08_质量提升的有限资源等价量.pdf",
+      "png": "P2R_F08_质量提升的有限资源等价量.png",
+      "caption": "质量提升0.10的有限资源等价量及其情景变化。左图在同一预测Loss目标下分别得到参数增加37.30%和Token增加56.95%；右图使用18个实际计算点展示等价增幅随质量映射强度的变化，颜色和点形区分参数与Token，线型区分三个基线质量。深色实线为正文参考质量，高质量且s_Q=1.5时因触及Q=1截断而出现回落。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/quality_parameter_equivalence.csv",
+          "sha256": "e41b43783a34afa494da0258a03ddb331e5f1f848a0c18bff0535d784a5887ee"
+        },
+        {
+          "path": "real_attachments/B_scaling_laws/supplementary_NQ_experiment_expanded.csv",
+          "sha256": "880fd265ca3e1d9bc93b4559af7ed7c18f89040634266c50bae03d88486e0f3a"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/classic_scaling_parameters.json",
+          "sha256": "a23f6ec652050ca8c1d784ef74a5c532d5260ae931dd2a047ba93210bc95fe61"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/quality_model_parameters.json",
+          "sha256": "997f9e0b2984b08a08336d8703eda845b81d8c244998446ead3a1370f5647693"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F09_配比接口物理门槛",
+      "pdf": "P2R_F09_配比接口物理门槛.pdf",
+      "png": "P2R_F09_配比接口物理门槛.png",
+      "caption": "配比迁移强度与配比响应共同决定的物理可行域。底色和边界仿照参考论文的替代条件分区图，由81个基准网格状态解析计算Lmin=E边界；圆点为参考配比，菱形为近优配比敏感性情景，标注为跌破不可约损失的网格数。近优配比在lambda_p=0.5和1时分别违规4/81和48/81。门槛为模型情景边界，不是跨体系实验识别值。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/mixture_physical_gate.csv",
+          "sha256": "721c935f010db49ae939f6aaef9f15aeba36cfd01ecbe2be50293764f4a8172c"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/mixture_physical_gate.json",
+          "sha256": "745d99fb722398329d6fb386ac1331a6b423aa5334be4bfee1e61f3d0d7070e2"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/elasticity_grid.csv",
+          "sha256": "663e4e7b5e1c40246fd7976e825631b17886088a0a252f02c73fe1dc13ebf735"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/generalized_scaling_parameters.json",
+          "sha256": "e0ad2f4bde72dcf96d3814718d031759353f61a68919bdffd607c7dcd3335aa2"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_F10_经典标度律外部证据验证",
+      "pdf": "P2R_F10_经典标度律外部证据验证.pdf",
+      "png": "P2R_F10_经典标度律外部证据验证.png",
+      "caption": "冻结经典标度律在 B2、B4、B5 与 B10 证据源上的观测值-预测值诊断。B4 与 B5 保持较好排序一致性，B2 存在系统校准差异，B10 仅作估算对照。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/classic_external_validation.csv",
+          "sha256": "b246027f578a519ca039b1038a05f3b5bb1ec7714713350f6ef6c08bfd2b2db2"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/classic_scaling_parameters.json",
+          "sha256": "a23f6ec652050ca8c1d784ef74a5c532d5260ae931dd2a047ba93210bc95fe61"
+        },
+        {
+          "path": "real_attachments/B_scaling_laws/cerebras_training_log.csv",
+          "sha256": "178f878cad2cb31e4ec104c670553de23818197876d824a113fdb911125951a6"
+        },
+        {
+          "path": "real_attachments/B_scaling_laws/scaling_baseline.csv",
+          "sha256": "2272983ded93de35e05f9acbf95ebceedf43f283345e4be72b54fee94080391e"
+        },
+        {
+          "path": "real_attachments/B_scaling_laws/published_scaling_data.csv",
+          "sha256": "dd858c5e48610e28589340d5db023d6abfb31df597506789ccdfc6a546731bbd"
+        },
+        {
+          "path": "real_attachments/B_scaling_laws/supplementary_large_baseline.csv",
+          "sha256": "a240e210c5b37444356c28eea96c6cc36be79c29baae1621c2e08aff727ccfeb"
+        }
+      ]
+    },
+    {
+      "figure": "P2R_A01_经典模型选择与早期点敏感性",
+      "pdf": "P2R_A01_经典模型选择与早期点敏感性.pdf",
+      "png": "P2R_A01_经典模型选择与早期点敏感性.png",
+      "caption": "经典标度律候选模型的留一规模折外误差分布与删除早期检查点后的参数稳定性。M0 与 MND 误差接近，M0 因结构更简洁被选定。",
+      "sources": [
+        {
+          "path": "问题二/results_p12_final_v2/classic_scaling_cv.csv",
+          "sha256": "caaa28fa1af7e83818a5082ada461bd6648f23cdac4daacd697226ba38bab6ca"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/classic_warmup_sensitivity.csv",
+          "sha256": "781a9ea728e6583a84990470800c4ec8090afad421f15d62510c66cf30ca581c"
+        },
+        {
+          "path": "问题二/results_p12_final_v2/classic_scaling_parameters.json",
+          "sha256": "a23f6ec652050ca8c1d784ef74a5c532d5260ae931dd2a047ba93210bc95fe61"
+        }
+      ]
+    }
+  ],
+  "source_figure_version": "v2",
+  "font_policy": {
+    "Chinese body": "Noto Serif CJK SC",
+    "Chinese heading/subheading": "Noto Sans CJK SC Bold",
+    "Latin letters and numerals": "Times New Roman",
+    "Mathematics": "Computer Modern via Matplotlib mathtext"
+  }
+}

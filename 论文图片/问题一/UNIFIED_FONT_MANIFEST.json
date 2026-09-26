@@ -1,0 +1,173 @@
+{
+  "project": "华为杯F题问题一图件统一字体版",
+  "generated_at": "2026-09-26T03:37:05+00:00",
+  "output_directory": "论文图片/问题一_统一字体版",
+  "legacy_directory_preserved": "论文图片/问题一",
+  "font_profile": {
+    "latin_and_numbers": "Times New Roman",
+    "chinese_body": "Noto Serif CJK SC (Source Han Serif equivalent)",
+    "chinese_titles": "Noto Sans CJK SC Bold (Source Han Sans equivalent)",
+    "math": "Computer Modern via LaTeX-style Matplotlib mathtext"
+  },
+  "scope": {
+    "pdf_count": 11,
+    "main_figures": "P1_F00-P1_F10",
+    "alternatives": []
+  },
+  "figures": [
+    {
+      "figure": "P1_F00_问题一总体建模框架",
+      "pdf": "P1_F00_问题一总体建模框架.pdf",
+      "png": "P1_F00_问题一总体建模框架.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "522 x 412.08 pts",
+        "bytes": 478226,
+        "sha256": "ca39cea82e2bea2f08c5e440a3139ccb39363f80d5fbb63a4281eb47c65bad58"
+      },
+      "png_bytes": 343509,
+      "png_sha256": "0622c8f6d7db76c903c2d19d54391da72f9d97da60e34726a82692007cc3cab1",
+      "legacy_source": "论文图片/问题一/P1_F00_问题一总体建模框架.pdf"
+    },
+    {
+      "figure": "P1_F01_质量指标结构与权重",
+      "pdf": "P1_F01_质量指标结构与权重.pdf",
+      "png": "P1_F01_质量指标结构与权重.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "766.237 x 514.031 pts",
+        "bytes": 66817,
+        "sha256": "26dfe3229693d079b2294dd3cc96ea841db784828cc08793dc3ce8f4802fdf97"
+      },
+      "png_bytes": 1333770,
+      "png_sha256": "2bfa54e8fba6b4f1b823c4feeaf4b10f7347a6cb173f2e5fbcb786a805d909ef",
+      "legacy_source": "论文图片/问题一/P1_F01_质量指标结构与权重.pdf"
+    },
+    {
+      "figure": "P1_F02_领域质量景观与映射",
+      "pdf": "P1_F02_领域质量景观与映射.pdf",
+      "png": "P1_F02_领域质量景观与映射.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "954.842 x 541.761 pts",
+        "bytes": 161092,
+        "sha256": "8131f15fc7f85d1f4e9ae17af8d09bc706e4f8b6ac9817ee589e5434edb92204"
+      },
+      "png_bytes": 1801647,
+      "png_sha256": "f556a1ae9a533b1a14623507269277371ef33744465aa961285b8ea2a94dc974",
+      "legacy_source": "论文图片/问题一/P1_F02_领域质量景观与映射.pdf"
+    },
+    {
+      "figure": "P1_F03_扩展集代表性诊断",
+      "pdf": "P1_F03_扩展集代表性诊断.pdf",
+      "png": "P1_F03_扩展集代表性诊断.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "816.642 x 533.809 pts",
+        "bytes": 63868,
+        "sha256": "3e0409250ce513c7231900ccf2bcc6608d1020f3e9cc4fc0c5e17a11aaf89fa2"
+      },
+      "png_bytes": 424540,
+      "png_sha256": "dc73948b41a7d6e49dd20c6e3d1cf8072e335993deca1384f2e8ca37d647fd17",
+      "legacy_source": "论文图片/问题一/P1_F03_扩展集代表性诊断.pdf"
+    },
+    {
+      "figure": "P1_F04_质量冲突机制与稳健消解",
+      "pdf": "P1_F04_质量冲突机制与稳健消解.pdf",
+      "png": "P1_F04_质量冲突机制与稳健消解.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "923.133 x 499.888 pts",
+        "bytes": 101049,
+        "sha256": "9fd6a6e94c69ba03549668c67f4c88889f51084227dcc190e927877b2446786c"
+      },
+      "png_bytes": 620810,
+      "png_sha256": "c57316e419285668aea3031d7228b3f07744e1958d1b5d95e89f386b020b910e",
+      "legacy_source": "论文图片/问题一/P1_F04_质量冲突机制与稳健消解.pdf"
+    },
+    {
+      "figure": "P1_F05_配比模型跨尺度验证",
+      "pdf": "P1_F05_配比模型跨尺度验证.pdf",
+      "png": "P1_F05_配比模型跨尺度验证.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "1097.32 x 377.045 pts",
+        "bytes": 62338,
+        "sha256": "e7b74a8e7888cd174f7e005eb376a22a3291a693ffae0775d5242d5bb555039a"
+      },
+      "png_bytes": 670912,
+      "png_sha256": "2f4f24ae2ddee5d5d121ddd3a7b6b22a53d6cf043d7e15faacd03c3fc77d7a40",
+      "legacy_source": "论文图片/问题一/P1_F05_配比模型跨尺度验证.pdf"
+    },
+    {
+      "figure": "P1_F06_领域边际效应与交互网络",
+      "pdf": "P1_F06_领域边际效应与交互网络.pdf",
+      "png": "P1_F06_领域边际效应与交互网络.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "1120.64 x 397.428 pts",
+        "bytes": 106136,
+        "sha256": "58524c71414484df63833e67e00add4afe238d159cf3eae209b7543fe0cf3a10"
+      },
+      "png_bytes": 600795,
+      "png_sha256": "8904ff72929a1e359d505c70f5a195148c2420ff75cafd27154e12010468100d",
+      "legacy_source": "论文图片/问题一/P1_F06_领域边际效应与交互网络.pdf"
+    },
+    {
+      "figure": "P1_F07_组成空间近优配比与不确定性",
+      "pdf": "P1_F07_组成空间近优配比与不确定性.pdf",
+      "png": "P1_F07_组成空间近优配比与不确定性.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "1173.24 x 434.985 pts",
+        "bytes": 128201,
+        "sha256": "eae8a1801c934f9edf99d699dca4da5b71345afd5440bdba47e99489017f8a39"
+      },
+      "png_bytes": 746434,
+      "png_sha256": "f2a3da0bcbe032e5d0fd87f0ab46a0297f211b08f406c11f50ee135a6e0b0a25",
+      "legacy_source": "论文图片/问题一/P1_F07_组成空间近优配比与不确定性.pdf"
+    },
+    {
+      "figure": "P1_F08_领域局部替换效应",
+      "pdf": "P1_F08_领域局部替换效应.pdf",
+      "png": "P1_F08_领域局部替换效应.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "683.904 x 484.555 pts",
+        "bytes": 274006,
+        "sha256": "693a406ae78cf34c25d4e46c7ac66930e311118765500fd5ec4c9957011a90d2"
+      },
+      "png_bytes": 1233611,
+      "png_sha256": "792b7dcdce48154884a3d0488ac5366be7f7f86e3054d5b5954cbbd98f134841",
+      "legacy_source": "论文图片/问题一/P1_F08_领域局部替换效应.pdf"
+    },
+    {
+      "figure": "P1_F09_响应面选择与正则化诊断",
+      "pdf": "P1_F09_响应面选择与正则化诊断.pdf",
+      "png": "P1_F09_响应面选择与正则化诊断.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "923.771 x 404.954 pts",
+        "bytes": 83035,
+        "sha256": "35d3b95b06ce9fa58db152c51745f01950f9759a5066ba00f7a0b8f1daf22aab"
+      },
+      "png_bytes": 352516,
+      "png_sha256": "0d15108a738276f79968c40cdf13a779a703879d331bb775683ba467b3a32146",
+      "legacy_source": "论文图片/问题一/P1_F09_响应面选择与正则化诊断.pdf"
+    },
+    {
+      "figure": "P1_F10_近优配比参数敏感性",
+      "pdf": "P1_F10_近优配比参数敏感性.pdf",
+      "png": "P1_F10_近优配比参数敏感性.png",
+      "pdf_info": {
+        "pages": 1,
+        "page_size": "1067.32 x 402.298 pts",
+        "bytes": 105990,
+        "sha256": "6bdc1860b93232d9231a696c4f2f5310395e2a6f6f08cd8707e42ca36e13c027"
+      },
+      "png_bytes": 507452,
+      "png_sha256": "edfee05b40f428980915d1d2e917de5edae3a0ee4ccfb783a5f24a0188f12305",
+      "legacy_source": "论文图片/问题一/P1_F10_近优配比参数敏感性.pdf"
+    }
+  ]
+}

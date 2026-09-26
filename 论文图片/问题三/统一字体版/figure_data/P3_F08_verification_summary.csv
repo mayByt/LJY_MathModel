@@ -1,0 +1,2 @@
+budget_FLOPs,context_length,quality_cost_type,N_B,D_B,Q_A,loss_2d,loss_fine_grid,loss_3d,relative_difference_2d_3d,relative_difference_fine_grid,successful_starts,total_starts
+1e+19,4096,exponential,0.2591865966899692,4.82100798511761,0.6710563013871433,3.16898100432848,3.16898100432848,3.16898100432848,0.0,0.0,20,20

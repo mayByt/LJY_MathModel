@@ -1,0 +1,36 @@
+{
+  "scope": "Problem 3 figures F01-F08; font-only derivative",
+  "archive_output": "论文图片/问题三/统一字体版",
+  "paper_output": "overleaf-paper/images/no3/统一字体版",
+  "fonts": {
+    "english_and_digits": {
+      "family": "Times New Roman",
+      "path": "/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf"
+    },
+    "chinese_body": {
+      "family": "Noto Serif CJK SC",
+      "path": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc"
+    },
+    "chinese_headings": {
+      "family": "Noto Sans CJK SC",
+      "weight": "bold",
+      "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
+    },
+    "mathematics": {
+      "renderer": "Matplotlib mathtext",
+      "fontset": "cm",
+      "description": "Computer Modern mathematical glyphs"
+    }
+  },
+  "unchanged": [
+    "data",
+    "plot geometry",
+    "layout",
+    "colors",
+    "line widths",
+    "markers",
+    "viewpoints",
+    "labels",
+    "captions"
+  ]
+}

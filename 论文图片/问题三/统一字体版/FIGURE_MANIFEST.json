@@ -1,0 +1,142 @@
+[
+  {
+    "figure": "P3_F01_预算约束下的边际资源竞争机制",
+    "pdf": "P3_F01_预算约束下的边际资源竞争机制.pdf",
+    "png": "P3_F01_预算约束下的边际资源竞争机制.png",
+    "paper_pdf": "overleaf-paper/images/no3/统一字体版/P3_F01_预算约束下的边际资源竞争机制.pdf",
+    "caption": "4096上下文下三类质量成本的预算构成。面积依次表示基础训练、质量提升和长文本注意力开销占比，方形标记提质开销峰值，竖虚线与倒三角表示稳定的主要结构转移。",
+    "sources": [
+      {
+        "path": "问题三/results_v1/budget_paths.csv.gz",
+        "sha256": "cc64384cf776505fec2fbd6edfb5f3c62b48f5bcf35eef0d7f622bc4727d5971"
+      },
+      {
+        "path": "问题三/results_v1/transition_points.csv",
+        "sha256": "c13be60a606477a64f38a2ba00d394cff96b5308e9827f6c32e6fc3ff69ba014"
+      }
+    ]
+  },
+  {
+    "figure": "P3_F02_上下文成本临界与最优损失惩罚",
+    "pdf": "P3_F02_上下文成本临界与最优损失惩罚.pdf",
+    "png": "P3_F02_上下文成本临界与最优损失惩罚.png",
+    "paper_pdf": "overleaf-paper/images/no3/统一字体版/P3_F02_上下文成本临界与最优损失惩罚.pdf",
+    "caption": "三类质量成本下上下文长度引起的最优Loss代价。横向为五档上下文，纵深为三档预算，柱高及柱顶数字表示相对2048上下文的Loss增量；纵深由前至后按代价由低到高排列，同一预算的柱色随Loss增量由浅至深，底面与后壁虚线共同标记30000 token临界长度。",
+    "sources": [
+      {
+        "path": "问题三/results_v1/optimal_allocations.csv",
+        "sha256": "b5ac0510a80b14d14c7f5cbe0576f1efa820755c66c5b6ee28d3fde54b99588a"
+      },
+      {
+        "path": "问题三/config/problem3_v1.json",
+        "sha256": "5c9c7e784d513348b02eaabc433264365a05f3424a413dea0476d79df3cabd68"
+      }
+    ]
+  },
+  {
+    "figure": "P3_F03_三类质量成本下的低预算优化景观",
+    "pdf": "P3_F03_三类质量成本下的低预算优化景观.pdf",
+    "png": "P3_F03_三类质量成本下的低预算优化景观.png",
+    "paper_pdf": "overleaf-paper/images/no3/统一字体版/P3_F03_三类质量成本下的低预算优化景观.pdf",
+    "caption": "4096上下文、$10^{19}$ FLOPs预算下三类质量成本的解析降维目标景观。颜色和等高线表示给定$(N,Q_A)$并取最大可行$D$后的预测Loss，星号为中心最优点，斜线区域为严格共同支持可行域。",
+    "sources": [
+      {
+        "path": "问题三/results_v1/optimal_allocations.csv",
+        "sha256": "b5ac0510a80b14d14c7f5cbe0576f1efa820755c66c5b6ee28d3fde54b99588a"
+      },
+      {
+        "path": "问题三/config/problem3_v1.json",
+        "sha256": "5c9c7e784d513348b02eaabc433264365a05f3424a413dea0476d79df3cabd68"
+      }
+    ]
+  },
+  {
+    "figure": "P3_F04_上下文长度对最优配置的影响",
+    "pdf": "P3_F04_上下文长度对最优配置的影响.pdf",
+    "png": "P3_F04_上下文长度对最优配置的影响.png",
+    "paper_pdf": "overleaf-paper/images/no3/统一字体版/P3_F04_上下文长度对最优配置的影响.pdf",
+    "caption": "上下文长度对最优配置的影响。参数量与训练Token均相对2048上下文归一化，右图给出最优质量的绝对水平；颜色区分三档预算，点形与线型区分三类质量成本。竖虚线为注意力开销与基础训练开销相等的30000 token临界长度。",
+    "sources": [
+      {
+        "path": "问题三/results_v1/budget_paths.csv.gz",
+        "sha256": "cc64384cf776505fec2fbd6edfb5f3c62b48f5bcf35eef0d7f622bc4727d5971"
+      },
+      {
+        "path": "问题三/config/problem3_v1.json",
+        "sha256": "5c9c7e784d513348b02eaabc433264365a05f3424a413dea0476d79df3cabd68"
+      }
+    ]
+  },
+  {
+    "figure": "P3_F05_稳定结构转移的区间估计",
+    "pdf": "P3_F05_稳定结构转移的区间估计.pdf",
+    "png": "P3_F05_稳定结构转移的区间估计.png",
+    "paper_pdf": "overleaf-paper/images/no3/统一字体版/P3_F05_稳定结构转移的区间估计.pdf",
+    "caption": "4096上下文下关键结构转移预算的联合bootstrap分布。左图给出指数成本下质量增量弹性断点与质量饱和的联合位置，右图给出幂函数成本下质量投入启动与质量饱和的联合位置；主图为200条联合参数路径，顶部和右侧为边缘分布，十字为bootstrap边际中位数，空心菱形为中心参数结果。",
+    "sources": [
+      {
+        "path": "问题三/results_v1/transition_bootstrap.csv.gz",
+        "sha256": "41a0956c080541cb52e1f46a3f05d5a6d088f57ecd688497174284ab4ea3546f"
+      },
+      {
+        "path": "问题三/results_v1/transition_points.csv",
+        "sha256": "c13be60a606477a64f38a2ba00d394cff96b5308e9827f6c32e6fc3ff69ba014"
+      }
+    ]
+  },
+  {
+    "figure": "P3_F06_关键假设的敏感性分析",
+    "pdf": "P3_F06_关键假设的敏感性分析.pdf",
+    "png": "P3_F06_关键假设的敏感性分析.png",
+    "paper_pdf": "overleaf-paper/images/no3/统一字体版/P3_F06_关键假设的敏感性分析.pdf",
+    "caption": "4096上下文下关键假设对最优Loss的敏感性点阵。空心点和实心点分别表示较低与较高设置，菱形表示单侧边界检查；点的横坐标直接给出Loss变化，背景色区分改善与恶化方向。",
+    "sources": [
+      {
+        "path": "问题三/results_v1/sensitivity_summary.csv",
+        "sha256": "9e769da9045ef9abebd32ce9aeca4e4537db66b2ddfea15f36d044110c283360"
+      }
+    ]
+  },
+  {
+    "figure": "P3_F07_最优配置路径与结构转移",
+    "pdf": "P3_F07_最优配置路径与结构转移.pdf",
+    "png": "P3_F07_最优配置路径与结构转移.png",
+    "paper_pdf": "overleaf-paper/images/no3/统一字体版/P3_F07_最优配置路径与结构转移.pdf",
+    "caption": "4096上下文下三类质量成本的连续最优配置路径。上排给出最优质量随预算的变化，下排在同一预算轴上给出参数量与训练Token数；竖虚线和倒三角标记稳定的主要结构转移。两行共享横轴，可直接读取质量状态变化前后的规模配置。",
+    "sources": [
+      {
+        "path": "问题三/results_v1/budget_paths.csv.gz",
+        "sha256": "cc64384cf776505fec2fbd6edfb5f3c62b48f5bcf35eef0d7f622bc4727d5971"
+      },
+      {
+        "path": "问题三/results_v1/transition_points.csv",
+        "sha256": "c13be60a606477a64f38a2ba00d394cff96b5308e9827f6c32e6fc3ff69ba014"
+      }
+    ]
+  },
+  {
+    "figure": "P3_F08_多起点寻优过程与收敛验证",
+    "pdf": "P3_F08_多起点寻优过程与收敛验证.pdf",
+    "png": "P3_F08_多起点寻优过程与收敛验证.png",
+    "paper_pdf": "overleaf-paper/images/no3/统一字体版/P3_F08_多起点寻优过程与收敛验证.pdf",
+    "caption": "指数质量成本、4096上下文与$10^{19}$ FLOPs预算下的多起点寻优过程。(a)在预算等式下解析消去$D$，以$(\\log N,Q_A)$为平面、以超额Loss为高度绘制三维地形，并叠加粗网格候选起点、三条代表性SLSQP下降轨迹及谷底最优点，轨迹颜色由浅至深表示迭代推进；(b)给出20个起点的相对Loss差距收敛过程；(c)放大谷底区域，展示三条路径的末端步骤如何汇聚到同一数值解。三维轨迹仅沿竖直方向微量抬升以避免被曲面遮挡，不改变其$(N,Q_A)$位置、Loss差和收敛次序。所有起点收敛到同一数值解，并与加密网格和完整三维复核一致。",
+    "sources": [
+      {
+        "path": "问题三/results_v1/optimal_allocations.csv",
+        "sha256": "b5ac0510a80b14d14c7f5cbe0576f1efa820755c66c5b6ee28d3fde54b99588a"
+      },
+      {
+        "path": "问题三/config/problem3_v1.json",
+        "sha256": "5c9c7e784d513348b02eaabc433264365a05f3424a413dea0476d79df3cabd68"
+      },
+      {
+        "path": "问题三/src/problem3/optimize.py",
+        "sha256": "c4516dfa018c8b3dae331df892c5a7713988d32bad57c51c04b9a7d4d5ff181b"
+      },
+      {
+        "path": "论文图片/问题三/统一字体版/figure_data/P3_F08_loss_surface.csv.gz",
+        "sha256": "5eca15e3df53876d30e7d6101a9d2cafe84f7c60dfd9aaec3b6d4ae10d13eece"
+      }
+    ]
+  }
+]
