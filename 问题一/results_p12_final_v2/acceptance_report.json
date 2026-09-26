@@ -1,0 +1,310 @@
+{
+  "summary": {
+    "PASS": 21,
+    "WARN": 3,
+    "FAIL": 0
+  },
+  "rules": [
+    {
+      "id": "D01",
+      "name": "质量文件行数",
+      "status": "PASS",
+      "observed": {
+        "A1": 51230,
+        "A2": 17523,
+        "A3": 203752
+      },
+      "threshold": "{'A1': 51230, 'A2': 17523, 'A3': 203752}",
+      "action": ""
+    },
+    {
+      "id": "D02",
+      "name": "字段数",
+      "status": "PASS",
+      "observed": {
+        "A1": 27,
+        "A2": 24,
+        "A3": 24
+      },
+      "threshold": "27/24/24",
+      "action": ""
+    },
+    {
+      "id": "D04",
+      "name": "A1 与扩展集重叠",
+      "status": "PASS",
+      "observed": {
+        "arxiv": 1419,
+        "github": 10000
+      },
+      "threshold": "1419/10000",
+      "action": ""
+    },
+    {
+      "id": "D05",
+      "name": "重复 ID 质量字段冲突",
+      "status": "PASS",
+      "observed": 0,
+      "threshold": "0",
+      "action": ""
+    },
+    {
+      "id": "D06",
+      "name": "非有限值基准",
+      "status": "PASS",
+      "observed": {
+        "A1": {
+          "records": 18,
+          "elements": 108,
+          "fields": {
+            "modernbert_professionalism": 5,
+            "modernbert_reasoning": 13
+          }
+        },
+        "A2": {
+          "records": 0,
+          "elements": 0,
+          "fields": {}
+        },
+        "A3": {
+          "records": 1,
+          "elements": 6,
+          "fields": {
+            "modernbert_professionalism": 1
+          }
+        }
+      },
+      "threshold": "A1=18/108,A2=0,A3=1/6",
+      "action": ""
+    },
+    {
+      "id": "D07",
+      "name": "质量范围",
+      "status": "PASS",
+      "observed": [
+        0.1407348771535361,
+        0.8801833948739055
+      ],
+      "threshold": "[0,1]",
+      "action": ""
+    },
+    {
+      "id": "D08",
+      "name": "块内权重和",
+      "status": "PASS",
+      "observed": {
+        "education": 0.9999999999999999,
+        "expression": 1.0,
+        "noise": 1.0,
+        "reasoning": 1.0,
+        "structure": 0.9999999999999999
+      },
+      "threshold": "误差<=1e-12",
+      "action": ""
+    },
+    {
+      "id": "D09",
+      "name": "单纯形闭合",
+      "status": "PASS",
+      "observed": 4.440892098500626e-16,
+      "threshold": "<=1e-12",
+      "action": ""
+    },
+    {
+      "id": "Q06",
+      "name": "Huber 收敛率",
+      "status": "PASS",
+      "observed": 1.0,
+      "threshold": ">=0.9999",
+      "action": ""
+    },
+    {
+      "id": "MAP01",
+      "name": "已知域留一 MAE",
+      "status": "PASS",
+      "observed": 0.05693286140239123,
+      "threshold": "<=0.10",
+      "action": "WARN 时 inferred 仅作探索性"
+    },
+    {
+      "id": "MAP02",
+      "name": "已知域留一 Spearman",
+      "status": "WARN",
+      "observed": -1.0,
+      "threshold": ">=0.70",
+      "action": "WARN 时不对 inferred 域作强排序"
+    },
+    {
+      "id": "MAP03",
+      "name": "映射权重合法",
+      "status": "PASS",
+      "observed": {
+        "arxiv": 1.0,
+        "dm_mathematics": 1.0,
+        "enron_emails": 1.0,
+        "europarl": 1.0,
+        "freelaw": 1.0,
+        "github": 1.0,
+        "gutenberg_pg_19": 1.0,
+        "hackernews": 1.0,
+        "nih_exporter": 0.9999999999999998,
+        "philpapers": 0.9999999999999999,
+        "pile_cc": 1.0,
+        "pubmed_abstracts": 1.0,
+        "pubmed_central": 0.9999999999999999,
+        "stackexchange": 1.0,
+        "ubuntu_irc": 1.0,
+        "uspto_backgrounds": 1.0,
+        "wikipedia_en": 1.0
+      },
+      "threshold": "和误差<=1e-12",
+      "action": ""
+    },
+    {
+      "id": "M01",
+      "name": "1M 留出排序",
+      "status": "PASS",
+      "observed": {
+        "spearman": 0.8582413023575186,
+        "kendall": 0.6661764705882354
+      },
+      "threshold": "Spearman>=0.80,Kendall>=0.60",
+      "action": ""
+    },
+    {
+      "id": "M02",
+      "name": "1M 留出 R2",
+      "status": "PASS",
+      "observed": 0.6365742104653958,
+      "threshold": ">=0.50",
+      "action": ""
+    },
+    {
+      "id": "M03",
+      "name": "60M 跨规模排序",
+      "status": "PASS",
+      "observed": 0.8698200389105057,
+      "threshold": ">=0.80",
+      "action": ""
+    },
+    {
+      "id": "M04",
+      "name": "1B 独立配比排序",
+      "status": "PASS",
+      "observed": 0.8502747252747251,
+      "threshold": ">=0.75",
+      "action": ""
+    },
+    {
+      "id": "M05",
+      "name": "归一化 Regret",
+      "status": "PASS",
+      "observed": 0.15831901792458045,
+      "threshold": "<=0.25",
+      "action": ""
+    },
+    {
+      "id": "M07",
+      "name": "Ridge 与黑箱内部 CV 差距",
+      "status": "PASS",
+      "observed": -0.08089191051966989,
+      "threshold": "<=5%",
+      "action": ""
+    },
+    {
+      "id": "O01",
+      "name": "多起点一致性",
+      "status": "WARN",
+      "observed": 0.015864912219995832,
+      "threshold": "最优5个可行目标相对离散度<=1e-6",
+      "action": "WARN 时按近优可行集报告，不宣称唯一全局最优"
+    },
+    {
+      "id": "O02",
+      "name": "随机可行点反证检查",
+      "status": "PASS",
+      "observed": {
+        "p_star": 4.7650597125982905,
+        "random_best": 5.2067642021540586,
+        "accepted": 10000
+      },
+      "threshold": "候选目标不劣于10000个随机可行点",
+      "action": ""
+    },
+    {
+      "id": "O03",
+      "name": "最优配比约束回代",
+      "status": "PASS",
+      "observed": {
+        "linear_alpha": 0.1778279410038923,
+        "quadratic_alpha": 0.05623413251903491,
+        "elastic_params": {
+          "alpha": 0.04393970560760795,
+          "l1_ratio": 0.9
+        },
+        "model_role": "quadratic_ridge_main",
+        "ridge_vs_best_blackbox_relative_nrmse_gap": -0.08089191051966989,
+        "support_radius": 4.329687084379371,
+        "optimization_success_rate": 1.0,
+        "p_star_sum": 1.0,
+        "p_star_min": 0.0,
+        "p_star_max_upper_violation": 1.2864709297844001e-14,
+        "p_star_support_distance": 4.329687084441041,
+        "optimization_diagnostics": {
+          "best_feasible_starts_used": 5,
+          "best_feasible_objectives": [
+            4.7650597125982905,
+            4.7650597126036205,
+            4.765059712605671,
+            4.8406569656875424,
+            4.840656966661701
+          ],
+          "multistart_relative_dispersion": 0.015864912219995832,
+          "multistart_threshold": 1e-06,
+          "multistart_pass": false,
+          "random_requested": 10000,
+          "random_accepted": 10000,
+          "random_attempted": 10052,
+          "random_best_objective": 5.2067642021540586,
+          "p_star_objective": 4.7650597125982905,
+          "random_check_pass": true,
+          "support_boundary_active": true,
+          "support_boundary_gap": -6.16697803934585e-11,
+          "near_optimal_only": true
+        },
+        "quality_effect_association": {
+          "spearman_q_vs_benefit": -0.14339426781285375,
+          "kendall_q_vs_benefit": -0.10480469092042208,
+          "n_domains": 17
+        }
+      },
+      "threshold": "全部约束满足",
+      "action": ""
+    },
+    {
+      "id": "O04",
+      "name": "优化 bootstrap 成功率",
+      "status": "PASS",
+      "observed": 1.0,
+      "threshold": ">=0.80",
+      "action": ""
+    },
+    {
+      "id": "Q01",
+      "name": "域排名敏感性",
+      "status": "PASS",
+      "observed": 0.8095238095238096,
+      "threshold": "Kendall>=0.80",
+      "action": ""
+    },
+    {
+      "id": "Q02",
+      "name": "样本极端组重合率",
+      "status": "WARN",
+      "observed": 0.613,
+      "threshold": ">=0.70",
+      "action": ""
+    }
+  ],
+  "overall": "WARN"
+}

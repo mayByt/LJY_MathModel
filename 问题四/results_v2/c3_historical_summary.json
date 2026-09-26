@@ -1,0 +1,13 @@
+{
+  "rows": 26,
+  "families": 15,
+  "year_coef": -0.03430996569208912,
+  "year_coef_p10": -0.13087279409366057,
+  "year_coef_p90": 0.36843041492932294,
+  "year_coef_p025": -0.18594537025392932,
+  "year_coef_p975": 0.5251327335940952,
+  "positive_probability": 0.405,
+  "lofo_sign_stable": false,
+  "annual_q90_theil_sen_slope": -0.1499999999999999,
+  "direction": "direction_uncertain"
+}

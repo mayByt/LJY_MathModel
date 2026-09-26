@@ -1,0 +1,7 @@
+p_scenario,mixture_strength_profile,rows,min_prediction,below_E_rows
+p_ref,0.25,81,2.074831502722972,0
+p_ref,0.5,81,2.074831502722972,0
+p_ref,1.0,81,2.074831502722972,0
+p_star_sensitivity,0.25,81,1.818068939959824,0
+p_star_sensitivity,0.5,81,1.561306377196676,4
+p_star_sensitivity,1.0,81,1.0477812516703802,48

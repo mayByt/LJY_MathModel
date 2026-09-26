@@ -1,0 +1,346 @@
+{
+  "files": {
+    "B1": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/pythia_training_log_existing.csv",
+      "sha256": "529a59644b0f57bf3a76037838b614bfedc35e58bb26b93052e34ffc63e454c2",
+      "shape": [
+        1176,
+        15
+      ],
+      "columns": [
+        "run_id",
+        "N_params_B",
+        "D_tokens_B",
+        "C_FLOPs_1e21",
+        "steps",
+        "batch_tokens_M",
+        "lr",
+        "wd",
+        "precision",
+        "gpu_days",
+        "step_time_ms",
+        "train_loss",
+        "val_loss",
+        "ppl",
+        "grad_norm_avg"
+      ],
+      "size_bytes": 111459
+    },
+    "B2": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/cerebras_training_log.csv",
+      "sha256": "178f878cad2cb31e4ec104c670553de23818197876d824a113fdb911125951a6",
+      "shape": [
+        1029,
+        15
+      ],
+      "columns": [
+        "run_id",
+        "N_params_B",
+        "D_tokens_B",
+        "C_FLOPs_1e21",
+        "steps",
+        "batch_tokens_M",
+        "lr",
+        "wd",
+        "precision",
+        "gpu_days",
+        "step_time_ms",
+        "train_loss",
+        "val_loss",
+        "ppl",
+        "grad_norm_avg"
+      ],
+      "size_bytes": 89643
+    },
+    "B4": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/scaling_baseline.csv",
+      "sha256": "2272983ded93de35e05f9acbf95ebceedf43f283345e4be72b54fee94080391e",
+      "shape": [
+        57,
+        5
+      ],
+      "columns": [
+        "family",
+        "N_params_B",
+        "D_tokens_B",
+        "val_loss",
+        "is_converged"
+      ],
+      "size_bytes": 1421
+    },
+    "B5": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/published_scaling_data.csv",
+      "sha256": "dd858c5e48610e28589340d5db023d6abfb31df597506789ccdfc6a546731bbd",
+      "shape": [
+        44,
+        6
+      ],
+      "columns": [
+        "family",
+        "N_params_B",
+        "D_tokens_B",
+        "val_loss",
+        "source",
+        "is_converged"
+      ],
+      "size_bytes": 1967
+    },
+    "B6": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/supplementary_NQ_experiment.csv",
+      "sha256": "c7450ce0d67d8692535fef4709e60e2da60b2c184738bf96df160a4be0a33a7f",
+      "shape": [
+        360,
+        5
+      ],
+      "columns": [
+        "experiment_id",
+        "N_params_B",
+        "D_tokens_B",
+        "Q_score",
+        "val_loss"
+      ],
+      "size_bytes": 13670
+    },
+    "B7": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/supplementary_NQ_experiment_expanded.csv",
+      "sha256": "880fd265ca3e1d9bc93b4559af7ed7c18f89040634266c50bae03d88486e0f3a",
+      "shape": [
+        450,
+        5
+      ],
+      "columns": [
+        "experiment_id",
+        "N_params_B",
+        "D_tokens_B",
+        "Q_score",
+        "val_loss"
+      ],
+      "size_bytes": 17154
+    },
+    "B8": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/supplementary_NQ_experiment_large.csv",
+      "sha256": "bda0d449f75c73bbd04141e5cffbf4bea7002073e34b7fa95a638570fa095ffe",
+      "shape": [
+        1704,
+        6
+      ],
+      "columns": [
+        "experiment_id",
+        "N_params_B",
+        "D_tokens_B",
+        "Q_score",
+        "val_loss",
+        "data_type"
+      ],
+      "size_bytes": 81268
+    },
+    "B9": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/supplementary_large_models.csv",
+      "sha256": "ee794c1c586ed33c485a9eb9a2a3d993790402b63297e9b2765a1387930e940e",
+      "shape": [
+        132,
+        8
+      ],
+      "columns": [
+        "model_name",
+        "N_params_B",
+        "D_tokens_B",
+        "FLOPs",
+        "publication_date",
+        "organization",
+        "accessibility",
+        "country"
+      ],
+      "size_bytes": 13400
+    },
+    "B10": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/supplementary_large_baseline.csv",
+      "sha256": "a240e210c5b37444356c28eea96c6cc36be79c29baae1621c2e08aff727ccfeb",
+      "shape": [
+        128,
+        5
+      ],
+      "columns": [
+        "family",
+        "N_params_B",
+        "D_tokens_B",
+        "val_loss",
+        "is_converged"
+      ],
+      "size_bytes": 4744
+    },
+    "B11": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/open_model_family_metadata.csv",
+      "sha256": "641682f0ea6c46f25a0188ac723af44e0bc2e27c760e744743a15e97e29ee064",
+      "shape": [
+        18,
+        8
+      ],
+      "columns": [
+        "family",
+        "model_repo",
+        "config_bytes",
+        "readme_bytes",
+        "weight_file_count",
+        "weight_total_bytes",
+        "source_url",
+        "error"
+      ],
+      "size_bytes": 1975
+    },
+    "B12": {
+      "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/B_scaling_laws/pythia_checkpoint_index.csv",
+      "sha256": "0f7f63535cbc1bbef5165776562e71401af9f762cfe02aaea30c824f45fbc9ed",
+      "shape": [
+        1386,
+        5
+      ],
+      "columns": [
+        "model_repo",
+        "model_size",
+        "step",
+        "branch",
+        "commit"
+      ],
+      "size_bytes": 117698
+    },
+    "B3": {
+      "path": "B_scaling_laws/training_trajectories/*.csv",
+      "sha256": "2de8a49b0a506aaf3a150dbb0db2d659eacfb2c575e2d9da401f9837a4efc2e6",
+      "shape": [
+        4000,
+        6
+      ],
+      "columns": [
+        "N_params_B",
+        "D_tokens_B",
+        "val_loss",
+        "step",
+        "interpolated",
+        "source_file"
+      ],
+      "size_bytes": 112320,
+      "members": {
+        "pythia_0.070542B_trajectory.csv": "19663f2f14d62af377377962ec8f794148450bfb278fdbeb2452f4641fe6a440",
+        "pythia_0.162405B_trajectory.csv": "8e2b78cde966b0a3e8b6272935c3f3dcccc5a54e94bb7db79ded2fd8fdf5a124",
+        "pythia_0.409009B_trajectory.csv": "8c803195d475d8ff320afd90887ae48cec6463f4d01a2264c6680611ed9db170",
+        "pythia_1.040867B_trajectory.csv": "bb73b2852db183bee3d76c76f55e2bdcc292d7ed0881cb27966525b56afcafc0",
+        "pythia_1.416184B_trajectory.csv": "cd0d718747fb6048cb474066dbf35f64ef852f59cba2886484cbdf14bc68a02f",
+        "pythia_11.965825B_trajectory.csv": "e223b3d48bc4fef3cbc03fd583ff7aef87e474903d829f6c417310cb99fa7b5e",
+        "pythia_2.782831B_trajectory.csv": "552f03249b69234009eb028b3296d6bd1b1cb3a52c0d3a84a669baa0e3179482",
+        "pythia_6.86104B_trajectory.csv": "8814c8414fddc914444c74e6cf8da02e3e156a0d7fb8acea6c5da05e438bf054"
+      }
+    }
+  },
+  "checks": {
+    "b1_rows": 1176,
+    "b1_n_levels": 8,
+    "b1_rows_per_n": {
+      "0.070542": 147,
+      "0.162405": 147,
+      "0.409009": 147,
+      "1.040867": 147,
+      "1.416184": 147,
+      "2.782831": 147,
+      "6.86104": 147,
+      "11.965825": 147
+    },
+    "b1_core_finite_positive": true,
+    "b1_compute_ratio_median": 0.9999995935179582,
+    "b1_compute_ratio_p05": 0.9994353224750927,
+    "b1_compute_ratio_p95": 1.000477670017734,
+    "b2_core_finite_positive": true,
+    "b2_aux_all_missing": {
+      "gpu_days": true,
+      "step_time_ms": true,
+      "grad_norm_avg": true
+    },
+    "b2_or_b3_validation_choice": {
+      "selected": "B2",
+      "B2_rows": 1029,
+      "B3_rows": 4000,
+      "B3_files": 8,
+      "B3_role": "audited_interpolation_not_counted_as_independent_evidence"
+    },
+    "b11_source_audit": {
+      "rows": 18,
+      "families": 3,
+      "missing_error": 18,
+      "source_url_nonempty": 18
+    },
+    "b12_checkpoint_audit": {
+      "rows": 1386,
+      "model_repos": 9,
+      "duplicate_repo_step": 0,
+      "step_min": 0,
+      "step_max": 143000
+    },
+    "b6_in_b7_matches": 360,
+    "b6_in_b7_max_loss_diff": 0.0,
+    "b7_duplicate_keys": 0,
+    "b7_nd_cells": 45,
+    "b7_q_per_cell_min": 10,
+    "b7_q_per_cell_max": 10,
+    "b7_group_spearman_median": -0.9515151515151514,
+    "b9_zero_token_rows": 4,
+    "support_observed": {
+      "N_params_B": [
+        0.070542,
+        11.965825
+      ],
+      "D_tokens_B": [
+        10.0,
+        600.0
+      ],
+      "Q": [
+        0.1,
+        1.0
+      ]
+    },
+    "support_extended_B9": {
+      "N_params_B": [
+        100.0,
+        10000.0
+      ],
+      "D_tokens_B": [
+        0.1,
+        36000.0
+      ]
+    }
+  },
+  "b8": {
+    "rows_by_type": {
+      "calibrated": 984,
+      "extrapolated": 720
+    },
+    "q_range": [
+      0.05,
+      1.0
+    ],
+    "loss_range": [
+      0.5,
+      3.3659
+    ],
+    "floor_count_loss_0_5": 362,
+    "group_spearman_median": 0.9929823694376383,
+    "adjacent_increases": 1311,
+    "adjacent_steps": 1554,
+    "main_fit_rows_including_b8": 0
+  },
+  "usage_ledger": {
+    "B1": "classic_fit_cv_bootstrap",
+    "B2": "selected_family_out_validation",
+    "B3": "audited_only_B2_selected_under_B2_or_B3_rule",
+    "B4": "external_family_validation",
+    "B5": "published_validation",
+    "B6": "strict_subset_integrity_check_only",
+    "B7": "quality_fit_blocked_cv",
+    "B8": "direction_and_floor_stress_test_only",
+    "B9": "extended_N_D_support_boundary",
+    "B10": "estimated_large_model_scale_check",
+    "B11": "family_source_provenance_audit",
+    "B12": "checkpoint_index_integrity_audit"
+  },
+  "hard_failures": [],
+  "hard_gate_status": "PASS"
+}

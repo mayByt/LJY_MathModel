@@ -1,0 +1,141 @@
+{
+  "classic_model": "M0",
+  "classic_parameters": {
+    "E": 1.6897975628980855,
+    "A": 0.3539803206859227,
+    "B": 1.2403055835550174,
+    "alpha": 0.33997658188127156,
+    "beta": 0.27987812854272615
+  },
+  "quality_model": "GQ2",
+  "quality_parameters": {
+    "c_Q": 0.3620399283468315,
+    "nu_Q": 0.9902880682591864
+  },
+  "quality_fit_mode": "absolute_anchor_compatible",
+  "mixture_reference": "p_ref",
+  "Q_ref": 0.5389559587975633,
+  "N0_params_B": 1.0,
+  "delta_p": -0.02917060183556795,
+  "quality_mapping_slopes": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "mixture_strength_profiles": [
+    {
+      "profile": 0.0,
+      "lambda0_B_loss_units": 0.0,
+      "conversion": "profile_multiplier_times_B7_loss_IQR",
+      "identified": false
+    },
+    {
+      "profile": 0.25,
+      "lambda0_B_loss_units": 0.12055625000000003,
+      "conversion": "profile_multiplier_times_B7_loss_IQR",
+      "identified": false
+    },
+    {
+      "profile": 0.5,
+      "lambda0_B_loss_units": 0.24111250000000006,
+      "conversion": "profile_multiplier_times_B7_loss_IQR",
+      "identified": false
+    },
+    {
+      "profile": 1.0,
+      "lambda0_B_loss_units": 0.4822250000000001,
+      "conversion": "profile_multiplier_times_B7_loss_IQR",
+      "identified": false
+    }
+  ],
+  "final_formula_role": "L0_plus_quality_hs_plus_scale_dependent_Rp",
+  "callable_signature": "generalized_predict(..., q_a, p, q_ref, s_q, lambda0, delta_p, n0, mixture_response)",
+  "mixture_response_artifact": "problem1_mixture_response_bootstrap.npz",
+  "mixture_response_loader": "problem2.generalized.load_mixture_response_artifact",
+  "units_contract": "units_contract.json",
+  "mixture_strength_role": "scenario_not_identified_across_A_and_B_units",
+  "elasticity_contract": {
+    "epsilon_x": "standard_total_loss=-x/L*dL_dx",
+    "epsilon_x_total": "standard_total_loss=-x/L*dL_dx",
+    "epsilon_x_reducible": "mechanism_sensitivity=-x/(L-E)*dL_dx; undefined when L<=E"
+  },
+  "mixture_physical_gate": {
+    "E": 1.6897975628980855,
+    "nonzero_scenario_rows": 486,
+    "below_E_rows": 52,
+    "min_nonzero_scenario_prediction": 1.0477812516703802,
+    "status": "BLOCK_JOINT_P",
+    "action": "joint_p_disabled_if_any_prediction_below_E"
+  },
+  "joint_bootstrap_valid_rate": 1.0,
+  "interface_state": {
+    "CENTRAL_MODEL_READY": true,
+    "FIXED_P_READY": true,
+    "JOINT_P_READY": false,
+    "P12_FREEZE_READY": true
+  },
+  "support": {
+    "N_observed": [
+      0.070542,
+      11.965825
+    ],
+    "N_extended_B9": [
+      100.0,
+      10000.0
+    ],
+    "D_observed": [
+      10.0,
+      600.0
+    ],
+    "D_extended_B9": [
+      0.1,
+      36000.0
+    ],
+    "Q": [
+      0.1,
+      1.0
+    ],
+    "p": {
+      "upper": {
+        "arxiv": 0.8546810610610607,
+        "freelaw": 0.8558147658147651,
+        "nih_exporter": 0.05174478827785438,
+        "pubmed_central": 0.8834634634634632,
+        "wikipedia_en": 0.6120578293724585,
+        "dm_mathematics": 0.2219756043956044,
+        "github": 0.90745,
+        "philpapers": 0.048808239377101645,
+        "stackexchange": 0.9531999099099095,
+        "enron_emails": 0.02397602397602398,
+        "gutenberg_pg_19": 0.38056035964035945,
+        "pile_cc": 0.8745699999999998,
+        "ubuntu_irc": 0.16975320641282557,
+        "europarl": 0.10375155375155369,
+        "hackernews": 0.11111111111111112,
+        "pubmed_abstracts": 0.5308669930069929,
+        "uspto_backgrounds": 0.55612
+      },
+      "scale": {
+        "arxiv": 0.2007464483926607,
+        "freelaw": 0.1884933991698423,
+        "nih_exporter": 0.011974674506832742,
+        "pubmed_central": 0.20532660720138254,
+        "wikipedia_en": 0.1463522810128345,
+        "dm_mathematics": 0.051461291264400466,
+        "github": 0.2088764476275487,
+        "philpapers": 0.011383230555113089,
+        "stackexchange": 0.18793457979064135,
+        "enron_emails": 0.005072121126392568,
+        "gutenberg_pg_19": 0.08695738468183285,
+        "pile_cc": 0.21277021040908248,
+        "ubuntu_irc": 0.03885714179325834,
+        "europarl": 0.02445291105869661,
+        "hackernews": 0.025328884221067282,
+        "pubmed_abstracts": 0.12623979686416506,
+        "uspto_backgrounds": 0.13499391666980742
+      },
+      "radius": 4.329687084379371
+    }
+  },
+  "hard_gate_failures": []
+}

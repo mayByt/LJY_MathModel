@@ -1,0 +1,122 @@
+{
+  "hard_gate_status": "PASS",
+  "upstream_interface_state": {
+    "CENTRAL_MODEL_READY": true,
+    "FIXED_P_READY": true,
+    "JOINT_P_READY": false,
+    "P12_FREEZE_READY": true
+  },
+  "upstream_acceptance": {
+    "PASS": 37,
+    "WARN": 3,
+    "FAIL": 0
+  },
+  "upstream_hard_gate_failures": [],
+  "input_hashes": {
+    "generalized_scaling_parameters.json": "e0ad2f4bde72dcf96d3814718d031759353f61a68919bdffd607c7dcd3335aa2",
+    "generalized_scaling_bootstrap.csv.gz": "90986f27648c88baef1867fa9a7837b4b9337b394704061fe9e953ac35992998",
+    "problem1_bridge.json": "dff0ed461269edbbc9fceefd7094f515f69de5c0f2c0d39f0c92b0dfe893fa83",
+    "units_contract.json": "bdb666d7d116a7877b3af0f1462608fc78b87009665388723c97ee7d499d3c79",
+    "problem2_acceptance_report.json": "097bfb04f3bde1d209ff77061af352590bf9a2c2dfc5a516b96b2227932e552e",
+    "problem2_manifest.json": "7d57b72c5cf78b1d5cc0418157addfb989171ff4abf200a1d2e241fb4ef08ebc",
+    "quality_parameter_equivalence.csv": "e41b43783a34afa494da0258a03ddb331e5f1f848a0c18bff0535d784a5887ee",
+    "elasticity_grid.csv": "663e4e7b5e1c40246fd7976e825631b17886088a0a252f02c73fe1dc13ebf735"
+  },
+  "hash_mismatches": {},
+  "problem2_manifest_hash_verification": "PASS",
+  "model_contract": {
+    "classic_model": "M0",
+    "quality_model": "GQ2"
+  },
+  "bootstrap": {
+    "rows": 500,
+    "required_columns_present": true,
+    "valid_rows": 500,
+    "valid_rate": 1.0
+  },
+  "p_ref": {
+    "domains": 17,
+    "min": 0.002211033043406226,
+    "sum": 1.0,
+    "simplex_error": 0.0
+  },
+  "Q_ref": 0.5389559587975633,
+  "units": {
+    "N_params_B_unit": "1e9 parameters",
+    "D_tokens_B_unit": "1e9 tokens",
+    "N_abs_multiplier": 1000000000.0,
+    "D_abs_multiplier": 1000000000.0,
+    "FLOPs_formula_absolute": "6 * N_abs * D_abs",
+    "FLOPs_to_C_FLOPs_1e21": "6 * N_params_B * D_tokens_B / 1000",
+    "N0_params_B": 1.0,
+    "N0_abs": 1000000000.0,
+    "internal_scaling_units": "billions for N and D; convert before cost optimization",
+    "problem3_contract": "Use N_abs and D_abs for 6ND, quality investment, and attention-cost terms."
+  },
+  "c7": {
+    "path": "/home/xxxten/26华为杯/中文题目/F题/real_attachments/C_efficiency_evolution/model_architecture_metadata.csv",
+    "sha256": "ee24622cb3a6334f08d72c9ea373be26d5e5585bb266367c5f66d77499112ffc",
+    "shape": [
+      45,
+      7
+    ],
+    "columns": [
+      "model_name",
+      "n_layers",
+      "n_heads",
+      "d_model",
+      "vocab_size",
+      "max_position_embeddings",
+      "training_data_TB"
+    ],
+    "schema_valid": true,
+    "missing_cells": 0,
+    "duplicate_models": 0,
+    "architecture_warning_rows": 6,
+    "architecture_warning_models": [
+      "EleutherAI/pythia-12b",
+      "tiiuae/falcon-40b",
+      "cerebras/Cerebras-GPT-111M",
+      "cerebras/Cerebras-GPT-590M",
+      "cerebras/Cerebras-GPT-1.3B",
+      "deepseek-ai/deepseek-llm-7b-base"
+    ],
+    "context_counts": {
+      "2048": 18,
+      "4096": 8,
+      "8192": 7,
+      "32768": 11,
+      "131072": 1
+    },
+    "verified_contexts": [
+      2048,
+      4096,
+      8192,
+      32768,
+      131072
+    ],
+    "expected_contexts": [
+      2048,
+      4096,
+      8192,
+      32768,
+      131072
+    ],
+    "context_gate": "PASS",
+    "non_context_fields_used_by_problem3": []
+  },
+  "warnings_propagated": {
+    "problem1": [
+      "MAP02",
+      "O01",
+      "Q02"
+    ],
+    "problem2": [
+      "M02",
+      "M03",
+      "M05"
+    ]
+  },
+  "raw_A_or_B_read_by_problem3": false,
+  "C7_only_direct_attachment": true
+}

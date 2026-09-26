@@ -1,0 +1,63 @@
+{
+  "seed": 2026,
+  "input_root": "../real_attachments",
+  "problem2_root": "../问题二/results_p12_final_v2",
+  "problem2_code_root": "../问题二/src",
+  "output_root": "results_v1",
+  "report_root": "reports_v1",
+  "budgets": [1e19, 1e22, 1e24],
+  "budget_path_min": 1e19,
+  "budget_path_max": 1e24,
+  "budget_path_points": 61,
+  "contexts": [2048, 4096, 8192, 32768, 131072],
+  "quality_cost_types": ["exponential", "power", "logarithmic"],
+  "quality_mapping_slopes": [0.5, 1.0, 1.5],
+  "main_quality_mapping_slope": 1.0,
+  "eta": 0.0002,
+  "quality_eps": 1e-6,
+  "quality_empirical_cap": 0.880183,
+  "grid_n_points": 45,
+  "grid_q_points": 35,
+  "local_multistarts": 20,
+  "bootstrap_anchor_draws": 500,
+  "bootstrap_path_draws": 200,
+  "gpu_preferred_if_faster": true,
+  "skip_plots": true,
+  "support_modes": {
+    "strict_joint": {
+      "N_min_B": 0.070542,
+      "N_max_B": 11.965825,
+      "D_min_B": 10.0,
+      "D_max_B": 299.893
+    },
+    "operational_extended": {
+      "N_min_B": 0.070542,
+      "N_max_B": 10000.0,
+      "D_min_B": 0.1,
+      "D_max_B": 36000.0
+    }
+  },
+  "cost_parameters": {
+    "exponential": {"amplitude": 1e7, "shape": 6.0},
+    "power": {"amplitude": 5e9, "shape": 4.0},
+    "logarithmic": {"amplitude": 2e9, "shape": 10.0}
+  },
+  "official_context_sources": {
+    "2048": "https://huggingface.co/EleutherAI/pythia-12b-v0/blob/main/config.json",
+    "4096": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base/blob/main/config.json",
+    "8192": "https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/config.json",
+    "32768": "https://huggingface.co/mistralai/Mistral-7B-v0.1/blob/main/config.json",
+    "131072": "https://huggingface.co/meta-llama/Llama-3.1-8B/blob/main/config.json"
+  },
+  "acceptance": {
+    "max_normalized_violation": 1e-8,
+    "budget_relative_slack": 1e-6,
+    "two_three_loss_relative_difference": 1e-6,
+    "fine_grid_loss_relative_difference": 1e-4,
+    "bootstrap_valid_rate": 0.95,
+    "transition_stability_probability": 0.70,
+    "transition_log10_width": 0.01,
+    "secondary_bic_improvement": 10.0,
+    "secondary_slope_difference": 0.15
+  }
+}

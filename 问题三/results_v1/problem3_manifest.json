@@ -1,0 +1,172 @@
+{
+  "project": "华为杯F题问题三",
+  "version": "problem3_v1",
+  "python": "3.12.7",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "config": {
+    "seed": 2026,
+    "input_root": "/home/xxxten/26华为杯/中文题目/F题/real_attachments",
+    "problem2_root": "/home/xxxten/26华为杯/中文题目/F题/问题二/results_p12_final_v2",
+    "problem2_code_root": "/home/xxxten/26华为杯/中文题目/F题/问题二/src",
+    "output_root": "results_v1",
+    "report_root": "reports_v1",
+    "budgets": [
+      1e+19,
+      1e+22,
+      1e+24
+    ],
+    "budget_path_min": 1e+19,
+    "budget_path_max": 1e+24,
+    "budget_path_points": 61,
+    "contexts": [
+      2048,
+      4096,
+      8192,
+      32768,
+      131072
+    ],
+    "quality_cost_types": [
+      "exponential",
+      "power",
+      "logarithmic"
+    ],
+    "quality_mapping_slopes": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "main_quality_mapping_slope": 1.0,
+    "eta": 0.0002,
+    "quality_eps": 1e-06,
+    "quality_empirical_cap": 0.880183,
+    "grid_n_points": 45,
+    "grid_q_points": 35,
+    "local_multistarts": 20,
+    "bootstrap_anchor_draws": 500,
+    "bootstrap_path_draws": 200,
+    "gpu_preferred_if_faster": true,
+    "skip_plots": true,
+    "support_modes": {
+      "strict_joint": {
+        "N_min_B": 0.070542,
+        "N_max_B": 11.965825,
+        "D_min_B": 10.0,
+        "D_max_B": 299.893
+      },
+      "operational_extended": {
+        "N_min_B": 0.070542,
+        "N_max_B": 10000.0,
+        "D_min_B": 0.1,
+        "D_max_B": 36000.0
+      }
+    },
+    "cost_parameters": {
+      "exponential": {
+        "amplitude": 10000000.0,
+        "shape": 6.0
+      },
+      "power": {
+        "amplitude": 5000000000.0,
+        "shape": 4.0
+      },
+      "logarithmic": {
+        "amplitude": 2000000000.0,
+        "shape": 10.0
+      }
+    },
+    "official_context_sources": {
+      "2048": "https://huggingface.co/EleutherAI/pythia-12b-v0/blob/main/config.json",
+      "4096": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base/blob/main/config.json",
+      "8192": "https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/config.json",
+      "32768": "https://huggingface.co/mistralai/Mistral-7B-v0.1/blob/main/config.json",
+      "131072": "https://huggingface.co/meta-llama/Llama-3.1-8B/blob/main/config.json"
+    },
+    "acceptance": {
+      "max_normalized_violation": 1e-08,
+      "budget_relative_slack": 1e-06,
+      "two_three_loss_relative_difference": 1e-06,
+      "fine_grid_loss_relative_difference": 0.0001,
+      "bootstrap_valid_rate": 0.95,
+      "transition_stability_probability": 0.7,
+      "transition_log10_width": 0.01,
+      "secondary_bic_improvement": 10.0,
+      "secondary_slope_difference": 0.15
+    },
+    "_p_ref": [
+      0.11302252583269279,
+      0.0968248321520278,
+      0.00588968021709595,
+      0.11375419105058357,
+      0.07507775607983627,
+      0.0254628540970504,
+      0.11070066007050916,
+      0.005487697351193036,
+      0.09943242344413017,
+      0.002211033043406226,
+      0.04691494424753537,
+      0.11948759779188561,
+      0.019599998284005892,
+      0.012737064754031531,
+      0.011650822378108678,
+      0.06618116611257162,
+      0.07556475309333588
+    ],
+    "_domains": [
+      "arxiv",
+      "freelaw",
+      "nih_exporter",
+      "pubmed_central",
+      "wikipedia_en",
+      "dm_mathematics",
+      "github",
+      "philpapers",
+      "stackexchange",
+      "enron_emails",
+      "gutenberg_pg_19",
+      "pile_cc",
+      "ubuntu_irc",
+      "europarl",
+      "hackernews",
+      "pubmed_abstracts",
+      "uspto_backgrounds"
+    ]
+  },
+  "config_hash": "b692d8f4bd28d39a646daf9a26cfd03d4e05e6ef69b92b8f860c6715d1e4bd2b",
+  "elapsed_seconds": 0.21235084533691406,
+  "created_at_unix": 1790238778.970813,
+  "skip_plots": true,
+  "inputs": {
+    "generalized_scaling_parameters.json": "e0ad2f4bde72dcf96d3814718d031759353f61a68919bdffd607c7dcd3335aa2",
+    "generalized_scaling_bootstrap.csv.gz": "90986f27648c88baef1867fa9a7837b4b9337b394704061fe9e953ac35992998",
+    "problem1_bridge.json": "dff0ed461269edbbc9fceefd7094f515f69de5c0f2c0d39f0c92b0dfe893fa83",
+    "units_contract.json": "bdb666d7d116a7877b3af0f1462608fc78b87009665388723c97ee7d499d3c79",
+    "problem2_acceptance_report.json": "097bfb04f3bde1d209ff77061af352590bf9a2c2dfc5a516b96b2227932e552e",
+    "problem2_manifest.json": "7d57b72c5cf78b1d5cc0418157addfb989171ff4abf200a1d2e241fb4ef08ebc",
+    "quality_parameter_equivalence.csv": "e41b43783a34afa494da0258a03ddb331e5f1f848a0c18bff0535d784a5887ee",
+    "elasticity_grid.csv": "663e4e7b5e1c40246fd7976e825631b17886088a0a252f02c73fe1dc13ebf735"
+  },
+  "outputs": {
+    "reports_v1/RESULTS_REPORT.md": "bd58d16af10d7643d01d1170fd41d5222970d0ff1b3b123223e6d514208b12d3",
+    "results_v1/bootstrap_intervals.csv": "a78c2cf6c7d14ce7c7344697394759904e9746063f09c3f484ec6fbb9ba35ecb",
+    "results_v1/bootstrap_optimal_allocations.csv.gz": "dbf534507fe0cd11f9f50ff22fb76facef583dfb40e48f58ba7c7720655cd600",
+    "results_v1/budget_paths.csv.gz": "cc64384cf776505fec2fbd6edfb5f3c62b48f5bcf35eef0d7f622bc4727d5971",
+    "results_v1/c7_context_audit.csv": "5742e4287b06296445a851752915635c775d76013fec76d0ac0b7ed6228b54c9",
+    "results_v1/constraint_checks.csv": "797bc9c6854d6678e45f0a8bebd371c3edf30ddab285ad459d2607f3f02c082d",
+    "results_v1/domain_token_allocations.csv": "f8bbd567933fd5b2ca3e623aecc6968b5449f4611d9b8961f4ac85d96a918bdf",
+    "results_v1/kkt_diagnostics.csv": "2db78a47d43115bfdc016ee3d6c732754626e1a2d048fb98077ebe9ef7900d30",
+    "results_v1/optimal_allocations.csv": "b5ac0510a80b14d14c7f5cbe0576f1efa820755c66c5b6ee28d3fde54b99588a",
+    "results_v1/problem3_acceptance_report.csv": "da9ebfbdc0131d629555e2634938930557e883d9243ac021a9ad39aaf5a51131",
+    "results_v1/problem3_acceptance_report.json": "19df6ce3a50a4cd9fc74e081a002dafa3df8e0403b40a7f03b1a7c04489d5a74",
+    "results_v1/problem3_bridge.json": "2befda1eadfaf31d26c1c09ee39d99997909cd9214f64ac54285279a71a7efeb",
+    "results_v1/problem3_data_audit.json": "ea792b962cfc24c4445f58aba89f3ac8695898f0f75c9479c1dc9815f4d6d7e0",
+    "results_v1/run_log.json": "9e19d1954ddbc615a5f602cc5041668990d09d60d02d9556c75839ab35f19ee2",
+    "results_v1/scenario_registry.csv": "2a13e079a07dcfb5dbf152ac336ca67e9523389eeac142bf40f5abded210d44f",
+    "results_v1/sensitivity_summary.csv": "9e769da9045ef9abebd32ce9aeca4e4537db66b2ddfea15f36d044110c283360",
+    "results_v1/transition_bootstrap.csv.gz": "41a0956c080541cb52e1f46a3f05d5a6d088f57ecd688497174284ab4ea3546f",
+    "results_v1/transition_bootstrap_draws.csv": "56459d46a47f105fde12aa43ad920c0ff0326b6292d5bec8fd9af381432f07d1",
+    "results_v1/transition_points.csv": "c13be60a606477a64f38a2ba00d394cff96b5308e9827f6c32e6fc3ff69ba014"
+  },
+  "hash_verification": "PASS"
+}

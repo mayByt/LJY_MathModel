@@ -1,0 +1,22 @@
+{
+  "best_feasible_starts_used": 5,
+  "best_feasible_objectives": [
+    4.7650597125982905,
+    4.7650597126036205,
+    4.765059712605671,
+    4.8406569656875424,
+    4.840656966661701
+  ],
+  "multistart_relative_dispersion": 0.015864912219995832,
+  "multistart_threshold": 1e-06,
+  "multistart_pass": false,
+  "random_requested": 10000,
+  "random_accepted": 10000,
+  "random_attempted": 10052,
+  "random_best_objective": 5.2067642021540586,
+  "p_star_objective": 4.7650597125982905,
+  "random_check_pass": true,
+  "support_boundary_active": true,
+  "support_boundary_gap": -6.16697803934585e-11,
+  "near_optimal_only": true
+}

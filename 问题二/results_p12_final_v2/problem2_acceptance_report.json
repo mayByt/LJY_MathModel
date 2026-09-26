@@ -1,0 +1,569 @@
+{
+  "summary": {
+    "PASS": 37,
+    "WARN": 3,
+    "FAIL": 0
+  },
+  "overall": "WARN",
+  "interface_state": {
+    "CENTRAL_MODEL_READY": true,
+    "FIXED_P_READY": true,
+    "JOINT_P_READY": false,
+    "P12_FREEZE_READY": true
+  },
+  "hard_gate_failures": [],
+  "rules": [
+    {
+      "id": "D01",
+      "name": "数据硬门禁",
+      "status": "PASS",
+      "observed": [],
+      "threshold": "empty",
+      "action": ""
+    },
+    {
+      "id": "D02",
+      "name": "核心字段",
+      "status": "PASS",
+      "observed": {
+        "B1": true,
+        "B2": true
+      },
+      "threshold": "finite positive",
+      "action": ""
+    },
+    {
+      "id": "D03",
+      "name": "B8隔离",
+      "status": "PASS",
+      "observed": 0,
+      "threshold": "0",
+      "action": ""
+    },
+    {
+      "id": "D04",
+      "name": "B9零值隔离",
+      "status": "PASS",
+      "observed": 4,
+      "threshold": "4",
+      "action": ""
+    },
+    {
+      "id": "D05",
+      "name": "B1-B12使用账本",
+      "status": "PASS",
+      "observed": {
+        "B2_B3": {
+          "selected": "B2",
+          "B2_rows": 1029,
+          "B3_rows": 4000,
+          "B3_files": 8,
+          "B3_role": "audited_interpolation_not_counted_as_independent_evidence"
+        },
+        "B11": {
+          "rows": 18,
+          "families": 3,
+          "missing_error": 18,
+          "source_url_nonempty": 18
+        },
+        "B12": {
+          "rows": 1386,
+          "model_repos": 9,
+          "duplicate_repo_step": 0,
+          "step_min": 0,
+          "step_max": 143000
+        }
+      },
+      "threshold": "B2 selected; B3=8 files audited; B11=18; B12=1386",
+      "action": ""
+    },
+    {
+      "id": "P01",
+      "name": "上游验收",
+      "status": "PASS",
+      "observed": {
+        "PASS": 21,
+        "WARN": 3,
+        "FAIL": 0
+      },
+      "threshold": "FAIL=0",
+      "action": ""
+    },
+    {
+      "id": "P02",
+      "name": "上游hash",
+      "status": "PASS",
+      "observed": {},
+      "threshold": "no mismatch",
+      "action": ""
+    },
+    {
+      "id": "P03",
+      "name": "领域与Scheffe维数",
+      "status": "PASS",
+      "observed": {
+        "domains": 17,
+        "features": 153
+      },
+      "threshold": "17/153",
+      "action": ""
+    },
+    {
+      "id": "P04",
+      "name": "质量基线回归",
+      "status": "PASS",
+      "observed": {
+        "Q_ref_expected": 0.5389559588,
+        "Q_star_expected": 0.5453680376,
+        "Q_ref_abs_error": 2.4367174944472936e-12,
+        "Q_star_abs_error": 4.668154751641396e-11
+      },
+      "threshold": "<=1e-6",
+      "action": ""
+    },
+    {
+      "id": "P05",
+      "name": "问题一WARN传播",
+      "status": "PASS",
+      "observed": [
+        "MAP02",
+        "O01",
+        "Q02"
+      ],
+      "threshold": "MAP02/O01/Q02",
+      "action": ""
+    },
+    {
+      "id": "P06",
+      "name": "问题一冻结接口",
+      "status": "PASS",
+      "observed": {
+        "interface": "p1_to_p2_v2",
+        "raw_A_read": false
+      },
+      "threshold": "p1_to_p2_v2 and raw_A_read=false",
+      "action": ""
+    },
+    {
+      "id": "C01",
+      "name": "多起点收敛",
+      "status": "PASS",
+      "observed": 1.0,
+      "threshold": ">=0.90",
+      "action": ""
+    },
+    {
+      "id": "C02",
+      "name": "留一规模误差",
+      "status": "PASS",
+      "observed": {
+        "nRMSE": 0.00037418974692251004,
+        "MAE": 0.00010787816949810076,
+        "Spearman_D": 1.0
+      },
+      "threshold": "nRMSE<=.25, MAE<=.2",
+      "action": "未达标则仅描述"
+    },
+    {
+      "id": "C03",
+      "name": "经典参数物理性",
+      "status": "PASS",
+      "observed": {
+        "E": 1.6897975628980855,
+        "A": 0.3539803206859227,
+        "B": 1.2403055835550174,
+        "alpha": 0.33997658188127156,
+        "beta": 0.27987812854272615
+      },
+      "threshold": "finite positive",
+      "action": ""
+    },
+    {
+      "id": "C04",
+      "name": "经典bootstrap",
+      "status": "PASS",
+      "observed": 0.968,
+      "threshold": ">=.95",
+      "action": ""
+    },
+    {
+      "id": "C05",
+      "name": "32点早期轨迹敏感性",
+      "status": "PASS",
+      "observed": {
+        "threshold_D_tokens_B": 2.0,
+        "full_rows": 1176,
+        "removed_rows": 32,
+        "trimmed_rows": 1144,
+        "removed_rows_per_N": {
+          "0.070542": 4,
+          "0.162405": 4,
+          "0.409009": 4,
+          "1.040867": 4,
+          "1.416184": 4,
+          "2.782831": 4,
+          "6.86104": 4,
+          "11.965825": 4
+        },
+        "model": "M0",
+        "trimmed_parameters": {
+          "E": 1.6900295273291401,
+          "A": 0.35398651640640694,
+          "B": 1.2402596426104977,
+          "alpha": 0.33997042504657005,
+          "beta": 0.2800263652860228
+        },
+        "relative_change": {
+          "E": 0.00013727350313894109,
+          "A": 1.750300828082406e-05,
+          "B": -3.7040020724593406e-05,
+          "alpha": -1.810958468798195e-05,
+          "beta": 0.0005296474721640868
+        },
+        "max_abs_relative_change": 0.0005296474721640868,
+        "alpha_beta_max_abs_relative_change": 0.0005296474721640868,
+        "role": "sensitivity_only_not_used_for_model_selection"
+      },
+      "threshold": "removed=32 and alpha/beta relative change<=1%",
+      "action": "仅作敏感性，不反向调参"
+    },
+    {
+      "id": "Q01",
+      "name": "四类绝对CV",
+      "status": "PASS",
+      "observed": [
+        {
+          "model": "GQ2",
+          "split_type": "leave_D",
+          "family_RMSE": 0.07333816176583716,
+          "family_nRMSE": 0.1520828695439621,
+          "folds": 5
+        },
+        {
+          "model": "GQ2",
+          "split_type": "leave_N",
+          "family_RMSE": 0.0746429617439115,
+          "family_nRMSE": 0.1547886603637544,
+          "folds": 9
+        },
+        {
+          "model": "GQ2",
+          "split_type": "leave_Q",
+          "family_RMSE": 0.07108649103330972,
+          "family_nRMSE": 0.14741353317084285,
+          "folds": 10
+        },
+        {
+          "model": "GQ2",
+          "split_type": "leave_cell",
+          "family_RMSE": 0.0687698773445934,
+          "family_nRMSE": 0.14260952324038234,
+          "folds": 45
+        }
+      ],
+      "threshold": "each family nRMSE<=.25",
+      "action": "超过.40则不输出精确替代倍数"
+    },
+    {
+      "id": "Q02",
+      "name": "质量方向",
+      "status": "PASS",
+      "observed": -0.9515151515151514,
+      "threshold": "<=-.8",
+      "action": ""
+    },
+    {
+      "id": "Q03",
+      "name": "质量单调性",
+      "status": "PASS",
+      "observed": 0.0,
+      "threshold": "0",
+      "action": ""
+    },
+    {
+      "id": "Q04",
+      "name": "质量bootstrap",
+      "status": "PASS",
+      "observed": 1.0,
+      "threshold": ">=.8",
+      "action": ""
+    },
+    {
+      "id": "Q05",
+      "name": "Q=1绝对锚点",
+      "status": "PASS",
+      "observed": 0.1132030401118472,
+      "threshold": "<=.25",
+      "action": ""
+    },
+    {
+      "id": "M01",
+      "name": "1M/60M综合Loss迁移",
+      "status": "PASS",
+      "observed": {
+        "1M": 0.8128111409933622,
+        "60M": 0.8197492275120163,
+        "sign_probability_positive": {
+          "1M": 1.0,
+          "60M": 1.0,
+          "1B": 0.924
+        }
+      },
+      "threshold": "composite Spearman>=.75",
+      "action": ""
+    },
+    {
+      "id": "M02",
+      "name": "1B独立验证",
+      "status": "WARN",
+      "observed": 0.7341575091575091,
+      "threshold": ">=.75",
+      "action": "1B仅保留方向敏感性，不作精确迁移校准"
+    },
+    {
+      "id": "M03",
+      "name": "绝对强度识别",
+      "status": "WARN",
+      "observed": "scenario_not_identified_across_A_and_B_units",
+      "threshold": "scenario only",
+      "action": "保持强度情景，不报告伪精确点"
+    },
+    {
+      "id": "M04",
+      "name": "Q-p分离",
+      "status": "PASS",
+      "observed": "no free interaction",
+      "threshold": "no free Qxp",
+      "action": ""
+    },
+    {
+      "id": "M05",
+      "name": "非零配比不可约下界",
+      "status": "WARN",
+      "observed": {
+        "E": 1.6897975628980855,
+        "nonzero_scenario_rows": 486,
+        "below_E_rows": 52,
+        "min_nonzero_scenario_prediction": 1.0477812516703802,
+        "status": "BLOCK_JOINT_P",
+        "action": "joint_p_disabled_if_any_prediction_below_E"
+      },
+      "threshold": "all nonzero-mixture scenarios L>=E",
+      "action": "存在违反时禁止联合优化p，固定p_ref主接口不受影响"
+    },
+    {
+      "id": "G01",
+      "name": "物理边界",
+      "status": "PASS",
+      "observed": {
+        "dL_dN": -0.0043232187105263775,
+        "dL_dD": -9.656119615009118e-05,
+        "dL_dQ": -0.18036891076249342
+      },
+      "threshold": "<=1e-7",
+      "action": ""
+    },
+    {
+      "id": "G02",
+      "name": "联合抽样",
+      "status": "PASS",
+      "observed": 1.0,
+      "threshold": ">=.95; FAIL<.8",
+      "action": ""
+    },
+    {
+      "id": "G03",
+      "name": "证据标记",
+      "status": "PASS",
+      "observed": [
+        "N_params_B",
+        "D_tokens_B",
+        "Q_A",
+        "p_scenario",
+        "s_Q",
+        "mixture_strength_profile",
+        "lambda0_B_loss_units",
+        "R_p",
+        "prediction",
+        "irreducible_loss_E",
+        "physical_lower_bound_status",
+        "N_support",
+        "D_support",
+        "Q_support",
+        "p_support",
+        "support_flag",
+        "evidence_type"
+      ],
+      "threshold": "four support columns",
+      "action": ""
+    },
+    {
+      "id": "RF01",
+      "name": "绝对CV无泄漏",
+      "status": "PASS",
+      "observed": {
+        "q1_RMSE": 0.05458933601793553,
+        "baseline_flags": [
+          false
+        ]
+      },
+      "threshold": "no validation loss baseline; Q1 RMSE>0",
+      "action": ""
+    },
+    {
+      "id": "RF02",
+      "name": "差分指标隔离",
+      "status": "PASS",
+      "observed": {
+        "validation_loss_used_as_baseline": false,
+        "loss_q1_role": "auxiliary_paired_metric_only",
+        "leave_Q1_paired_status": "not_applicable"
+      },
+      "threshold": "Q1 paired metric NA",
+      "action": ""
+    },
+    {
+      "id": "RF03",
+      "name": "切分族等权",
+      "status": "PASS",
+      "observed": {
+        "leave_D": 0.25,
+        "leave_N": 0.25,
+        "leave_Q": 0.25,
+        "leave_cell": 0.25
+      },
+      "threshold": "four x .25",
+      "action": ""
+    },
+    {
+      "id": "RF04",
+      "name": "GQ3严格锚定",
+      "status": "PASS",
+      "observed": 0.0,
+      "threshold": "<=1e-10",
+      "action": ""
+    },
+    {
+      "id": "RF05",
+      "name": "簇重复有效",
+      "status": "PASS",
+      "observed": {
+        "columns": [
+          "draw",
+          "model",
+          "success",
+          "unique_clusters",
+          "sampled_cluster_instances",
+          "duplicate_multiplicity_preserved",
+          "sample_counts",
+          "reason",
+          "E",
+          "A",
+          "B",
+          "alpha",
+          "beta"
+        ],
+        "instances": [
+          8
+        ]
+      },
+      "threshold": "8 instances and flag true",
+      "action": ""
+    },
+    {
+      "id": "RF06",
+      "name": "配比接口真实存在",
+      "status": "PASS",
+      "observed": {
+        "R_ref": 0.0,
+        "max_p_prediction_range": 1.1932447534927189,
+        "point_artifact_keys_present": [
+          "coefficient_point",
+          "domains",
+          "j_ref_point",
+          "loss_iqr",
+          "r_scale_point"
+        ]
+      },
+      "threshold": "R_ref=0, p changes prediction, point R(p) loadable",
+      "action": ""
+    },
+    {
+      "id": "RF07",
+      "name": "映射情景真实运行",
+      "status": "PASS",
+      "observed": {
+        "prediction": [
+          0.5,
+          1.0,
+          1.5
+        ],
+        "bootstrap": [
+          0.5,
+          1.0,
+          1.5
+        ]
+      },
+      "threshold": ".5/1/1.5",
+      "action": ""
+    },
+    {
+      "id": "RF08",
+      "name": "联合抽样非退化",
+      "status": "PASS",
+      "observed": {
+        "quality_max_std": 0.03920086377230968,
+        "scheffe_max_std": 2092.23850408778
+      },
+      "threshold": ">1e-10",
+      "action": ""
+    },
+    {
+      "id": "RF09",
+      "name": "支持域求根",
+      "status": "PASS",
+      "observed": {
+        "max_backcheck": 2.886579864025407e-14,
+        "invalid_nonnull": false
+      },
+      "threshold": "error<=1e-8 and failed root null",
+      "action": ""
+    },
+    {
+      "id": "RF10",
+      "name": "Manifest与单位合同协议",
+      "status": "PASS",
+      "observed": {
+        "callable": true,
+        "units_contract": true
+      },
+      "threshold": "post-write hash verification; units contract exists",
+      "action": ""
+    },
+    {
+      "id": "RF11",
+      "name": "双弹性口径",
+      "status": "PASS",
+      "observed": {
+        "columns_present": [
+          "epsilon_D",
+          "epsilon_D_reducible",
+          "epsilon_D_total",
+          "epsilon_N",
+          "epsilon_N_reducible",
+          "epsilon_N_total",
+          "epsilon_Q",
+          "epsilon_Q_reducible",
+          "epsilon_Q_total"
+        ],
+        "contract": {
+          "epsilon_x": "standard_total_loss=-x/L*dL_dx",
+          "epsilon_x_total": "standard_total_loss=-x/L*dL_dx",
+          "epsilon_x_reducible": "mechanism_sensitivity=-x/(L-E)*dL_dx; undefined when L<=E"
+        }
+      },
+      "threshold": "standard total-loss and reducible-loss elasticities both present",
+      "action": ""
+    }
+  ]
+}

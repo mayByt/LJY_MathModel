@@ -1,0 +1,31 @@
+id,name,status,observed,threshold,action
+D01,问题三冻结接口,PASS,[],READY且hash一致,停止
+D02,C1/C2与Average合同,PASS,1.4210854715202004e-14,<=1e-10,停止
+D03,C3实质使用,PASS,"{'rows': 26, 'generated': True}",26行并生成敏感性,停止
+D04,C4字段使用审计,PASS,True,compute/data/open/method/confidence/bounds齐全,停止
+D05,strict unrestricted许可证,PASS,0,0,严格口径失败
+D06,模型类型分层,PASS,0,0,停止
+D07,C8逐任务聚合,WARN,"{'MATH': False, 'BBH': True, 'summary': {'directories': 1863, 'parseable_directories': 1860, 'no_parseable_directories': 3, 'fallback_directories': 1, 'corrupt_files': 4, 'bbh_complete': 1860, 'math_complete': 1856, 'bbh_unique_comparable': 1786, 'math_unique_comparable': 1782, 'official_exact_bbh': 1736, 'official_exact_math': 737, 'bbh_max_abs_diff': 13.75344896754914, 'math_max_abs_diff': 62.53776435045317}}",至少一项READY；未READY项降级,只使用READY项
+D08,C5为C6子集,PASS,True,true,停止
+B01,桥接单调性,PASS,0,0,
+B02,来源族折外预测,PASS,12,>=3,
+B03,桥接指标完整,PASS,True,MAE/RMSE/Spearman/coverage/width,
+B04,Average优于常数基线,PASS,"{'selected': 'linear', 'selected_mae': 10.216954770266602, 'constant_mae': 11.38279723324851}",selected MAE < constant MAE,
+B05,45个情景及支持域,PASS,45,45,
+B06,桥接区间有序,PASS,True,全部有序,
+B07,桥接误差分解,PASS,3,3,
+M01,M-C可识别与bootstrap,PASS,"{'fit': True, 'valid_rate': 0.999}",fit且>=0.95,
+M02,规模方向,PASS,0.6851905421908456,>=0,
+M03,3/6月滚动回测,PASS,"{'best_baseline': 'M-scale', 'mean_difference': 0.0012077951942967985, 'paired_se': 0.0012340976892779392, 'pairs': 8}",M-C不劣于最佳基线超过1SE,
+M04,rho与lambda由回测选择,PASS,"{'lambda': 10000.0, 'rho': 0.0}",均来自预注册网格,
+M05,M-N/M-ND诊断,PASS,True,样本/条件数/系数齐全,
+M06,Shapley闭合,PASS,5.551115123125783e-17,<=1e-10,
+F01,预测算力端点,PASS,25.092080840850794,截止月趋势拟合值,
+F02,增长抽样非退化,PASS,0.20613060720521487,>0,
+F03,三分位无交叉,PASS,True,全部有序,
+F04,score-link一致,PASS,0.0,<=1e-10,
+F05,tau专属区间,PASS,True,每个tau来自自身draw,
+F06,情景完整,PASS,3,>=3,
+F07,外推标记,PASS,True,12/24月标记正确,
+F08,自然边界无需裁剪,PASS,True,"[0,100]",
+R01,连续运行中心结果复现,PASS,"{'previous_available': True, 'max_abs_difference': 0.0, 'categorical_equal': True, 'passed': True}",同配置最大差<=1e-10,再次运行V2

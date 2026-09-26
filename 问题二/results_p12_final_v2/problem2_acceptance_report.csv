@@ -1,0 +1,41 @@
+id,name,status,observed,threshold,action
+D01,数据硬门禁,PASS,[],empty,
+D02,核心字段,PASS,"{'B1': True, 'B2': True}",finite positive,
+D03,B8隔离,PASS,0,0,
+D04,B9零值隔离,PASS,4,4,
+D05,B1-B12使用账本,PASS,"{'B2_B3': {'selected': 'B2', 'B2_rows': 1029, 'B3_rows': 4000, 'B3_files': 8, 'B3_role': 'audited_interpolation_not_counted_as_independent_evidence'}, 'B11': {'rows': 18, 'families': 3, 'missing_error': 18, 'source_url_nonempty': 18}, 'B12': {'rows': 1386, 'model_repos': 9, 'duplicate_repo_step': 0, 'step_min': 0, 'step_max': 143000}}",B2 selected; B3=8 files audited; B11=18; B12=1386,
+P01,上游验收,PASS,"{'PASS': 21, 'WARN': 3, 'FAIL': 0}",FAIL=0,
+P02,上游hash,PASS,{},no mismatch,
+P03,领域与Scheffe维数,PASS,"{'domains': 17, 'features': 153}",17/153,
+P04,质量基线回归,PASS,"{'Q_ref_expected': 0.5389559588, 'Q_star_expected': 0.5453680376, 'Q_ref_abs_error': 2.4367174944472936e-12, 'Q_star_abs_error': 4.668154751641396e-11}",<=1e-6,
+P05,问题一WARN传播,PASS,"['MAP02', 'O01', 'Q02']",MAP02/O01/Q02,
+P06,问题一冻结接口,PASS,"{'interface': 'p1_to_p2_v2', 'raw_A_read': False}",p1_to_p2_v2 and raw_A_read=false,
+C01,多起点收敛,PASS,1.0,>=0.90,
+C02,留一规模误差,PASS,"{'nRMSE': 0.00037418974692251004, 'MAE': 0.00010787816949810076, 'Spearman_D': 1.0}","nRMSE<=.25, MAE<=.2",未达标则仅描述
+C03,经典参数物理性,PASS,"{'E': 1.6897975628980855, 'A': 0.3539803206859227, 'B': 1.2403055835550174, 'alpha': 0.33997658188127156, 'beta': 0.27987812854272615}",finite positive,
+C04,经典bootstrap,PASS,0.968,>=.95,
+C05,32点早期轨迹敏感性,PASS,"{'threshold_D_tokens_B': 2.0, 'full_rows': 1176, 'removed_rows': 32, 'trimmed_rows': 1144, 'removed_rows_per_N': {'0.070542': 4, '0.162405': 4, '0.409009': 4, '1.040867': 4, '1.416184': 4, '2.782831': 4, '6.86104': 4, '11.965825': 4}, 'model': 'M0', 'trimmed_parameters': {'E': 1.6900295273291401, 'A': 0.35398651640640694, 'B': 1.2402596426104977, 'alpha': 0.33997042504657005, 'beta': 0.2800263652860228}, 'relative_change': {'E': 0.00013727350313894109, 'A': 1.750300828082406e-05, 'B': -3.7040020724593406e-05, 'alpha': -1.810958468798195e-05, 'beta': 0.0005296474721640868}, 'max_abs_relative_change': 0.0005296474721640868, 'alpha_beta_max_abs_relative_change': 0.0005296474721640868, 'role': 'sensitivity_only_not_used_for_model_selection'}",removed=32 and alpha/beta relative change<=1%,仅作敏感性，不反向调参
+Q01,四类绝对CV,PASS,"[{'model': 'GQ2', 'split_type': 'leave_D', 'family_RMSE': 0.07333816176583716, 'family_nRMSE': 0.1520828695439621, 'folds': 5}, {'model': 'GQ2', 'split_type': 'leave_N', 'family_RMSE': 0.0746429617439115, 'family_nRMSE': 0.1547886603637544, 'folds': 9}, {'model': 'GQ2', 'split_type': 'leave_Q', 'family_RMSE': 0.07108649103330972, 'family_nRMSE': 0.14741353317084285, 'folds': 10}, {'model': 'GQ2', 'split_type': 'leave_cell', 'family_RMSE': 0.0687698773445934, 'family_nRMSE': 0.14260952324038234, 'folds': 45}]",each family nRMSE<=.25,超过.40则不输出精确替代倍数
+Q02,质量方向,PASS,-0.9515151515151514,<=-.8,
+Q03,质量单调性,PASS,0.0,0,
+Q04,质量bootstrap,PASS,1.0,>=.8,
+Q05,Q=1绝对锚点,PASS,0.1132030401118472,<=.25,
+M01,1M/60M综合Loss迁移,PASS,"{'1M': 0.8128111409933622, '60M': 0.8197492275120163, 'sign_probability_positive': {'1M': 1.0, '60M': 1.0, '1B': 0.924}}",composite Spearman>=.75,
+M02,1B独立验证,WARN,0.7341575091575091,>=.75,1B仅保留方向敏感性，不作精确迁移校准
+M03,绝对强度识别,WARN,scenario_not_identified_across_A_and_B_units,scenario only,保持强度情景，不报告伪精确点
+M04,Q-p分离,PASS,no free interaction,no free Qxp,
+M05,非零配比不可约下界,WARN,"{'E': 1.6897975628980855, 'nonzero_scenario_rows': 486, 'below_E_rows': 52, 'min_nonzero_scenario_prediction': 1.0477812516703802, 'status': 'BLOCK_JOINT_P', 'action': 'joint_p_disabled_if_any_prediction_below_E'}",all nonzero-mixture scenarios L>=E,存在违反时禁止联合优化p，固定p_ref主接口不受影响
+G01,物理边界,PASS,"{'dL_dN': -0.0043232187105263775, 'dL_dD': -9.656119615009118e-05, 'dL_dQ': -0.18036891076249342}",<=1e-7,
+G02,联合抽样,PASS,1.0,>=.95; FAIL<.8,
+G03,证据标记,PASS,"['N_params_B', 'D_tokens_B', 'Q_A', 'p_scenario', 's_Q', 'mixture_strength_profile', 'lambda0_B_loss_units', 'R_p', 'prediction', 'irreducible_loss_E', 'physical_lower_bound_status', 'N_support', 'D_support', 'Q_support', 'p_support', 'support_flag', 'evidence_type']",four support columns,
+RF01,绝对CV无泄漏,PASS,"{'q1_RMSE': 0.05458933601793553, 'baseline_flags': [False]}",no validation loss baseline; Q1 RMSE>0,
+RF02,差分指标隔离,PASS,"{'validation_loss_used_as_baseline': False, 'loss_q1_role': 'auxiliary_paired_metric_only', 'leave_Q1_paired_status': 'not_applicable'}",Q1 paired metric NA,
+RF03,切分族等权,PASS,"{'leave_D': 0.25, 'leave_N': 0.25, 'leave_Q': 0.25, 'leave_cell': 0.25}",four x .25,
+RF04,GQ3严格锚定,PASS,0.0,<=1e-10,
+RF05,簇重复有效,PASS,"{'columns': ['draw', 'model', 'success', 'unique_clusters', 'sampled_cluster_instances', 'duplicate_multiplicity_preserved', 'sample_counts', 'reason', 'E', 'A', 'B', 'alpha', 'beta'], 'instances': [8]}",8 instances and flag true,
+RF06,配比接口真实存在,PASS,"{'R_ref': 0.0, 'max_p_prediction_range': 1.1932447534927189, 'point_artifact_keys_present': ['coefficient_point', 'domains', 'j_ref_point', 'loss_iqr', 'r_scale_point']}","R_ref=0, p changes prediction, point R(p) loadable",
+RF07,映射情景真实运行,PASS,"{'prediction': [0.5, 1.0, 1.5], 'bootstrap': [0.5, 1.0, 1.5]}",.5/1/1.5,
+RF08,联合抽样非退化,PASS,"{'quality_max_std': 0.03920086377230968, 'scheffe_max_std': 2092.23850408778}",>1e-10,
+RF09,支持域求根,PASS,"{'max_backcheck': 2.886579864025407e-14, 'invalid_nonnull': False}",error<=1e-8 and failed root null,
+RF10,Manifest与单位合同协议,PASS,"{'callable': True, 'units_contract': True}",post-write hash verification; units contract exists,
+RF11,双弹性口径,PASS,"{'columns_present': ['epsilon_D', 'epsilon_D_reducible', 'epsilon_D_total', 'epsilon_N', 'epsilon_N_reducible', 'epsilon_N_total', 'epsilon_Q', 'epsilon_Q_reducible', 'epsilon_Q_total'], 'contract': {'epsilon_x': 'standard_total_loss=-x/L*dL_dx', 'epsilon_x_total': 'standard_total_loss=-x/L*dL_dx', 'epsilon_x_reducible': 'mechanism_sensitivity=-x/(L-E)*dL_dx; undefined when L<=E'}}",standard total-loss and reducible-loss elasticities both present,

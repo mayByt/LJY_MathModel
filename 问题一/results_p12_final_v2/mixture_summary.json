@@ -1,0 +1,43 @@
+{
+  "linear_alpha": 0.1778279410038923,
+  "quadratic_alpha": 0.05623413251903491,
+  "elastic_params": {
+    "alpha": 0.04393970560760795,
+    "l1_ratio": 0.9
+  },
+  "model_role": "quadratic_ridge_main",
+  "ridge_vs_best_blackbox_relative_nrmse_gap": -0.08089191051966989,
+  "support_radius": 4.329687084379371,
+  "optimization_success_rate": 1.0,
+  "p_star_sum": 1.0,
+  "p_star_min": 0.0,
+  "p_star_max_upper_violation": 1.2864709297844001e-14,
+  "p_star_support_distance": 4.329687084441041,
+  "optimization_diagnostics": {
+    "best_feasible_starts_used": 5,
+    "best_feasible_objectives": [
+      4.7650597125982905,
+      4.7650597126036205,
+      4.765059712605671,
+      4.8406569656875424,
+      4.840656966661701
+    ],
+    "multistart_relative_dispersion": 0.015864912219995832,
+    "multistart_threshold": 1e-06,
+    "multistart_pass": false,
+    "random_requested": 10000,
+    "random_accepted": 10000,
+    "random_attempted": 10052,
+    "random_best_objective": 5.2067642021540586,
+    "p_star_objective": 4.7650597125982905,
+    "random_check_pass": true,
+    "support_boundary_active": true,
+    "support_boundary_gap": -6.16697803934585e-11,
+    "near_optimal_only": true
+  },
+  "quality_effect_association": {
+    "spearman_q_vs_benefit": -0.14339426781285375,
+    "kendall_q_vs_benefit": -0.10480469092042208,
+    "n_domains": 17
+  }
+}

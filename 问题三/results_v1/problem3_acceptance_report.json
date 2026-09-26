@@ -1,0 +1,300 @@
+{
+  "summary": {
+    "PASS": 30,
+    "WARN": 0,
+    "FAIL": 0
+  },
+  "overall": "PASS",
+  "interface_state": {
+    "PROBLEM3_CENTRAL_READY": true,
+    "PROBLEM3_UNCERTAINTY_READY": true,
+    "PROBLEM3_READY": true
+  },
+  "hard_gate_failures": [],
+  "rules": [
+    {
+      "id": "D01",
+      "name": "上游冻结状态",
+      "status": "PASS",
+      "observed": {
+        "CENTRAL_MODEL_READY": true,
+        "FIXED_P_READY": true,
+        "JOINT_P_READY": false,
+        "P12_FREEZE_READY": true
+      },
+      "threshold": "P12/FIXED_P true and FAIL=0",
+      "action": ""
+    },
+    {
+      "id": "D02",
+      "name": "上游hash",
+      "status": "PASS",
+      "observed": {},
+      "threshold": "empty",
+      "action": ""
+    },
+    {
+      "id": "D03",
+      "name": "C7 schema",
+      "status": "PASS",
+      "observed": {
+        "shape": [
+          45,
+          7
+        ],
+        "schema_valid": true,
+        "duplicate_models": 0
+      },
+      "threshold": "45x7/fixed/no duplicates",
+      "action": ""
+    },
+    {
+      "id": "D04",
+      "name": "C7上下文",
+      "status": "PASS",
+      "observed": [
+        2048,
+        4096,
+        8192,
+        32768,
+        131072
+      ],
+      "threshold": "[2048, 4096, 8192, 32768, 131072]",
+      "action": ""
+    },
+    {
+      "id": "D05",
+      "name": "C7错误隔离",
+      "status": "PASS",
+      "observed": [],
+      "threshold": "empty",
+      "action": ""
+    },
+    {
+      "id": "D06",
+      "name": "固定配比单纯形",
+      "status": "PASS",
+      "observed": {
+        "n": 17,
+        "min": 0.002211033043406226,
+        "sum_error": 0.0
+      },
+      "threshold": "17/nonnegative/error<=1e-12",
+      "action": ""
+    },
+    {
+      "id": "M01",
+      "name": "Loss重建",
+      "status": "PASS",
+      "observed": 0.0,
+      "threshold": "<=1e-10",
+      "action": ""
+    },
+    {
+      "id": "M02",
+      "name": "质量零增量",
+      "status": "PASS",
+      "observed": 0.0,
+      "threshold": "<=1e-6 FLOPs/token",
+      "action": ""
+    },
+    {
+      "id": "M03",
+      "name": "成本单调性",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "finite and strictly increasing",
+      "action": ""
+    },
+    {
+      "id": "M04",
+      "name": "绝对单位",
+      "status": "PASS",
+      "observed": 3.6e+20,
+      "threshold": "3.6e+20",
+      "action": ""
+    },
+    {
+      "id": "M05",
+      "name": "上下文临界",
+      "status": "PASS",
+      "observed": {
+        "critical": 30000.0,
+        "ratios": {
+          "2048": 0.06826666666666667,
+          "4096": 0.13653333333333334,
+          "8192": 0.2730666666666667,
+          "32768": 1.0922666666666667,
+          "131072": 4.369066666666667
+        }
+      },
+      "threshold": "30000 and exact ratios",
+      "action": ""
+    },
+    {
+      "id": "M06",
+      "name": "质量映射",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "anchor preserved and <=1",
+      "action": ""
+    },
+    {
+      "id": "O01",
+      "name": "约束可行",
+      "status": "PASS",
+      "observed": 4.096e-16,
+      "threshold": "<=1e-8",
+      "action": ""
+    },
+    {
+      "id": "O02",
+      "name": "成本非负",
+      "status": "PASS",
+      "observed": 0.0,
+      "threshold": ">=0",
+      "action": ""
+    },
+    {
+      "id": "O03",
+      "name": "预算使用",
+      "status": "PASS",
+      "observed": 4.096e-16,
+      "threshold": "<=1e-6",
+      "action": ""
+    },
+    {
+      "id": "O04",
+      "name": "二维三维一致",
+      "status": "PASS",
+      "observed": 4.380603996387707e-14,
+      "threshold": "<=1e-6",
+      "action": ""
+    },
+    {
+      "id": "O05",
+      "name": "网格复核",
+      "status": "PASS",
+      "observed": 2.0634167528450807e-16,
+      "threshold": "<=1e-4",
+      "action": ""
+    },
+    {
+      "id": "O06",
+      "name": "可重复性",
+      "status": "PASS",
+      "observed": 0.0,
+      "threshold": "<=1e-10",
+      "action": ""
+    },
+    {
+      "id": "O07",
+      "name": "预算单调值函数",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "non-increasing",
+      "action": ""
+    },
+    {
+      "id": "O08",
+      "name": "上下文有序性",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "longer context not lower",
+      "action": ""
+    },
+    {
+      "id": "O09",
+      "name": "基线支配",
+      "status": "PASS",
+      "observed": -4.440892098500626e-16,
+      "threshold": "<=1e-9",
+      "action": ""
+    },
+    {
+      "id": "O10",
+      "name": "领域Token",
+      "status": "PASS",
+      "observed": 1.860292384412887e-16,
+      "threshold": "<=1e-12",
+      "action": ""
+    },
+    {
+      "id": "O11",
+      "name": "联合配比门禁",
+      "status": "PASS",
+      "observed": {
+        "p_sources": [
+          "p_ref"
+        ],
+        "lambda": [
+          0.0
+        ]
+      },
+      "threshold": "p_ref/lambda0=0",
+      "action": ""
+    },
+    {
+      "id": "U01",
+      "name": "三档bootstrap",
+      "status": "PASS",
+      "observed": 1.0,
+      "threshold": ">=0.95",
+      "action": ""
+    },
+    {
+      "id": "U02",
+      "name": "转移路径抽样",
+      "status": "PASS",
+      "observed": 1.0,
+      "threshold": ">=0.95",
+      "action": ""
+    },
+    {
+      "id": "U03",
+      "name": "区间顺序",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "lower<=median<=upper",
+      "action": ""
+    },
+    {
+      "id": "T01",
+      "name": "主要转移",
+      "status": "PASS",
+      "observed": {
+        "count": 13,
+        "max_width": 0.0052083333333357
+      },
+      "threshold": "changed active set and width<=0.01",
+      "action": ""
+    },
+    {
+      "id": "T02",
+      "name": "次要断点",
+      "status": "PASS",
+      "observed": {
+        "count": 24
+      },
+      "threshold": "BIC>=10 and slope diff>=.15",
+      "action": ""
+    },
+    {
+      "id": "T03",
+      "name": "稳定标签",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "probability>=0.70 iff stable",
+      "action": ""
+    },
+    {
+      "id": "T04",
+      "name": "场景预算区分",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "attention critical not a budget transition",
+      "action": ""
+    }
+  ],
+  "sensitivity_rows": 234
+}

@@ -1,0 +1,202 @@
+{
+  "project": "华为杯F题问题四",
+  "version": "problem4_v2",
+  "python": "3.12.7",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "scipy": "1.13.1",
+  "sklearn": "1.5.1",
+  "config": {
+    "version": "problem4_v2",
+    "seed": 2026,
+    "c_root": "real_attachments/C_efficiency_evolution",
+    "problem3_root": "问题三/results_v1",
+    "v1_root": "问题四/results_v1",
+    "v1_report_root": "问题四/reports_v1",
+    "output_root": "问题四/results_v2",
+    "report_root": "问题四/reports_v2",
+    "skip_plots": true,
+    "epsilon_score": 0.5,
+    "epsilon_sensitivity": [
+      0.1,
+      0.5,
+      1.0
+    ],
+    "bridge_medium_weight": 0.25,
+    "bridge_medium_weight_sensitivity": [
+      0.0,
+      0.1,
+      0.25,
+      0.5
+    ],
+    "bridge_bootstrap_draws": 1000,
+    "c3_bootstrap_draws": 1000,
+    "frontier_quantiles": [
+      0.85,
+      0.9,
+      0.95
+    ],
+    "main_frontier_quantile": 0.9,
+    "dynamic_lambda_grid": [
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0,
+      10000.0
+    ],
+    "state_rho_grid": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "frontier_bootstrap_draws": 1000,
+    "sensitivity_bootstrap_draws": 200,
+    "compute_bootstrap_draws": 1000,
+    "month_block_length": 2,
+    "compute_growth_lookback_months": 24,
+    "compute_growth_window_sensitivity": [
+      18,
+      24,
+      30
+    ],
+    "forecast_horizons_months": [
+      12,
+      24
+    ],
+    "compute_slowdown_factors": [
+      1.0,
+      0.5,
+      0.25
+    ],
+    "min_bootstrap_valid_rate": 0.95,
+    "match_parameter_relative_tolerance": 0.05,
+    "c8_exact_tolerance": 1e-06,
+    "numerical_tolerance": 1e-10,
+    "strict_license_allowlist": [
+      "apache-2.0",
+      "mit",
+      "bsd",
+      "cc-by-4.0",
+      "cc-by-sa-4.0",
+      "openrail",
+      "openrail++",
+      "bigscience-openrail-m"
+    ],
+    "confidence_multipliers": {
+      "Confident": [
+        0.8,
+        1.25
+      ],
+      "Likely": [
+        0.5,
+        2.0
+      ],
+      "Speculative": [
+        0.25,
+        4.0
+      ],
+      "Unknown": [
+        0.25,
+        4.0
+      ],
+      "missing": [
+        0.25,
+        4.0
+      ]
+    },
+    "gpu_preferred_if_faster": true
+  },
+  "inputs": {
+    "C1": "199891128629f24f83ed2f51211eee65a82a13f45275e79a8227d5dacc7c2846",
+    "C2": "d8ae5b1e00f36bf17adb0c3fbf88c60edd54298625d2db1aa744b2b001202799",
+    "C3": "ab2b5715b2945ebdeeabfb18e8d040f7c68d8c76bd02c01e446959218bfcd184",
+    "C4": "0b98a01bcb8d96958745b6fbe505416c38f719948d9029b38ff6233425c0e1c1",
+    "C5": "284dee7f8878bfe8ebf48c4efbcaa85c1c566377edc5008727c06efa6520170f",
+    "C6": "e175462233c2b856e2878c603055b4ed70135f021300f912852af1bb485ba4fd",
+    "C7": "ee24622cb3a6334f08d72c9ea373be26d5e5585bb266367c5f66d77499112ffc",
+    "C9": "f13a7061e63133bc8745d89f8c7a56148584940ede22d3b27e21cad1e078dca5",
+    "P3:problem3_bridge.json": "2befda1eadfaf31d26c1c09ee39d99997909cd9214f64ac54285279a71a7efeb",
+    "P3:problem3_acceptance_report.json": "19df6ce3a50a4cd9fc74e081a002dafa3df8e0403b40a7f03b1a7c04489d5a74",
+    "P3:bootstrap_optimal_allocations.csv.gz": "dbf534507fe0cd11f9f50ff22fb76facef583dfb40e48f58ba7c7720655cd600",
+    "P3:bootstrap_intervals.csv": "a78c2cf6c7d14ce7c7344697394759904e9746063f09c3f484ec6fbb9ba35ecb"
+  },
+  "v1_baseline": {
+    "问题四/results_v1/backtest_results.csv": "d3b7c2ef6b77324277d3ec86fa3c675b0a088517d6008d4c04d231756c424b79",
+    "问题四/results_v1/bridge_cv_results.csv": "b15bfd83432b424f05d8b52565088046c34c341d6e5eae915ece10c609e4fa18",
+    "问题四/results_v1/bridge_weight_sensitivity.csv": "0ff29b5339b92da1e1b2d139cd3a30fa3bd244701eca35180ffc9cd6aebd2577",
+    "问题四/results_v1/c8_corrupt_log.csv": "bd1beeda1ac2870935f485b9e939860bdf24a2a1837a5671400440abe8bee4d6",
+    "问题四/results_v1/compute_growth_monthly.csv": "cd61846616c751b86297a41df921a34a7b3c4234356a17ce00b37b133e5ae437",
+    "问题四/results_v1/compute_growth_scenarios.csv": "1087191644e4664af1038fd87328e66fdab4178554aa1e7db6ee86d793e0d046",
+    "问题四/results_v1/contribution_decomposition.csv": "e7fc9aa303f09cfdcfd1ac65b8a7e717bbdde17d86eb433230ae144fc45972e7",
+    "问题四/results_v1/data_audit.json": "92fbc7552d9fe3902d96efc036ad492ef385aae813289f653a3b2e954cc2a06d",
+    "问题四/results_v1/duplicate_resolution.csv": "9dde173da2c5d036f8e850e79fabec559b662bebcc4a1d75ab520c9e4cb8d832",
+    "问题四/results_v1/dynamic_frontier_parameters.json": "a9214584796c2d74e2612d6f8ca61472bf59c45f2ed4664173735fe67e89fca0",
+    "问题四/results_v1/frontier_bootstrap_draws.csv.gz": "033d28813068cdad06989443e591e84200680f9eda5c0d8fca62830943cf4bb1",
+    "问题四/results_v1/frontier_forecast.csv": "84fce9d0ae6d1d351283aa99d86085cff7b4877c9b94812afa4d7989d7a8829e",
+    "问题四/results_v1/frontier_forecast_bootstrap.csv.gz": "8ffebaf07c2fb73adc2921845e125d87d6b60829950d412c00e3bb6ddd56a29f",
+    "问题四/results_v1/frontier_training_panel.csv": "1f4388b915ba290e0e89f75cea91c346d9b351da89010243bdb0d7535c12c065",
+    "问题四/results_v1/loss_benchmark_bootstrap_draws.csv.gz": "e988add62f397cb12a2104fb703c979f74b98d050ce227f87328535771c830c7",
+    "问题四/results_v1/loss_benchmark_mapping.json": "8a6f9af0f9957d32209cee025dcdf209b8a63bb8418e9249b6ae88f9d8bb5d0a",
+    "问题四/results_v1/loss_benchmark_predictions.csv": "23521af3ca335a3ff330a4a9424e26327fcc0b23dd31b2c4c7a4b2ffc66f047c",
+    "问题四/results_v1/model_match_ledger.csv": "9b022715e162e80b2edd3f15cc01122e8aefe5e6cc445413eed6041d2c4f935c",
+    "问题四/results_v1/open_model_panel.csv": "2e4f20b3b0bc452293168c07b4ca5f883c7c37349f183dd0adc214c1e903af67",
+    "问题四/results_v1/problem4_acceptance_report.csv": "f50e07f6023fff824c367dadebb933a60a566d4d5ee63819bd97ccb3d633a7dd",
+    "问题四/results_v1/problem4_acceptance_report.json": "954a462d12cbd0c45dc3e412abcefd8670423ecf0c44f75f679704f131c5bdda",
+    "问题四/results_v1/problem4_manifest.json": "0a23f69c650dd11922d5c21da581b589f429919bd1489f905e33b9b302518ea3",
+    "问题四/results_v1/run_log.json": "2df2ad8f7797b056ff8ec6aaf48ad3323fd5ea992310903dd910be2d98ae695d",
+    "问题四/results_v1/task_level_aggregates.csv": "3f1ad196c8fdb9b9976875b856b379e1ef270e983622c159ed224ecf2d89872a",
+    "问题四/results_v1/uncertainty_components.csv": "a1e94cf9a03eded2814605711c40d3b3e5d850e38bacc244bc53d4c00c92f794",
+    "问题四/reports_v1/RESULTS_REPORT.md": "24775738af3ccadc3957b364fd19136d716a079bbe592a6b0728d24f17cb0e05"
+  },
+  "code": {
+    "/home/xxxten/26华为杯/中文题目/F题/问题四/problem4_v2.py": "0818f257fcc5e88d62661c9db5f52d896b06883a7e9bde6d4e5f52a44cb3a295",
+    "/home/xxxten/26华为杯/中文题目/F题/问题四/src/problem4/v2.py": "6ce9b7da3f1313b8cc136b89f168356db9c9b6cad15d08c1cd7ad6cb00fb80d2",
+    "/home/xxxten/26华为杯/中文题目/F题/问题四/tests/test_problem4_v2.py": "18bd9daedeeb2820cce056837eadbf0070e9459079878d883f6ade2d7f797b48",
+    "问题四/config/problem4_v2.json": "3672936990e794b8678d147bd2e86b1e2090872441b585ed5a9f076bf557fb0d"
+  },
+  "outputs": {
+    "问题四/reports_v2/RESULTS_REPORT.md": "8cd9f2042d164d274f23e6611e42d51535793c1123f69e91d6131fd072aa2273",
+    "问题四/results_v2/backtest_results.csv": "57afd43c4cf2ca8b3f842b0c84e8e6767a768c2e03834255562919b7cabad87c",
+    "问题四/results_v2/bridge_cv_predictions.csv.gz": "bd2ed66826227ae6a4861a08279557e373a1fb4937dfba07ec8f9ffe3baf12e2",
+    "问题四/results_v2/bridge_cv_results.csv": "bb6862b19bec47724dc642aba85a9b6c5e805d8797df210c7ae738d63328b51a",
+    "问题四/results_v2/bridge_weight_sensitivity.csv": "ca5f0bff1b2a2ab7a9b2fc55d95c40dacbe278422fdea6e315a66d31a713f330",
+    "问题四/results_v2/c3_historical_sensitivity.csv": "fe3a140dd3b5c4624531ffff4a75d6f16595ea7de2180975110affc7e3f240ca",
+    "问题四/results_v2/c3_historical_summary.json": "cdbb418787d729c44aa038d0454d7992c7aa214297e4749c1d13e5f95d747fa0",
+    "问题四/results_v2/c8_corrupt_log.csv": "bd1beeda1ac2870935f485b9e939860bdf24a2a1837a5671400440abe8bee4d6",
+    "问题四/results_v2/c8_subtask_normalization.csv.gz": "869db78e35ff36a1e03df9b24db36e8561c170996f6f5293fce8c185c875f8c7",
+    "问题四/results_v2/compute_growth_bootstrap.csv.gz": "19b58c21738765834f372f5da90be753a8bbcce65b77faadf36144286654edd5",
+    "问题四/results_v2/compute_growth_monthly.csv": "a4165f27896d2180da5a60934fdd44fac48edbd4c64e5dfa36b12d248986f391",
+    "问题四/results_v2/compute_growth_scenarios.csv": "723b5ffd6eec594cb2aea020576da93ab8b87120b34ff8cf9cbeba8cfb5bafae",
+    "问题四/results_v2/compute_growth_summary.json": "4ff6ed7a05120d973c9e054729b8c5eaae6209093302a5abfcc8b662d256da11",
+    "问题四/results_v2/contribution_decomposition.csv": "666620c766a36ba5dd1af18d28cfadca900fb501ca8c67a4ff7704b17904eda2",
+    "问题四/results_v2/data_audit.json": "83e0f10e8b709a66558cf5a15df8bd984c336ca10a56c94007615107fcc19517",
+    "问题四/results_v2/duplicate_resolution.csv": "9dde173da2c5d036f8e850e79fabec559b662bebcc4a1d75ab520c9e4cb8d832",
+    "问题四/results_v2/dynamic_frontier_parameters.json": "e4b6c5f287a0ff9e9a950f1c3c240cad8950033418b5ae6a324663f55cb63589",
+    "问题四/results_v2/frontier_bootstrap_draws.csv.gz": "74ed1bd4f427079083236225f1ce4298d6ad1c5ee9966dd3a15a0c21a87fa102",
+    "问题四/results_v2/frontier_forecast.csv": "c1849b6c31c08ce357be5a2a9694bb50446be9152bf84334a22a3f11fe6b6d22",
+    "问题四/results_v2/frontier_forecast_draws.csv.gz": "5e2ff8f3d953ca06a58ca82792fa80af6bb07cef9eb34e5f930ddade87d3b608",
+    "问题四/results_v2/frontier_model_comparison.csv": "be9394f297675c3195fbfc716b85e14bf586e9eef82a8dab820c0761ff583515",
+    "问题四/results_v2/frontier_sensitivity.csv": "46a70fc39ac7a6d76e542f13557e3ef68435f6ad913a1caf31c087b0af54037a",
+    "问题四/results_v2/frontier_training_panel.csv": "8dac3d0d5bb4df322ec8cd07609f02a73f60c3e848f4acf05b7d40ce32c70ab0",
+    "问题四/results_v2/loss_benchmark_bootstrap_draws.csv.gz": "8c231b25cb6511838f626b743bec231435d8fd614c5f23d155abce75133c930f",
+    "问题四/results_v2/loss_benchmark_mapping.json": "0c25985ac3e1719b3337b9c4df2cf8de8c76cd5c1da68195219cd6e54a9b0bf6",
+    "问题四/results_v2/loss_benchmark_predictions.csv": "d784ba1f7376b12c702a8edfb18803bfdce0d3ded151b81ba8cc792682c8083d",
+    "问题四/results_v2/loss_benchmark_uncertainty.csv": "af431dc356ef0824ad8d7c54c17d54531d5f6879af7ca94cd7a97dcd83f5e0bf",
+    "问题四/results_v2/model_match_ledger.csv": "9b022715e162e80b2edd3f15cc01122e8aefe5e6cc445413eed6041d2c4f935c",
+    "问题四/results_v2/open_model_panel.csv": "5a21a5030f37f77d0bd3d966532154d98867ab2414403316d2a33f0a86be572f",
+    "问题四/results_v2/problem4_acceptance_report.csv": "2f30129065f3e612c8b1f07dfa74c91a7b987a4a017fc7bd2e36d373dd008204",
+    "问题四/results_v2/problem4_acceptance_report.json": "1c4640f12325791ef88c92661580437b6c905604bb85ff6a1377d1b82612e285",
+    "问题四/results_v2/repair_baseline_v1.csv": "1f10c1b697b119ad80653913f3a8553122c33ccad9b5f234d0ed0c07c399c685",
+    "问题四/results_v2/repair_comparison_v1_v2.csv": "16c807964b406cc434e80bb70e12af4c509bc582de8b0abd93f56bbcb6cf3a96",
+    "问题四/results_v2/reproducibility_check.json": "c4b50002d599791b7688588c04973a3225373ff23dfb5bd6d6cf1986d61e06d3",
+    "问题四/results_v2/reproducibility_signature.json": "eb6abee4a3d38735b9758094e65273e1f046805c008a822be9feb4aeff8645c2",
+    "问题四/results_v2/run_log.json": "2e6b8032970939f2fd62ffa676758426758652cc05793b0d19b7b0132539ea53",
+    "问题四/results_v2/task_level_aggregates.csv": "07dcedf2294f7a8b912d046991f4e4f732ec1a395cdf8598b72ff36654049ab9",
+    "问题四/results_v2/uncertainty_budget.csv": "218f55ec9adab2531e22b09285d2ec9197805cdf05858bb14c0be59845314900"
+  },
+  "skip_plots": true
+}

@@ -1,0 +1,36 @@
+{
+  "seed": 2026,
+  "input_root": "../real_attachments",
+  "problem1_root": "../问题一/results_p12_final_v2",
+  "output_root": "results_p12_final_v2",
+  "report_root": "reports_p12_final_v2",
+  "bootstrap_reps": 500,
+  "fast_bootstrap_reps": 30,
+  "classic_multistarts": 50,
+  "fast_multistarts": 12,
+  "quality_multistarts": 24,
+  "fast_quality_multistarts": 8,
+  "huber_delta": 0.001,
+  "huber_delta_floor": 0.001,
+  "one_se_rule": true,
+  "quality_eps": 1e-06,
+  "quality_mapping_slopes": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "mixture_strength_profiles": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "gpu_preferred_if_faster": true,
+  "skip_plots": true,
+  "acceptance": {
+    "classic_nrmse_max": 0.25,
+    "classic_mae_max": 0.2,
+    "quality_nrmse_max": 0.25,
+    "quality_spearman_max": -0.8
+  }
+}

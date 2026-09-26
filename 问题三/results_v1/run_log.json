@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "timings_seconds": {
+    "finalization": 0.21197772026062012
+  },
+  "elapsed_seconds": 0.21197843551635742,
+  "device": {
+    "preferred_gpu": true,
+    "gpu_available": false,
+    "device_used": "cpu",
+    "reason": "torch unavailable or unusable: ModuleNotFoundError"
+  },
+  "warnings": [],
+  "exceptions": [
+    "initial all-stage run reached final JSON serialization with numpy.bool_"
+  ],
+  "recovery_actions": [
+    "added numpy.bool_ serializer and finalized from persisted batch outputs"
+  ],
+  "plots_generated": false
+}

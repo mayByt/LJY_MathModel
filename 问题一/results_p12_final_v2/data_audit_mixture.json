@@ -1,0 +1,93 @@
+{
+  "splits": {
+    "train_1m": {
+      "rows": 512,
+      "p_columns": 17,
+      "loss_columns": 13,
+      "raw_sum_max_deviation": 0.0039999999999998925,
+      "closed_sum_max_deviation": 4.440892098500626e-16,
+      "zero_components": 3928,
+      "missing": 0
+    },
+    "test_1m": {
+      "rows": 256,
+      "p_columns": 17,
+      "loss_columns": 13,
+      "raw_sum_max_deviation": 0.0030000000000001137,
+      "closed_sum_max_deviation": 4.440892098500626e-16,
+      "zero_components": 1871,
+      "missing": 0
+    },
+    "test_60m": {
+      "rows": 256,
+      "p_columns": 17,
+      "loss_columns": 13,
+      "raw_sum_max_deviation": 0.0030000000000001137,
+      "closed_sum_max_deviation": 4.440892098500626e-16,
+      "zero_components": 1871,
+      "missing": 0
+    },
+    "test_1B": {
+      "rows": 64,
+      "p_columns": 17,
+      "loss_columns": 13,
+      "raw_sum_max_deviation": 0.0020000000000000018,
+      "closed_sum_max_deviation": 3.3306690738754696e-16,
+      "zero_components": 360,
+      "missing": 0
+    },
+    "est_10b": {
+      "rows": 63,
+      "p_columns": 17,
+      "loss_columns": 13,
+      "raw_sum_max_deviation": 0.002000000000000224,
+      "closed_sum_max_deviation": 3.3306690738754696e-16,
+      "zero_components": 487,
+      "missing": 0
+    },
+    "est_70b": {
+      "rows": 63,
+      "p_columns": 17,
+      "loss_columns": 13,
+      "raw_sum_max_deviation": 0.002000000000000224,
+      "closed_sum_max_deviation": 3.3306690738754696e-16,
+      "zero_components": 487,
+      "missing": 0
+    }
+  },
+  "mixture_domains": [
+    "arxiv",
+    "freelaw",
+    "nih_exporter",
+    "pubmed_central",
+    "wikipedia_en",
+    "dm_mathematics",
+    "github",
+    "philpapers",
+    "stackexchange",
+    "enron_emails",
+    "gutenberg_pg_19",
+    "pile_cc",
+    "ubuntu_irc",
+    "europarl",
+    "hackernews",
+    "pubmed_abstracts",
+    "uspto_backgrounds"
+  ],
+  "loss_domains": [
+    "arxiv",
+    "freelaw",
+    "pubmed_central",
+    "wikipedia_en",
+    "dm_mathematics",
+    "github",
+    "stackexchange",
+    "gutenberg_pg_19",
+    "pile_cc",
+    "ubuntu_irc",
+    "hackernews",
+    "pubmed_abstracts",
+    "uspto_backgrounds"
+  ],
+  "test_1m_60m_identical_mixtures": true
+}

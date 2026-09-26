@@ -1,0 +1,12 @@
+{
+  "N_params_B_unit": "1e9 parameters",
+  "D_tokens_B_unit": "1e9 tokens",
+  "N_abs_multiplier": 1000000000.0,
+  "D_abs_multiplier": 1000000000.0,
+  "FLOPs_formula_absolute": "6 * N_abs * D_abs",
+  "FLOPs_to_C_FLOPs_1e21": "6 * N_params_B * D_tokens_B / 1000",
+  "N0_params_B": 1.0,
+  "N0_abs": 1000000000.0,
+  "internal_scaling_units": "billions for N and D; convert before cost optimization",
+  "problem3_contract": "Use N_abs and D_abs for 6ND, quality investment, and attention-cost terms."
+}

@@ -1,0 +1,8 @@
+{
+  "E": 1.6897975628980855,
+  "nonzero_scenario_rows": 486,
+  "below_E_rows": 52,
+  "min_nonzero_scenario_prediction": 1.0477812516703802,
+  "status": "BLOCK_JOINT_P",
+  "action": "joint_p_disabled_if_any_prediction_below_E"
+}

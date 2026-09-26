@@ -1,0 +1,25 @@
+{
+  "started_unix": 1790260584.5829542,
+  "finished_unix": 1790261612.1819603,
+  "elapsed_seconds": 1027.599006652832,
+  "compute_backend": "CPU (SciPy optimization; GPU not beneficial for small tabular fits)",
+  "draws": {
+    "bridge": 1000,
+    "frontier": 1000,
+    "compute": 1000,
+    "c3": 1000
+  },
+  "v1_unchanged": true,
+  "acceptance": {
+    "PASS": 29,
+    "WARN": 1,
+    "FAIL": 0
+  },
+  "interface_state": {
+    "P4_DATA_READY": true,
+    "P4_BRIDGE_READY": true,
+    "P4_DECOMPOSITION_READY": true,
+    "P4_FORECAST_READY": true,
+    "PROBLEM4_READY": true
+  }
+}

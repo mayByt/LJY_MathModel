@@ -1,0 +1,11 @@
+{
+  "monthly_log10_slope": 0.06325017900416273,
+  "annual_log10_slope": 0.7590021480499527,
+  "annual_log10_slope_low": 0.5129316695845979,
+  "annual_log10_slope_high": 0.9983291066522497,
+  "endpoint_log10_compute": 25.092080840850794,
+  "n_months": 25,
+  "n_families_min": 2,
+  "raw_cutoff_month_log10": 24.35564305022087,
+  "last3_median_log10": 24.544068044350276
+}

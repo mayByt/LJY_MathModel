@@ -1,0 +1,77 @@
+{
+  "selected_model": "M0",
+  "selection_rule": "one_standard_error",
+  "parameters": {
+    "E": 1.6897975628980855,
+    "A": 0.3539803206859227,
+    "B": 1.2403055835550174,
+    "alpha": 0.33997658188127156,
+    "beta": 0.27987812854272615
+  },
+  "cost": 2.1461104363575995e-08,
+  "success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "cv_summary": [
+    {
+      "model": "M0",
+      "RMSE": 0.0001468881851544313,
+      "MAE": 0.00010787816949810076,
+      "nRMSE": 0.00037418974692251004,
+      "Spearman_D": 1.0
+    },
+    {
+      "model": "MC",
+      "RMSE": 0.08490989082874398,
+      "MAE": 0.05385287658330352,
+      "nRMSE": 0.2163033774773761,
+      "Spearman_D": 1.0
+    },
+    {
+      "model": "MND",
+      "RMSE": 0.0001475812138186,
+      "MAE": 0.0001079912394204997,
+      "nRMSE": 0.00037595520014928037,
+      "Spearman_D": 1.0
+    }
+  ],
+  "multistart_success_rate": 1.0,
+  "bootstrap_success_rate": 0.968,
+  "bootstrap_reps": 500,
+  "bootstrap_cluster_unit": "N_params_B_with_instance_multiplicity",
+  "initial_design": "latin_hypercube_plus_canonical",
+  "huber_scale": "training_residual_MAD",
+  "warmup_sensitivity": {
+    "threshold_D_tokens_B": 2.0,
+    "full_rows": 1176,
+    "removed_rows": 32,
+    "trimmed_rows": 1144,
+    "removed_rows_per_N": {
+      "0.070542": 4,
+      "0.162405": 4,
+      "0.409009": 4,
+      "1.040867": 4,
+      "1.416184": 4,
+      "2.782831": 4,
+      "6.86104": 4,
+      "11.965825": 4
+    },
+    "model": "M0",
+    "trimmed_parameters": {
+      "E": 1.6900295273291401,
+      "A": 0.35398651640640694,
+      "B": 1.2402596426104977,
+      "alpha": 0.33997042504657005,
+      "beta": 0.2800263652860228
+    },
+    "relative_change": {
+      "E": 0.00013727350313894109,
+      "A": 1.750300828082406e-05,
+      "B": -3.7040020724593406e-05,
+      "alpha": -1.810958468798195e-05,
+      "beta": 0.0005296474721640868
+    },
+    "max_abs_relative_change": 0.0005296474721640868,
+    "alpha_beta_max_abs_relative_change": 0.0005296474721640868,
+    "role": "sensitivity_only_not_used_for_model_selection"
+  }
+}

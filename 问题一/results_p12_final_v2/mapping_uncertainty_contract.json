@@ -1,0 +1,31 @@
+{
+  "main_interval_source": "domain_mapping_bootstrap_npz_quantiles",
+  "main_draw_model": "conditional_bootstrap_without_unidentified_shared_residual",
+  "sensitivity_interval_role": "mapping_model_error_envelope_not_probabilistic_ci",
+  "loo_rmse": 0.06816058628007661,
+  "loo_mae": 0.05693286140239123,
+  "loo_spearman": -1.0,
+  "residual_half_width_floor": 0.13359474910895014,
+  "inferred_domains": [
+    "dm_mathematics",
+    "freelaw",
+    "nih_exporter",
+    "pubmed_central",
+    "philpapers",
+    "enron_emails",
+    "ubuntu_irc",
+    "europarl",
+    "hackernews",
+    "pubmed_abstracts",
+    "uspto_backgrounds"
+  ],
+  "direct_or_near_direct_domains": [
+    "arxiv",
+    "github",
+    "stackexchange",
+    "wikipedia_en",
+    "gutenberg_pg_19",
+    "pile_cc"
+  ],
+  "csv_ci_matches_npz_quantiles": true
+}

@@ -1,0 +1,14 @@
+{
+  "tau": 5.0,
+  "loo_mae": 0.05693286140239123,
+  "loo_spearman": -1.0,
+  "loo_rmse": 0.06816058628007661,
+  "mapping_rank_reliable": false,
+  "inferred_policy": "global_mean_fallback",
+  "mapped_domains": 17,
+  "low_support_domains": [
+    "gutenberg_pg_19",
+    "philpapers",
+    "ubuntu_irc"
+  ]
+}

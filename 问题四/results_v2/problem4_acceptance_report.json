@@ -1,0 +1,298 @@
+{
+  "summary": {
+    "PASS": 29,
+    "WARN": 1,
+    "FAIL": 0
+  },
+  "overall": "PASS",
+  "interface_state": {
+    "P4_DATA_READY": true,
+    "P4_BRIDGE_READY": true,
+    "P4_DECOMPOSITION_READY": true,
+    "P4_FORECAST_READY": true,
+    "PROBLEM4_READY": true
+  },
+  "rules": [
+    {
+      "id": "D01",
+      "name": "问题三冻结接口",
+      "status": "PASS",
+      "observed": [],
+      "threshold": "READY且hash一致",
+      "action": "停止"
+    },
+    {
+      "id": "D02",
+      "name": "C1/C2与Average合同",
+      "status": "PASS",
+      "observed": 1.4210854715202004e-14,
+      "threshold": "<=1e-10",
+      "action": "停止"
+    },
+    {
+      "id": "D03",
+      "name": "C3实质使用",
+      "status": "PASS",
+      "observed": {
+        "rows": 26,
+        "generated": true
+      },
+      "threshold": "26行并生成敏感性",
+      "action": "停止"
+    },
+    {
+      "id": "D04",
+      "name": "C4字段使用审计",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "compute/data/open/method/confidence/bounds齐全",
+      "action": "停止"
+    },
+    {
+      "id": "D05",
+      "name": "strict unrestricted许可证",
+      "status": "PASS",
+      "observed": 0,
+      "threshold": "0",
+      "action": "严格口径失败"
+    },
+    {
+      "id": "D06",
+      "name": "模型类型分层",
+      "status": "PASS",
+      "observed": 0,
+      "threshold": "0",
+      "action": "停止"
+    },
+    {
+      "id": "D07",
+      "name": "C8逐任务聚合",
+      "status": "WARN",
+      "observed": {
+        "MATH": false,
+        "BBH": true,
+        "summary": {
+          "directories": 1863,
+          "parseable_directories": 1860,
+          "no_parseable_directories": 3,
+          "fallback_directories": 1,
+          "corrupt_files": 4,
+          "bbh_complete": 1860,
+          "math_complete": 1856,
+          "bbh_unique_comparable": 1786,
+          "math_unique_comparable": 1782,
+          "official_exact_bbh": 1736,
+          "official_exact_math": 737,
+          "bbh_max_abs_diff": 13.75344896754914,
+          "math_max_abs_diff": 62.53776435045317
+        }
+      },
+      "threshold": "至少一项READY；未READY项降级",
+      "action": "只使用READY项"
+    },
+    {
+      "id": "D08",
+      "name": "C5为C6子集",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "true",
+      "action": "停止"
+    },
+    {
+      "id": "B01",
+      "name": "桥接单调性",
+      "status": "PASS",
+      "observed": 0,
+      "threshold": "0",
+      "action": ""
+    },
+    {
+      "id": "B02",
+      "name": "来源族折外预测",
+      "status": "PASS",
+      "observed": 12,
+      "threshold": ">=3",
+      "action": ""
+    },
+    {
+      "id": "B03",
+      "name": "桥接指标完整",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "MAE/RMSE/Spearman/coverage/width",
+      "action": ""
+    },
+    {
+      "id": "B04",
+      "name": "Average优于常数基线",
+      "status": "PASS",
+      "observed": {
+        "selected": "linear",
+        "selected_mae": 10.216954770266602,
+        "constant_mae": 11.38279723324851
+      },
+      "threshold": "selected MAE < constant MAE",
+      "action": ""
+    },
+    {
+      "id": "B05",
+      "name": "45个情景及支持域",
+      "status": "PASS",
+      "observed": 45,
+      "threshold": "45",
+      "action": ""
+    },
+    {
+      "id": "B06",
+      "name": "桥接区间有序",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "全部有序",
+      "action": ""
+    },
+    {
+      "id": "B07",
+      "name": "桥接误差分解",
+      "status": "PASS",
+      "observed": 3,
+      "threshold": "3",
+      "action": ""
+    },
+    {
+      "id": "M01",
+      "name": "M-C可识别与bootstrap",
+      "status": "PASS",
+      "observed": {
+        "fit": true,
+        "valid_rate": 0.999
+      },
+      "threshold": "fit且>=0.95",
+      "action": ""
+    },
+    {
+      "id": "M02",
+      "name": "规模方向",
+      "status": "PASS",
+      "observed": 0.6851905421908456,
+      "threshold": ">=0",
+      "action": ""
+    },
+    {
+      "id": "M03",
+      "name": "3/6月滚动回测",
+      "status": "PASS",
+      "observed": {
+        "best_baseline": "M-scale",
+        "mean_difference": 0.0012077951942967985,
+        "paired_se": 0.0012340976892779392,
+        "pairs": 8
+      },
+      "threshold": "M-C不劣于最佳基线超过1SE",
+      "action": ""
+    },
+    {
+      "id": "M04",
+      "name": "rho与lambda由回测选择",
+      "status": "PASS",
+      "observed": {
+        "lambda": 10000.0,
+        "rho": 0.0
+      },
+      "threshold": "均来自预注册网格",
+      "action": ""
+    },
+    {
+      "id": "M05",
+      "name": "M-N/M-ND诊断",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "样本/条件数/系数齐全",
+      "action": ""
+    },
+    {
+      "id": "M06",
+      "name": "Shapley闭合",
+      "status": "PASS",
+      "observed": 5.551115123125783e-17,
+      "threshold": "<=1e-10",
+      "action": ""
+    },
+    {
+      "id": "F01",
+      "name": "预测算力端点",
+      "status": "PASS",
+      "observed": 25.092080840850794,
+      "threshold": "截止月趋势拟合值",
+      "action": ""
+    },
+    {
+      "id": "F02",
+      "name": "增长抽样非退化",
+      "status": "PASS",
+      "observed": 0.20613060720521487,
+      "threshold": ">0",
+      "action": ""
+    },
+    {
+      "id": "F03",
+      "name": "三分位无交叉",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "全部有序",
+      "action": ""
+    },
+    {
+      "id": "F04",
+      "name": "score-link一致",
+      "status": "PASS",
+      "observed": 0.0,
+      "threshold": "<=1e-10",
+      "action": ""
+    },
+    {
+      "id": "F05",
+      "name": "tau专属区间",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "每个tau来自自身draw",
+      "action": ""
+    },
+    {
+      "id": "F06",
+      "name": "情景完整",
+      "status": "PASS",
+      "observed": 3,
+      "threshold": ">=3",
+      "action": ""
+    },
+    {
+      "id": "F07",
+      "name": "外推标记",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "12/24月标记正确",
+      "action": ""
+    },
+    {
+      "id": "F08",
+      "name": "自然边界无需裁剪",
+      "status": "PASS",
+      "observed": true,
+      "threshold": "[0,100]",
+      "action": ""
+    },
+    {
+      "id": "R01",
+      "name": "连续运行中心结果复现",
+      "status": "PASS",
+      "observed": {
+        "previous_available": true,
+        "max_abs_difference": 0.0,
+        "categorical_equal": true,
+        "passed": true
+      },
+      "threshold": "同配置最大差<=1e-10",
+      "action": "再次运行V2"
+    }
+  ]
+}

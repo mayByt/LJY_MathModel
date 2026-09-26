@@ -1,0 +1,25 @@
+id,name,status,observed,threshold,action
+D01,质量文件行数,PASS,"{'A1': 51230, 'A2': 17523, 'A3': 203752}","{'A1': 51230, 'A2': 17523, 'A3': 203752}",
+D02,字段数,PASS,"{'A1': 27, 'A2': 24, 'A3': 24}",27/24/24,
+D04,A1 与扩展集重叠,PASS,"{'arxiv': 1419, 'github': 10000}",1419/10000,
+D05,重复 ID 质量字段冲突,PASS,0,0,
+D06,非有限值基准,PASS,"{'A1': {'records': 18, 'elements': 108, 'fields': {'modernbert_professionalism': 5, 'modernbert_reasoning': 13}}, 'A2': {'records': 0, 'elements': 0, 'fields': {}}, 'A3': {'records': 1, 'elements': 6, 'fields': {'modernbert_professionalism': 1}}}","A1=18/108,A2=0,A3=1/6",
+D07,质量范围,PASS,"[0.1407348771535361, 0.8801833948739055]","[0,1]",
+D08,块内权重和,PASS,"{'education': 0.9999999999999999, 'expression': 1.0, 'noise': 1.0, 'reasoning': 1.0, 'structure': 0.9999999999999999}",误差<=1e-12,
+D09,单纯形闭合,PASS,4.440892098500626e-16,<=1e-12,
+Q06,Huber 收敛率,PASS,1.0,>=0.9999,
+MAP01,已知域留一 MAE,PASS,0.05693286140239123,<=0.10,WARN 时 inferred 仅作探索性
+MAP02,已知域留一 Spearman,WARN,-1.0,>=0.70,WARN 时不对 inferred 域作强排序
+MAP03,映射权重合法,PASS,"{'arxiv': 1.0, 'dm_mathematics': 1.0, 'enron_emails': 1.0, 'europarl': 1.0, 'freelaw': 1.0, 'github': 1.0, 'gutenberg_pg_19': 1.0, 'hackernews': 1.0, 'nih_exporter': 0.9999999999999998, 'philpapers': 0.9999999999999999, 'pile_cc': 1.0, 'pubmed_abstracts': 1.0, 'pubmed_central': 0.9999999999999999, 'stackexchange': 1.0, 'ubuntu_irc': 1.0, 'uspto_backgrounds': 1.0, 'wikipedia_en': 1.0}",和误差<=1e-12,
+M01,1M 留出排序,PASS,"{'spearman': 0.8582413023575186, 'kendall': 0.6661764705882354}","Spearman>=0.80,Kendall>=0.60",
+M02,1M 留出 R2,PASS,0.6365742104653958,>=0.50,
+M03,60M 跨规模排序,PASS,0.8698200389105057,>=0.80,
+M04,1B 独立配比排序,PASS,0.8502747252747251,>=0.75,
+M05,归一化 Regret,PASS,0.15831901792458045,<=0.25,
+M07,Ridge 与黑箱内部 CV 差距,PASS,-0.08089191051966989,<=5%,
+O01,多起点一致性,WARN,0.015864912219995832,最优5个可行目标相对离散度<=1e-6,WARN 时按近优可行集报告，不宣称唯一全局最优
+O02,随机可行点反证检查,PASS,"{'p_star': 4.7650597125982905, 'random_best': 5.2067642021540586, 'accepted': 10000}",候选目标不劣于10000个随机可行点,
+O03,最优配比约束回代,PASS,"{'linear_alpha': 0.1778279410038923, 'quadratic_alpha': 0.05623413251903491, 'elastic_params': {'alpha': 0.04393970560760795, 'l1_ratio': 0.9}, 'model_role': 'quadratic_ridge_main', 'ridge_vs_best_blackbox_relative_nrmse_gap': -0.08089191051966989, 'support_radius': 4.329687084379371, 'optimization_success_rate': 1.0, 'p_star_sum': 1.0, 'p_star_min': 0.0, 'p_star_max_upper_violation': 1.2864709297844001e-14, 'p_star_support_distance': 4.329687084441041, 'optimization_diagnostics': {'best_feasible_starts_used': 5, 'best_feasible_objectives': [4.7650597125982905, 4.7650597126036205, 4.765059712605671, 4.8406569656875424, 4.840656966661701], 'multistart_relative_dispersion': 0.015864912219995832, 'multistart_threshold': 1e-06, 'multistart_pass': False, 'random_requested': 10000, 'random_accepted': 10000, 'random_attempted': 10052, 'random_best_objective': 5.2067642021540586, 'p_star_objective': 4.7650597125982905, 'random_check_pass': True, 'support_boundary_active': True, 'support_boundary_gap': -6.16697803934585e-11, 'near_optimal_only': True}, 'quality_effect_association': {'spearman_q_vs_benefit': -0.14339426781285375, 'kendall_q_vs_benefit': -0.10480469092042208, 'n_domains': 17}}",全部约束满足,
+O04,优化 bootstrap 成功率,PASS,1.0,>=0.80,
+Q01,域排名敏感性,PASS,0.8095238095238096,Kendall>=0.80,
+Q02,样本极端组重合率,WARN,0.613,>=0.70,

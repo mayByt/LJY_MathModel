@@ -1,0 +1,5 @@
+data_type,q_definition,rows,group_spearman_median,floor_count_loss_0_5,statement
+calibrated,original_Q,984,0.9982502173821435,129,stress_only_not_used_for_selection
+calibrated,one_minus_Q,984,-0.9982502173821435,129,stress_only_not_used_for_selection
+extrapolated,original_Q,720,0.9823619317924353,233,stress_only_not_used_for_selection
+extrapolated,one_minus_Q,720,-0.9823619317924353,233,stress_only_not_used_for_selection

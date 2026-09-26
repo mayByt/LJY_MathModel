@@ -1,0 +1,62 @@
+{
+  "epsilon": 0.5,
+  "medium_weight": 0.25,
+  "targets": {
+    "Average": {
+      "score_column": "LB_Average",
+      "selected_model": "linear",
+      "bridge_weak": false,
+      "monotonicity_violations": 0,
+      "loss_min": 1.65,
+      "loss_max": 2.84
+    },
+    "IFEval": {
+      "score_column": "LB_IFEval",
+      "selected_model": "constant",
+      "bridge_weak": true,
+      "monotonicity_violations": 0,
+      "loss_min": 1.65,
+      "loss_max": 2.84
+    },
+    "BBH": {
+      "score_column": "LB_BBH",
+      "selected_model": "linear",
+      "bridge_weak": false,
+      "monotonicity_violations": 0,
+      "loss_min": 1.65,
+      "loss_max": 2.84
+    },
+    "MATH": {
+      "score_column": "LB_MATH",
+      "selected_model": "constant",
+      "bridge_weak": true,
+      "monotonicity_violations": 0,
+      "loss_min": 1.65,
+      "loss_max": 2.84
+    },
+    "GPQA": {
+      "score_column": "LB_GPQA",
+      "selected_model": "constant",
+      "bridge_weak": true,
+      "monotonicity_violations": 0,
+      "loss_min": 1.65,
+      "loss_max": 2.84
+    },
+    "MUSR": {
+      "score_column": "LB_MUSR",
+      "selected_model": "linear",
+      "bridge_weak": false,
+      "monotonicity_violations": 0,
+      "loss_min": 1.65,
+      "loss_max": 2.84
+    },
+    "MMLU_PRO": {
+      "score_column": "LB_MMLU_PRO",
+      "selected_model": "linear",
+      "bridge_weak": false,
+      "monotonicity_violations": 0,
+      "loss_min": 1.65,
+      "loss_max": 2.84
+    }
+  }
+}

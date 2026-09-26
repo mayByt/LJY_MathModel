@@ -1,0 +1,15 @@
+{
+  "command": "all",
+  "fast": false,
+  "started": 1790233060.4656944,
+  "stages": [
+    "quality",
+    "mapping",
+    "mixture",
+    "acceptance",
+    "figures",
+    "report"
+  ],
+  "status": "COMPLETE",
+  "elapsed_seconds": 439.924033164978
+}

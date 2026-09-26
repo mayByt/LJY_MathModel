@@ -1,0 +1,137 @@
+{
+  "files": {
+    "C1": {
+      "path": "real_attachments/C_efficiency_evolution/leaderboard_cleaned.csv",
+      "sha256": "199891128629f24f83ed2f51211eee65a82a13f45275e79a8227d5dacc7c2846",
+      "rows": 4576,
+      "columns": 12,
+      "duplicate_rows": 0,
+      "missing_cells": 1768
+    },
+    "C2": {
+      "path": "real_attachments/C_efficiency_evolution/leaderboard_enhanced.csv",
+      "sha256": "d8ae5b1e00f36bf17adb0c3fbf88c60edd54298625d2db1aa744b2b001202799",
+      "rows": 4576,
+      "columns": 15,
+      "duplicate_rows": 0,
+      "missing_cells": 14163
+    },
+    "C3": {
+      "path": "real_attachments/C_efficiency_evolution/leaderboard_extended_timeseries.csv",
+      "sha256": "ab2b5715b2945ebdeeabfb18e8d040f7c68d8c76bd02c01e446959218bfcd184",
+      "rows": 4599,
+      "columns": 11,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    "C4": {
+      "path": "real_attachments/C_efficiency_evolution/epoch_all_ai_models.csv",
+      "sha256": "0b98a01bcb8d96958745b6fbe505416c38f719948d9029b38ff6233425c0e1c1",
+      "rows": 3523,
+      "columns": 57,
+      "duplicate_rows": 0,
+      "missing_cells": 123038
+    },
+    "C5": {
+      "path": "real_attachments/C_efficiency_evolution/loss_benchmark_bridge.csv",
+      "sha256": "284dee7f8878bfe8ebf48c4efbcaa85c1c566377edc5008727c06efa6520170f",
+      "rows": 43,
+      "columns": 13,
+      "duplicate_rows": 0,
+      "missing_cells": 36
+    },
+    "C6": {
+      "path": "real_attachments/C_efficiency_evolution/loss_benchmark_bridge_expanded.csv",
+      "sha256": "e175462233c2b856e2878c603055b4ed70135f021300f912852af1bb485ba4fd",
+      "rows": 75,
+      "columns": 13,
+      "duplicate_rows": 0,
+      "missing_cells": 68
+    },
+    "C7": {
+      "path": "real_attachments/C_efficiency_evolution/model_architecture_metadata.csv",
+      "sha256": "ee24622cb3a6334f08d72c9ea373be26d5e5585bb266367c5f66d77499112ffc",
+      "rows": 45,
+      "columns": 7,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    "C9": {
+      "path": "real_attachments/C_efficiency_evolution/data/train-00000-of-00001.parquet",
+      "sha256": "f13a7061e63133bc8745d89f8c7a56148584940ede22d3b27e21cad1e078dca5",
+      "rows": 4576,
+      "columns": 36,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    }
+  },
+  "contract": {
+    "c1_c2_score_equal": true,
+    "c1_c9_rows_equal": true,
+    "average_max_abs_error": 1.4210854715202004e-14,
+    "score_missing": 0,
+    "invalid_submission_dates": 12,
+    "submission_date_min": "2024-06-08",
+    "submission_date_max": "2025-03-13",
+    "license_missing": 1753,
+    "duplicate_model_groups": 79,
+    "c3_sources": {
+      "Open LLM Leaderboard": 4573,
+      "Historical (papers/reports)": 26
+    },
+    "c4_missing": {
+      "parameters": 1226,
+      "training_compute": 2133,
+      "training_data": 2099,
+      "open_weights": 870
+    },
+    "c5_exact_subset_c6": true,
+    "c5_rows": 43,
+    "c6_rows": 75,
+    "c8_directories": 1863,
+    "c8_json_files": 1958,
+    "c7_role": "audited_only_not_used_in_model"
+  },
+  "c8": {
+    "directories": 1863,
+    "parseable_directories": 1860,
+    "no_parseable_directories": 3,
+    "fallback_directories": 1,
+    "corrupt_files": 4,
+    "bbh_complete": 1860,
+    "math_complete": 1856,
+    "bbh_unique_comparable": 1786,
+    "math_unique_comparable": 1782,
+    "official_exact_bbh": 1736,
+    "official_exact_math": 737,
+    "bbh_max_abs_diff": 13.75344896754914,
+    "math_max_abs_diff": 62.53776435045317
+  },
+  "c3": {
+    "rows": 26,
+    "families": 15,
+    "year_coef": -0.03430996569208912,
+    "year_coef_p10": -0.13087279409366057,
+    "year_coef_p90": 0.36843041492932294,
+    "year_coef_p025": -0.18594537025392932,
+    "year_coef_p975": 0.5251327335940952,
+    "positive_probability": 0.405,
+    "lofo_sign_stable": false,
+    "annual_q90_theil_sen_slope": -0.1499999999999999,
+    "direction": "direction_uncertain"
+  },
+  "p3_hashes": {
+    "problem3_bridge.json": "2befda1eadfaf31d26c1c09ee39d99997909cd9214f64ac54285279a71a7efeb",
+    "problem3_acceptance_report.json": "19df6ce3a50a4cd9fc74e081a002dafa3df8e0403b40a7f03b1a7c04489d5a74",
+    "bootstrap_optimal_allocations.csv.gz": "dbf534507fe0cd11f9f50ff22fb76facef583dfb40e48f58ba7c7720655cd600",
+    "bootstrap_intervals.csv": "a78c2cf6c7d14ce7c7344697394759904e9746063f09c3f484ec6fbb9ba35ecb"
+  },
+  "p3_hash_mismatches": [],
+  "cutoff": "2025-03-13",
+  "deduplicated_rows": 4546,
+  "accepted_matches": 66,
+  "frontier_rows": 41,
+  "frontier_months": 7,
+  "frontier_families": 13,
+  "posttrained_rows": 6
+}

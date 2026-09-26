@@ -1,0 +1,193 @@
+{
+  "problem1_overall": "WARN",
+  "problem1_summary": {
+    "PASS": 21,
+    "WARN": 3,
+    "FAIL": 0
+  },
+  "propagated_warn_ids": [
+    "MAP02",
+    "O01",
+    "Q02"
+  ],
+  "warn_actions": {
+    "MAP02": "retain mapping uncertainty",
+    "O01": "p_star sensitivity only",
+    "Q02": "exclude sample extremes"
+  },
+  "input_hashes": {
+    "acceptance_report.json": "012403ce7159e25f3667410d13fca562efc1cebda88b999b739c324891f4bbf7",
+    "domain_mapping.csv": "3e4c6f576d40dd54376ae8a9fb1ce55e40e1dd1b67dcd44a173840ef1cd5844c",
+    "domain_mapping_bootstrap.npz": "c64b1fbae1916e331615c8b71d0c868c10f23d3323fa418870fb9a47f1003063",
+    "mapping_uncertainty_contract.json": "08951cdc4141e5b4fb4b23ae3784f2536f094ffb7dc203b55c1a1d851cbbb17d",
+    "mixture_summary.json": "19161a6b433d5c7dcf80ecad53cfdc10e79fc9402f2c2d6f90f01c469264d8b9",
+    "optimal_mixture.csv": "2e6378baa04891630a9a03bc828fac88dfdc8fcfd78c9be3f4898fa955ed9ae7",
+    "optimal_mixture_bootstrap.npz": "858380fff9a74cf79123ceb0c2566aaca964384661637b554086065ae138745c",
+    "problem2_bridge_input.npz": "b9afaa136cd61da446589fc811b35c137b4b777ccefffe99a127e5f2032ad370"
+  },
+  "input_hash_mismatches": {},
+  "input_hash_gate": "PASS",
+  "problem1_bridge_interface": "p1_to_p2_v2",
+  "raw_attachment_A_read_by_problem2": false,
+  "domains": [
+    "arxiv",
+    "freelaw",
+    "nih_exporter",
+    "pubmed_central",
+    "wikipedia_en",
+    "dm_mathematics",
+    "github",
+    "philpapers",
+    "stackexchange",
+    "enron_emails",
+    "gutenberg_pg_19",
+    "pile_cc",
+    "ubuntu_irc",
+    "europarl",
+    "hackernews",
+    "pubmed_abstracts",
+    "uspto_backgrounds"
+  ],
+  "loss_domains": [
+    "arxiv",
+    "freelaw",
+    "pubmed_central",
+    "wikipedia_en",
+    "dm_mathematics",
+    "github",
+    "stackexchange",
+    "gutenberg_pg_19",
+    "pile_cc",
+    "ubuntu_irc",
+    "hackernews",
+    "pubmed_abstracts",
+    "uspto_backgrounds"
+  ],
+  "scheffe_feature_count": 153,
+  "quadratic_alpha": 0.05623413251903491,
+  "model_role": "quadratic_ridge_main",
+  "p_ref": {
+    "arxiv": 0.11302252583269279,
+    "freelaw": 0.0968248321520278,
+    "nih_exporter": 0.00588968021709595,
+    "pubmed_central": 0.11375419105058357,
+    "wikipedia_en": 0.07507775607983627,
+    "dm_mathematics": 0.0254628540970504,
+    "github": 0.11070066007050916,
+    "philpapers": 0.005487697351193036,
+    "stackexchange": 0.09943242344413017,
+    "enron_emails": 0.002211033043406226,
+    "gutenberg_pg_19": 0.04691494424753537,
+    "pile_cc": 0.11948759779188561,
+    "ubuntu_irc": 0.019599998284005892,
+    "europarl": 0.012737064754031531,
+    "hackernews": 0.011650822378108678,
+    "pubmed_abstracts": 0.06618116611257162,
+    "uspto_backgrounds": 0.07556475309333588
+  },
+  "p_star": {
+    "arxiv": 0.0,
+    "freelaw": 0.0,
+    "nih_exporter": 0.006704643229182103,
+    "pubmed_central": 0.0,
+    "wikipedia_en": 0.07590629279005173,
+    "dm_mathematics": 0.017215132833264608,
+    "github": 0.0,
+    "philpapers": 0.04880823937710762,
+    "stackexchange": 0.14909484825504185,
+    "enron_emails": 0.02092188616021481,
+    "gutenberg_pg_19": 0.005680027060467403,
+    "pile_cc": 0.03548073217914841,
+    "ubuntu_irc": 0.033969115478467815,
+    "europarl": 0.10375155375156654,
+    "hackernews": 0.07145680514755343,
+    "pubmed_abstracts": 0.18910577486715188,
+    "uspto_backgrounds": 0.2419049488707817
+  },
+  "Q_ref": 0.5389559587975633,
+  "Q_star": 0.5453680375533184,
+  "Q_base_regression_targets": {
+    "Q_ref_expected": 0.5389559588,
+    "Q_star_expected": 0.5453680376,
+    "Q_ref_abs_error": 2.4367174944472936e-12,
+    "Q_star_abs_error": 4.668154751641396e-11
+  },
+  "R_ref": 0.0,
+  "R_star": -2.2897634910840576,
+  "R_iqr_on_A4": 0.3228452287870667,
+  "R_star_bootstrap": {
+    "median": -1.6975796237464937,
+    "ci_low": -3.568433322931743,
+    "ci_high": 0.1130306026889707
+  },
+  "delta_p": -0.02917060183556795,
+  "transfer_sign_probability_positive": {
+    "1M": 1.0,
+    "60M": 1.0,
+    "1B": 0.924
+  },
+  "transfer_composite_spearman_R_loss": {
+    "1M": 0.8128111409933622,
+    "60M": 0.8197492275120163,
+    "1B": 0.7341575091575091
+  },
+  "transfer_gate": "composite_spearman_1M_60M_ge_0.75",
+  "kappa0_or_lambda0_role": "scenario_not_identified_across_A_and_B_units",
+  "mixture_strength_profiles": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "scheffe_bootstrap_valid_rate": 1.0,
+  "mixture_response_artifact": "problem1_mixture_response_bootstrap.npz",
+  "mixture_response_artifact_contains_point_model": true,
+  "scheffe_bootstrap_max_std": 2092.23850408778,
+  "interaction_relation_counts": {
+    "complementary": 75,
+    "uncertain": 61
+  },
+  "near_optimal_valid_draws": 200,
+  "mixture_support": {
+    "upper": {
+      "arxiv": 0.8546810610610607,
+      "freelaw": 0.8558147658147651,
+      "nih_exporter": 0.05174478827785438,
+      "pubmed_central": 0.8834634634634632,
+      "wikipedia_en": 0.6120578293724585,
+      "dm_mathematics": 0.2219756043956044,
+      "github": 0.90745,
+      "philpapers": 0.048808239377101645,
+      "stackexchange": 0.9531999099099095,
+      "enron_emails": 0.02397602397602398,
+      "gutenberg_pg_19": 0.38056035964035945,
+      "pile_cc": 0.8745699999999998,
+      "ubuntu_irc": 0.16975320641282557,
+      "europarl": 0.10375155375155369,
+      "hackernews": 0.11111111111111112,
+      "pubmed_abstracts": 0.5308669930069929,
+      "uspto_backgrounds": 0.55612
+    },
+    "scale": {
+      "arxiv": 0.2007464483926607,
+      "freelaw": 0.1884933991698423,
+      "nih_exporter": 0.011974674506832742,
+      "pubmed_central": 0.20532660720138254,
+      "wikipedia_en": 0.1463522810128345,
+      "dm_mathematics": 0.051461291264400466,
+      "github": 0.2088764476275487,
+      "philpapers": 0.011383230555113089,
+      "stackexchange": 0.18793457979064135,
+      "enron_emails": 0.005072121126392568,
+      "gutenberg_pg_19": 0.08695738468183285,
+      "pile_cc": 0.21277021040908248,
+      "ubuntu_irc": 0.03885714179325834,
+      "europarl": 0.02445291105869661,
+      "hackernews": 0.025328884221067282,
+      "pubmed_abstracts": 0.12623979686416506,
+      "uspto_backgrounds": 0.13499391666980742
+    },
+    "radius": 4.329687084379371
+  },
+  "manifest_project": "华为杯F题问题一"
+}

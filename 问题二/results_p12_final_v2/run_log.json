@@ -1,0 +1,27 @@
+{
+  "command": "all",
+  "fast": false,
+  "device": {
+    "preferred_gpu": true,
+    "device_used": "cpu",
+    "gpu_available": false,
+    "reason": "torch unavailable or unusable: ModuleNotFoundError"
+  },
+  "stages": [
+    "audit",
+    "classic",
+    "quality",
+    "bridge",
+    "generalized",
+    "validate"
+  ],
+  "started": 1790233840.088806,
+  "status": "COMPLETE",
+  "interface_state": {
+    "CENTRAL_MODEL_READY": true,
+    "FIXED_P_READY": true,
+    "JOINT_P_READY": false,
+    "P12_FREEZE_READY": true
+  },
+  "elapsed_seconds": 208.66950178146362
+}
