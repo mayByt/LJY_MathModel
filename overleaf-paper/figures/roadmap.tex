@@ -1,0 +1,58 @@
+% 全文技术路线图（TikZ，配色与插图统一）
+\begin{tikzpicture}[
+  font=\footnotesize,
+  >=Stealth,
+  box/.style={draw=#1, fill=#1!8, rounded corners=2pt, line width=0.6pt,
+              align=center, minimum height=12mm, text width=31mm, inner sep=2pt, font=\scriptsize},
+  qlab/.style={draw=#1, fill=#1, text=white, rounded corners=2pt, align=center,
+               minimum height=12mm, text width=6mm, font=\scriptsize\bfseries},
+  head/.style={font=\small\bfseries, text=pblue},
+  arr/.style={->, line width=0.6pt, draw=pgray},
+  link/.style={->, line width=0.8pt, draw=pred},
+]
+\def\dx{40mm}\def\dy{19mm}
+% 列标题
+\node[head] at (1*\dx-4mm, 0.9*\dy) {数据};
+\node[head] at (2*\dx-4mm, 0.9*\dy) {模型与方法};
+\node[head] at (3*\dx-4mm, 0.9*\dy) {关键输出};
+\node[head] at (4*\dx-4mm, 0.9*\dy) {检验与分析};
+
+% ---------------- 问题一
+\node[qlab=pblue] (q1) at (0.25*\dx, 0) {问\\题\\一};
+\node[box=pblue] (d1) at (1*\dx-4mm, 0) {A1--A3 质量信号\\A4--A15 配比实验\\A16/A18 映射与文本};
+\node[box=pblue] (m1) at (2*\dx-4mm, 0) {分块稳定 CRITIC 赋权\\Huber 冲突消解\\Scheff\'e--Ridge 混料模型};
+\node[box=pblue] (o1) at (3*\dx-4mm, 0) {领域质量 $q_d$、$Q_0$\\近优配比 $\boldsymbol p^\star$\\配比响应 $R(\boldsymbol p)$};
+\node[box=pblue] (v1) at (4*\dx-4mm, 0) {抽样集/扩展集对照\\1M/60M/1B 检验集\\10B/70B 外推};
+
+% ---------------- 问题二
+\node[qlab=pgreen] (q2) at (0.25*\dx, -\dy) {问\\题\\二};
+\node[box=pgreen] (d2) at (1*\dx-4mm, -\dy) {B1 规模轨迹\\B7 质量网格\\A6--A11 三规模配比};
+\node[box=pgreen] (m2) at (2*\dx-4mm, -\dy) {留一规模选模\\成块交叉验证\\配比尺度不变性检验};
+\node[box=pgreen] (o2) at (3*\dx-4mm, -\dy) {广义标度律\\弹性与边际效用\\质量—规模替代条件};
+\node[box=pgreen] (v2) at (4*\dx-4mm, -\dy) {数据坍缩检验\\B2/B4/B5/B10 验证\\B8 压力测试};
+
+% ---------------- 问题三
+\node[qlab=porange] (q3) at (0.25*\dx, -2*\dy) {问\\题\\三};
+\node[box=porange] (d3) at (1*\dx-4mm, -2*\dy) {三档预算 $C$\\三类质量成本 $g$\\C7 五档上下文};
+\node[box=porange] (m3) at (2*\dx-4mm, -2*\dy) {配比可分性定理\\解析降维 + 多起点\\KKT 活跃集};
+\node[box=porange] (o3) at (3*\dx-4mm, -2*\dy) {最优 $(N^*,D^*,Q^*)$\\临界上下文 30000\\三阶段结构性转移};
+\node[box=porange] (v3) at (4*\dx-4mm, -2*\dy) {二维/三维复核\\参数 bootstrap\\234 个敏感性情景};
+
+% ---------------- 问题四
+\node[qlab=pred] (q4) at (0.25*\dx, -3*\dy) {问\\题\\四};
+\node[box=pred] (d4) at (1*\dx-4mm, -3*\dy) {C1/C2 能力面板\\C3/C4 历史与算力\\C6 桥接、C8 逐任务};
+\node[box=pred] (m4) at (2*\dx-4mm, -3*\dy) {Loss--能力单调桥接\\0.90 分位动力学前沿\\Shapley 贡献分解};
+\node[box=pred] (o4) at (3*\dx-4mm, -3*\dy) {规模/非规模贡献\\三种算力情景\\12/24 月能力前沿};
+\node[box=pred] (v4) at (4*\dx-4mm, -3*\dy) {来源族留一验证\\滚动起点回测\\联合块 bootstrap};
+
+% 行内箭头
+\foreach \i in {1,2,3,4}{
+  \draw[arr] (d\i) -- (m\i);
+  \draw[arr] (m\i) -- (o\i);
+  \draw[arr,dashed] (o\i) -- (v\i);
+}
+% 跨问题接口
+\draw[link] (o1.south) -- node[right,font=\scriptsize,text=pred,xshift=1mm]{$Q_0,\ \boldsymbol p^\star,\ R(\boldsymbol p)$} (o2.north);
+\draw[link] (o2.south) -- node[right,font=\scriptsize,text=pred,xshift=1mm]{广义标度律} (o3.north);
+\draw[link] (o3.south) -- node[right,font=\scriptsize,text=pred,xshift=1mm]{最优 Loss $L^*$} (o4.north);
+\end{tikzpicture}

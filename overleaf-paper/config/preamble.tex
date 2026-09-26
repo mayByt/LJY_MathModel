@@ -1,37 +1,66 @@
 % !Mode:: "TeX:UTF-8"
 
-\usepackage[framemethod=TikZ]{mdframed}
-% 使得每个一级标题在新的一页
+% 每个一级标题另起一页、居中
 \usepackage{titlesec}
 \titleformat{\section}{\clearpage\normalfont\Large\bfseries\centering}{\thesection}{1em}{}
 
-% 2. 关键：启用“公式、图片、表格编号按章节重置”
-% 作用：每章的公式从 (章号.1) 开始，图片/表格同理
-\numberwithin{equation}{section}  % 公式编号：章节号.序号（如 5.1）
-\numberwithin{figure}{section}    % 图片编号：章节号.序号（如 5.1）
-\numberwithin{table}{section}     % 表格编号：章节号.序号（如 5.1）
+% 公式、图、表按章节编号
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
 
 \usepackage{enumitem}
-% 定义带括号的数字列表样式
-\setlist[enumerate,1]{label=(\arabic*)} % 一级列表：（1）（2）...
-\setlist[enumerate,2]{label=(\alph*)} % 可选：二级列表（a）（b）...
+\setlist[enumerate,1]{label=(\arabic*),leftmargin=2.2em,itemsep=2pt,topsep=3pt}
+\setlist[enumerate,2]{label=(\alph*)}
+\setlist[itemize]{itemsep=2pt,topsep=3pt}
 
 \usepackage{amsmath}
-
-
-% 需导入longtable包（跨页表格必备）
 \usepackage{longtable}
-\usepackage{booktabs} % 三线表美观线条
-\usepackage{array}      % 自定义列格式（\Centering 需此包）
-\usepackage{ragged2e}   % 高级对齐（\Centering 需此包）
-
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{float}
 \usepackage{subfig}
 \usepackage{colortbl}
+\usepackage{threeparttable}
+
+% 与插图统一的配色（见 论文图片/paper_style.py）
+\definecolor{pblue}{HTML}{2F5D8A}
+\definecolor{porange}{HTML}{D98A3A}
+\definecolor{pgreen}{HTML}{4E9A78}
+\definecolor{pred}{HTML}{C0504D}
+\definecolor{pgray}{HTML}{8C8C8C}
+\definecolor{thead}{HTML}{E4ECF4}   % 表头浅蓝
+\definecolor{trow}{HTML}{F4F7FB}    % 隔行浅底
 \definecolor{color1}{rgb}{0.78,0.88,0.99}
 \definecolor{color2}{rgb}{0.36,0.62,0.84}
-%\definecolor{color3}{rgb}{0.8235,0.8706,0.9373}
 \definecolor{color3}{rgb}{0.88,0.92,0.96}
-\definecolor{color4}{rgb}{0.96,0.97,0.98}%{0.9176,0.9373,0.9686}
+\definecolor{color4}{rgb}{0.96,0.97,0.98}
+
+% 图表标题：小五号，标签加粗
+\captionsetup{font=small,labelfont=bf,skip=4pt}
+\setlength{\abovecaptionskip}{4pt}
+\setlength{\belowcaptionskip}{0pt}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\renewcommand{\arraystretch}{1.15}
+
+% 定理类环境按章编号
+\counterwithin{definition}{section}
+\counterwithin{theorem}{section}
+\counterwithin{corollary}{section}
+\counterwithin{assumption}{section}
+
+% 目录只到二级标题
+\setcounter{tocdepth}{2}
+
+% 结论框：用于每问末尾的“本问主要结论”
+\usepackage[framemethod=TikZ]{mdframed}
+\usetikzlibrary{arrows.meta,positioning}
+\newmdenv[linecolor=pblue,linewidth=0.8pt,backgroundcolor=trow,roundcorner=3pt,
+  innertopmargin=6pt,innerbottommargin=6pt,innerleftmargin=8pt,innerrightmargin=8pt,
+  skipabove=8pt,skipbelow=6pt]{conclusionbox}
 
 % 算法
 \usepackage[noend]{algpseudocode}
@@ -40,12 +69,16 @@
 \renewcommand{\algorithmicrequire}{\textbf{输入:}}
 \renewcommand{\algorithmicensure}{\textbf{输出:}}
 
-%\numberwithin{equation}{section}
-%\numberwithin{figure}{section}
-%\numberwithin{table}{section}
+% listings 默认样式所需颜色
+\definecolor{dkgreen}{rgb}{0,0.5,0}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\usepackage{url}
+\makeatletter\g@addto@macro{\UrlBreaks}{\do\_\do-}\makeatother
 
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{【待补：#1】}}}
 
 \title{算力约束下提升大语言模型能力的资源配置建模}
 \baominghao{20260079591} %参赛队号

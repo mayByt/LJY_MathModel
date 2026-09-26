@@ -1,0 +1,56 @@
+\section{模型假设与符号说明}
+
+\subsection{模型假设}
+
+\begin{enumerate}
+\item \textbf{分源可识别假设。}附件 A、B、C 的实验条件与 Loss 量纲不同，不把它们的观测拼接为同一回归样本；各附件分别估计各自可识别的参数，跨附件只通过含义明确的中间量传递信息。
+\item \textbf{质量指标单调可比假设。}22 项质量指标经同向化后，数值越大表示在该指标语义下质量越高；综合质量 $Q$ 反映本指标体系下的相对质量，其尺度在 $[0,1]$ 内可比较。
+\item \textbf{广义标度律可分假设。}在观测支持域内，Loss 可以写成“不可约项 + 参数项 + 数据项 + 质量惩罚项”的可加形式，并且各项系数为正、各项随对应资源单调递减；$Q=1$ 时质量惩罚项为零，模型退化为经典标度律。
+\item \textbf{配比效应尺度不变假设。}领域配比通过乘性因子 $\exp[\theta R(\boldsymbol p)]$ 作用于可约损失 $L-E$，系数 $\theta$ 不随模型规模改变。该假设可检验，第~\ref{sec:p2_mixture}节在 1M、60M、1B 三个规模上对其进行了检验。
+\item \textbf{质量尺度锚定假设。}问题一的质量评分与附件 B 的质量字段在参考配比对应的质量 $Q_{\mathrm{ref}}$ 处对齐，二者以斜率 $s_Q$ 线性对应（主情景 $s_Q=1$，并以 $0.5$、$1.5$ 做敏感性分析）。
+\item \textbf{算力成本可加假设。}基础训练、质量提升与长上下文注意力三类开销按题设 FLOPs 公式相加，训练、质量处理与注意力计算使用同一 $D$；上下文长度 $L_{\mathrm{ctx}}$ 由 C7 外生给定。
+\item \textbf{能力前沿平滑演进假设。}开源 pretrained 模型的 $0.90$ 分位能力前沿由训练算力和一个平滑演进的时间状态共同决定；时间状态吸收架构、数据工程、优化方法等非规模因素的综合作用。
+\end{enumerate}
+
+\subsection{符号说明}
+
+绝对参数量与 Token 数记为 $N$ 和 $D$；标度律中使用十亿尺度 $n=N/10^9$、$d=D/10^9$。主要符号见表~\ref{tab:symbols}。
+
+\begin{longtable}{>{\centering\arraybackslash}p{0.17\linewidth} p{0.60\linewidth} >{\centering\arraybackslash}p{0.15\linewidth}}
+\caption{主要符号说明}\label{tab:symbols}\\
+\toprule
+符号 & 含义 & 单位/取值 \\
+\midrule
+\endfirsthead
+\caption*{表 \thetable\quad 主要符号说明（续）}\\
+\toprule
+符号 & 含义 & 单位/取值 \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+$u_{ij}$ & 样本 $i$ 在指标 $j$ 上同向化后的效用 & $[0,1]$ \\
+$B_{ib}$ & 样本 $i$ 在语义块 $b$ 上的块评分 & $[0,1]$ \\
+$K_i$ & 样本 $i$ 的块间极差（冲突强度） & $[0,1]$ \\
+$Q_i,\ q_d$ & 样本级综合质量、领域级稳健质量 & $[0,1]$ \\
+$\boldsymbol p$ & 17 个训练领域的配比向量，$p_i\ge0,\ \sum_ip_i=1$ & 单纯形 \\
+$\boldsymbol p_{\mathrm{ref}},\ \boldsymbol p^\star$ & 训练配方的平均配比（参考配比）、支持域内的近优配比 & 单纯形 \\
+$\widehat L_k(\boldsymbol p)$ & 第 $k$ 个验证域的配比响应（Scheff\'e--Ridge 预测） & 交叉熵 \\
+$R(\boldsymbol p)$ & 相对参考配比的标准化配比响应，$R(\boldsymbol p_{\mathrm{ref}})=0$ & 无量纲 \\
+$N,\ D$ & 模型参数量、训练 Token 数 & 个 \\
+$E$ & 不可约损失 & 交叉熵 \\
+$A,\alpha;\ B,\beta$ & 参数项、数据项的系数与指数 & 正数 \\
+$c_Q,\nu_Q$ & 质量惩罚项的系数与指数 & 正数 \\
+$\theta$ & 配比效应系数（相对可约损失） & 正数 \\
+$Q_0$ & 基线质量，$Q_0=\boldsymbol p_{\mathrm{ref}}^{\mathsf T}\boldsymbol q=0.5390$ & $[0,1]$ \\
+$Q_A,\ Q_{\mathrm{eff}}$ & 质量处理后的决策质量、进入 Loss 的有效质量 & $[0,1]$ \\
+$\epsilon_x$ & Loss 对资源 $x$ 的弹性，$\epsilon_x=-\partial\ln L/\partial\ln x$ & 无量纲 \\
+$r_N,\ r_D$ & 与质量提升 $\Delta Q$ 等效的参数量、数据量相对增幅 & 无量纲 \\
+$C$ & 总算力预算 & FLOPs \\
+$g(Q)$ & 单位 Token 的质量提升成本函数 & FLOPs/Token \\
+$L_{\mathrm{ctx}},\ \eta$ & 上下文长度、注意力开销系数（$\eta=2\times10^{-4}$） & Token，— \\
+$\mathcal A(C)$ & 预算 $C$ 下最优解的活跃约束集合 & 集合 \\
+$S$ & 六任务综合能力得分 & $[0,100]$ \\
+$\tau$ & 能力前沿的条件分位水平（主分析 $\tau=0.90$） & — \\
+$\kappa$ & 算力对数增速保留比例 & $\{1,0.5,0.25\}$ \\
+\end{longtable}

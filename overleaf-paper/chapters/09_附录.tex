@@ -1,0 +1,79 @@
+\appendix
+\renewcommand{\thesection}{附录\,\Alph{section}}
+\renewcommand{\thetable}{\Alph{section}.\arabic{table}}
+\renewcommand{\thefigure}{\Alph{section}.\arabic{figure}}
+
+\section{AI 工具使用说明}
+\label{app:ai}
+
+根据赛题《AI 使用规范》第 4 条，本队披露 AI 工具的使用情况如下。本队对全部 AI 输出进行了核验，并对论文的正确性负责；论文中的理论、公式与实验结论均以正式文献或本队程序计算的数据为依据，未以 AI 输出作为学术依据。
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{AI 工具使用情况}
+\label{tab:ai_use}
+\begin{tabular}{p{0.20\linewidth}p{0.25\linewidth}p{0.47\linewidth}}
+\toprule
+AI 工具 & 使用环节 & 贡献范围 \\
+\midrule
+Claude Code（Anthropic，Claude Opus 5.5） & 论文修改与排版 & 论文文字润色与章节结构调整；依据本队程序输出的结果文件统一重绘插图配色与版式；核验参考文献的作者、出处与 DOI；对本队已有结果做补充计算与核对（配比效应系数 $\theta$ 的跨规模计算、等价增幅闭式解与数值解的一致性核对） \\
+\todo{本队据实补充} & \todo{如：代码调试、资料整理} & \todo{据实填写} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{支撑材料与程序清单}
+\label{app:code}
+
+全部程序均为 Python 3 实现，随机种子固定为 2026，结果可完整复现。各问题的程序、配置与主要结果文件如表~\ref{tab:code} 所示。
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{支撑材料清单}
+\label{tab:code}
+\begin{tabular}{p{0.10\linewidth}p{0.37\linewidth}p{0.44\linewidth}}
+\toprule
+问题 & 主要程序 & 主要结果文件 \\
+\midrule
+问题一 & \path{problem1.py}；\path{src/problem1/}\newline（\path{data_quality.py}、\path{mapping.py}、\path{mixture.py}） & 领域质量 \path{quality_domain.csv}；配比检验 \path{mixture_metrics.csv}；近优配比 \path{optimal_mixture.csv} \\
+问题二 & \path{problem2.py}；\path{src/problem2/}\newline（\path{classic.py}、\path{quality.py}、\path{generalized.py}） & 广义标度律参数 \path{generalized_scaling_parameters.json}；配比迁移 \path{mixture_transfer_parameters.csv}；等价量 \path{quality_parameter_equivalence.csv} \\
+问题三 & \path{problem3.py}；\path{src/problem3/}\newline（\path{optimize.py}、\path{cost.py}、\path{transitions.py}） & 最优配置 \path{optimal_allocations.csv}；预算路径 \path{budget_paths.csv.gz}；转移点 \path{transition_points.csv}；领域 Token 分配 \path{domain_token_allocations.csv} \\
+问题四 & \path{problem4_v2.py}；\path{src/problem4/}\newline（\path{bridge.py}、\path{frontier.py}、\path{c8.py}） & 桥接 \path{loss_benchmark_predictions.csv}；贡献分解 \path{contribution_decomposition.csv}；前沿预测 \path{frontier_forecast.csv} \\
+绘图 & 论文图片目录下 \path{paper_style.py}、\path{redraw/redraw_p1.py}--\path{redraw_p4.py} & 全文插图（统一配色，数据取自各问题 \path{figure_data/}） \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{核心代码：广义标度律与解析降维求解（问题二、三）}
+
+\begin{lstlisting}[language=Python,basicstyle=\ttfamily\footnotesize,frame=single,breaklines=true]
+import numpy as np
+E, A, B, alpha, beta = 1.6897976, 0.3539803, 1.2403056, 0.3399766, 0.2798781
+cQ, nuQ, theta, Q0 = 0.3620399, 0.9902881, 0.0847, 0.5389560
+
+def loss(N, D, Q, R=0.0, sQ=1.0):
+    """广义标度律（问题二）：N、D 为绝对数量，R 为标准化配比响应"""
+    n, d = N / 1e9, D / 1e9
+    Qeff = np.clip(Q0 + sQ * (Q - Q0), 1e-6, 1.0)
+    core = A * n**-alpha + B * d**-beta + cQ * (1 - Qeff)**nuQ
+    return E + core * np.exp(theta * R)
+
+G = {"exp": lambda q: 1e7 * np.exp(6 * q),
+     "pow": lambda q: 5e9 * q**4,
+     "log": lambda q: 2e9 * np.log1p(10 * q)}
+
+def d_star(N, Q, C, g, Lctx, eta=2e-4):
+    """问题三：用尽预算时的最大 Token 数，用于把三维问题降为二维"""
+    dg = max(G[g](Q) - G[g](Q0), 0.0)
+    return C / ((6 + eta * Lctx) * N + dg)
+
+def equivalent_increase(N, D, Q, dQ):
+    """质量—规模替代定理：质量提升 dQ 的等价参数、数据增幅（闭式解）"""
+    n, d = N / 1e9, D / 1e9
+    delta = cQ * ((1 - Q)**nuQ - (1 - Q - dQ)**nuQ)
+    rN = (1 - delta / (A * n**-alpha))**(-1 / alpha) - 1 if delta < A * n**-alpha else np.inf
+    rD = (1 - delta / (B * d**-beta))**(-1 / beta) - 1 if delta < B * d**-beta else np.inf
+    return rN, rD   # N=1e9, D=1.5e11, Q=0.539, dQ=0.1 -> (0.373, 0.569)
+\end{lstlisting}
